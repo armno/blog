@@ -1,6 +1,6 @@
 baseURL: https://armno.in.th
 disablePathToLower: true
-languageCode: en-us
+languageCode: th
 title: Armno.in.th
 theme: armno
 permalinks:

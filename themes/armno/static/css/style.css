@@ -425,7 +425,7 @@ a {
     text-decoration: none
 }
 blockquote {
-    quotes: "โ€" "" "โ€" "โ€";
+    quotes: "\201C" "" "\2018""\2019";;
     margin-left: 0;
     padding-left: 2.5rem;
     margin-right: 1rem;
