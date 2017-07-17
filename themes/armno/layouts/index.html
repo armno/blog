@@ -43,6 +43,9 @@
   {{ range $paginator.Pages }}
     {{ partial "summary.html" . }}
   {{ end }}
-  {{ partial "pagination.html" . }}
+
+  <div class="text-center home-footer">
+    <a href="/blog" class="home-link-blog">Full Blog</a>
+  </div>
 </div>
 {{ partial "footer.html" . }}
