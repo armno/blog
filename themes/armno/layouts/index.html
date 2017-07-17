@@ -1,9 +1,48 @@
 {{ partial "header.html" . }}
-	<main class="wrapper">
-		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
-		{{ range $paginator.Pages }}
-			{{ partial "summary.html" . }}
-		{{ end }}
-		{{ partial "pagination.html" . }}
-	</main>
+<header class="home-header">
+
+  {{ partial "navigation.html" . }}
+
+  <div class="home-intro container">
+    <h1 class="home-intro-text">
+      Frontend
+      <br> Nerd
+    </h1>
+
+    <div class="home-social-icons">
+      <a href="https://github.com/armno" aria-label="@armno on GitHub">
+        <svg class="home-icons github-icon">
+          <use xlink:href="#icon-github"></use>
+          <svg>
+      </a>
+      <a href="https://twitter.com/armno" aria-label="@armno on Twtitter">
+        <svg class="home-icons twitter-icon">
+          <use xlink:href="#icon-twitter"></use>
+          <svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<div class="self-intro container" id="about">
+  <p>
+    สวัสดีครับ. My name is Armno. I am a frontend(-ish) developer at <a href="http://www.buzzwoo.de">BUZZWOO! Asia</a>, based
+    in <a href="https://www.google.co.th/?gws_rd=cr,ssl&ei=mVnZVYKYKcKxuQSPtKG4Bg#q=chiang+mai">Chiang Mai, Thailand</a>.
+    I&rsquo;m interested in JavaScript, Angular, and Frontend performance. This is my blog where I write about my web development
+    experiences.
+  </p>
+
+  <p>I&rsquo;m also on <a href="https://twitter.com/armno">Twitter</a> and <a href="https://github.com/armno">GitHub</a>.</p>
+
+  <hr>
+</div>
+
+<h2 class="container">Latest Posts</h2>
+<div class="container post-teaser-container">
+  {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+  {{ range $paginator.Pages }}
+    {{ partial "summary.html" . }}
+  {{ end }}
+  {{ partial "pagination.html" . }}
+</div>
 {{ partial "footer.html" . }}
