@@ -11,7 +11,11 @@
 <head>
   <meta charset="utf-8">
   <title>{{ .Title }}</title>
+  {{ if .Page.Params.description }}
+  <meta name="description" content="{{ .Page.Params.description }}">
+  {{ else }}
   <meta name="description" content="{{ .Title }}">
+  {{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="https://plus.google.com/108097642192056062290">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
