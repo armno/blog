@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html class="no-js"
+  lang="{{ .Site.LanguageCode | default "en-us" }}">
+<!--
+  hi there, welcome to my blog, website, or whatever you think it is.
+  found a bug? or just hacking around? feel free to say hi at https://github.com/armno/armno.github.io/issues
+
+  i'm @armno on twitter and github.
+  -->
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }}</title>
+  {{ with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  {{ end }}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="https://plus.google.com/108097642192056062290">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+  {{ if .RSSLink -}}
+  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
+  {{- end }}
+  {{ .Hugo.Generator }}
+  <meta name="theme-color" content="#000000">
+
+  <!-- open graph meta tags -->
+  <meta property="og:title" content="{{ .Title }}">
+  {{ with .Site.Params.description }}
+  <meta property="og:description" content="{{ . }}">
+  {{ end }}
+  {{ with .Site.Params.thumbnail }}
+  <meta property="og:image" content="{{ . }}">
+  {{ end }}
+
+  <meta property="og:url" content="{{ .URL }}">
+  <meta property="og:site_name" content="{{ .Title }}">
+  <meta property="fb:admins" content="1007588651">
+  <meta property="og:type" content="website">
+
+  <!-- twitter card meta tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@armno">
+  <meta name="twitter:domain" content="{{ .URL }}">
+  <meta name="twitter:creator" content="@armno">
+  <meta name="twitter:url" content="{{ .URL }}">
+  <meta name="twitter:title" content="{{ .Title }}">
+  {{ with .Site.Params.description }}
+  <meta name="twitter:description" content="{{ . }}">
+  {{ end }}
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ .URL }}">
+
+  <!-- google fonts -->
+  <script>
+    WebFontConfig = {
+      google: {
+        families: [
+          'Roboto:300,700,300italic,700italic:latin',
+          'Roboto+Mono::latin'
+        ]
+      }
+    };
+    (function () {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+</head>
+
+<body>
