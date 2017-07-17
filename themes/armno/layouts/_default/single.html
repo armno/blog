@@ -27,7 +27,7 @@
     <div class="text-center publish-date">
       Published on
       <span class="publish-time">
-        <time>{{ .Date.Format "02.01.2006 15:04" }}</time>
+        <time>{{ .Date.Format "Monday, January 2, 2006" }}</time>
       </span>
     </div>
     <ul class="tags-list" id="tags">
@@ -42,9 +42,14 @@
 
 <article class="container">
   {{ .Content }}
-  <div>
-    {{ template "_internal/disqus.html" . }}
-  </div>
-</article>
 
+  {{ partial "share.html" . }}
+
+  <div class="text-center">
+    <a href="#" class="edit-link">(Edit on GitHub)</a>
+  </div>
+
+  <hr>
+</article>
+{{ partial "disqus.html" . }}
 {{ partial "footer.html" . }}
