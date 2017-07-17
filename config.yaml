@@ -3,3 +3,5 @@ disablePathToLower: true
 languageCode: en-us
 title: Armno.in.th
 theme: armno
+permalinks:
+  post: /:year/:month/:day/:slug/
