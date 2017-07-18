@@ -33,7 +33,9 @@
   {{ partial "share.html" . }}
 
   <div class="text-center">
-    <a href="#" class="edit-link">(Edit on GitHub)</a>
+    <a href="https://github.com/armno/blog/blob/master/content/post/{{ trim (replace .RelPermalink "/" "-") "-" }}.md" class="edit-link">
+      (Edit on GitHub)
+    </a>
   </div>
 
   <hr>
