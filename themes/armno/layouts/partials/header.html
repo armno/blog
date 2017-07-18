@@ -27,14 +27,14 @@
 
   <!-- open graph meta tags -->
   <meta property="og:title" content="{{ .Title }}">
-  {{ with .Site.Params.description }}
+  {{ with .Page.Params.description }}
   <meta property="og:description" content="{{ . }}">
   {{ end }}
-  {{ with .Site.Params.thumbnail }}
+  {{ with .Page.Params.thumbnail }}
   <meta property="og:image" content="{{ . }}">
   {{ end }}
 
-  <meta property="og:url" content="{{ .URL }}">
+  <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:site_name" content="{{ .Title }}">
   <meta property="fb:admins" content="1007588651">
   <meta property="og:type" content="website">
@@ -42,9 +42,9 @@
   <!-- twitter card meta tags -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@armno">
-  <meta name="twitter:domain" content="{{ .URL }}">
+  <meta name="twitter:domain" content="{{ .Site.BaseURL }}">
   <meta name="twitter:creator" content="@armno">
-  <meta name="twitter:url" content="{{ .URL }}">
+  <meta name="twitter:url" content="{{ .Permalink }}">
   <meta name="twitter:title" content="{{ .Title }}">
   {{ with .Site.Params.description }}
   <meta name="twitter:description" content="{{ . }}">
@@ -54,7 +54,7 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
   <!-- Canonical -->
-  <link rel="canonical" href="{{ .URL }}">
+  <link rel="canonical" href="{{ .Permalink }}">
 
   <!-- google fonts -->
   <script>

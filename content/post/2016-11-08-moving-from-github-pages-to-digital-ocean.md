@@ -1,5 +1,4 @@
 ---
-cover-image: null
 date: 2016-11-08T00:00:00Z
 description: บันทึกเรื่องราวของการย้ายบล็อก armno.in.th จาก GitHub Pages มาโฮสต์เองบน
   server ที่ DigitalOcean ในตอนที่ 1 นี้จะเกี่ยวกับการ set up server ทั่วไป พร้อมกับ
