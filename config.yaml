@@ -8,3 +8,5 @@ permalinks:
   post: /:year/:month/:day/:slug/
 pygmentsStyle: "trac"
 PygmentsCodeFences: true
+ignoreFiles:
+  - "_drafts"
