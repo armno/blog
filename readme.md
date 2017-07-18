@@ -6,9 +6,26 @@ WIP.
 
 ## Development
 
+[`Pygments`](http://pygments.org/) is required. To install Pygments:
+
+Mac:
+
+```sh
+$ pip install Pygments
+```
+
+Ubunto Server:
+
+```sh
+$ sudo apt-get update && sudo apt-get upgrade
+$ sudo apt-get install python-pip
+$ pip install Pygments
+```
+
+## Install Hugo
+
 ```sh
 $ brew install hugo
-$ pip install Pygments
 $ hugo server
 ```
 
