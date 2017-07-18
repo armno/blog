@@ -8,6 +8,7 @@ WIP.
 
 ```sh
 $ brew install hugo
+$ pip install Pygments
 $ hugo server
 ```
 
