@@ -6,6 +6,12 @@ still a WIP.
 
 ## Development
 
+```sh
+$ hugo server
+```
+
+## Setting up
+
 [`Pygments`](http://pygments.org/) is required. To install Pygments:
 
 Mac:
@@ -22,9 +28,9 @@ $ sudo apt-get install python-pip
 $ pip install Pygments
 ```
 
-## Install Hugo
+### Installing Hugo
 
-Mac: 
+Mac:
 
 ```sh
 $ brew install hugo
