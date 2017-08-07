@@ -7,7 +7,7 @@ still a WIP.
 ## Development
 
 ```sh
-$ hugo server
+$ hugo serve -D
 ```
 
 ## Setting up
@@ -53,3 +53,9 @@ $ hugo
 ```
 
 Output files are in `public/` directory.
+
+## Creating a new post
+
+```sh
+$ hugo new post/<filename.md>
+```
