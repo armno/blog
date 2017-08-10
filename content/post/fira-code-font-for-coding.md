@@ -4,7 +4,7 @@ date: 2017-08-10T11:19:30+07:00
 url: /2017/08/10/fira-code-font-for-coding
 description: Fira Code ถูกพัฒนามาจาก Fira Mono ที่เพิ่มการแสดงผลอักษระพิเศษ (ligagures) ที่ใช้ในการเขียน code บ่อยๆ เพิ่มเข้ามา (พวกวงเล็บ เครื่องหมายมากกว่า น้อยกว่า เท่ากับ ฯลฯ) ทำให้แยกแยะเครื่องหมายที่คล้ายๆ กันได้ดีขึ้น
 cover-image: /img/posts/fira-code/cover.png
-thumbnail: /img/posts/fira-code/cover.png
+thumbnail: https://armno.in.th/img/posts/fira-code/all_ligatures.png
 tags:
   - Fira Code
   - Coding Font
