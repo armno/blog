@@ -7,7 +7,7 @@ still a WIP.
 ## Development
 
 ```sh
-$ hugo serve -D
+$ hugo serve -D # includes drafts
 ```
 
 ## Setting up
