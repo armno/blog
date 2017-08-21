@@ -194,3 +194,5 @@ firmware ที่ติดมากับตัว PCB ก็เป็น layou
 ถือเป็นการลงทุนกับอุปกรณ์ทำมาหากินที่คุ้มค่าสำหรับผมครับ
 
 Happy building กับ Happy coding ครับ
+
+ปล. เวอร์ชั่นภาษาอังกฤษของโพสต์นี้ อยู่ที่ [Building My Own Mechanical Keyboard](https://medium.com/@armno/building-my-own-mechanical-keyboard-6903b887b93d)
