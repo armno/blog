@@ -7,7 +7,7 @@ tags:
   - Mechanical Keyboard
   - Build
   - Hardware
-thumbnail: https://armno.in.th/img/posts/gh60/16-top-view.jpg
+thumbnail: https://armno.in.th/img/posts/gh60/18-with-all-black-keycaps.jpg
 cover-image: /img/posts/gh60/cover.jpg
 ---
 
