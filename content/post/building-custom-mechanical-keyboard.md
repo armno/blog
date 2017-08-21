@@ -11,6 +11,9 @@ thumbnail: https://armno.in.th/img/posts/gh60/16-top-view.jpg
 cover-image: /img/posts/gh60/cover.jpg
 ---
 
+_Read the English version of this post on Medium: [Building My Own Mechanical Keyboard](https://medium.com/@armno/building-my-own-mechanical-keyboard-6903b887b93d)._
+
+
 สวัสดีชาวเนิร์ด
 
 ผมทำงานเป็น web developer มาก็หลายปี แต่เพิ่งจะเริ่มใช้ mechanical keyboard เมื่อไม่กี่เดือนก่อน
@@ -195,4 +198,3 @@ firmware ที่ติดมากับตัว PCB ก็เป็น layou
 
 Happy building กับ Happy coding ครับ
 
-ปล. เวอร์ชั่นภาษาอังกฤษของโพสต์นี้ อยู่ที่ [Building My Own Mechanical Keyboard](https://medium.com/@armno/building-my-own-mechanical-keyboard-6903b887b93d)
