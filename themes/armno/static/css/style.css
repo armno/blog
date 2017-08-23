@@ -867,8 +867,30 @@ figure {
   animation-delay: 0.4s;
 }
 
-.home-intro-text {
+.home-intro-text,
+.post-header {
   opacity: 0;
   animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.6s forwards;
+}
+
+.home-intro-text {
   animation-delay: 0.8s;
+}
+
+.post-header {
+  animation-delay: 0.6s;
+}
+
+.link-icon-github,
+.link-icon-twitter {
+  opacity: 0;
+  animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.6s forwards;
+}
+
+.link-icon-github {
+  animation-delay: 1.2s;
+}
+
+.link-icon-twitter {
+  animation-delay: 1.5s;
 }
