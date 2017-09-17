@@ -175,6 +175,11 @@ td,
 th {
     padding: 0
 }
+figcaption {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .hll {
     background-color: #ffc
 }
