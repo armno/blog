@@ -827,10 +827,34 @@ figure {
     display: block
 }
 
+@-webkit-keyframes fade-in-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 @keyframes fade-in-from-left {
   from {
     opacity: 0;
     transform: translateX(-15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes fade-in-from-right {
+  from {
+    opacity: 0;
+    transform: translateX(15px);
   }
 
   to {
@@ -851,6 +875,18 @@ figure {
   }
 }
 
+@-webkit-keyframes fade-in-from-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @keyframes fade-in-from-bottom {
   from {
     opacity: 0;
@@ -865,39 +901,46 @@ figure {
 
 .home-logo {
   opacity: 0;
+  -webkit-animation: fade-in-from-left ease 0.4s forwards;
   animation: fade-in-from-left ease 0.4s forwards;
 }
 
 .home-menu {
   opacity: 0;
-  animation: fade-in-from-right ease 0.4s forwards;
-  animation-delay: 0.4s;
+  -webkit-animation: fade-in-from-right ease 0.4s 0.4s forwards;
+  animation: fade-in-from-right ease 0.4s 0.4s forwards;
 }
 
 .home-intro-text,
 .post-header {
   opacity: 0;
+  -webkit-animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.6s forwards;
   animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.6s forwards;
 }
 
 .home-intro-text {
+  -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
 }
 
 .post-header {
+  -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s;
 }
 
 .link-icon-github,
 .link-icon-twitter {
   opacity: 0;
+  -webkit-animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.6s forwards;
   animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.6s forwards;
 }
 
 .link-icon-github {
+  -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s;
 }
 
 .link-icon-twitter {
+  -webkit-animation-delay: 1.5s;
   animation-delay: 1.5s;
 }
