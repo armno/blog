@@ -7,9 +7,13 @@ description: "เสือหมอบคาร์บอนคันแรกข
 tags:
   - Bicycle
   - Storck
-  - Hobby
+  - Cycling
 thumbnail:
 cover-image:
 ---
 
-ปั่นจักรยานเสือหมอบมาได้ปีกว่า รถที่ใช้คือ Trek Emonda ALR 5 ตั้งเป้าไว้ว่า ปั่นเก็บ elevation gain ได้ครบ 100,000 เมตรเมื่อไหร่ถึงค่อยอัพเป็นรถคาร์บอน
+เพิ่งมีโอกาสได้เปลี่ยนจักรยานเสือหมอบ จากเฟรมอลูมิเนียมเป็นเฟรมคาร์บอนกับเขาเสียที เฟรมที่เลือกเป็น Storck Visioner Comp G1 สีดำ มีโอกาสได้ถ่ายรูปเก็บไว้นิดหน่อยครับ
+
+![Storck Visioner Comp G1](/img/posts/storck-visioner-comp-g1/01.jpg)
+
+![Storck Visioner Comp G1](/img/posts/storck-visioner-comp-g1/02.jpg)
