@@ -27,7 +27,7 @@
   </header>
 </div>
 
-<article class="container">
+<article class="container {{ .Params.layout }}">
   {{ .Content }}
 
   {{ partial "share.html" . }}
