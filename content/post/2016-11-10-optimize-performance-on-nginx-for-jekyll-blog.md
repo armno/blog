@@ -30,7 +30,7 @@ url: /2016/11/10/optimize-performance-on-nginx-for-jekyll-blog/
   srcset="/img/posts/move-from-github-to-digital-ocean-part-2/pagespeed-summary-2x.png 2x" alt="ผลจาก PageSpeed Insights ก่อน optimize">
 </div>
 
-PageSpeed Insights บอกว่ามีส่ิงที่ควรปรับปรุงคือ
+PageSpeed Insights บอกว่ามีสิ่งที่ควรปรับปรุงคือ
 
 - ใช้งาน HTTP Caching (ตั้งค่า expiration time ของ static assets)
 - ใช้งาน GZIP compression
