@@ -2,19 +2,24 @@
   <h4 class="title-sharing">Share</h4>
 
   <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}" target="_blank" class="btn-share"
+    rel="noopener"
     aria-label="share this article on Twitter">
     <svg class="share-icons twitter-icon">
       <use xlink:href="#icon-twitter"></use>
       <svg>
   </a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" class="btn-share" aria-label="share this article on Facebook">
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank"
+    rel="noopener"
+    class="btn-share" aria-label="share this article on Facebook">
     <svg class="share-icons facebook-icon">
       <use xlink:href="#icon-facebook"></use>
       <svg>
   </a>
 
-  <a href="http://plus.google.com/share?url={{ .Permalink }}" target="_blank" class="btn-share" aria-label="share this article on Google Plus">
+  <a href="http://plus.google.com/share?url={{ .Permalink }}" target="_blank" class="btn-share"
+    rel="noopener"
+    aria-label="share this article on Google Plus">
     <svg class="share-icons google-plus-icon">
       <use xlink:href="#icon-google-plus"></use>
       <svg>
