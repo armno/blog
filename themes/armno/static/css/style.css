@@ -1282,3 +1282,7 @@ figure {
   -webkit-animation-delay: 1.5s;
   animation-delay: 1.5s;
 }
+
+.media {
+	margin-bottom: 48px;
+}
