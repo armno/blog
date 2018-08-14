@@ -775,8 +775,29 @@ figure {
 }
 
 .container.wide p.semi-full {
-  max-width: 75vw;
+  max-width: 100vw;
 }
+
+@media only screen and (min-width: 600px) {
+	.container.wide p.semi-full {
+		max-width: 75vw;
+	}
+}
+
+.container.wide ul {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+	.container.wide ul {
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+		padding-left: 3rem;
+	}
+}
+
 
 .post-title {
   max-width: 80%;
