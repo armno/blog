@@ -211,7 +211,7 @@ _ในรูปใช้ผ้าเบรคคาร์บอนที่แ�
 [SwissStop FlashPro BXP](http://www.swissstop.ch/brakepads/rimbrakes/flashpro/bxp/)_
 
 <p class="media semi-full">
-  <img src="/img/posts/storck-visioner-comp-g1/ee-brakes.jpg" alt="Storck Visioner Comp G1">
+  <img src="/img/posts/storck-visioner-comp-g1/ee-brakes.jpg" alt="เบรค EE พลังเบรคเหลือเฟือ">
 </p>
 
 ### อื่นๆ
@@ -219,19 +219,19 @@ _ในรูปใช้ผ้าเบรคคาร์บอนที่แ�
 แฮนด์ใช้ของ Easton รุ่น [EC90 SLX3](https://www.eastoncycling.com/products/details/ec90-slx3-bar) รุ่น top ของปีเก่า เป็นแฮนด์คาร์บอนแบบ compact ที่ระยะ reach สั้น 75mm / drop ก็สั้นแค่ 125mm
 
 <p class="media semi-full">
-  <img src="/img/posts/storck-visioner-comp-g1/front.jpg" alt="Storck Visioner Comp G1">
+  <img src="/img/posts/storck-visioner-comp-g1/front.jpg" alt="แฮนด์ Easton EC90 SLX3">
 </p>
 
 ผ้าพันแฮนด์ใช้ของ Supacaz เพิ่งเคยใช้ยี่ห้อนี้ นุ่มหนึบติดมือดีเหมือนกัน แต่ตอนซื้อไม่คิดว่าดาวจะเยอะขนาดนี้นะ ทำให้รถสีดำดุๆ มุ้งมิ้งขึ้นมาได้
 
 <p class="media semi-full">
-  <img src="/img/posts/storck-visioner-comp-g1/handlebar.jpg" alt="Storck Visioner Comp G1">
+  <img src="/img/posts/storck-visioner-comp-g1/handlebar.jpg" alt="ผ้าพันแฮนด์ Supacaz">
 </p>
 
 ส่วน stem ใช้ของ Uno รุ่นเลข 7 ตัดสติ๊กเกอร์มาแปะทับไว้ เพราะสีสันลวดลายไม่ค่อยเข้ากับรถเท่าไหร่ (ลายสีเทา-แดง)
 
 <p class="media semi-full">
-  <img src="/img/posts/storck-visioner-comp-g1/stem-right.jpg" alt="Storck Visioner Comp G1">
+  <img src="/img/posts/storck-visioner-comp-g1/stem-right.jpg" alt="stem uno ขนาด 90mm">
 </p>
 
 เบาะ SQLab Ergowave 612 Active ราง S-Tube ขนาด 15 ไม่มีอะไรให้ติ ใช้งานปั่นยาวๆ แล้วอาการปวดกดทับลดไปเยอะ

@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  blog:
+    container_name: armno-blog
+    image: monachus/hugo
+    build:
+      context: .
+    volumes:
+      - "./site:/usr/share/blog"
+    ports:
+      - "1313:1313"
