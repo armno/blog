@@ -3,10 +3,9 @@ version: "3.5"
 services:
   blog:
     container_name: armno-blog
-    image: monachus/hugo
-    build:
-      context: .
+    image: klakegg/hugo:0.46
+    command: server
     volumes:
-      - "./site:/usr/share/blog"
+      - "./:/src"
     ports:
       - "1313:1313"
