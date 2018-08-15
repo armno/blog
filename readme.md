@@ -1,5 +1,7 @@
 # armno.in.th
 
+[![Build Status](https://semaphoreci.com/api/v1/armno/blog/branches/master/badge.svg)](https://semaphoreci.com/armno/blog)
+
 My [blog](https://armno.in.th). Built with [Hugo](https://gohugo.io/). Migrated from [`armno/armno.github.io`](https://github.com/armno/armno.github.io).
 
 ## Development
