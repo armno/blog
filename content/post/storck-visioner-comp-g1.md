@@ -62,7 +62,7 @@ Storck Visioner เป็นจักรยานเสือหมอบใน�
 - ชุดขับ: SRAM Force 22s + เฟือง Dura-Ace 9100 11-28T
 - ล้อ: Mavic Ksyrium Pro (รุ่นปี 2016)
 - โซ่: KMC X11SL
-- เบรค: EE Cycleworks
+- เบรค: EE Cycleworks Single Mount
 - แฮนด์: Easton EC90 SLX (รุ่นปี 2014)
 - สเต็ม: Uno 7 Series 90mm Aluminum
 - หลักอาน: KCNC Ti Pro Lite 31.6mm
