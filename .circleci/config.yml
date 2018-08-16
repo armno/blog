@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+    working_directory: ~/blog
+    environment:
+      HUGO_BUILD_DIR: ~/blog/public
+    steps:
+      - run: HUGO_ENV=production hugo --verbose --destination $HUGO_BUILD_DIR
