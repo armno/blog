@@ -22,16 +22,6 @@ then run the container
 $ docker run --rm --detach --name armno-blog --publish 8000:80 armno/blog:master
 ```
 
-## MISC.
-
-Install Pygments on Ubuntu Server:
-
-```sh
-$ sudo apt-get update && sudo apt-get upgrade
-$ sudo apt-get install python-pip
-$ pip install Pygments
-```
-
 ## Creating a new post
 
 ```sh
