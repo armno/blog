@@ -10,10 +10,10 @@ jobs:
       - checkout
       - run: HUGO_ENV=production hugo --verbose --source ~/blog --destination $HUGO_BUILD_DIR
       - run: htmlproofer ~/blog/public --allow-hash-href --check-html --empty-alt-ignore
-      - ? deploy
-        name: deploy to DO
-        command: |
-          ssh armno@armno.xyz -p 2221 "cd /var/www/html/blog && git pull && hugo --verbose && exit"
+      - deploy:
+          name: deploy to DO
+          command: |
+            ssh armno@armno.xyz -p 2221 "cd /var/www/html/blog && git pull && hugo --verbose && exit"
 
 workflows:
   version: 2
