@@ -1,0 +1,28 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+    working_directory: ~/blog
+    environment:
+      HUGO_BUILD_DIR: ~/blog/public
+    steps:
+      - checkout
+      - run: HUGO_ENV=production hugo --verbose --source ~/blog --destination $HUGO_BUILD_DIR
+      - run: htmlproofer ~/blog/public --allow-hash-href --check-html --empty-alt-ignore
+      - deploy:
+          name: deploy to DO
+          command: |
+            ssh -oStrictHostKeyChecking=no armno@armno.xyz -p 2221 "cd /var/www/html/blog && git pull && hugo --verbose && exit"
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
