@@ -24,7 +24,7 @@ jobs:
       - run:
           name: Deploy
           command: |
-            ssh -oStrictHostKeyChecking=no $SSH_USER@$SSH_HOST -p $SSH_PORT "docker pull armno/blog:master && docker stop armno-blog || true && docker run --rm --publish 8000:80 armno/blog:master && exit"
+            ssh -oStrictHostKeyChecking=no $SSH_USER@$SSH_HOST -p $SSH_PORT "docker pull armno/blog:master && docker stop armno-blog || true && docker run --rm --detach --publish 8000:80 --name armno-blog armno/blog:master && exit"
 
 workflows:
   version: 2
