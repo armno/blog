@@ -1,30 +1,39 @@
 version: 2
 jobs:
   build:
-    docker:
-      - image: cibuilds/hugo:latest
-    working_directory: ~/blog
-    environment:
-      HUGO_BUILD_DIR: ~/blog/public
+    machine: true
+    # working_directory: ~/blog
+    # environment:
+    #   HUGO_BUILD_DIR: ~/blog/public
     steps:
       - checkout
-      - run: HUGO_ENV=production hugo --verbose --source ~/blog --destination $HUGO_BUILD_DIR
-      - run: htmlproofer ~/blog/public --allow-hash-href --check-html --empty-alt-ignore
+      - run:
+          name: Login to the registry
+          command: docker login -u $DOCKER_USER -p $DOCKER_PASS
+      - run:
+          name: Build Docker Image
+          command: docker build --tag armno/blog:$CIRCLE_BRANCH .
+      - run:
+          name: Push to the registry
+          command: docker push armno/blog:$CIRCLE_BRANCH
+      # - run: HUGO_ENV=production hugo --verbose --source ~/blog --destination $HUGO_BUILD_DIR
+      # - run: htmlproofer ~/blog/public --allow-hash-href --check-html --empty-alt-ignore
   deploy:
-    machine:
-      enabled: true
-    working_directory: ~/blog
+    machine: true
     steps:
       - run:
-          name: deploy to DO
+          name: Deploy
           command: |
-            ssh -oStrictHostKeyChecking=no $SSH_USER@$SSH_HOST -p $SSH_PORT "cd /var/www/html/blog && git pull && hugo --verbose && exit"
+            ssh -oStrictHostKeyChecking=no $SSH_USER@$SSH_HOST -p $SSH_PORT "docker pull armno/blog:master && docker stop armno-blog || true && docker run --rm --publish 8000:80 armno/blog:master && exit"
 
 workflows:
   version: 2
   build-and-deploy:
     jobs:
       - build
+          filters:
+            branches:
+              only: master
       - deploy:
           requires:
             - build
