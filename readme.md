@@ -13,13 +13,13 @@ $ docker-compose up --detach
 ## Building a docker image
 
 ```sh
-$ docker build --tag armno/blog .
+$ docker build --tag armno/blog:master .
 ```
 
 then run the container
 
 ```sh
-$ docker run --rm --publish 8000:80 armno/blog:latest
+$ docker run --rm --detach --name armno-blog --publish 8000:80 armno/blog:master
 ```
 
 ## MISC.
