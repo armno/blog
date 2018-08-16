@@ -10,7 +10,7 @@ tags:
   - CI
 ---
 
-บล็อก [armno.in.th](https://armno.in.th) ถูกสร้างขึ้นมาด้วย [​Hugo](https://gohugo.io/)
+บล็อก [armno.in.th](https://armno.in.th) ถูกสร้างขึ้นมาด้วย [Hugo](https://gohugo.io/)
 ซึ่งเป็น static site generator ที่มีหลักการทำงานคร่าวๆ คือ
 
 1. เขียน content ในไฟล์ markdown
@@ -26,13 +26,18 @@ tags:
 5. รัน `$ hugo` command เพื่อให้ Hugo build (generate) ไฟล์ markdown เป็นไฟล์ HTML
 
 เมื่อก่อนตอนที่ยังใช้ Jekyll เป็น generator ผมเขียน deploy script ไว้ทำงานกับ GitHub Webhook
-โดยทุกครั้งที่ push code ไปที่ GitHub จะมี webhook ไปบอกที่ server DigitalOcean
+โดยทุกครั้งที่ push code ไปที่ GitHub จะมี webhook ไปบอกที่ server DigitalOcean _(ขอเรียกให้หรูว่า production server)_
 ให้ทำการ pull และ build โดยอัตโนมัติ
 
-แต่หลังจาก[เปลี่ยนจาก Jekyll มาใช้ Hugo](https://armno.in.th/2018/03/24/jekyll-to-hugo/) script มันก็หยุดทำงานเพราะผมไม่ได้อัพเดท deploy script
-ของเดิมให้มันทำงานกับ Hugo กับ repo ใหม่ ก็ต้องทำตามขั้นตอน 1-5 ข้างบนทุกครั้งที่อัพเดทบล็อก
+แต่หลังจาก[เปลี่ยนจาก Jekyll มาใช้ Hugo](https://armno.in.th/2018/03/24/jekyll-to-hugo/)
+script มันก็หยุดทำงานเพราะผมไม่ได้อัพเดท deploy script
+ของเดิมให้มันทำงานกับ Hugo และ repo ใหม่ ก็เลยต้องทำ (แบบ manual) ตามขั้นตอน 1-5 ข้างบนทุกครั้งที่อัพเดทบล็อก
 
-ถึงแม้จะอัพเดทบล็อกไม่บ่อย แต่ก็ไม่ได้อยากทำเหมือนเดิมซ้ำๆ ทุกครั้ง ก็เลยจดโน้ตไว้ว่าวันหนึ่งจะทำ
+ปัญหากวนใจเล็กๆ อีกอย่างคือ flow ที่มีอยู่ต้องรัน `hugo` บน server ด้วย
+ทำให้ต้องลง Hugo ไว้ทั้งบนเครื่อง dev และบน production server เวลาอัพเดทก็ต้องอัพเดทพร้อมกัน
+ให้เวอร์ชั่นของ Hugo ตรงกัน (Hugo ออกเวอร์ชั่นใหม่ค่อนข้างบ่อย)
+
+ถึงแม้นานๆ จะอัพเดทบล็อกนี้สักที แต่ก็ไม่ได้อยากทำเหมือนเดิมซ้ำๆ ทุกครั้ง ก็เลยจดโน้ตไว้ว่าวันหนึ่งจะทำ
 
 <p class="text-center">
   <img src="/img/posts/blog-push-to-deploy/github-issue.png" alt="issue ที่สร้างไว้กันลืมบน GitHub repo">
@@ -42,26 +47,193 @@ tags:
 
 สิ่งที่อยากได้คือ ลดขั้นตอนจาก 1-5 ให้เหลือ 1-2 คือ push code ไปที่ GitHub repo แล้วที่เหลือให้มันทำงานของมันเอง
 
-### สำรวจทางเลือก
+ส่วนปัญหาเรื่อง version ของ Hugo ที่ไม่ตรงกันของเครื่อง dev กับ production server จะใช้ Docker จัดการ
 
-ที่ผมคิดออกมีสองแบบ คือ
+-----
 
-- GitHub webhook + node webhook บน server ที่ DigitalOcean
+## สำรวจทางเลือก
+
+ที่คิดออกมีสองแบบ คือ
+
+- GitHub webhook + node webhook บน production server (เหมือนที่เคยทำเมื่อตอนใช้ Jekyll)
 - ใช้ continuous integration / continuous delivery service ซึ่งมีให้เลือกเยอะแยะ
 
 ปกติที่ทำงานใช้ GitLab CI เป็นประจำอยู่แล้ว เลยคิดว่าทางเลือกที่ 2 น่าจะคุ้นเคยกว่า
-และเราก็สามารถ[ใช้ GitLab CI กับ GitHub repo ได้](https://gitlab.com/help/user/project/integrations/github) (โดยที่ไม่ต้องย้าย repo ไป gitlab.com)
-แต่ว่าที่ไม่ได้เลือกใช้่งาน GitLab CI เพราะอยากเรียนรู้ tool ตัวอื่นด้วยครับ
+และเราก็สามารถ[ใช้ GitLab CI กับ GitHub repo ได้](https://gitlab.com/help/user/project/integrations/github)
+(โดยที่ไม่ต้องย้าย repo ไป gitlab.com)
+แต่ว่าอยากถือโอกาสนี้เรียนรู้ tool ตัวอื่นด้วย ก็เลยเลือกไม่ใช้ GitLab CI ครับ
 
-ลองเล่น 2 ตัวคือ SemaphoreCI กับ CircleCI สุดท้ายเลือก CircleCI เพราะใช้งานง่ายว่า
-UI ของ CircleCI ดูไม่งงเหมือนของ SemaphoreCI
+ลองเล่น 2 ตัวคือ SemaphoreCI กับ CircleCI และเลือก CircleCI เพราะใช้งานง่ายว่า
+วิธีการ config ใช้ไฟล์ yaml คล้ายกับ GitLab CI ที่ใช้อยู่ แล้วก็ UI ของ CircleCI ดูไม่งงเหมือนของ SemaphoreCI ด้วย
 
-Steps
+ในโพสต์นี้อาจจะมีอ้างถึง GitLab CI อยู่บ่อยๆ เพื่อขยายความสำหรับคนที่ใช้ GitLab CI อยู่แล้วครับ
 
-1. Docker
-2. Create a CircleCI account
-3. Create new project from a GitHub repo
-4. Create config.yml for CircleCI
-5. Push and build and push again (to dockerhub)
-6. Install docker on DO
-7. Deploy and be happy about life
+## Flow (คร่าวๆ)
+
+1. ใช้ Hugo ผ่าน docker container
+2. Push code ขึ้นไปบน GitHub repo
+3. ให้ CircleCI build docker image จาก Dockerfile ใน repo
+4. Push docker image ไปที่ dockerhub
+5. บน production server: pull docker image จาก dockerhub แล้วรัน container
+
+ที่เลือกใช้ Docker เพราะนอกจากแก้ปัญหาเรื่องเวอร์ชั่นของ Hugo ที่ไม่ตรงกันบนเครื่อง dev กับบน server แล้ว
+ยังทำให้ทำงานกับ CircleCI ง่ายขึ้นด้วย เนื่องจากบริการ CI/CD พวกนี้มักจะ support docker อยู่แล้ว
+
+### 1. ใช้ Hugo ผ่าน Docker
+
+Hugo มี docker image ให้เลือกหลายตัว ผมเลือกใช้ image [`klakegg/hugo`](https://github.com/klakegg/docker-hugo)
+ร่วมกับ docker compose มี `docker-compose.yml` สั้นๆ
+
+```yaml
+version: "3.5"
+
+services:
+  blog:
+    container_name: armno-blog
+    image: klakegg/hugo:0.46
+    command: server
+    volumes:
+      - "./:/src"
+    ports:
+      - "1313:1313"
+```
+
+image นี้มี command `server` ใช้สำหรับรัน local server และ rebuild มีค่าเท่ากับการรัน `$ hugo serve`
+ในเครื่อง dev แต่เปลี่ยนเป็น `$ docker-compose up --detach` แทน
+
+สำหรับ `Dockerfile` ที่จะนำไปใช้ build image เพื่อใช้บน CI และ production server ใช้
+[docker multi-stage build](https://docs.docker.com/develop/develop-images/multistage-build/)
+เพื่อให้ Hugo build ไฟล์ output ออกมาก่อน แล้วค่อยนำ output ไปใส่ใน nginx web server
+
+image มีแบบ [`onbuild`](https://github.com/klakegg/docker-hugo/blob/master/lib/template/Dockerfile-onbuild)
+ให้เลือกด้วย ใน `Dockerfile` ก็เลยมีแค่ 3 บรรทัด
+
+```dockerfile
+FROM klakegg/hugo:0.46-onbuild AS hugo
+
+FROM nginx:1.15.2-alpine
+COPY --from=hugo /onbuild /usr/share/nginx/html
+```
+
+### 2. ลง Docker ใน production server
+
+ผมใช้ Ubuntu Server 16.04 LTS วิธีการลง Docker ก็ตาม tutorial นี้เลย:
+[How To Install and Use Docker on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04)
+
+พอจัดการ Docker แล้ว ก็ไปที่ CircleCI กันต่อ
+
+### 3. สร้าง project บน CircleCI
+
+สมัคร Circle CI ด้วย account GitHub ได้เลย พอล็อกอินแล้ว CircleCI จะให้เรา Set Up Project
+จาก GitHub repo ที่เรามีอยู่
+
+<p class="text-center">
+  <img src="/img/posts/blog-push-to-deploy/set-up-project.png" alt="สร้าง project ใน CircleCI">
+</p>
+
+พอกด Set Up Project ก็ต้องเลือก OS กับ ภาษาที่ใช้กับ project แล้ว CircleCI จะสร้าง template
+ของไฟล์ config ให้ .. สำหรับบล็อก Hugo เลือกภาษาอะไรก็ได้
+
+<p class="text-center">
+  <img src="/img/posts/blog-push-to-deploy/select-os-language.png" alt="สร้าง project ใน circleci">
+</p>
+
+เลื่อนลงมาข้างล่างอีกนิด จะมีขั้นตอนบอกว่าต้องทำอะไรบ้าง
+
+<p class="text-center">
+  <img src="/img/posts/blog-push-to-deploy/steps.png" alt="ขั้นตอนการ set up project ใน CircleCI">
+</p>
+
+ดูเหมือนมีหลายขั้นตอน จริงๆ แล้วมีเพียงการสร้างไฟล์ `.circleci/config.yml` แล้ว commit และ push
+ขึ้นไปบน repo ใน GitHub จากก็กดปุ่ม Start Building ก็เป็นอันเสร็จพิธี
+
+ไฟล์ `.circleci/config.yml` เป็นตัวบอก build step ให้กับ CircleCI ว่าต้องทำอะไรบ้าง
+(ในโลก GitLab CI มันคือไฟล์ `.gitlab-ci.yml` นั่นเอง ทำหน้าที่เหมือนกัน แต่เขียนต่างกันนิดหน่อย)
+
+```yaml
+version: 2
+jobs:
+  build:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: Login to the registry
+          command: docker login -u $DOCKER_USER -p $DOCKER_PASS
+      - run:
+          name: Build Docker Image
+          command: docker build --tag armno/blog:$CIRCLE_BRANCH .
+      - run:
+          name: Push to the registry
+          command: docker push armno/blog:$CIRCLE_BRANCH
+  deploy:
+    machine: true
+    steps:
+      - run:
+          name: Deploy
+          command: |
+            ssh -oStrictHostKeyChecking=no $SSH_USER@$SSH_HOST -p $SSH_PORT "docker pull armno/blog:master && docker stop armno-blog || true && docker run --rm --detach --publish 8000:80 --name armno-blog armno/blog:master && exit"
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
+```
+
+- `version: 2.0` - เป็นการบอกเวอร์ชั่นของ CircleCI ที่เราจะใช้ 2.0 เป็นเวอร์ชั่นปัจจุบัน
+- `jobs:` - รายละเอียดของแต่ละ build step ว่าจะรัน command อะไรบ้าง (ใน GitLab CI เรียกว่า Jobs เหมือนกัน)
+- `workflows:` - บอกความสัมพันธ์ของแต่ละ job ว่าใครรันก่อน-หลัง หรือให้รันเฉพาะ branch ไหน (ใน GitLab CI มันคือ concept ของ Pipelines)
+
+ไฟล์ config.yml ของผมมีอยู่ 2 jobs คือ
+
+- `build` - สร้าง docker image จาก `Dockerfile` ที่สร้างไว้ในข้อ 1 image ที่ได้ก็จะเป็น image ที่พร้อมใช้งาน (พร้อม deploy) พอ build image เสร็จแล้วก็ push ไปไว้ที่ Container Registry ผมเลือกเก็บไว้ที่ DockerHub เพราะง่ายดี
+- `deploy` - SSH เข้าไปที่ production server, pull image มาจาก DockerHub แล้วรัน container จาก image นั้น
+
+ถึงตอนนี้ production server ก็จะมีบล็อก Hugo รันอยู่ใน container ตัวหนึ่งที่ URL: `http://<SERVER_ADDRESS>:8000`
+
+### 4. ตั้งค่า nginx server block (virtual host) ให้ชี้ domain ไปที่ container
+
+ขั้นตอนสุดท้ายเป็นการตั้งค่า server block ของ nginx บน production server
+จากเดิมจะชี้ไปที่ directory หนึ่งบน server ก็เปลี่ยนเป็นการใช้ reverse proxy ชี้ไปที่ `localhost:8000` แทน
+
+เดิม
+```text
+server_name armno.in.th www.armno.in.th;
+location / {
+	try_files $uri/ $uri $uri.html $uri.htm =404;
+}
+```
+
+เป็น
+
+```text
+server_name armno.in.th www.armno.in.th;
+location / {
+	proxy_set_header X-Real-IP $remote_addr;
+	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	proxy_set_header X-NginX-Proxy true;
+	proxy_pass http://127.0.0.1:8000;
+	proxy_ssl_session_reuse off;
+	proxy_set_header Host $http_host;
+	proxy_cache_bypass $http_upgrade;
+	proxy_redirect off;
+}
+```
+
+จากนั้น restart nginx เป็นอันจบพิธี
+
+```sh
+$ sudo service nginx restart
+```
+
+## ทดสอบ
