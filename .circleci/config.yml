@@ -2,9 +2,6 @@ version: 2
 jobs:
   build:
     machine: true
-    # working_directory: ~/blog
-    # environment:
-    #   HUGO_BUILD_DIR: ~/blog/public
     steps:
       - checkout
       - run:
@@ -16,8 +13,6 @@ jobs:
       - run:
           name: Push to the registry
           command: docker push armno/blog:$CIRCLE_BRANCH
-      # - run: HUGO_ENV=production hugo --verbose --source ~/blog --destination $HUGO_BUILD_DIR
-      # - run: htmlproofer ~/blog/public --allow-hash-href --check-html --empty-alt-ignore
   deploy:
     machine: true
     steps:
