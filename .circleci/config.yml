@@ -13,6 +13,7 @@ jobs:
       - deploy:
           name: deploy to DO
           command: |
+            ssh-keyscan -p 2221 armno.xyz >> ~/.ssh/know_hosts
             ssh armno@armno.xyz -p 2221 "cd /var/www/html/blog && git pull && hugo --verbose && exit"
 
 workflows:
