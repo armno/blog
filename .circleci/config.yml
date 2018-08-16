@@ -7,5 +7,5 @@ jobs:
     environment:
       HUGO_BUILD_DIR: ~/blog/public
     steps:
-      - run: HUGO_ENV=production hugo --verbose --destination $HUGO_BUILD_DIR
+      - run: HUGO_ENV=production hugo --verbose --source ~/blog --destination $HUGO_BUILD_DIR
       - run: htmlproofer ~/blog/public --allow-hash-href --check-html --empty-alt-ignore
