@@ -10,7 +10,9 @@ jobs:
       - checkout
       - run: HUGO_ENV=production hugo --verbose --source ~/blog --destination $HUGO_BUILD_DIR
       - run: htmlproofer ~/blog/public --allow-hash-href --check-html --empty-alt-ignore
-      - deploy:
+  deploy:
+    steps:
+      - run:
           name: deploy to DO
           command: |
             ssh -oStrictHostKeyChecking=no $SSH_USER@$SSH_HOST -p $SSH_PORT "cd /var/www/html/blog && git pull && hugo --verbose && exit"
