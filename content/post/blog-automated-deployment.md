@@ -3,11 +3,13 @@ title: "Update Blog อัตโนมัติด้วย Docker และ Cir
 date: 2018-08-16T13:38:04+07:00
 draft: false
 url: /2018/08/16/blog-automated-deployment
-description: "ใช้ Docker กับ CircleCI เพื่อ deploy blog แบบอัตโนมัติทุกครั้งที่ push ไปที่ master branch"
+description: "ลองใช้ Docker กับ CircleCI เพื่อ deploy blog แบบอัตโนมัติทุกครั้งที่ push ไปที่ GitHub repo"
 tags:
   - Blog
   - Hugo
   - CI
+thumbnail: https://armno.in.th/img/posts/blog-push-to-deploy/jobs.png
+cover-image: /img/posts/blog-push-to-deploy/cover.png
 layout: wide
 ---
 
@@ -260,4 +262,9 @@ $ sudo service nginx restart
 แต่ถือว่าได้ลองใช้ Docker กับ CircleCI และพอจะเห็นภาพคร่าวๆ ว่า CircleCI ทำอะไรได้บ้าง
 เผื่อจะได้ใช้ประโยชน์ในอนาคต _(ปกติถ้าอยากลองเล่นอะไร ผมก็จะใช้บล็อกของตัวเองนี่แหละเป็นหนูทดลอง)_
 
-ในตอนหน้าจะทำให้ชีวิตง่ายขึ้นด้วยการใช้ [Netlify](https://www.netlify.com/) เข้ามาแทน CI/CD ข้างบน จะเป็นยังไงก็โปรดติดตาม
+ในตอนหน้าจะทำให้ชีวิตง่ายขึ้นด้วยการใช้ [Netlify](https://www.netlify.com/) เข้ามาแทน CI/CD ข้างบน
+จะเป็นยังไงก็โปรดติดตามตอนต่อไป
+
+<p class="media semi-full">
+  <img src="/img/posts/blog-push-to-deploy/pick-none.png" alt="issue closed">
+</p>
