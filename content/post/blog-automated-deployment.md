@@ -265,6 +265,6 @@ $ sudo service nginx restart
 ในตอนหน้าจะทำให้ชีวิตง่ายขึ้นด้วยการใช้ [Netlify](https://www.netlify.com/) เข้ามาแทน CI/CD ข้างบน
 จะเป็นยังไงก็โปรดติดตามตอนต่อไป
 
-<p class="media semi-full">
+<p class="media text-center">
   <img src="/img/posts/blog-push-to-deploy/pick-none.png" alt="issue closed">
 </p>
