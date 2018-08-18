@@ -19,7 +19,7 @@ Editor โปรดของผม [Sublime Text 2](armno.in.th/2011/09/20/subli
 ### Icon ใหม่
 
 
-![new-official-sublime-text-icon](http://farm9.staticflickr.com/8101/8507793624_b552a209b9_o.png)
+![new-official-sublime-text-icon](https://farm9.staticflickr.com/8101/8507793624_b552a209b9_o.png)
 
 จากเดิมที่เป็นกรอบสี่เหลี่ยมเทาๆ ถึงเวอร์ชั่นนี้มีไอคอนสวยๆ กับเขาเสียทีครับ เป็นรูปปุ่ม S บนคีย์บอร์ด
 
@@ -29,9 +29,9 @@ Editor โปรดของผม [Sublime Text 2](armno.in.th/2011/09/20/subli
 
 ระยะห่างระหว่างตัวอักษร กับระยะบรรทัดเปลี่ยนไปนิดหน่อย ผมลองเทียบกับดูระหว่าง build นี้กับ build ก่อนหน้า (2165) ใช้ฟอนต์ Droid Sans Mono ขนาด 11 รันบน Ubuntu 10.10 ครับ (จริงๆ ผมชอบแบบเก่ามากกว่านะ)
 
-![old-build-font](http://farm9.staticflickr.com/8092/8507798464_5f11384a9d_z.jpg)
+![old-build-font](https://farm9.staticflickr.com/8092/8507798464_5f11384a9d_z.jpg)
 
-![new-build-font](http://farm9.staticflickr.com/8525/8506691463_3c88fa893d_z.jpg)
+![new-build-font](https://farm9.staticflickr.com/8525/8506691463_3c88fa893d_z.jpg)
 
 
 ### เมนู Settings ใหม่
@@ -45,6 +45,6 @@ Editor โปรดของผม [Sublime Text 2](armno.in.th/2011/09/20/subli
 
 ความสามารถนี้มีไว้ highlight ตำแหน่งของคำที่เราเลือกในไฟล์นั้นครับ จากเดิมต้องลง package ชื่อว่า **WordHighlighter** จาก Package Control แต่ตอนนี้ติดมากับ Sublime Text 2 แล้ว ไม่ต้องลง Plugin เพิ่ม
 
-![word-highlighting](http://farm9.staticflickr.com/8245/8506694699_09e78b81e8_z.jpg)
+![word-highlighting](https://farm9.staticflickr.com/8245/8506694699_09e78b81e8_z.jpg)
 
 นอกจากนี้ก็ยังมีฟีเจอร์อื่นอีกมากมาย ตามไปอ่านทั้งหมดได้ [ที่นี่](http://www.sublimetext.com/2) ครับ

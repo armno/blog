@@ -15,7 +15,7 @@ wordpress_id: 1142
 ---
 
 <div class="aligncenter">
-    <img src="http://farm9.staticflickr.com/8512/8554300722_46fa4e1ca0.jpg" alt="Dont Make Me Think, Second Edition.">
+    <img src="https://farm9.staticflickr.com/8512/8554300722_46fa4e1ca0.jpg" alt="Dont Make Me Think, Second Edition.">
 </div>
 
 จากการเรียนวิชา **Human-Computer Interaction** และการอ่าน blog เกี่ยวกับ web design ของฝรั่งอยู่บ่อยๆ ทำให้ผมสนใจเรื่อง [**Web Standards**](http://en.wikipedia.org/wiki/Web_standards) กับ [**Web Usability**](http://en.wikipedia.org/wiki/Web_usability) เอามากๆเลยล่ะ มีความคิดอยากหาหนังสืออ่านเพิ่มเติม และก็ได้รับคำแนะนำจากอาจารย์มาเป็นหนังสือเล่มนี้ครับ [**Don't Make Me Think**](http://www.sensible.com/dmmt.html) เขียนโดย **Steve Krug**

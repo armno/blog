@@ -31,7 +31,7 @@ url: /2012/03/18/prefixfree-js/
 
 เห็นโค้ดแล้วเหนื่อย **[Lea Verou](http://lea.verou.me/)** เจ้าของเดียวกับ [dabblet](http://armno.in.th/2012/03/12/dabblet-com-css-playground/) เลยทำ [prefixfree.js](http://leaverou.github.com/prefixfree/) ขึ้นมาเพื่อเป็นตัวจัดการกับ prefix ต่างๆ ให้ โดยที่เราเขียนแค่เวอร์ชั่น W3C standards ตัว prefixfree.js ก็จะใส่ prefix ให้เท่าที่จำเป็น ขึ้นอยู่กับ browser ที่ใช้ครับ
 
-![prefix-free](http://farm9.staticflickr.com/8094/8506629435_7bed3a069c_o.jpg)
+![prefix-free](https://farm9.staticflickr.com/8094/8506629435_7bed3a069c_o.jpg)
 
 วิธีใช้ก็แค่เรียกใช้ prefixfree.js ในหน้าที่เราต้องการครับ
 

@@ -27,7 +27,7 @@ Web Developer หลายคนคงรู้จักและคุ้นเ
 * Normalize.css แก้บั๊กหลายๆ อย่างที่อยู่นอกเหนือ CSS Reset เช่น HTML5 search form หรือ การแสดงผล SVG เป็นต้น
 * Normalize.css ดูไม่รกรุงรังเมื่อดูจาก developer tools ทั้งหลาย  ที่เจอบ่อยๆ เวลา inspect element ดู เมื่อใช้ reset
 
-![cluttered-css](http://farm9.staticflickr.com/8380/8507760424_b37ae2b173_z.jpg)
+![cluttered-css](https://farm9.staticflickr.com/8380/8507760424_b37ae2b173_z.jpg)
 
 * Normalize.css แยกเป็นส่วนๆ ชัดเจน เช่น form, typography ส่วนไหนที่เราไม่ต้องการ ก็ลบออกไปได้
 * Normalize.css มี document ที่ดีกว่า CSS Reset .. ที่เห็นได้ชัดก็คือมีอธิบายในตัวโค้ดเลย ส่วน CSS Reset มักจะมาแบบแห้งๆ ไม่มีอธิบายอะไร นอกจากนี้ Normalize.css ยังมี document บน Github ที่ละเอียดดีอีกด้วย

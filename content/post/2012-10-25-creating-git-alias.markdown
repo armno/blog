@@ -32,13 +32,13 @@ $ git config --global alias.lol "log --decorate --oneline --graph"
 
 ก็จะได้ผลอย่างในรูปครับ
 
-![git-lol](http://farm9.staticflickr.com/8237/8506174807_402c740ffd_z.jpg)
+![git-lol](https://farm9.staticflickr.com/8237/8506174807_402c740ffd_z.jpg)
 
 ### แก้ไข alias ที่เคยสร้างไว้
 
 alias ที่เราสร้างไว้ ถ้าเป็น global alias จะอยู่ในไฟล์ config ของ Git ในเครื่องเราครับ อยู่ที่ `~/.gitconfig` (OSX/Ubuntu) เปิดไฟล์นี้ด้วย text editor แล้วแก้ไข หรือจะเพิ่ม alias จากตรงนี้ก็ได้ครับ อย่างในรูปผมเพิ่มบรรทัด `pom` เข้าไป
 
-![edit-git-alias](http://farm9.staticflickr.com/8517/8506179011_8bd2b49f68_o.png)
+![edit-git-alias](https://farm9.staticflickr.com/8517/8506179011_8bd2b49f68_o.png)
 
 ### Git alias เฉพาะ repository หนึ่งๆ
 
@@ -50,7 +50,7 @@ $ git config alias.s "status"
 
 alias ที่ถูกสร้างขึ้นก็จะอยู่ในไฟล์ `.git/config` ในโฟลเดอร์โปรเจ็คครับผม
 
-![git-alias-local](http://farm9.staticflickr.com/8228/8506182065_c39a603276_o.png)
+![git-alias-local](https://farm9.staticflickr.com/8228/8506182065_c39a603276_o.png)
 
 การสร้าง alias ไว้ใช้งานนั้น ดูเผินๆ เหมือนจะไม่ค่อยคุ้มค่าเท่าไหร่ (ประหยัดการพิมพ์ไปได้แค่ไม่กี่ตัวอักษร แล้วต้องมานั่งจำ alias ที่เราสร้างไว้อีก) แต่เมื่อรวมกันเยอะๆ แล้ว ถือว่าช่วยประหยัดเวลาไปได้มาก กับคำสั่งงานที่ต้องพิมพ์ซ้ำๆ หลายรอบในแต่ละวัน ใช้งานบ่อยๆ จนมันจะซึมเข้าหัวเราเอง ไม่ต้องจำครับ
 

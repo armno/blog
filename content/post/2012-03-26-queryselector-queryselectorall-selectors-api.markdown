@@ -84,9 +84,9 @@ var li = document.querySelector('#adminmenu').querySelectorAll('li');
 
 มี [test บน jsperf.com](http://jsperf.com/getelementbyid-vs-queryselector) นั้นบอกว่า `getElementById()` เร็วกว่า `querySelector()` อยู่ค่อนข้างเยอะครับ (หลายเท่าตัว) (แต่ผมว่าเอาเข้าจริงๆ การใช้งานทั่วไปคงไม่มีใครเห็นความแตกต่าง) แต่ถ้าัสังเกตกราฟของ Google Chrome รวมถึง Webkit ในเวอร์ชั่นหลังๆ มานี้ จำนวน opt/sec ของ `querySelector` นั้นก็เพิ่มขึ้นเยอะอยู่เหมือนกัน
 
-![chrome-performance](http://farm9.staticflickr.com/8384/8536143624_42b62d563a_z.jpg)
+![chrome-performance](https://farm9.staticflickr.com/8384/8536143624_42b62d563a_z.jpg)
 
-![firefox-performance](http://farm9.staticflickr.com/8095/8535036869_57d8d41523_z.jpg)
+![firefox-performance](https://farm9.staticflickr.com/8095/8535036869_57d8d41523_z.jpg)
 
 ดูหลายๆ test case ได้จากแต่ละ revision ใน jsperf เปรียบเทียบกันดูได้
 

@@ -13,25 +13,12 @@ jobs:
       - run:
           name: Push to the registry
           command: docker push armno/blog:$CIRCLE_BRANCH
-  deploy:
-    machine: true
-    steps:
-      - run:
-          name: Deploy
-          command: |
-            ssh -oStrictHostKeyChecking=no $SSH_USER@$SSH_HOST -p $SSH_PORT "docker pull armno/blog:master && docker stop armno-blog || true && docker run --rm --detach --publish 8000:80 --name armno-blog armno/blog:master && exit"
 
 workflows:
   version: 2
-  build-and-deploy:
+  just-build:
     jobs:
       - build:
-          filters:
-            branches:
-              only: master
-      - deploy:
-          requires:
-            - build
           filters:
             branches:
               only: master

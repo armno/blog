@@ -72,7 +72,7 @@ $ cd swift
 
 จากนั้นสร้างไฟล์ชื่อ <code>composer.json</code> ขึ้นมา ไฟล์นี้จะเป็นตัวบอกว่าโปรเจ็คของเราต้องใช้ dependency ตัวไหนบ้าง สำหรับ library ต่างๆ หาได้จาก [packagist.org](https://packagist.org/) ครับ
 
-![image](http://farm3.staticflickr.com/2867/9075282740_9b46af0d7d_z.jpg)
+![image](https://farm3.staticflickr.com/2867/9075282740_9b46af0d7d_z.jpg)
 
 ไฟล์ <code>composer.json</code> ก็จะประมาณนี้ครับ
 
@@ -90,11 +90,11 @@ $ cd swift
 $ composer install
 {{< / highlight >}}
 
-![image](http://farm8.staticflickr.com/7453/9075336190_a56f25d621_o.png)
+![image](https://farm8.staticflickr.com/7453/9075336190_a56f25d621_o.png)
 
 รอจน install เสร็จ ก็จะได้ library SwiftMailer อยู่ใน directory <code>vendor</code> ในโปรเจ็คของเราครับ
 
-![image](http://farm4.staticflickr.com/3828/9073106529_f552a63379_o.png)
+![image](https://farm4.staticflickr.com/3828/9073106529_f552a63379_o.png)
 
 ใน directory <code>vendor</code> จะมีไฟล์ <code>autoload.php</code> ให้พร้อมให้เราใช้งาน ในโปรเจ็คของเราก็แค่เพิ่ม
 
