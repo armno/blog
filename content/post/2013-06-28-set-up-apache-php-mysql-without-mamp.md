@@ -47,7 +47,7 @@ $ sudo apachectl start
 
 ต่อไปก็ต้องลง PHP ผ่าน Homebrew ครับ สำหรับการลง package ด้วย homebrew นั้นใช้ command <code>brew install &lt;package name&gt;</code> แต่ถ้าไม่แน่ใจว่า <code>package name</code> นั้นมีอะไรบ้าง ใช้ command <code>brew search</code> หาดูก่อนได้ครับ
 
-![brew search](http://farm8.staticflickr.com/7337/9160240552_c55243a996_o.png)
+![brew search](https://farm8.staticflickr.com/7337/9160240552_c55243a996_o.png)
 
 สำหรับ PHP 5.4 นั้นชื่อ package <code>php54</code> (ณ วันที่เขียนยังไม่มี PHP 5.5 ใน homebrew ครับ)
 
@@ -63,7 +63,7 @@ $ brew install php54
 /usr/local/Cellar/php54/5.4.15
 {{< / highlight >}}
 
-![installed php 5.4](http://farm4.staticflickr.com/3708/9158088329_903636e415_z.jpg)
+![installed php 5.4](https://farm4.staticflickr.com/3708/9158088329_903636e415_z.jpg)
 
 > Package ที่ติดตั้งผ่าน Homebrew จะอยู่ที่ <code>/usr/local/Cellar</code> ครับ
 
@@ -163,7 +163,7 @@ $ echo "<?php phpinfo();" > ~/code/info.php
 
 แล้วเปิด <code>http://localhost/info.php</code> ใน browser ก็จะเจอข้อมูล <code>phpinfo</code> ครับ
 
-![phpinfo](http://farm6.staticflickr.com/5513/9158338115_1a9c7169eb_o.png)
+![phpinfo](https://farm6.staticflickr.com/5513/9158338115_1a9c7169eb_o.png)
 
 เสร็จแล้ว :D
 

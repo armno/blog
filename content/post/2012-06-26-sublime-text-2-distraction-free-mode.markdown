@@ -30,11 +30,11 @@ Distraction Free Mode นั้นมีไฟล์ Settings แยกต่า
 
 ก่อน
 
-![before](http://farm9.staticflickr.com/8247/8507382376_e17e2e9f5d_z.jpg)
+![before](https://farm9.staticflickr.com/8247/8507382376_e17e2e9f5d_z.jpg)
 
 หลัง
 
-![after](http://farm9.staticflickr.com/8249/8506275931_16de1b9957_z.jpg)
+![after](https://farm9.staticflickr.com/8249/8506275931_16de1b9957_z.jpg)
 
 สำหรับผมแล้ว เลขบรรทัดมันสำคัญเวลาขี้เกียจกด Ctrl + G เพื่อกระโดดข้ามบรรทัด และบางครั้งถึงแม้รู้แล้วว่า error อยู่ที่บรรทัดไหน แต่ก็ชอบเลื่อนๆ ไปดูมากกว่าอยู่ดี ง่ายต่อการเดา :)
 

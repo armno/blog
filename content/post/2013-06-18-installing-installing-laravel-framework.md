@@ -22,15 +22,15 @@ command ที่ใช้สร้างโปรเจ็คจาก <code>co
 
 รอสักพักให้ <code>composer</code> download Laravel พร้อมทั้ง dependency ทั้งหลาย
 
-![installing laravel using composer](http://farm4.staticflickr.com/3762/9075798564_a3198ee9e4_z.jpg)
+![installing laravel using composer](https://farm4.staticflickr.com/3762/9075798564_a3198ee9e4_z.jpg)
 
 จากนั้นไปที่ <code>http://localhost/lava</code> จะพบว่าหน้าเว็บนั้นไม่โหลด เพราะไฟล์ <code>index.php</code> อยู่ใน directory <code>public</code> อีกที
 
-![root directory of laravel](http://farm4.staticflickr.com/3773/9073674139_4b25c29764_o.png)
+![root directory of laravel](https://farm4.staticflickr.com/3773/9073674139_4b25c29764_o.png)
 
 พอกดเข้าไปที่ directory <code>public</code> ก็จะเจอ error อะไรไม่รู้เต็มไปหมด
 
-![laravel default errors](http://farm8.staticflickr.com/7418/9073674063_96489f1bc4_z.jpg)
+![laravel default errors](https://farm8.staticflickr.com/7418/9073674063_96489f1bc4_z.jpg)
 
 วิธีแก้ก็คือต้องไป <code>chmod</code> directory <code>app/storage</code> ให้เป็น <code>777</code> ซะก่อน
 
@@ -38,6 +38,6 @@ command ที่ใช้สร้างโปรเจ็คจาก <code>co
 
 refresh อีกครั้ง error เหล่านั้นก็จะหายไป และเจอหน้าแรกของ Laravel ครับ
 
-![errors solved](http://farm6.staticflickr.com/5343/9073709919_cb736e1cbc_z.jpg)
+![errors solved](https://farm6.staticflickr.com/5343/9073709919_cb736e1cbc_z.jpg)
 
 จากนี้ก็เริ่มโปรเจ็ค Laravel ได้เลยครับ

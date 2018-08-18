@@ -19,7 +19,7 @@ url: /2012/03/12/dabblet-com-css-playground/
 
 ในส่วนที่เป็น value ต่างๆ นั้น เมื่อเอาเมาส์ไปชี้ก็จะมี live preview งอกออกมาเหมือนกัน preview ดูได้แทบจะทุกอย่างกันเลยทีเดียว ลองพิมพ์เล่นแล้วเอาเมาส์ไปจิ้มๆ ดูได้ครับ
 
-![dabblet](http://farm9.staticflickr.com/8378/8506639905_cde8f1bca8_z.jpg)
+![dabblet](https://farm9.staticflickr.com/8378/8506639905_cde8f1bca8_z.jpg)
 
 ถ้าอยากเก็บโค้ดที่เราเล่นๆ นี้ไว้เพื่อใช้ต่อ ก็ Log in โดยใช้ account ของ [Github](http://github.com) ได้ครับ โดยที่เมื่อเรากด save โค้ดก็จะถูกสร้างเป็น Gist บน [gist.github.com](http://gist.github.com) ให้โดยอัตโนมัติ ครั้งต่อไปที่ save ก็จะถูกทำเป็น revision ไว้ให้ด้วยครับ สะดวกดี
 

@@ -7,7 +7,7 @@ tags:
   - editorconfig
   - sublimetext
   - vim
-thumbnail: http://farm4.staticflickr.com/3833/9797239403_d6949b2514_o.png
+thumbnail: https://farm4.staticflickr.com/3833/9797239403_d6949b2514_o.png
 title: ใช้งาน EditorConfig
 url: /2013/09/18/editorconfig-with-sublime-text/
 ---
@@ -62,7 +62,7 @@ indent_size = 2
 
 พอลงไว้แล้ว Sublime Text ก็จะอ่านค่าและใช้งาน config ในไฟล์ `.editorconfig` ในแต่ละ project/repo ได้โดยอัตโนมัติ อย่างรูปผมลองตั้งค่าใน `.editorconfig` ให้ไฟล์ `.css` กับ `.scss` ใช้ `indent_size` ที่ไม่เท่ากัน Sublime Text ก็มองออกครับ (สังเกตเส้น guide)
 
-![editorconfig for sublime text](http://farm4.staticflickr.com/3833/9797239403_d6949b2514_o.png)
+![editorconfig for sublime text](https://farm4.staticflickr.com/3833/9797239403_d6949b2514_o.png)
 
 ส่วน vim นั้นก็มี plugin [editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) ลงผ่าน pathogen ได้เลย ลงปุ๊บก็อ่าน `.editorconfig` ได้ทันทีครับ
 

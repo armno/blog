@@ -16,7 +16,7 @@ url: /2012/11/06/emmet-zen-coding-replacement/
 wordpress_id: 2105
 ---
 
-![emmet-logo](http://farm9.staticflickr.com/8368/8505157745_b742631eef_o.png)
+![emmet-logo](https://farm9.staticflickr.com/8368/8505157745_b742631eef_o.png)
 
 เคยเขียนเรื่อง [Zen Coding ใน Netbeans](http://armno.in.th/2010/10/20/zen-coding-netbeans/) มาแล้วครั้งหนึ่ง ตอนนี้ Zen Coding เปลี่ยนชื่อเป็น [**Emmet**](http://emmet.io) แล้วครับ มาพร้อมกับฟีเจอร์ใหม่อีกเยอะแยะมากมาย เห็นที่ฮอตๆ ก็คงเป็นส่วนของ CSS เช่น `m10` เป็น `margin: 10px;` รวมถึงจัดการ vendor prefix ให้ด้วย ([ดูตัวอย่าง](http://docs.emmet.io/css-abbreviations/vendor-prefixes/)) นอกจากนี้ยังมี action อีกมากมายที่ทำให้โค้ดได้เร็วขึ้น ผมเขียนเองไม่หมด ตามไปดูได้ที่ [http://docs.emmet.io/](http://docs.emmet.io/) ครับผม เขาทำ document ไว้ดีมากเลยล่ะ
 

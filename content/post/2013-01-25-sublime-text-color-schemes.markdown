@@ -15,7 +15,7 @@ url: /2013/01/25/sublime-text-color-schemes/
 
 [Sublime Text](http://www.sublimetext.com/2) นั้นมาพร้อมกัน color scheme ให้เลือกมากมาย โดยจะอยู่ที่เมนู **Preferences > Color Scheme > Color Scheme - Default** ครับ ส่วนมากผมเห็นคนใช้ **Monokai** กัน
 
-![default color scheme ของ Sublime Text](http://farm9.staticflickr.com/8522/8506158008_3bb2cf2191_o.png)
+![default color scheme ของ Sublime Text](https://farm9.staticflickr.com/8522/8506158008_3bb2cf2191_o.png)
 
 แต่เราก็ยังสามารถติดตั้งเพิ่มได้ครับ ใช้ของ TextMate (`.tmTheme`) ด้วยกันได้ไม่มีปัญหา ระยะหลังมานี้ Sublime Text ได้รับความนิยมเพิ่มขึ้น คนเลยทำ color scheme ออกมาแจกมากขึ้นตามไปด้วยครับ
 
@@ -25,6 +25,6 @@ url: /2013/01/25/sublime-text-color-schemes/
 
 กด Ctrl + Shift + P เลือก Install Package แล้วเซิชหาคำว่า color scheme ก็ได้ครับ เพียบเลย ผมแนะนำของ [Dayle Rees](https://github.com/daylerees/colour-schemes) ครับ มีให้เลือกแยะแยะหลากสไตล์และอัพเดทบ่อยด้วย ลองไปดูตัวอย่างที่ [Github repo](https://github.com/daylerees/colour-schemes) ได้ครับ
 
-![install-scheme](http://farm9.staticflickr.com/8508/8506157984_1e112195bf_o.png)
+![install-scheme](https://farm9.staticflickr.com/8508/8506157984_1e112195bf_o.png)
 
 เปลี่ยน color scheme ก็ช่วยเปลี่ยนบรรยากาศในการทำงานได้เหมือนกันครับ

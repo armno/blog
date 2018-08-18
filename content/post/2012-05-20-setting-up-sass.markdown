@@ -91,7 +91,7 @@ body {
 
 มันจะขึ้นเป็น process ค้างไว้นะครับ ทุกครั้งที่เรากดเซฟไฟล์ มันก็จะอัพเดทไฟล์ CSS ให้เรา ไม่ต้องมานั่งรัน Sass ทุกครั้งไป
 
-![sass-watch](http://farm9.staticflickr.com/8372/8506286221_44ca74391b_z.jpg)
+![sass-watch](https://farm9.staticflickr.com/8372/8506286221_44ca74391b_z.jpg)
 
 ### บีบอัด CSS หลัง compile
 
@@ -99,7 +99,7 @@ body {
 
 <pre><code class="language-bash">$ sass --watch style.scss:style.css --style compressed</code></pre>
 
-![compressed](http://farm9.staticflickr.com/8226/8506290933_9ed30fc258_o.png)
+![compressed](https://farm9.staticflickr.com/8226/8506290933_9ed30fc258_o.png)
 
 
 ### Sublime Text กับ Sass
@@ -109,12 +109,12 @@ body {
 
 ให้ Sublime Text มองเป็นไฟล์ CSS โดยไปที่เมนู **View > Syntax > CSS**
 
-![select-css-syntax-for-sass](http://farm9.staticflickr.com/8369/8507404164_c524851f17_o.png)
+![select-css-syntax-for-sass](https://farm9.staticflickr.com/8369/8507404164_c524851f17_o.png)
 
 หรือ ลง plugin ชื่อว่า Sass ผ่าน Package Manger ..<del> ผมลองดูแล้วมันยังเอ๋อๆ กับ CSS comment แล้วก็ attribute selector ด้วย แนะนำให้ใช้แบบแรกดีกว่าครับ</del>
 
 (Update: ผมมึนเองครับที่ลง plugin Sass แล้วไปเปิดไฟล์ .scss จริงๆ แล้วมี plugin อีกตัวนึงชื่อ [SCSS](https://github.com/kuroir/SCSS.tmbundle/tree/SublimeText2) อ่านไฟล์ .scss ได้ถูกต้องทุกประการครับ)
 
-![sublime-text-sass-plugin](http://farm9.staticflickr.com/8377/8507408254_23d0a26632_o.png)
+![sublime-text-sass-plugin](https://farm9.staticflickr.com/8377/8507408254_23d0a26632_o.png)
 
 นอกจากนี้แล้ว Sass ยังมีอะไรให้เล่นอีกเยอะมากครับ ใน Reference หน้าเดียวเอาอยู่เลย ส่วนการเริ่มใช้งาน Sass กับโปรเจ็คที่กำลังทำอยู่ ก็ไม่เป็นปัญหาครับ เพราะเราสามารถเขียน CSS พร้อมกับเรียนรู้และปรับใช้ Sass syntax ไปทีละนิดๆ ได้ ถือเป็นตัวช่วยของ web developer ที่มีประโยชน์และใช้งานสนุกอีกตัวนึงครับ

@@ -44,7 +44,7 @@ $ sass --watch style.scss:style.css --style=compressed
 
 ปัญหาที่พบก็คือตอน inspect element โดยใช้ devtools นั้น inspector บอกเลขบรรทัดไม่ตรงกับความจริง (ถ้า compress มาก็เป็นบรรทัดที่ 1 หมดเลย) ทำให้ตามไปแก้ยากหน่อยครับ (โดยเฉพาะเมื่อเราไม่ได้เป็นคนวางโครงสร้างไฟล์ `.scss` เอง)
 
-![รูป inspect element](http://farm9.staticflickr.com/8541/8672545930_b8283fd22a_o.png)
+![รูป inspect element](https://farm9.staticflickr.com/8541/8672545930_b8283fd22a_o.png)
 
 ### ใช้ Source Maps เข้ามาช่วย
 
@@ -60,9 +60,9 @@ $ sass --watch style.scss:style.css --style=compressed
 4. หน้า General เช็คถูกตรง **Enable source maps**
 5. แล้วไปที่หน้า Experiments เช็คถูกตรง **Support for Sass** _(แท็บ Experiments จะไม่ออกมาถ้าไม่ enable devtools experiment ก่อน)_
 
-![เมื่อเปิด chrome:://flags](http://farm9.staticflickr.com/8258/8674535858_c9c6f3207d_o.png)
+![เมื่อเปิด chrome:://flags](https://farm9.staticflickr.com/8258/8674535858_c9c6f3207d_o.png)
 
-![รูป devtools experiment](http://farm9.staticflickr.com/8385/8674535862_00c8abd8dc_o.png)
+![รูป devtools experiment](https://farm9.staticflickr.com/8385/8674535862_00c8abd8dc_o.png)
 
 ### Compile Sass เพื่อใช้งาน source maps
 
@@ -74,11 +74,11 @@ $ sass --watch style.scss:style.css --debug-info
 
 ทีนี้เมื่อเราใช้ inspector จิ้ม element ดู path ของไฟล์ css ก็จะเป็นของ scss แทน
 
-![รูป inspect element ที่เปิด source maps](http://farm9.staticflickr.com/8396/8673467159_8ae882f17a_o.png)
+![รูป inspect element ที่เปิด source maps](https://farm9.staticflickr.com/8396/8673467159_8ae882f17a_o.png)
 
 ซึ่งถ้าเราสังเกตในไฟล์ `style.css` ที่ออกมา จะมี path แปลกๆ (เป็น file system) ออกมาเต็มไปหมด ส่วน panel ซ้ายมือเราสามารถเลือกดู source ในไฟล์ scss ได้เลย
 
-![รูป file system path ใน scss](http://farm9.staticflickr.com/8521/8673467195_04d5a595b4_z.jpg)
+![รูป file system path ใน scss](https://farm9.staticflickr.com/8521/8673467195_04d5a595b4_z.jpg)
 
 การเปิด source maps ตอนเขียน sass ก็จะทำให้ช่วยแก้งานจาก browser ได้ง่ายขึ้นครับ ก่อน push ขึ้น production server อย่าลืม compile scss อีกครั้งแบบไม่ต้องเปิด `--debug-info` นะครับ
 
