@@ -265,6 +265,10 @@ _(Netlify ให้กำหนด redirect ได้ค่อนข้างล
 
 ## สรุป
 
+<div class="media">
+  <img src="/img/posts/migrate-to-netlify/quick-perf-audit.png" alt="ผล audits">
+</div>
+
 ประทับใจกับ Netlify มากตั้งแต่ใช้งานครั้งแรก นอกจากได้ฟีเจอร์ทาง CD/automation มาเพียบแล้ว
 UI ของ Netlify ก็ทำมาสวยงามและใช้งานง่ายมาก เป็น product ที่ทำมาดี ขอเชียร์ครับ
 ใช้ได้ดีกับทั้ง website scale เล็กๆ ไปถึงใหญ่ๆ ได้เลย
