@@ -1,6 +1,8 @@
 @font-face {
   font-family: Boon;
-  src: url("../fonts/woff2-otf/Boon-Light.woff2") format("woff2"), url("../fonts/woff-otf/Boon-Light.woff") format("woff"), url("../fonts/otf/Boon-Light.otf") format("truetype");
+  src: url("../fonts/woff2-otf/Boon-Light.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-Light.woff") format("woff"),
+    url("../fonts/otf/Boon-Light.otf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -12,7 +14,9 @@
 }
 @font-face {
   font-family: Boon;
-  src: url("../fonts/woff2-otf/Boon-LightItalic.woff2") format("woff2"), url("../fonts/woff-otf/Boon-LightItalic.woff") format("woff"), url("../fonts/otf/Boon-LightItalic.otf") format("truetype");
+  src: url("../fonts/woff2-otf/Boon-LightItalic.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-LightItalic.woff") format("woff"),
+    url("../fonts/otf/Boon-LightItalic.otf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
@@ -24,7 +28,9 @@
 }
 @font-face {
   font-family: Boon;
-  src: url("../fonts/woff2-otf/Boon-Regular.woff2") format("woff2"), url("../fonts/woff-otf/Boon-Regular.woff") format("woff"), url("../fonts/otf/Boon-Regular.otf") format("truetype");
+  src: url("../fonts/woff2-otf/Boon-Regular.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-Regular.woff") format("woff"),
+    url("../fonts/otf/Boon-Regular.otf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -36,7 +42,9 @@
 }
 @font-face {
   font-family: Boon;
-  src: url("../fonts/woff2-otf/Boon-Italic.woff2") format("woff2"), url("../fonts/woff-otf/Boon-Italic.woff") format("woff"), url("../fonts/otf/Boon-Italic.otf") format("truetype");
+  src: url("../fonts/woff2-otf/Boon-Italic.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-Italic.woff") format("woff"),
+    url("../fonts/otf/Boon-Italic.otf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
@@ -48,7 +56,9 @@
 }
 @font-face {
   font-family: Boon;
-  src: url("../fonts/woff2-otf/Boon-Medium.woff2") format("woff2"), url("../fonts/woff-otf/Boon-Medium.woff") format("woff"), url("../fonts/otf/Boon-Medium.otf") format("truetype");
+  src: url("../fonts/woff2-otf/Boon-Medium.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-Medium.woff") format("woff"),
+    url("../fonts/otf/Boon-Medium.otf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -60,7 +70,9 @@
 }
 @font-face {
   font-family: Boon;
-  src: url("../fonts/woff2-otf/Boon-MediumItalic.woff2") format("woff2"), url("../fonts/woff-otf/Boon-MediumItalic.woff") format("woff"), url("../fonts/otf/Boon-MediumItalic.otf") format("truetype");
+  src: url("../fonts/woff2-otf/Boon-MediumItalic.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-MediumItalic.woff") format("woff"),
+    url("../fonts/otf/Boon-MediumItalic.otf") format("truetype");
   font-weight: 500;
   font-style: italic;
 }
@@ -72,7 +84,9 @@
 }
 @font-face {
   font-family: Boon;
-  src: url("../fonts/woff2-otf/Boon-SemiBold.woff2") format("woff2"), url("../fonts/woff-otf/Boon-SemiBold.woff") format("woff"), url("../fonts/otf/Boon-SemiBold.otf") format("truetype");
+  src: url("../fonts/woff2-otf/Boon-SemiBold.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-SemiBold.woff") format("woff"),
+    url("../fonts/otf/Boon-SemiBold.otf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -84,7 +98,9 @@
 }
 @font-face {
   font-family: Boon;
-  src: url("../fonts/woff2-otf/Boon-SemiBoldItalic.woff2") format("woff2"), url("../fonts/woff-otf/Boon-SemiBoldItalic.woff") format("woff"), url("../fonts/otf/Boon-SemiBoldItalic.otf") format("truetype");
+  src: url("../fonts/woff2-otf/Boon-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/otf/Boon-SemiBoldItalic.otf") format("truetype");
   font-weight: 600;
   font-style: italic;
 }
@@ -96,7 +112,9 @@
 }
 @font-face {
   font-family: Boon;
-  src: url("../fonts/woff2-otf/Boon-Bold.woff2") format("woff2"), url("../fonts/woff-otf/Boon-Bold.woff") format("woff"), url("../fonts/otf/Boon-Bold.otf") format("truetype");
+  src: url("../fonts/woff2-otf/Boon-Bold.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-Bold.woff") format("woff"),
+    url("../fonts/otf/Boon-Bold.otf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
@@ -108,7 +126,9 @@
 }
 @font-face {
   font-family: Boon;
-  src: url("../fonts/woff2-otf/Boon-BoldItalic.woff2") format("woff2"), url("../fonts/woff-otf/Boon-BoldItalic.woff") format("woff"), url("../fonts/otf/Boon-BoldItalic.otf") format("truetype");
+  src: url("../fonts/woff2-otf/Boon-BoldItalic.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-BoldItalic.woff") format("woff"),
+    url("../fonts/otf/Boon-BoldItalic.otf") format("truetype");
   font-weight: 700;
   font-style: italic;
 }
@@ -185,9 +205,14 @@ dfn {
   font-style: italic;
 }
 
+del {
+  opacity: 0.5;
+  font-style: italic;
+}
+
 h1 {
   font-size: 2em;
-  margin: .67em 0;
+  margin: 0.67em 0;
 }
 
 mark {
@@ -310,7 +335,7 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: .35em .625em .75em;
+  padding: 0.35em 0.625em 0.75em;
 }
 
 legend {
@@ -616,7 +641,9 @@ html {
 }
 
 body {
-  font-family: Boon, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Boon, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #485665;
@@ -703,16 +730,16 @@ pre {
 
 code {
   background-color: #f4f4f4;
-  padding: .15em .4em;
+  padding: 0.15em 0.4em;
   border-radius: 4px;
-  font-size: .85em;
+  font-size: 0.85em;
 }
 
 pre > code {
   background-color: transparent;
   padding: 0;
   border-radius: 0;
-  font-size: .85em;
+  font-size: 0.85em;
 }
 
 figure {
@@ -798,7 +825,7 @@ figure {
 .nav-post {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .has-cover-photo .nav-post a {
@@ -822,7 +849,7 @@ figure {
 }
 
 .publish-date {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: rgba(72, 86, 101, 0.8);
 }
 
@@ -850,7 +877,7 @@ figure {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: .63rem;
+  font-size: 0.63rem;
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -862,8 +889,8 @@ figure {
 }
 
 .tag-list-item {
-  padding: .15em .4em;
-  margin-bottom: .15em;
+  padding: 0.15em 0.4em;
+  margin-bottom: 0.15em;
   background-color: #485665;
   margin-right: 5px;
   text-transform: uppercase;
@@ -906,8 +933,8 @@ figure {
   height: 40px;
   border-radius: 40px;
   overflow: hidden;
-  margin-left: .75em;
-  font-size: .8rem;
+  margin-left: 0.75em;
+  font-size: 0.8rem;
   position: relative;
   top: 3px;
 }
@@ -939,8 +966,8 @@ figure {
 
 .home-menu-item a {
   margin-left: 1em;
-  font-size: .8rem;
-  padding: .75em;
+  font-size: 0.8rem;
+  padding: 0.75em;
 }
 
 .home-header .home-menu-item a {
@@ -986,7 +1013,7 @@ figure {
 .home-social-icons a {
   color: #fff;
   display: inline-block;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
 .self-intro {
@@ -1014,13 +1041,13 @@ figure {
 .post-teaser .publish-time {
   text-transform: initial;
   font-weight: normal;
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: #723b56;
   margin-bottom: 0;
 }
 
 .post-teaser .tags-list-inline {
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .post-teaser-thumbnail {
@@ -1062,8 +1089,8 @@ figure {
 
 .btn-share {
   display: inline-block;
-  margin-left: .25em;
-  margin-right: .25em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
 }
 
 .video-wrapper {
@@ -1112,7 +1139,7 @@ figure {
 
 .edit-link {
   font-style: italic;
-  font-size: .9em;
+  font-size: 0.9em;
   display: inline-block;
   margin-top: 30px;
 }
@@ -1231,38 +1258,42 @@ figure {
 
 .home-logo {
   opacity: 0;
-  -webkit-animation: fade-in-from-left ease .4s forwards;
-  animation: fade-in-from-left ease .4s forwards;
+  -webkit-animation: fade-in-from-left ease 0.4s forwards;
+  animation: fade-in-from-left ease 0.4s forwards;
 }
 
 .home-menu {
   opacity: 0;
-  -webkit-animation: fade-in-from-right ease .4s .4s forwards;
-  animation: fade-in-from-right ease .4s .4s forwards;
+  -webkit-animation: fade-in-from-right ease 0.4s 0.4s forwards;
+  animation: fade-in-from-right ease 0.4s 0.4s forwards;
 }
 
 .home-intro-text,
 .post-header {
   opacity: 0;
-  -webkit-animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) .6s forwards;
-  animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) .6s forwards;
+  -webkit-animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    0.6s forwards;
+  animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.6s
+    forwards;
 }
 
 .home-intro-text {
-  -webkit-animation-delay: .8s;
-  animation-delay: .8s;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
 }
 
 .post-header {
-  -webkit-animation-delay: .6s;
-  animation-delay: .6s;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .link-icon-github,
 .link-icon-twitter {
   opacity: 0;
-  -webkit-animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) .6s forwards;
-  animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) .6s forwards;
+  -webkit-animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    0.6s forwards;
+  animation: fade-in-from-bottom cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.6s
+    forwards;
 }
 
 .link-icon-github {
