@@ -907,7 +907,7 @@ figure {
 
 .home-header {
   background-color: #1abc9c;
-  background-image: url("/img/cover-js-laptop-mobile.jpg");
+  background-image: url("/img/cover-bird.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -916,12 +916,12 @@ figure {
 }
 @media only screen and (min-width: 600px) and (max-width: 1100px) {
   .home-header {
-    background-image: url("/img/cover-js-laptop-tablet.jpg");
+    background-image: url("/img/cover-bird.jpg");
   }
 }
 @media only screen and (min-width: 1101px) {
   .home-header {
-    background-image: url("/img/cover-js-laptop-desktop.jpg");
+    background-image: url("/img/cover-bird.jpg");
     padding-bottom: 5rem;
     background-position: center 66%;
   }
