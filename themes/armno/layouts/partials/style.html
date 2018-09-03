@@ -1,1 +1,9 @@
-<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/style.css">
+{{ if .Site.IsServer }}
+{{ $cssOpts := (dict "targetPath" "css/style.css" "enableSourceMap" true ) }}
+{{ $css := resources.Get "sass/style.scss" | resources.ToCSS $cssOpts }}
+<link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" media="screen">
+{{ else }}
+{{ $cssOpts := (dict "targetPath" "css/style.css") }}
+{{ $css := resources.Get "sass/style.scss" | resources.ToCSS $cssOpts }}
+<link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" media="screen">
+{{ end }}

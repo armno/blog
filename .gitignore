@@ -10,3 +10,5 @@ npm-debug.log
 
 public/
 output/
+
+resources/_gen
