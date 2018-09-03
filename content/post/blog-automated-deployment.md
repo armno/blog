@@ -263,7 +263,9 @@ $ sudo service nginx restart
 เผื่อจะได้ใช้ประโยชน์ในอนาคต _(ปกติถ้าอยากลองเล่นอะไร ผมก็จะใช้บล็อกของตัวเองนี่แหละเป็นหนูทดลอง)_
 
 ในตอนหน้าจะทำให้ชีวิตง่ายขึ้นด้วยการใช้ [Netlify](https://www.netlify.com/) เข้ามาแทน CI/CD ข้างบน
-จะเป็นยังไงก็โปรดติดตามตอนต่อไป
+จะเป็นยังไงก็โปรดติดตาม~~ตอนต่อไป~~ข้างล่างเลย
+
+Update: ตอน 2 มาแล้ว [Update Blog อัตโนมัติด้วย Netlify](https://armno.in.th/2018/08/18/move-to-netlify/)
 
 <p class="media text-center">
   <img src="/img/posts/blog-push-to-deploy/pick-none.png" alt="issue closed">
