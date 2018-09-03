@@ -1,3 +1,5 @@
+{{/*
+  until: https://github.com/netlify/build-image/issues/182
 {{ if .Site.IsServer }}
 {{ $cssOpts := (dict "targetPath" "css/style.css" "enableSourceMap" true ) }}
 {{ $css := resources.Get "sass/style.scss" | toCSS $cssOpts }}
@@ -6,4 +8,7 @@
 {{ $cssOpts := (dict "targetPath" "css/style.css") }}
 {{ $css := resources.Get "sass/style.scss" | toCSS $cssOpts }}
 <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" media="screen">
-{{ end }}
+{{ end }} -->
+*/}}
+
+<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen">
