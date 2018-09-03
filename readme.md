@@ -11,5 +11,5 @@ $ hugo serve -D
 ## Creating a new post
 
 ```sh
-$ hugo new post/<filename.md>
+$ hugo new post/<post-title>/index.md
 ```
