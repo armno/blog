@@ -1,19 +1,15 @@
 ---
-title: "แนะนำหนังสือ White Hat UX"
-date: 2018-04-26T11:48:06+07:00
-description: ที่ออฟฟิศมีหนังสือ White Hat UX ที่สั่งซื้อมาจาก Smashing Magazine ผมหยิบมาอ่านแล้วรู้สึกว่าน่าสนใจดี เลยอยากจะแนะนำครับ
-tags:
-  - Book
-  - User Experience
-  - Review
-thumbnail: https://armno.in.th/img/posts/whitehat-ux/book-cover.jpg
-cover-image: /img/posts/whitehat-ux/cover.jpg
 layout: wide
+title: แนะนำหนังสือ White Hat UX
+date: 2018-04-26T04:48:06.000Z
+thumbnail: 'https://armno.in.th/img/posts/whitehat-ux/book-cover.jpg'
+rating: '5'
 ---
-
 ที่ออฟฟิศมีหนังสือ [White Hat UX](http://whitehatux.com/) ที่สั่งซื้อมาจาก [Smashing Magazine](https://www.smashingmagazine.com/printed-books/white-hat-ux/)
 ผมหยิบมาอ่านแล้วรู้สึกว่าน่าสนใจดี เลยอยากจะแนะนำครับ ก่อนหน้านี้ผมเคยอ่านหนังสือเกี่ยวกับ UX อยู่เพียงเล่มเดียวคือ **Don't Make Me Think**
 (เคยเขียนแนะนำไว้[เมื่อก่อนนู้นน](https://armno.in.th/2010/03/24/dont-make-me-think-web-usability-book/))
+
+![sky scaper](/images/uploads/weather-in-dubai-fog-flight-delays-746711.jpg)
 
 <p class="semi-full">
   <img src="/img/posts/whitehat-ux/book-cover.jpg" alt="หน้าปก White Hat UX">
