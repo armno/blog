@@ -1,12 +1,15 @@
 ---
-title: "hugo-archetypes"
+title: "Hugo: สร้าง template ของ front matter ด้วย Archetypes"
 date: 2018-09-03T17:03:27+07:00
 url: /2018/09/03/hugo-archetypes
 layout: wide
-cover-image: images/cover.jpg
-thumbnail:
-description:
+cover-image: images/cover.png
+thumbnail: images/thumbnail.png
+description: ใช้ประโยชน์จาก archetype ใน hugo สำหรับสร้าง template ของ front matter เวลาสร้างโพสต์ใหม่
 tags:
+  - hugo
+  - archetypes
+  - blog
 ---
 
 ## Archetype คืออะไร
@@ -28,6 +31,8 @@ tags:
 
 ชื่งความหมายในโลก static site generator คือทำให้เราใช้ view/template/layout ที่แตกต่างกันไป
 ตามแต่ละ content type ได้นั่นเอง
+
+*(ในโลก WordPress อาจใกล้เคียงกับ [post type](https://codex.wordpress.org/Post_Types))*
 
 นอกจากการแสดงผลที่ไม่เหมือนกัน แต่ละ content type อาจต้องเก็บข้อมูลแตกต่างกันด้วย
 
@@ -92,4 +97,51 @@ tags:
 ```
 
 แทนที่จะต้องมาเติมแบบ manual ทุกครั้ง เราสามารถใช้ archetype ใน Hugo มาช่วยทุ่นแรงได้
-โดยให้ทุกไฟล์ที่ถูกสร้างขึ้นมาใหม่ ให้ Hugot เติมค่าใน front matter พวกนี้ให้ไว้ก่อน
+โดยให้ทุกไฟล์ที่ถูกสร้างขึ้นมาใหม่ ให้ Hugo เติมค่าใน front matter พวกนี้ให้ไว้ก่อน
+
+## สร้าง archetype สำหรับ post
+
+การสร้าง archetype ทำได้โดยการสร้างไฟล์ใหม่ในโฟลเดอร์ `archetype` อย่างเช่นผมจะสร้าง archetype สำหรับ content type ที่เป็น post
+ก็ต้องสร้างไฟล์ `archetypes/post.md`
+
+```sh
+$ touch archetypes/post.md
+```
+
+ในไฟล์ `post.md` สร้าง template สำหรับ front matter ไว้แบบนี้
+
+```yaml
+---
+title: "{{ .Name }}"
+date: {{ .Date }}
+url: {{ dateFormat "/2006/01/02/" .Date }}{{ .Name }}
+layout: wide
+cover-image: images/cover.jpg
+thumbnail:
+description:
+tags:
+---
+```
+
+- `title` ให้เป็นชื่อตาม `<post-name>` ที่เราตั้งตอนรัน `$ hugo new post/<post-name>/index.md`
+- `date` ให้เป็นวันเวลาตอนที่สร้างไฟล์
+- `url` ใช้ `dateFormat` function ของ hugo เพื่อสร้าง URL ตาม pattern ที่กำหนดไว้ คือ `/year/month/day/post-name`
+- `layout` ให้เป็น `wide` ใช้กับ theme ปัจจุบัน
+- `cover-image` ใช้กับส่วน header ของ post ปกติจะตั้งชื่อไฟล์ให้เหมือนกันคือ `cover.jpg`
+- `thumbnail`, `description`, กับ `tags` ให้เป็นค่าว่างๆ ไว้
+
+ทดสอบโดยรัน `$ hugo new post/test-new-post/index.md` ในไฟล์ที่ถูกสร้างมาก็จะมี front matter เตรียมไว้ให้ตามที่ต้องการ
+
+```yaml
+---
+title: "test-new-post"
+date: 2018-09-04T08:39:14+07:00
+url: /2018/09/04/test-new-post
+layout: wide
+cover-image: images/cover.jpg
+thumbnail:
+description:
+tags:
+---
+```
+

@@ -30,8 +30,8 @@
   {{ with .Page.Params.description }}
   <meta property="og:description" content="{{ . }}">
   {{ end }}
-  {{ with .Page.Params.thumbnail }}
-  <meta property="og:image" content="{{ . }}">
+  {{ if .Page.Params.thumbnail }}
+  <meta property="og:image" content="{{ .Permalink }}{{ .Page.Params.thumbnail }}">
   {{ end }}
 
   <meta property="og:url" content="{{ .Permalink }}">
