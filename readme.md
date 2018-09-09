@@ -13,3 +13,9 @@ $ hugo serve -D
 ```sh
 $ hugo new post/<post-title>/index.md
 ```
+
+## `picture` shortcode
+
+```
+{{< picture style="semi-full" src="images/platoo.jpg" alt="test" >}}
+```
