@@ -119,4 +119,4 @@ _(ในโพสต์[รีวิวจักรยาน Storck Visioner](ht
 
 ทดสอบเพิ่มรูปโดยใช้ `pitcure` shortcode
 
-{{< picture style="semi-full" src="images/platoo.jpg" alt="ทดสอบ picture shortcode ด้วยรูปปลาทู" >}}
+{{< picture wrapper-class="semi-full" src="images/platoo.jpg" alt="ทดสอบ picture shortcode ด้วยรูปปลาทู" >}}

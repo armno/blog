@@ -17,5 +17,15 @@ $ hugo new post/<post-title>/index.md
 ## `picture` shortcode
 
 ```
-{{< picture style="semi-full" src="images/platoo.jpg" alt="test" >}}
+{{< picture wrapper-class="semi-full lazy-wrapper" img-class="lazy" src="images/platoo.jpg" alt="test" >}}
 ```
+
+outputs:
+
+```html
+<p class="media semi-full lazy-wrapper">
+  <img class="lazy" src="images/platoo.jpg" alt="test">
+</p>
+```
+
+**note:** `<img>` with class `.lazy` will be lazy-loaded.
