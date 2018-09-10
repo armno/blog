@@ -843,4 +843,32 @@ figure {
   animation-delay: 1.5s; }
 
 .media {
-  margin-bottom: 48px; }
+  margin-bottom: 48px;
+  line-height: 0;
+}
+
+/* .lazy-wrapper {
+  width: 100%;
+  height: 0;
+  padding-bottom: 44.45%;
+  position: relative;
+}
+
+.lazy-wrapper.lazy-wrapper--3-2 {
+  padding-bottom: 66.67%;
+}
+
+.lazy-wrapper.lazy-wrapper--16-9 {
+  padding-bottom: 62.5%;
+}
+
+.lazy-wrapper.lazy-wrapper--16-10 {
+  padding-bottom: 56.25%;
+}
+
+.lazy-wrapper .lazy {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
