@@ -19,9 +19,7 @@ layout: wide
 
 จักรยานที่ใช้ก่อนหน้านี้คือ Trek Émonda ALR 5 รุ่นปี 2016 เป็นจักรยานอลูมิเนียมที่ขี่ดีครับ น้ำหนักเฟรมค่อนข้างเบา ทำให้ปั่นขึ้นเขาได้สนุกดี
 
-<p class="media semi-full lazy-wrapper">
-  <img class="lazy" data-src="images/trek-emonda.jpg" alt="Trek Émonda ALR ที่เคยใช้ก่อนหน้านี้">
-</p>
+{{< picture-lazy wrapper-class="semi-full" src="images/trek-emonda.jpg" alt="Trek Émonda ALR ที่เคยใช้ก่อนหน้านี้">}}
 
 พอคิดว่าหาแนวทางของตัวเองเจอ และด้วยความที่ชอบปั่นขึ้นดอย ผมจึงตั้งเป้ากับตัวเองไว้ว่า ถ้าปั่นขึ้นดอยเก็บ
 [elevation gain](https://www.strava.com/athletes/3637623) (ความชันสะสม)
@@ -43,9 +41,7 @@ _([บริษัทที่ผมทำงานอยู่](https://www.buz
 ส่วนเรื่องประสิทธิภาพนั้น สำนักรีวิวหลายๆ เจ้าก็ให้คะแนนออกมาค่อนข้างดี ก็เลยไม่ค่อยกังวลเท่าไหร่
 สุดท้ายใช้อารมณ์ช่วยตัดสินใจด้วย เลยได้มาปั่นแบบมึนๆ
 
-<p class="media full lazy-wrapper lazy-wrapper--16-10">
-  <img class="lazy" data-src="images/full-bike.jpg" alt="Storck Visioner Comp G1">
-</p>
+{{< picture-lazy wrapper-class="full" src="images/full-bike.jpg" alt="Storck Visioner Comp G1">}}
 
 Storck Visioner เป็นจักรยานเสือหมอบในกลุ่ม All Round ในระดับเริ่มต้นของแบรนด์ Storck
 รุ่นปัจจุบันมีอยู่ 2 สีคือสีดำ กับสีขาวตัดกับชมพู-ม่วง ในชื่อ [Storck Visioner Prana](http://www.storckworld.com/bike-finder/bike/visioner-prana-g1/) ซึ่งน่าจะเน้นตลาดนักปั่นหญิงมากกว่าครับ

@@ -1,0 +1,4 @@
+<p class="media lazy-wrapper {{ with .Get "wrapper-class"}}{{.}}{{ end }}">
+  <img class="lazy" {{ with .Get "src"}} data-src="{{.}}" {{ end }}
+    {{ with .Get "alt"}} alt="{{.}}" {{ end }}>
+</p>
