@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js"
-  lang="{{ .Site.LanguageCode | default "en-us" }}">
+<html class="no-js" lang="{{ .Site.LanguageCode | default "en-us" }}">
   <!--
   hi there, welcome to my blog. it is a wonderful day, isn't it?
   found a bug? or just hacking around? feel free to say hi at https://github.com/armno/blog/issues
@@ -61,6 +60,7 @@
 
   <!-- google fonts -->
   <script>
+    document.querySelector('html').classList.remove('no-js');
     WebFontConfig = {
       google: {
         families: [
