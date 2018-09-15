@@ -164,7 +164,7 @@ _(Visioner 6.11cm, Émonda ALR 5.69cm)_
 ถึงแม้ไม่ทะลุถึงข้างใน ตั้งแต่ใช้มายางเคยรั่วไปแค่ครั้งเดียว แต่ก็ใช่ว่าจะวางใจได้
 ต้องคอยเช็คบ่อยๆ ระวังไม่ให้มีเศษแก้วหรือเศษหินฝังอยู่ในตัวยางครับ
 
-{{< picture-lazy wrapper-class="semi-full" src="images/pirelli-velo-4s.jpg" alt="ยาง Pirelli Velo 4S">}}
+{{< picture-lazy src="images/pirelli-velo-4s.jpg" alt="ยาง Pirelli Velo 4S">}}
 
 ### เบรค: EE Single Mount
 
