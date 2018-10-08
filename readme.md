@@ -37,7 +37,7 @@ outputs:
 
 ## `picture-lazy` shortcode for lazy-loaded pictures
 
-paramters:
+parameters:
 
 - `wrapper-class`
 - `src`
