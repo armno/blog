@@ -107,6 +107,8 @@ asset ที่รองรับคือ รูปภาพ วิดีโอ
 
 {{< picture-lazy wrapper-class="semi-full" src="images/audit-results-after.png" alt="หลังใช้ LazyLoad คะแนน performance อยู่ที่ 90" >}}
 
+นอกจากนั้นคือ ช่วยประหยัด bandwidth สำหรับ user ที่ใช้ 3g/4g ไม่ต้องเสียเวลาและค่าเน็ตมือถือ รอโหลดรูปทั้งหมดก่อนที่จะเริ่มอ่านบทความได้
+
 สำหรับผมถือว่าเป็นการ _ลงทุนน้อย แต่ได้ผลตอบแทนค่อนข้างดี_
 
 แต่อย่างไรก็ตาม ถ้าจะใช้ในเว็บ production จริงจัง ก็ยังมีเรื่องอื่นให้ต้องคำนึงถึงอยู่ด้วย ตามไปดูได้ในส่วน [Tips & Tricks](https://github.com/verlok/lazyload#-tips--tricks) ของ LazyLoad ได้ครับ
