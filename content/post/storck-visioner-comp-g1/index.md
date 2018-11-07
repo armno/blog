@@ -7,7 +7,7 @@ tags:
   - Bicycle
   - Cycling
   - Storck
-thumbnail: https://armno.in.th/img/posts/storck-visioner-comp-g1/front.jpg
+thumbnail: images/front.jpg
 cover-image: images/cover.jpg
 layout: wide
 ---
