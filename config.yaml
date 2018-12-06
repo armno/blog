@@ -10,3 +10,6 @@ pygmentsStyle: 'native'
 pygmentsCodefences: true
 ignoreFiles:
   - '_drafts'
+blackfriday:
+  extensionsmask:
+    - noIntraEmphasis
