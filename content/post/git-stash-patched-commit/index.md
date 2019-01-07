@@ -7,7 +7,7 @@ published: true
 tags:
   - git
   - terminal
-thumbnail: https://farm4.staticflickr.com/3946/15356691278_05f7357447_z.jpg
+thumbnail: images/15356691278_05f7357447_z.jpg
 title: git stash & git patched commit
 url: /2014/10/14/git-stash-patched-commit/
 ---
@@ -15,8 +15,9 @@ url: /2014/10/14/git-stash-patched-commit/
 (สถานการณ์จำลอง)
 
 - A: (coding อย่างขะมักเขม้น)
-- B: "แก้ bug ตรงนี้ให้หน่อย แป๊ปเดียว" / "เพิ่ม feature นี้หน่อย ลูกค้าอยากได้"
-- B: **เอาตอนนี้เลย**
+- B1: "แก้ bug ตรงนี้ให้หน่อย แป๊ปเดียว"
+- B2: "เพิ่ม feature นี้หน่อย ลูกค้าอยากได้"
+- (B1 และ B2 ประสานเสียงพร้อมกัน): **เอาตอนนี้เลย**
 - A: ...
 
 (สถานการณ์จำลอง 2)
@@ -33,7 +34,7 @@ url: /2014/10/14/git-stash-patched-commit/
 
 ตัวอย่างเช่น ใน repo ของเรามี dirty file จาก `git status` (ข้างขวาเป็น output ของ `git diff`)
 
-![a dirty repo](https://farm4.staticflickr.com/3949/15347262219_9c6e4a783c_c.jpg)
+![a dirty repo](images/15347262219_9c6e4a783c_c.jpg)
 
 เราอยากซ่อน changes ของทั้ง 2 file นี้ไว้ ก็ใช้คำสั่ง `git stash`
 
@@ -43,21 +44,21 @@ $ git stash
 
 repo ของเราก็จะกลับมา clean เหมือนเดิม โดยคำสั่ง stash จะบอก HEAD commit hash ว่า repo ของเราถูก revert ไปที่ commit ใด (ปกติก็เป็น commit ล่าสุดก่อนที่มันจะ dirty แหละ)
 
-![git stashed](https://farm6.staticflickr.com/5604/15353372667_1f43fdb4d7_z.jpg)
+![git stashed](images/15353372667_1f43fdb4d7_z.jpg)
 
 ถ้าเราแก้ code ไปแล้ว อยาก stash อีก ก็ทำได้ โดยที่ stash ครั้งต่อๆ ไปจะถูกเก็บใน stack เรียกดูได้จาก command `git stash list`
 
-![git 2nd stash](https://farm4.staticflickr.com/3935/15539461345_34e1283e54_o.png)
+![git 2nd stash](images/15539461345_34e1283e54_o.png)
 
 {{< highlight bash >}}
 $ git stash list
 {{< / highlight >}}
 
-![git stash list](https://farm4.staticflickr.com/3931/15353821700_3073afaee2.jpg)
+![git stash list](images/15353821700_3073afaee2.jpg)
 
 เอา code ที่ stash ไว้ ออกมาจาก stack เพื่อทำงานต่อ ใช้ command `git stash pop`
 
-![git stash pop](https://farm4.staticflickr.com/3933/15353530378_5c268ab9d8_o.png)
+![git stash pop](images/15353530378_5c268ab9d8_o.png)
 
 และเนื่องจากมันเป็น stack เวลา pop มันเลยเอา stash ล่าสุดออกมาก่อน ซึ่งพอ pop ออกมาแล้ว stash นั้นก็จะหายไปจาก list ครับ (ถ้าอยาก pop แบบไม่ให้มันหาย ใช้ command `git stash apply` แทน)
 
@@ -65,15 +66,15 @@ $ git stash list
 
 ปกติแล้ว `git stash` จะไม่เก็บไฟล์ที่ untracked ไปด้วย (ไฟล์ที่ยังไม่ได้ add ใน git)
 
-![git stash ไม่เก็บไฟล์ untracked](https://farm6.staticflickr.com/5615/15353029939_f6996515ee_z.jpg)
+![git stash ไม่เก็บไฟล์ untracked](images/15353029939_f6996515ee_z.jpg)
 
 ต้องเพิ่ม parameter `-u` เข้าไปด้วย ให้มัน stash ไฟล์ที่ untracked ไปด้วยครับ
 
-![git stash with -u](https://farm6.staticflickr.com/5614/15354024460_6985843d64_z.jpg)
+![git stash with -u](images/15354024460_6985843d64_z.jpg)
 
 พอ pop ออกมา ไฟล์ที่เป็น untracked file ก็ยังอยู่ครบเหมือนเดิม
 
-![git stash pop with untracked file](https://farm4.staticflickr.com/3942/15353147449_159851951c_z.jpg)
+![git stash pop with untracked file](images/15353147449_159851951c_z.jpg)
 
 workflow คร่าวๆ ก็คือ stash งานของเราไว้ก่อน > ทำส่วนอื่นให้เสร็จ > push งานใหม่ไป > pop stash ออกมาทำต่อ ประมาณนี้ครับ
 
@@ -83,13 +84,13 @@ workflow คร่าวๆ ก็คือ stash งานของเราไ
 
 ตัวอย่างเช่น ผมมีไฟล์ `index.html` ที่อัพเดท code ไปบางส่วนแล้ว รัน `git diff` แล้วได้ออกมาแบบนี้
 
-![modified code](https://farm4.staticflickr.com/3956/14921984934_f13f0300b9_c.jpg)
+![modified code](images/14921984934_f13f0300b9_c.jpg)
 
 รัน `git add -p index.html` git จะแบ่ง code ออกเป็นส่วนย่อยๆ (hunks) แล้วให้เรารีวิวว่า จะเลือกทำอะไรกับ hunk นั้นๆ รูปข้างล่างนี้จะเห็นว่ามี prompt ให้มาให้เราเลือก ซึ่งตัวเลือกก็มี `y` `n` `q` `a` `d` `/` `j` `J` `g` `e` และก็ `?` ซึ่งเราสามารถเลือก `?` แล้วกด enter เพื่อดูความหมายของแต่ละตัวเลือกได้ (ผมเองก็ไม่เคยจะจำได้เหมือนกัน)
 
-![interactive add](https://farm6.staticflickr.com/5608/15356163429_da0aa59b9e_z.jpg)
+![interactive add](images/15356163429_da0aa59b9e_z.jpg)
 
-![available options](https://farm4.staticflickr.com/3946/15356691278_05f7357447_z.jpg)
+![available options](images/15356691278_05f7357447_z.jpg)
 
 ที่ผมใช้บ่อยๆ ก็จะมี
 
@@ -102,11 +103,11 @@ workflow คร่าวๆ ก็คือ stash งานของเราไ
 
 อย่างตอนนี้ผม add เฉพาะ hunk แรก พอรัน `git status` ก็จะเห็นสถานะทั้ง staged และ modified (unstaged) จากไฟล์เดียวกัน
 
-![added patch](https://farm4.staticflickr.com/3954/15540282891_0b83fa8a31.jpg)
+![added patch](images/15540282891_0b83fa8a31.jpg)
 
 ซึ่งพอ commit ไปแล้ว code ส่วนยังเหลือ ก็ยังอยู่ในสถานะ modified (unstaged) เหมือนเดิม
 
-![remaining code](https://farm4.staticflickr.com/3930/15357360570_8d37b5040c_z.jpg)
+![remaining code](images/15357360570_8d37b5040c_z.jpg)
 
 ### สรุป
 
