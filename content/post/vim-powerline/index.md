@@ -7,7 +7,7 @@ tags:
   - vim
   - terminal
   - powerline
-thumbnail: https://farm3.staticflickr.com/2825/13330998783_0ff3958050_z.jpg
+thumbnail: images/13330998783_0ff3958050_z.jpg
 title: ติดตั้ง Vim Powerline ใน OSX 10.9
 url: /2014/03/22/install-vim-powerline-osx-mavericks/
 ---
@@ -15,10 +15,12 @@ url: /2014/03/22/install-vim-powerline-osx-mavericks/
 [**Vim Powerline**](https://github.com/Lokaltog/powerline) นั้นทำให้ status bar ของ Vim จากจืดๆ ดูดีขึ้น .. จริงๆ แล้วปรับแต่งได้อีกมากมาย ดูได้จาก [document](https://powerline.readthedocs.org/en/latest/configuration.html) ได้เลยจ้า (ส่วนผมลงไว้เพื่อความบันเทิง)
 
 ก่อน
-![vim before powerline](https://farm8.staticflickr.com/7360/13331020193_c7f01bf4e2_z.jpg)
+
+![vim before powerline](images/13331020193_c7f01bf4e2_z.jpg)
 
 หลัง
-![vim after powerline](https://farm3.staticflickr.com/2825/13330998783_0ff3958050_z.jpg)
+
+![vim after powerline](images/13330998783_0ff3958050_z.jpg)
 
 อันดับแรกเช็คเวอร์ชั่นของ Python ในเครื่องก่อน ซึ่งใน document ของ Powerline แนะนำให้ใช้เวอร์ชั่น 2.7 ครับ
 
