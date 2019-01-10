@@ -6,7 +6,7 @@ published: true
 tags:
   - bower
   - terminal
-thumbnail: https://farm4.staticflickr.com/3796/11576530464_6dd5174254_o.png
+thumbnail: images/11576530464_6dd5174254_o.png
 title: ใช้งาน Bower
 url: /2013/12/25/using-bower/
 ---
@@ -18,11 +18,11 @@ url: /2013/12/25/using-bower/
 3. unzip แล้ว copy ไฟล์ไปไว้ใน directory ที่ทำงานอยู่
 4. เพิ่ม path ในไฟล์ html
 
-หรือสะดวกขึ้นมาหน่อยก็จะใช้ plugin ของ editor อย่าง [Nettuts+ Fetch](http://armno.in.th/2012/09/09/sublime-text-2-nettuts-fetch/) แต่ก็ยังไม่สะดวกสำหรับการหา package ใหม่ หรือการอัพเกรดเวอร์ชั่นของ package เดิม Bower ช่วยแก้ปัญหาเหล่านี้ได้ครับ
+หรือสะดวกขึ้นมาหน่อยก็จะใช้ plugin ของ editor อย่าง [Nettuts+ Fetch](https://armno.in.th/2012/09/09/sublime-text-2-nettuts-fetch/) แต่ก็ยังไม่สะดวกสำหรับการหา package ใหม่ หรือการอัพเกรดเวอร์ชั่นของ package เดิม Bower ช่วยแก้ปัญหาเหล่านี้ได้ครับ
 
-![bower logo](https://farm4.staticflickr.com/3796/11576530464_b141d1b021.jpg)
+![bower logo](images/11576530464_b141d1b021.jpg)
 
-[Bower](http://bower.io) เป็น client-side package manager จากทาง Twitter ใช้สำหรับติดตั้ง / ค้นหา / อัพเดท 3rd-party package ได้สะดวกมากขึ้น ทำได้ผ่าน Terminal ที่เดียวเลย
+[Bower](https://bower.io) เป็น client-side package manager จากทาง Twitter ใช้สำหรับติดตั้ง / ค้นหา / อัพเดท 3rd-party package ได้สะดวกมากขึ้น ทำได้ผ่าน Terminal ที่เดียวเลย
 
 ### ติดตั้ง Bower
 
@@ -48,11 +48,11 @@ $ bower install normalize-css
 
 ซึ่งโดยปกติแล้ว package ที่ติดตั้งผ่าน Bower ก็จะถูกเก็บไว้ใน directory `bower_components` ครับ (เปลี่ยนได้)
 
-![bower_components directory](https://farm6.staticflickr.com/5547/11545868783_cb11223bcb_b.jpg)
+![bower_components directory](images/11545868783_cb11223bcb_b.jpg)
 
 ในไฟล์ html เราก็โหลดไฟล์เข้ามาตามปกติ
 
-![include bower packages](https://farm3.staticflickr.com/2829/11558637724_591f9bf4e7_z.jpg)
+![include bower packages](images/11558637724_591f9bf4e7_z.jpg)
 
 ปกติแล้ว `bower install` จะติดตั้ง package เวอร์ชั่นล่าสุดให้เราเสมอ แต่เราก็สามารถระบุเวอร์ชั่นของ package ที่จะติดตั้งได้ โดยเพิ่ม `#<version>` ต่อท้ายเข้าไปหลังชื่อ package ครับ (ของผมต้องใส่ `"` ครอบเพราะเวลาพิมพ์เครื่องหมาย `#` แล้ว zsh มันบ่นครับ)
 
@@ -84,7 +84,7 @@ $ bower search normalize
 $ bower search normalize | grep bootstrap
 {{< / highlight >}}
 
-![bower search](https://farm6.staticflickr.com/5478/11558436455_3abf8cacf8_z.jpg)
+![bower search](images/11558436455_3abf8cacf8_z.jpg)
 
 search มีประโยชน์เวลาติดตั้ง package ครับ เนื่องจากเราต้องใส่ชื่อ package ให้ตรงกับชื่อ package ของ Bower (ในรูปบนคือตัวสีฟ้า) ไม่งั้น Bower จะหา package ไม่เจอ
 
@@ -96,7 +96,7 @@ $ bower list
 
 command นี้จะแสดงรายชื่อ package กับเวอร์ชั่นที่ติดตั้งไว้แล้ว และก็มีบอกด้วยว่า package ไหนมีเวอร์ชั่นใหม่ออกมาหรือยัง ส่วนที่ซ้อนกันเป็นขั้นๆ ก็บอกถึงลำดับ dependency ของแต่ละ package ครับ
 
-![bower list](https://farm6.staticflickr.com/5498/11568157035_256a332c6c_z.jpg)
+![bower list](images/11568157035_256a332c6c_z.jpg)
 
 ### `bower.json` / `.bowerrc`
 

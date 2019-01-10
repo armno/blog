@@ -6,18 +6,18 @@ tags:
   - thai
   - terminal
   - locale
-thumbnail: https://farm4.staticflickr.com/3726/13239980733_839b6109c2.jpg
+thumbnail: images/13239980733_839b6109c2.jpg
 title: ภาษาไทยใน Terminal (OSX)
 url: /2014/03/18/thai-in-osx-terminal/
 ---
 
 เพิ่งลง OSX Mavericks (10.9) ใหม่ แล้วภาษาไทยใน terminal (ใช้ iTerm2) มันมีปัญหา เป็นแบบนี้ครับ (รัน `git diff`)
 
-![default osx locale](https://farm4.staticflickr.com/3726/13239980733_839b6109c2_z.jpg)
+![default osx locale](images/13239980733_839b6109c2_z.jpg)
 
 ส่วนใน Vim ก็เละตุ้มเป๊ะ
 
-![thai in vim](https://farm3.staticflickr.com/2843/13239831945_496eab8158_z.jpg)
+![thai in vim](images/13239831945_496eab8158_z.jpg)
 
 ลองหาใน Google ดู ก็พบว่าเป็นปัญหาที่ locale ในเครื่องเรา ที่มันอ่านภาษาไทยไม่ออก เมื่อรัน command `locale` มันก็ได้แบบนี้ครับ
 
@@ -43,9 +43,9 @@ export LANG=en_US.UTF-8
 
 พบว่าภาษาไทยแสดงผลได้ดีแล้ว
 
-![fixed locale in iterm](https://farm8.staticflickr.com/7237/13239980853_6c9f68cffd_z.jpg)
+![fixed locale in iterm](images/13239980853_6c9f68cffd_z.jpg)
 
-![fixed thai in vim](https://farm4.staticflickr.com/3831/13239980653_940c67005c_z.jpg)
+![fixed thai in vim](images/13239980653_940c67005c_z.jpg)
 
 เช็ค locale ดูก็เป็น `en_US.UTF-8`
 

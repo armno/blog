@@ -12,9 +12,9 @@ title: 'ซื้อของจาก Apple Store #3: MacBook Air 2013'
 url: /2013/07/03/apple-macbook-air-2013/
 ---
 
-ครั้งนี้เป็นครั้งที่ 3 ของผมกับการซื้อของจาก Apple Store (ก่อนหน้านี้มี [iPhone 4s](http://armno.in.th/2012/02/08/iphone-4s-from-apple-online-store/) กับ [Apple Wireless Keyboard](http://armno.in.th/2012/11/21/apple-wireless-keyboard/)) ของที่สั่งคราวนี้เป็น <strong><a href="http://www.apple.com/th/macbook-air/">MacBook Air 2013</a></strong> จาก Education Store พร้อมกับเปลี่ยงแปลง spec เล็กน้อยครับ
+ครั้งนี้เป็นครั้งที่ 3 ของผมกับการซื้อของจาก Apple Store (ก่อนหน้านี้มี [iPhone 4s](https://armno.in.th/2012/02/08/iphone-4s-from-apple-online-store/) กับ [Apple Wireless Keyboard](https://armno.in.th/2012/11/21/apple-wireless-keyboard/)) ของที่สั่งคราวนี้เป็น <strong><a href="https://www.apple.com/th/macbook-air/">MacBook Air 2013</a></strong> จาก Education Store พร้อมกับเปลี่ยงแปลง spec เล็กน้อยครับ
 
-![MacBook Air 2013](https://farm3.staticflickr.com/2851/9158724744_97a6a0c24c_z.jpg)
+![MacBook Air 2013](images/9158724744_97a6a0c24c_z.jpg)
 
 ### ซื้อของจาก Apple Education Store
 
@@ -24,7 +24,7 @@ url: /2013/07/03/apple-macbook-air-2013/
 
 แต่การซื้อของจาก Education Store นั้นก็มีข้อจำกัด เช่น เราซื้อของแต่ละชนิดได้เพียงปีละ 1 หรือ 2 ชิ้นเท่านั้น รายละเอียดเต็มๆ ไปดูได้ที่ [Terms and Conditions](http://store.apple.com/th-k12/browse/open/salespolicies/edu#purchasequantity) ได้ครับ
 
-![MacBook Air 2013](https://farm8.staticflickr.com/7377/9156485407_bcc428e910_z.jpg)
+![MacBook Air 2013](images/9156485407_bcc428e910_z.jpg)
 
 ### MacBook Air 2013
 
@@ -32,19 +32,19 @@ url: /2013/07/03/apple-macbook-air-2013/
 
 หลังจากเปิดตัวที่ WWDC 2013 ก็สามารถสั่งซื้อทางเว็บ Apple Store ได้ทันที ตอนที่ผมสั่งซื้อนั้น ระยะเวลาของการส่งของนั้นอยู่ที่ 10-15 วัน (นานฉิบ) (ล่าสุดอยู่ที่ 24 ชั่วโมง) ซึ่งเอาเข้าจริงๆ ใช้เวลารอเพียง 8 วันหลังจากสั่งซื้อ ของถึงเริ่มส่งมาครับ
 
-รุ่นที่สั่งไปเป็นรุ่น 13 นิ้ว 128GB พร้อมเพิ่ม Ram จาก 4GB เป็น 8GB และเปลี่ยน keyboard เป็นแบบภาษาอังกฤษล้วน (ให้เหมือนของ [Apple Wireless Keyboard](http://armno.in.th/2012/11/21/apple-wireless-keyboard/) ที่ใช้ที่บ้าน) ราคาใน Education Store ถูกกว่าปกติอยู่เกือบๆ 2 พันบาท
+รุ่นที่สั่งไปเป็นรุ่น 13 นิ้ว 128GB พร้อมเพิ่ม Ram จาก 4GB เป็น 8GB และเปลี่ยน keyboard เป็นแบบภาษาอังกฤษล้วน (ให้เหมือนของ [Apple Wireless Keyboard](https://armno.in.th/2012/11/21/apple-wireless-keyboard/) ที่ใช้ที่บ้าน) ราคาใน Education Store ถูกกว่าปกติอยู่เกือบๆ 2 พันบาท
 
-![MacBook Air 2013](https://farm3.staticflickr.com/2850/9158727254_6738804e0b_z.jpg)
+![MacBook Air 2013](images/9158727254_6738804e0b_z.jpg)
 
 คราวนี้ DHL มาส่งของเองถึงบ้าน MacBook Air เดินทางจากเมืองจีนถึงเชียงใหม่ ใช้เวลา 4 วัน สรุปแล้วนับตั้งแต่จ่ายเงินจนถึงวันที่ได้รับสินค้า ก็รวมแล้วประมาณ 12 วัน (ในรูป location เป็น BKK แต่ก็มาส่งถึงเชียงใหม่นะครับ)
 
-![MacBook Air deliver](https://farm3.staticflickr.com/2885/9195143510_e0c204b6b8_o.png)
+![MacBook Air deliver](images/9195143510_e0c204b6b8_o.png)
 
 สิ่งที่ได้เรียนรู้จากครั้งนี้ก็คือ ซื้อของจาก Education Store นั้นไม่จำเป็นต้องเป็นนักศึกษาก็ได้ Apple ไม่ได้ขอเช็คดูอะไร นอกจากจำกัดจำนวนสินค้าที่ซื้อได้ใน 1 ปี เท่านั้นเองครับ
 
-![MacBook Air 2013](https://farm8.staticflickr.com/7457/9156490607_d6fa2e911c_z.jpg)
+![MacBook Air 2013](images/9156490607_d6fa2e911c_z.jpg)
 
-![MacBook Air 2013](https://farm3.staticflickr.com/2843/9156493217_fb59095f99_z.jpg)
+![MacBook Air 2013](images/9156493217_fb59095f99_z.jpg)
 
 ### การใช้งาน
 
