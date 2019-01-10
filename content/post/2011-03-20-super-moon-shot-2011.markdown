@@ -19,7 +19,7 @@ wordpress_id: 1509
 
 Crop 100% + Sharpen ไปอีกประมาณ 90 แล้วก็ย้อมสีน้ำตาลให้ดูซีเปียนิดๆด้วย ![Smile](http://files.armno.in.th/uploads/2011/03/wlEmoticon-smile.png)
 
-[กล้องตัวเดิม](http://armno.in.th/content/nikon-d60) กับเลนส์ [55-200 VR](http://armno.in.th/content/nikon-af-s-55-200-vr) ตัวเดิมเหมือนกันครับ .. ทุกครั้งที่ถ่ายภาพพระจันทร์ ต้องเพิ่ม sharpen ในคอมตลอดเลย (ในกล้องก็ +2 เต็มแม็กซ์แล้ว) .. ไม่รู้ว่าถ้าใช้เลนส์คุณภาพดีกว่านี้อีกหน่อย ภาพจะออกมาเป็นไงนะ
+[กล้องตัวเดิม](https://armno.in.th/content/nikon-d60) กับเลนส์ [55-200 VR](https://armno.in.th/content/nikon-af-s-55-200-vr) ตัวเดิมเหมือนกันครับ .. ทุกครั้งที่ถ่ายภาพพระจันทร์ ต้องเพิ่ม sharpen ในคอมตลอดเลย (ในกล้องก็ +2 เต็มแม็กซ์แล้ว) .. ไม่รู้ว่าถ้าใช้เลนส์คุณภาพดีกว่านี้อีกหน่อย ภาพจะออกมาเป็นไงนะ
 
 [![DSC_2753-4](http://files.armno.in.th/uploads/2011/03/DSC_2753-4_thumb1.jpg)](http://files.armno.in.th/uploads/2011/03/DSC_2753-4.jpg)
 

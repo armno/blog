@@ -48,7 +48,7 @@ url: /2011/09/26/google-devfest-chiang-mai-2011-2/
 
 วิธีใช้ก็โคตรจะง่าย แค่ใส่ URL ของหน้าที่ต้องการ prerender ไว้ตรง tag head ครับ
 
-<pre><code class="language-markup">&lt;link rel="prerender" href="http://armno.in.th/"&gt;</code></pre>
+<pre><code class="language-markup">&lt;link rel="prerender" href="https://armno.in.th/"&gt;</code></pre>
 
 ลองไปเล่น API นี้ได้ที่ [http://prerender-test.appspot.com/](http://prerender-test.appspot.com/)
 

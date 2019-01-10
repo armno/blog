@@ -23,7 +23,7 @@ wordpress_id: 2105
 
 ### ติดตั้ง Emmet ใน Sublime Text 2
 
-Emmet กับ [Sublime Text](http://armno.in.th/2011/09/20/sublime-text-2-editor-v12-engine/) นั้นถือว่าเข้ากันได้อย่างเป็นปี่เป็นขลุ่ยกันเลยทีเดียว (ว่าไปนั่น) มีปลั๊กอิน [Emmet for Sublime Text บน Github](https://github.com/sergeche/emmet-sublime) ด้วย โดยที่ก่อนติดตั้ง Emmet นั้นต้องเอา Zen Coding ออกก่อน _(Package Control > Remove Package > Zen Coding)_ ไม่งั้นมันจะตีกันแล้วจะเดี้ยงทั้งคู่
+Emmet กับ [Sublime Text](https://armno.in.th/2011/09/20/sublime-text-2-editor-v12-engine/) นั้นถือว่าเข้ากันได้อย่างเป็นปี่เป็นขลุ่ยกันเลยทีเดียว (ว่าไปนั่น) มีปลั๊กอิน [Emmet for Sublime Text บน Github](https://github.com/sergeche/emmet-sublime) ด้วย โดยที่ก่อนติดตั้ง Emmet นั้นต้องเอา Zen Coding ออกก่อน _(Package Control > Remove Package > Zen Coding)_ ไม่งั้นมันจะตีกันแล้วจะเดี้ยงทั้งคู่
 
 เราสามารถติดตั้ง Emmet ได้จาก [Package Control](https://github.com/wbond/sublime_package_control) ครับ แต่ ณ ตอนที่เขียนอยู่นี้ เห็นหลายคน[มีปัญหากับ Package Control](https://github.com/wbond/sublime_package_control/issues/231) ที่ดาวน์โหลด zip ball จาก Github ไม่ได้ ทำให้ลงปลั๊กอินไม่ผ่าน ดังนั้นแนะนำให้ลงแบบ manual ดีกว่า คือโหลดไฟล์ทั้งหมดของ Emmet มาไว้ที่โฟลเดอร์ Packages ของ Sublime Text
 

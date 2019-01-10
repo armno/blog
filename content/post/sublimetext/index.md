@@ -66,7 +66,7 @@ Packages ที่ผมลงก็ตามนี้ครับ
   <dd>ช่วยให้เขียน function document ใน code ได้สะดวกขึ้น</dd>
 
   <dt><a href="http://emmet.io/">Emmet</a></dt>
-  <dd><a href="http://armno.in.th/2012/11/06/emmet-zen-coding-replacement/">Emmet</a> ทำให้เขียน HTML/CSS ได้เร็วขึ้น</dd>
+  <dd><a href="https://armno.in.th/2012/11/06/emmet-zen-coding-replacement/">Emmet</a> ทำให้เขียน HTML/CSS ได้เร็วขึ้น</dd>
 
   <dt><a href="https://github.com/hayaku/hayaku#readme">Hayaku</a></dt>
   <dd>abbreviations สำหรับเขียน CSS โดยเฉพาะ</dd>
@@ -81,7 +81,7 @@ Packages ที่ผมลงก็ตามนี้ครับ
   <dd>syntax highlighting สำหรับไฟล์ <code>.sass</code> กับ <code>.scss</code></dd>
 
   <dt><a href="https://github.com/weslly/Nettuts-Fetch">Nettuts+ Fetch</a></dt>
-  <dd>เคยเขียนรายละเอียดใน <a href="http://armno.in.th/2012/09/09/sublime-text-2-nettuts-fetch/">ใช้งานปลั๊กอิน Nettuts Fetch</a></dd>
+  <dd>เคยเขียนรายละเอียดใน <a href="https://armno.in.th/2012/09/09/sublime-text-2-nettuts-fetch/">ใช้งานปลั๊กอิน Nettuts Fetch</a></dd>
 
   <dt><a href="https://github.com/jisaacks/GitGutter">GitGutter</a></dt>
   <dd>ทำงานกับ Git แสดงบรรทัดใน code ที่เราเพิ่ม ลบ หรือแก้ไข ด้วยจุดสีเล็กๆ ตรง gutter</dd>

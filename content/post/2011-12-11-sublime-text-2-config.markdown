@@ -14,7 +14,7 @@ title: แก้ไขการตั้งค่าต่างๆ ใน Subli
 url: /2011/12/11/sublime-text-2-config/
 ---
 
-สำหรับคนที่เปลี่ยนจาก full-featured IDE อย่าง [NetBeans](http://armno.in.th/2010/07/10/netbeans-ide-for-php-coding/), [Aptana](http://armno.in.th/2011/08/19/aptana-studio/) หรือแม้แต่ [Notepad++](http://notepad-plus-plus.org/) มาใช้ editor จรวดอย่าง [Sublime Text 2](http://armno.in.th/2011/09/20/sublime-text-2-editor-v12-engine/) ในตอนแรกอาจจะงงว่า หน้าจอการตั้งค่าต่างๆ ของ Sublime Text 2 มันอยู่ตรงไหน อย่างใน Netbeans ก็จะมีหน้าต่าง Options แบบในรูปข้างล่าง เอาไว้เข้าไปแก้ไขการตั้งค่าต่างๆ ของ IDE .. แต่ว่า ของ ​Sublime Text 2  มันอยู่ตรงไหนล่ะ
+สำหรับคนที่เปลี่ยนจาก full-featured IDE อย่าง [NetBeans](https://armno.in.th/2010/07/10/netbeans-ide-for-php-coding/), [Aptana](https://armno.in.th/2011/08/19/aptana-studio/) หรือแม้แต่ [Notepad++](http://notepad-plus-plus.org/) มาใช้ editor จรวดอย่าง [Sublime Text 2](https://armno.in.th/2011/09/20/sublime-text-2-editor-v12-engine/) ในตอนแรกอาจจะงงว่า หน้าจอการตั้งค่าต่างๆ ของ Sublime Text 2 มันอยู่ตรงไหน อย่างใน Netbeans ก็จะมีหน้าต่าง Options แบบในรูปข้างล่าง เอาไว้เข้าไปแก้ไขการตั้งค่าต่างๆ ของ IDE .. แต่ว่า ของ ​Sublime Text 2  มันอยู่ตรงไหนล่ะ
 
 ![หน้าต่ง config ของ NetBeans](http://files.armno.in.th/uploads/2010/07/image20.png)
 

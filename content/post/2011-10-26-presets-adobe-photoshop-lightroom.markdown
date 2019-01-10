@@ -34,4 +34,4 @@ preset จะมีการตั้งค่าแบบตายตัว น
 
 ![export รูปหลังจากใช้ Lightroom preset](http://files.armno.in.th/uploads/2011/10/adjusted-600x337.jpg)
 
-ต่อกันตอน 2 กับ [วิธีติดตั้ง Lightroom Preset](http://armno.in.th/2011/10/27/installing-lightroom-presets/) ได้เลยครับ
+ต่อกันตอน 2 กับ [วิธีติดตั้ง Lightroom Preset](https://armno.in.th/2011/10/27/installing-lightroom-presets/) ได้เลยครับ

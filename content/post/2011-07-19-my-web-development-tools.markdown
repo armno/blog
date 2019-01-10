@@ -24,7 +24,7 @@ wordpress_id: 1775
 
 [![](http://files.armno.in.th/uploads/2011/07/aptana.jpg)](http://files.armno.in.th/uploads/2011/07/aptana.jpg)
 
-เดิมทีผมเป็นแฟนคลับอันเหนียวแน่นของ **[Netbeans](http://armno.in.th/2010/07/10/%e0%b9%81%e0%b8%99%e0%b8%b0%e0%b8%99%e0%b8%b3-netbeans-ide-%e0%b8%aa%e0%b8%b3%e0%b8%ab%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%82%e0%b8%b5%e0%b8%a2%e0%b8%99%e0%b9%82%e0%b8%84%e0%b9%89%e0%b8%94-php/)** และไม่ค่อยชอบ IDE พวกที่ based-on Eclipse เท่าไหร่ แต่เนื่องด้วยวันนึงผมเปลี่ยน font ใน editor มาเป็น **Monaco** แล้วพบว่า Netbeans มัน render font นี้ได้เละตุ้มเป๊ะมาก ก็เลยหาเรื่องเปลี่ยน IDE ครับ .. ลองใช้จริงจังมาประมาณ 1 อาทิตย์ ตอนนี้คิดอยู่ว่า จะเลิกคบเพื่อนเก่าอย่าง Netbeans ไปเลยดีมั้ย เพราะว่า Aptana ทำงานได้ไวกว่า Netbeans มาก (และไวกว่า Eclipse มากโข) และที่สำคัญ ไม่มีปัญหาเรื่อง render font ด้วย .. ยืนยันอีกทีว่าผมจะเปลี่ยน IDE เพราะเรื่อง font จริงๆ
+เดิมทีผมเป็นแฟนคลับอันเหนียวแน่นของ **[Netbeans](https://armno.in.th/2010/07/10/%e0%b9%81%e0%b8%99%e0%b8%b0%e0%b8%99%e0%b8%b3-netbeans-ide-%e0%b8%aa%e0%b8%b3%e0%b8%ab%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%82%e0%b8%b5%e0%b8%a2%e0%b8%99%e0%b9%82%e0%b8%84%e0%b9%89%e0%b8%94-php/)** และไม่ค่อยชอบ IDE พวกที่ based-on Eclipse เท่าไหร่ แต่เนื่องด้วยวันนึงผมเปลี่ยน font ใน editor มาเป็น **Monaco** แล้วพบว่า Netbeans มัน render font นี้ได้เละตุ้มเป๊ะมาก ก็เลยหาเรื่องเปลี่ยน IDE ครับ .. ลองใช้จริงจังมาประมาณ 1 อาทิตย์ ตอนนี้คิดอยู่ว่า จะเลิกคบเพื่อนเก่าอย่าง Netbeans ไปเลยดีมั้ย เพราะว่า Aptana ทำงานได้ไวกว่า Netbeans มาก (และไวกว่า Eclipse มากโข) และที่สำคัญ ไม่มีปัญหาเรื่อง render font ด้วย .. ยืนยันอีกทีว่าผมจะเปลี่ยน IDE เพราะเรื่อง font จริงๆ
 
 
 ### [2. Google Calendar](http://calendar.google.com)

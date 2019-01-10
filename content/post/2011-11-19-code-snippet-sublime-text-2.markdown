@@ -16,7 +16,7 @@ url: /2011/11/19/code-snippet-sublime-text-2/
 wordpress_id: 1911
 ---
 
-หลังจากใช้งาน Sublime Text 2 มาได้สักพัก พอคุ้นเคยแล้วก็จะเริ่มหาวิธีการเพิ่ม code snippet ไว้ใช้เอง ([แบบที่เคยทำบน NetBeans](http://armno.in.th/2011/04/25/netbeans-tips-code-templates/)) เพื่อช่วยให้การเขียนโค้ดนั้นสะดวกรวดเร็วยิ่งขึ้นครับ
+หลังจากใช้งาน Sublime Text 2 มาได้สักพัก พอคุ้นเคยแล้วก็จะเริ่มหาวิธีการเพิ่ม code snippet ไว้ใช้เอง ([แบบที่เคยทำบน NetBeans](https://armno.in.th/2011/04/25/netbeans-tips-code-templates/)) เพื่อช่วยให้การเขียนโค้ดนั้นสะดวกรวดเร็วยิ่งขึ้นครับ
 
 สำหรับการเพิ่ม code snippet ให้กับ Sublime Text 2 นั้นก็ง่ายๆ เลย เริ่มจากไปที่เมนู **Tools > New Snippet** ก็จะเจอหน้าจอ default ตามรูปข้างล่างครับ
 

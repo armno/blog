@@ -73,7 +73,7 @@ $ git clone https://github.com/scrooloose/nerdtree.git
 
 #### [Emmet](http://mattn.github.io/emmet-vim/)
 
-Emmet (ชื่อเดิมคือ [Zen Coding](http://armno.in.th/2012/11/06/emmet-zen-coding-replacement/)) นั้นเป็น plugin ที่ช่วยให้เขียน HTML ได้เร็วขึ้นครับ จริงๆ แล้วผมไม่ค่อยได้ใช้ Emmet ใน Vim แต่ลงไว้ก็ไม่เสียหายครับ สามารถติดตั้งผ่าน Pathogen อีกเหมือนกัน
+Emmet (ชื่อเดิมคือ [Zen Coding](https://armno.in.th/2012/11/06/emmet-zen-coding-replacement/)) นั้นเป็น plugin ที่ช่วยให้เขียน HTML ได้เร็วขึ้นครับ จริงๆ แล้วผมไม่ค่อยได้ใช้ Emmet ใน Vim แต่ลงไว้ก็ไม่เสียหายครับ สามารถติดตั้งผ่าน Pathogen อีกเหมือนกัน
 
 {{< highlight sh >}}
 $ cd ~/.vim/bundle

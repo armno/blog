@@ -14,7 +14,7 @@ title: 'Netbeans Tips: สร้าง Code Template ไว้ใช้เอง
 url: /2011/04/25/netbeans-tips-code-templates/
 ---
 
-ฟีเจอร์ **Code Templates** ของ **[NetBeans IDE](http://armno.in.th/20100710/%e0%b9%81%e0%b8%99%e0%b8%b0%e0%b8%99%e0%b8%b3-netbeans-ide-%e0%b8%aa%e0%b8%b3%e0%b8%ab%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%82%e0%b8%b5%e0%b8%a2%e0%b8%99%e0%b9%82%e0%b8%84%e0%b9%89%e0%b8%94-php)** นั้น เราสามารถเพิ่ม custom code templates เองได้ พูดง่ายๆก็คือ การสร้าง Code Snippet ที่เราต้องพิมพ์เองบ่อยๆ ย่อเป็นคำสั้นๆ ทำให้เราสามารถลดเวลาการพิมพ์โค้ดไปเยอะเลยทีเดียว .. จริงๆแล้ว [Zen Coding](http://armno.in.th/2010/10/20/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89-zen-coding-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A-netbeans-ide/) ของ Netbeans ก็ใช้ความสามารถนี้แหละครับพี่น้อง
+ฟีเจอร์ **Code Templates** ของ **[NetBeans IDE](https://armno.in.th/20100710/%e0%b9%81%e0%b8%99%e0%b8%b0%e0%b8%99%e0%b8%b3-netbeans-ide-%e0%b8%aa%e0%b8%b3%e0%b8%ab%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%82%e0%b8%b5%e0%b8%a2%e0%b8%99%e0%b9%82%e0%b8%84%e0%b9%89%e0%b8%94-php)** นั้น เราสามารถเพิ่ม custom code templates เองได้ พูดง่ายๆก็คือ การสร้าง Code Snippet ที่เราต้องพิมพ์เองบ่อยๆ ย่อเป็นคำสั้นๆ ทำให้เราสามารถลดเวลาการพิมพ์โค้ดไปเยอะเลยทีเดียว .. จริงๆแล้ว [Zen Coding](https://armno.in.th/2010/10/20/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89-zen-coding-%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A-netbeans-ide/) ของ Netbeans ก็ใช้ความสามารถนี้แหละครับพี่น้อง
 
 [![image](http://files.armno.in.th/uploads/2011/04/image_thumb8.png)](http://files.armno.in.th/uploads/2011/04/image9.png)
 
