@@ -33,7 +33,7 @@ wordpress_id: 1240
   * ก็ยังคิดออกแค่นี้ครับ - -“
 
 
-ขั้นตอนหมูมากๆใน [NetBeans IDE](http://armno.in.th/content/netbeans-ide) ครับ .. หลังจากเปิดโปรแกรม NetBeans IDE ขึ้นมาแล้ว ไปที่เมนู **File > New Project …**
+ขั้นตอนหมูมากๆใน [NetBeans IDE](https://armno.in.th/content/netbeans-ide) ครับ .. หลังจากเปิดโปรแกรม NetBeans IDE ขึ้นมาแล้ว ไปที่เมนู **File > New Project …**
 
 [![image](http://files.armno.in.th/uploads/2010/07/image_thumb.png)](http://files.armno.in.th/uploads/2010/07/image.png)
 

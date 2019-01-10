@@ -13,7 +13,7 @@
 <div class="container">
   <ol class="blog-list">
 
-    {{ range .Site.Pages }}
+    {{ range where .Site.Pages "Type" "post" }}
     <li>
       <div class="post-teaser">
         <div class="post-teaser-text">

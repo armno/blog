@@ -27,7 +27,7 @@ wordpress_id: 1397
   * [Learn how to write lightnigh-fast code in 4 minutes](http://net.tutsplus.com/tutorials/tools-and-tips/learn-how-to-write-lightning-fast-code-in-4-minutes-screencast/) (วิดีโอ, Nettuts)
 
 
-สำหรับ IDE ตัวโปรดของผมอย่าง **[Netbeans IDE](http://armno.in.th/content/netbeans-ide)** ก็มีปลั๊กอินสำหรับ Zen Coding เหมือนกันครับ สามารถดาวน์โหลดได้ [ที่นี่](http://code.google.com/p/zen-coding/downloads/detail?name=NetBeans.Zen.HTML.1.2.zip) ครับ
+สำหรับ IDE ตัวโปรดของผมอย่าง **[Netbeans IDE](https://armno.in.th/content/netbeans-ide)** ก็มีปลั๊กอินสำหรับ Zen Coding เหมือนกันครับ สามารถดาวน์โหลดได้ [ที่นี่](http://code.google.com/p/zen-coding/downloads/detail?name=NetBeans.Zen.HTML.1.2.zip) ครับ
 
 วิธีติดตั้งก็แค่ ไปที่เมนู **Tools** > **Options** > ปุ่ม **Import** (ล่างซ้าย) > กด **browse** เลือกไฟล์ที่เราโหลดมา (.zip) > กด **OK** แล้วก็รีสตาร์ท NetBeans ครับ
 
@@ -35,7 +35,7 @@ wordpress_id: 1397
 
 
 
-น่าเสียดายที่ Zen Coding สำหรับ NetBeans นั้น **ไม่ได้รองรับ Expand Abbreviation** (ฟีเจอร์เทพๆที่เห็นในวิดีโอนั่นแหละครับ) แต่ก็ทดแทนด้วย Code Templates ที่เยอะมากๆ ซึ่งจะช่วยให้เราใช้งานร่วมกัน[ฟีเจอร์ auto-complete](http://armno.in.th/netbeans-tips2-%e0%b9%83%e0%b8%8a%e0%b9%89%e0%b8%87%e0%b8%b2%e0%b8%99-code-auto-complete) ได้อย่างสนุกสนานยิ่งขึ้น .. สามารถเข้าไปดู code templates ได้ที่ **Options** > **Editor** > **Code Templates** > เลือก **Language** เป็น **HTML** ครับ
+น่าเสียดายที่ Zen Coding สำหรับ NetBeans นั้น **ไม่ได้รองรับ Expand Abbreviation** (ฟีเจอร์เทพๆที่เห็นในวิดีโอนั่นแหละครับ) แต่ก็ทดแทนด้วย Code Templates ที่เยอะมากๆ ซึ่งจะช่วยให้เราใช้งานร่วมกัน[ฟีเจอร์ auto-complete](https://armno.in.th/netbeans-tips2-%e0%b9%83%e0%b8%8a%e0%b9%89%e0%b8%87%e0%b8%b2%e0%b8%99-code-auto-complete) ได้อย่างสนุกสนานยิ่งขึ้น .. สามารถเข้าไปดู code templates ได้ที่ **Options** > **Editor** > **Code Templates** > เลือก **Language** เป็น **HTML** ครับ
 
 [![image](http://files.armno.in.th/uploads/2010/10/image_thumb1.png)](http://files.armno.in.th/uploads/2010/10/image1.png)
 

@@ -14,7 +14,7 @@ title: Aptana Studio อีกหนึ่ง IDE สำหรับ Web Develop
 url: /2011/08/19/aptana-studio/
 ---
 
-เดิมทีผมใช้ **[Netbeans IDE](http://armno.in.th/content/netbeans-ide/)** เป็นหลักในการเขียนเว็บ วันนึงเกิดเปลี่ยนเป็น **Aptana Studio** ขึ้นมา (เคย[เขียนแนะนำตอนครั้งก่อนโน้น](http://armno.in.th/2011/07/19/my-web-development-tools/)) ซึ่งผมลองใช้ Aptana Studio มาประมาณเดือนกว่าๆ แล้ว วันนี้จะมาบอกว่าเป็นไง
+เดิมทีผมใช้ **[Netbeans IDE](https://armno.in.th/content/netbeans-ide/)** เป็นหลักในการเขียนเว็บ วันนึงเกิดเปลี่ยนเป็น **Aptana Studio** ขึ้นมา (เคย[เขียนแนะนำตอนครั้งก่อนโน้น](https://armno.in.th/2011/07/19/my-web-development-tools/)) ซึ่งผมลองใช้ Aptana Studio มาประมาณเดือนกว่าๆ แล้ว วันนี้จะมาบอกว่าเป็นไง
 
 ### ปัญหากับ Netbeans
 

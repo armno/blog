@@ -15,15 +15,15 @@ url: /2010/07/11/netbeans-tips2-code-auto-complete/
 wordpress_id: 1258
 ---
 
-บทความที่ 3 ในซีรี่ส์ [NetBeans IDE](http://armno.in.th/content/netbeans-ide) นะครับ
+บทความที่ 3 ในซีรี่ส์ [NetBeans IDE](https://armno.in.th/content/netbeans-ide) นะครับ
 
 
 
 
-  * [รู้จัก NetBeans IDE](http://armno.in.th/20100710/%e0%b9%81%e0%b8%99%e0%b8%b0%e0%b8%99%e0%b8%b3-netbeans-ide-%e0%b8%aa%e0%b8%b3%e0%b8%ab%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%82%e0%b8%b5%e0%b8%a2%e0%b8%99%e0%b9%82%e0%b8%84%e0%b9%89%e0%b8%94-php)
+  * [รู้จัก NetBeans IDE](https://armno.in.th/20100710/%e0%b9%81%e0%b8%99%e0%b8%b0%e0%b8%99%e0%b8%b3-netbeans-ide-%e0%b8%aa%e0%b8%b3%e0%b8%ab%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b9%80%e0%b8%82%e0%b8%b5%e0%b8%a2%e0%b8%99%e0%b9%82%e0%b8%84%e0%b9%89%e0%b8%94-php)
 
 
-  * [NetBeans Tips#1 เริ่มสร้างโปรเจ็ค](http://armno.in.th/20100710/netbeans-tips1-%e0%b9%80%e0%b8%a3%e0%b8%b4%e0%b9%88%e0%b8%a1%e0%b8%aa%e0%b8%a3%e0%b9%89%e0%b8%b2%e0%b8%87%e0%b9%82%e0%b8%9b%e0%b8%a3%e0%b9%80%e0%b8%88%e0%b9%87%e0%b8%84)
+  * [NetBeans Tips#1 เริ่มสร้างโปรเจ็ค](https://armno.in.th/20100710/netbeans-tips1-%e0%b9%80%e0%b8%a3%e0%b8%b4%e0%b9%88%e0%b8%a1%e0%b8%aa%e0%b8%a3%e0%b9%89%e0%b8%b2%e0%b8%87%e0%b9%82%e0%b8%9b%e0%b8%a3%e0%b9%80%e0%b8%88%e0%b9%87%e0%b8%84)
 
 
 วันนี้จะพูดถึงเรื่อง **Code Auto-completion** ของ NetBeans นะครับ ฟีเจอร์นี้ถือเป็นฟีเจอร์มาตรฐานของ IDE ทุกตัวเลยก็ว่าได้ (ใครไม่มีเชยแย่เลย) .. สำหรับฟีเจอร์นี้ เป็นฟีเจอร์ที่ผมคิดว่าผมใช้บ่อยมากที่สุดของ NetBeans IDE เลยนะ .. ปกติแล้ว Code Auto-completion ถูกเปิดใช้งานโดยอัตโนมัติอยู่แล้วครับ และยังปรับแต่เพิ่มเติมได้ด้วยนะ โดยไปที่เมนู **Tools > Options** และเลือกแท็บ **Editor > Code Completion** ครับผม เลือกตั้งค่าแยกภาษาก็ได้นะ
@@ -40,7 +40,7 @@ wordpress_id: 1258
 
 [![image](http://files.armno.in.th/uploads/2010/07/image_thumb7.png)](http://files.armno.in.th/uploads/2010/07/image7.png)
 
-แค่นี้มันยังน้อยไป NetBeans IDE ยังสามารถใช้งาน Auto-completion กับ Framework ต่างๆได้ด้วยนะ (แต่ต้อง[สร้างโปรเจ็คใน NetBeans IDE](http://armno.in.th/20100710/netbeans-tips1-%e0%b9%80%e0%b8%a3%e0%b8%b4%e0%b9%88%e0%b8%a1%e0%b8%aa%e0%b8%a3%e0%b9%89%e0%b8%b2%e0%b8%87%e0%b9%82%e0%b8%9b%e0%b8%a3%e0%b9%80%e0%b8%88%e0%b9%87%e0%b8%84) ก่อนนะครับ) .. ลองกับ **WordPress** บอกหมดทั้งชื่อฟังก์ชั่น, อาร์กิวเม้นต์ พร้อมบอกด้วยว่าอยู่ที่ไฟล์ไหน
+แค่นี้มันยังน้อยไป NetBeans IDE ยังสามารถใช้งาน Auto-completion กับ Framework ต่างๆได้ด้วยนะ (แต่ต้อง[สร้างโปรเจ็คใน NetBeans IDE](https://armno.in.th/20100710/netbeans-tips1-%e0%b9%80%e0%b8%a3%e0%b8%b4%e0%b9%88%e0%b8%a1%e0%b8%aa%e0%b8%a3%e0%b9%89%e0%b8%b2%e0%b8%87%e0%b9%82%e0%b8%9b%e0%b8%a3%e0%b9%80%e0%b8%88%e0%b9%87%e0%b8%84) ก่อนนะครับ) .. ลองกับ **WordPress** บอกหมดทั้งชื่อฟังก์ชั่น, อาร์กิวเม้นต์ พร้อมบอกด้วยว่าอยู่ที่ไฟล์ไหน
 
 [![image](http://files.armno.in.th/uploads/2010/07/image_thumb8.png)](http://files.armno.in.th/uploads/2010/07/image8.png)
 
