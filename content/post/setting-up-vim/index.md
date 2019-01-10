@@ -20,7 +20,7 @@ url: /2013/09/05/setting-up-vim/
 
 <blockquote><p>บน OSX นั้น ผมใช้ homebrew เป็นหลัก สามารถดูวิธีติดตั้งได้จาก <a href="http://brew.sh">brew.sh</a> ครับ (ง่ายมาก)</p></blockquote>
 
-![vim](https://farm8.staticflickr.com/7337/9679791742_e1cae8d157_c.jpg)
+![vim](images/9679791742_e1cae8d157_c.jpg)
 
 ### ติดตั้ง Vim
 
@@ -62,7 +62,7 @@ https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 #### [NERDTree](https://github.com/scrooloose/nerdtree)
 
-![nerdtree](https://farm8.staticflickr.com/7396/9679791406_60985bce2e_o.png)
+![nerdtree](images/9679791406_60985bce2e_o.png)
 
 NERDTree เป็น file explorer ของ Vim ครับ ใช้เป็น sidebar คล้ายๆ ของ Sublime Text ได้ ติดตั้ง plugin ตัวนี้ได้ผ่าน Pathogen ครับ
 
@@ -73,7 +73,7 @@ $ git clone https://github.com/scrooloose/nerdtree.git
 
 #### [Emmet](http://mattn.github.io/emmet-vim/)
 
-Emmet (ชื่อเดิมคือ [Zen Coding](http://armno.in.th/2012/11/06/emmet-zen-coding-replacement/)) นั้นเป็น plugin ที่ช่วยให้เขียน HTML ได้เร็วขึ้นครับ จริงๆ แล้วผมไม่ค่อยได้ใช้ Emmet ใน Vim แต่ลงไว้ก็ไม่เสียหายครับ สามารถติดตั้งผ่าน Pathogen อีกเหมือนกัน
+Emmet (ชื่อเดิมคือ [Zen Coding](https://armno.in.th/2012/11/06/emmet-zen-coding-replacement/)) นั้นเป็น plugin ที่ช่วยให้เขียน HTML ได้เร็วขึ้นครับ จริงๆ แล้วผมไม่ค่อยได้ใช้ Emmet ใน Vim แต่ลงไว้ก็ไม่เสียหายครับ สามารถติดตั้งผ่าน Pathogen อีกเหมือนกัน
 
 {{< highlight sh >}}
 $ cd ~/.vim/bundle
@@ -97,7 +97,7 @@ $ wget --no-check-certificate https://raw.github.com/Townk/vim-autoclose/master/
 
 #### [neocomplcache](https://github.com/Shougo/neocomplcache.vim)
 
-![neocomplcache](https://farm4.staticflickr.com/3689/9679852438_c0db1272a3_o.png)
+![neocomplcache](images/9679852438_c0db1272a3_o.png)
 
 เป็น auto complete ของ Vim ที่ผมใช้อยู่ครับ ทำงานได้ค่อนข้างดีเลยทีเดียว การติดตั้งนั้นทำได้โดยดาวน์โหลดไฟล์เป็น .zip จาก Github repo แล้ว extract ไฟล์ทั้งหมดไปที่โฟลเดอร์ `~/.vim` ครับ
 
@@ -109,7 +109,7 @@ $ wget --no-check-certificate https://github.com/Shougo/neocomplcache.vim/archiv
 
 #### [Powerline](https://github.com/Lokaltog/powerline)
 
-![powerline](https://farm4.staticflickr.com/3797/9676557587_90c9c8c01e_c.jpg)
+![powerline](images/9676557587_90c9c8c01e_c.jpg)
 
 ทำให้ status bar ของ Vim นั้นมีประโยชน์และน่าสนใจขึ้นมาอีกหน่อย วิธีติดตั้งดูได้จาก [documentation](https://powerline.readthedocs.org/en/latest/overview.html#installation) บนเว็บของ Powerline ได้เลย คอนข้างยาวและยุ่งครับ
 
@@ -136,7 +136,7 @@ $ git clone https://github.com/terryma/vim-multiple-cursors.git
 
 อีกหนึ่งความสามารถของ Sublime Text คือ เปิดไฟล์แบบเร็วๆ ด้วย `Cmd+t` (หรือ `Cmd+p`) ก็มี plugin สำหรับ Vim เหมือนกันครับ คือเจ้า CtrlP ตัวนี้เอง อย่างในรูปผมลองหา bower ใน repo นี้ ก็จะเจอไฟล์ตามข้างล่าง ความเร็วในการหานั้นพอๆ กับ Sublime Text เลยทีเดียว เพียงแต่มันกลับด้านกันเท่านั้น
 
-![vim ctrlp](https://farm8.staticflickr.com/7307/12290596375_dc2ae27dd8_c.jpg)
+![vim ctrlp](images/12290596375_dc2ae27dd8_c.jpg)
 
 ใช้งานผ่าน Pathogen ได้อีกแล้วจ้า
 
