@@ -1,8 +1,8 @@
 @font-face {
   font-family: Boon;
-  src: url('../fonts/woff2-otf/Boon-Light.woff2') format('woff2'),
-    url('../fonts/woff-otf/Boon-Light.woff') format('woff'),
-    url('../fonts/otf/Boon-Light.otf') format('truetype');
+  src: url("../fonts/woff2-otf/Boon-Light.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-Light.woff") format("woff"),
+    url("../fonts/otf/Boon-Light.otf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
@@ -15,9 +15,9 @@
 
 @font-face {
   font-family: Boon;
-  src: url('../fonts/woff2-otf/Boon-LightItalic.woff2') format('woff2'),
-    url('../fonts/woff-otf/Boon-LightItalic.woff') format('woff'),
-    url('../fonts/otf/Boon-LightItalic.otf') format('truetype');
+  src: url("../fonts/woff2-otf/Boon-LightItalic.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-LightItalic.woff") format("woff"),
+    url("../fonts/otf/Boon-LightItalic.otf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
@@ -30,9 +30,9 @@
 
 @font-face {
   font-family: Boon;
-  src: url('../fonts/woff2-otf/Boon-Regular.woff2') format('woff2'),
-    url('../fonts/woff-otf/Boon-Regular.woff') format('woff'),
-    url('../fonts/otf/Boon-Regular.otf') format('truetype');
+  src: url("../fonts/woff2-otf/Boon-Regular.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-Regular.woff") format("woff"),
+    url("../fonts/otf/Boon-Regular.otf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -45,9 +45,9 @@
 
 @font-face {
   font-family: Boon;
-  src: url('../fonts/woff2-otf/Boon-Italic.woff2') format('woff2'),
-    url('../fonts/woff-otf/Boon-Italic.woff') format('woff'),
-    url('../fonts/otf/Boon-Italic.otf') format('truetype');
+  src: url("../fonts/woff2-otf/Boon-Italic.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-Italic.woff") format("woff"),
+    url("../fonts/otf/Boon-Italic.otf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
@@ -60,9 +60,9 @@
 
 @font-face {
   font-family: Boon;
-  src: url('../fonts/woff2-otf/Boon-Medium.woff2') format('woff2'),
-    url('../fonts/woff-otf/Boon-Medium.woff') format('woff'),
-    url('../fonts/otf/Boon-Medium.otf') format('truetype');
+  src: url("../fonts/woff2-otf/Boon-Medium.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-Medium.woff") format("woff"),
+    url("../fonts/otf/Boon-Medium.otf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -75,9 +75,9 @@
 
 @font-face {
   font-family: Boon;
-  src: url('../fonts/woff2-otf/Boon-MediumItalic.woff2') format('woff2'),
-    url('../fonts/woff-otf/Boon-MediumItalic.woff') format('woff'),
-    url('../fonts/otf/Boon-MediumItalic.otf') format('truetype');
+  src: url("../fonts/woff2-otf/Boon-MediumItalic.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-MediumItalic.woff") format("woff"),
+    url("../fonts/otf/Boon-MediumItalic.otf") format("truetype");
   font-weight: 500;
   font-style: italic;
 }
@@ -90,9 +90,9 @@
 
 @font-face {
   font-family: Boon;
-  src: url('../fonts/woff2-otf/Boon-SemiBold.woff2') format('woff2'),
-    url('../fonts/woff-otf/Boon-SemiBold.woff') format('woff'),
-    url('../fonts/otf/Boon-SemiBold.otf') format('truetype');
+  src: url("../fonts/woff2-otf/Boon-SemiBold.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-SemiBold.woff") format("woff"),
+    url("../fonts/otf/Boon-SemiBold.otf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -105,9 +105,9 @@
 
 @font-face {
   font-family: Boon;
-  src: url('../fonts/woff2-otf/Boon-SemiBoldItalic.woff2') format('woff2'),
-    url('../fonts/woff-otf/Boon-SemiBoldItalic.woff') format('woff'),
-    url('../fonts/otf/Boon-SemiBoldItalic.otf') format('truetype');
+  src: url("../fonts/woff2-otf/Boon-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/otf/Boon-SemiBoldItalic.otf") format("truetype");
   font-weight: 600;
   font-style: italic;
 }
@@ -120,9 +120,9 @@
 
 @font-face {
   font-family: Boon;
-  src: url('../fonts/woff2-otf/Boon-Bold.woff2') format('woff2'),
-    url('../fonts/woff-otf/Boon-Bold.woff') format('woff'),
-    url('../fonts/otf/Boon-Bold.otf') format('truetype');
+  src: url("../fonts/woff2-otf/Boon-Bold.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-Bold.woff") format("woff"),
+    url("../fonts/otf/Boon-Bold.otf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
@@ -135,9 +135,9 @@
 
 @font-face {
   font-family: Boon;
-  src: url('../fonts/woff2-otf/Boon-BoldItalic.woff2') format('woff2'),
-    url('../fonts/woff-otf/Boon-BoldItalic.woff') format('woff'),
-    url('../fonts/otf/Boon-BoldItalic.otf') format('truetype');
+  src: url("../fonts/woff2-otf/Boon-BoldItalic.woff2") format("woff2"),
+    url("../fonts/woff-otf/Boon-BoldItalic.woff") format("woff"),
+    url("../fonts/otf/Boon-BoldItalic.otf") format("truetype");
   font-weight: 700;
   font-style: italic;
 }
@@ -298,9 +298,9 @@ select {
 }
 
 button,
-html input[type='button'],
-input[type='reset'],
-input[type='submit'] {
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -320,24 +320,24 @@ input {
   line-height: normal;
 }
 
-input[type='checkbox'],
-input[type='radio'] {
+input[type="checkbox"],
+input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-input[type='number']::-webkit-inner-spin-button,
-input[type='number']::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-input[type='search'] {
+input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box;
 }
 
-input[type='search']::-webkit-search-cancel-button,
-input[type='search']::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -432,7 +432,7 @@ a {
 }
 
 blockquote {
-  quotes: '\201C' '' '\2018' '\2019';
+  quotes: "\201C" "" "\2018" "\2019";
   margin-left: 0;
   padding-left: 2.5rem;
   margin-right: 1rem;
@@ -465,7 +465,7 @@ hr {
 
 code,
 pre {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 code {
@@ -602,7 +602,7 @@ figure {
 .publish-time {
   text-transform: uppercase;
   font-weight: bold;
-  color: #723b56;
+  color: #0b6d4d;
 }
 
 .publish-time sup {
@@ -644,12 +644,12 @@ figure {
 }
 
 .post-teaser {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .home-header {
   background-color: #1abc9c;
-  background-image: url('/img/cover-js-laptop-mobile.jpg');
+  background-image: url("/img/cover-js-laptop-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -659,13 +659,13 @@ figure {
 
 @media only screen and (min-width: 600px) and (max-width: 1100px) {
   .home-header {
-    background-image: url('/img/cover-js-laptop-tablet.jpg');
+    background-image: url("/img/cover-js-laptop-tablet.jpg");
   }
 }
 
 @media only screen and (min-width: 1101px) {
   .home-header {
-    background-image: url('/img/cover-js-laptop-desktop.jpg');
+    background-image: url("/img/cover-js-laptop-desktop.jpg");
     padding-bottom: 5rem;
     background-position: center 66%;
   }
@@ -788,7 +788,7 @@ figure {
   text-transform: initial;
   font-weight: normal;
   font-size: 0.7rem;
-  color: #723b56;
+  color: #0b6d4d;
   margin-bottom: 0;
 }
 
@@ -938,7 +938,7 @@ figure {
   line-height: 0;
   width: 32px;
   height: 32px;
-  background: url('/img/bike-gray.svg') center no-repeat;
+  background: url("/img/bike-gray.svg") center no-repeat;
   background-size: cover;
   display: block;
 }
