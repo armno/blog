@@ -530,12 +530,14 @@ figure {
   }
 }
 
+.container.wide ol,
 .container.wide ul {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
 @media only screen and (min-width: 600px) {
+  .container.wide ol,
   .container.wide ul {
     margin-left: auto;
     margin-right: auto;
