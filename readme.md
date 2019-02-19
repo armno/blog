@@ -8,7 +8,7 @@ My [blog](https://armno.in.th). Built with [Hugo](https://gohugo.io/). Migrated 
 $ hugo serve -D
 ```
 
-## Creating a new post
+## Create a new post
 
 ```sh
 $ hugo new post/<post-title>/index.md
@@ -16,7 +16,7 @@ $ hugo new post/<post-title>/index.md
 
 ## `picture` shortcode
 
-paramters:
+parameters:
 
 - `wrapper-class`: CSS class(or classes) for the wrapper element of the image (`<p>`).
 - `img-class`: CSS class(or classes) for the `<img>` itself.
@@ -27,7 +27,7 @@ paramters:
 {{< picture wrapper-class="semi-full" img-class="nom" src="images/platoo.jpg" alt="test" >}}
 ```
 
-outputs:
+output:
 
 ```html
 <p class="media semi-full">
@@ -47,7 +47,7 @@ parameters:
 {{< picture-lazy wrapper-class="semi-full" src="images/platoo.jpg" alt="test" >}}
 ```
 
-outputs:
+output:
 
 ```html
 <p class="media lazy-wrapper semi-full">
