@@ -1,5 +1,7 @@
 # armno.in.th
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7d34a977-d95b-4b64-9e99-1a1df43ee944/deploy-status)](https://app.netlify.com/sites/armno/deploys)
+
 My [blog](https://armno.in.th). Built with [Hugo](https://gohugo.io/). Migrated from [`armno/armno.github.io`](https://github.com/armno/armno.github.io).
 
 ## Development
