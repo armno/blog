@@ -1,4 +1,4 @@
-baseURL: https://armno.in.th
+baseURL: https://armno.in.th/
 disablePathToLower: true
 languageCode: th
 title: Frontend Developer at BUZZWOO! Asia, Chiang Mai, Thailand. <3 Web Platform. Blogs about web and frontend toolings.
@@ -6,10 +6,10 @@ thumbnail: https://armno.in.th/img/cover-blog-stuttgart.jpg
 theme: armno
 permalinks:
   post: /:year/:month/:day/:slug/
-pygmentsStyle: 'native'
+pygmentsStyle: "native"
 pygmentsCodefences: true
 ignoreFiles:
-  - '_drafts'
+  - "_drafts"
 blackfriday:
   extensionsmask:
     - noIntraEmphasis
