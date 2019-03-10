@@ -20,6 +20,10 @@
   <link rel="preconnect" href="https://www.google-analytics.com">
   <link rel="preconnect" href="https://ajax.googleapis.com">
 
+  <link rel="preload" href="{{ .Site.BaseURL }}fonts/woff2-otf/Boon-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ .Site.BaseURL }}fonts/woff2-otf/Boon-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ .Site.BaseURL }}fonts/woff2-otf/Boon-Italic.woff2" as="font" type="font/woff2" crossorigin>
+
   {{ partial "style.html" }}
 
   {{ if .RSSLink -}}
