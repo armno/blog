@@ -432,7 +432,8 @@ a {
 }
 
 blockquote {
-  quotes: "\201C" "" "\2018" "\2019";
+  /* prettier-ignore */
+  quotes: "\201C" "" "\2018""\2019";
   margin-left: 0;
   padding-left: 2.5rem;
   margin-right: 1rem;
@@ -460,6 +461,7 @@ hr {
   border: 0;
   border-bottom: 1px solid rgba(72, 86, 101, 0.2);
   width: 60%;
+  max-width: 500px;
   margin: 4rem auto;
 }
 
@@ -1062,8 +1064,9 @@ figure {
 }
 
 .media {
-  margin-bottom: 48px;
+  margin-bottom: 60px;
   line-height: 0;
+  text-align: center;
 }
 
 /* Prevents img without src to appear */
@@ -1103,4 +1106,11 @@ img:not([src]) {
 
 .comment-container {
   margin-bottom: 60px;
+}
+
+.message--warning {
+  background-color: #fff6b5;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 2em;
 }
