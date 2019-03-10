@@ -287,7 +287,7 @@ UPS จะมีแบบฟอร์มมาให้ ให้เรากร
 เอกสารที่ใช้ มีแค่บัตรประชาชนตัวจริง เจ้าหน้าที่จะให้กรอกข้อมูลเล็กน้อย รอไม่ถึงห้านาทีก็เสร็จแล้ว ไม่เสียค่าใช้จ่ายครับ
 
 <p>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2312.455495453954!2d98.96907957303287!3d18.76659242082213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3089e7b0a1b3%3A0x1d6fc826923e9ec5!2z4Lit4Liy4LiE4Liy4Lij4LiE4Lil4Lix4LiH4Liq4Li04LiZ4LiE4LmJ4Liy4LiX4LmI4Liy4Lit4Liy4LiB4Liy4Lio4Lii4Liy4LiZ4LmA4LiK4Li14Lii4LiH4LmD4Lir4Lih4LmI!5e0!3m2!1sen!2sth!4v1549163556549" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe title="แผนที่ตึกคลังสินค้าเชียงใหม่" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2312.455495453954!2d98.96907957303287!3d18.76659242082213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3089e7b0a1b3%3A0x1d6fc826923e9ec5!2z4Lit4Liy4LiE4Liy4Lij4LiE4Lil4Lix4LiH4Liq4Li04LiZ4LiE4LmJ4Liy4LiX4LmI4Liy4Lit4Liy4LiB4Liy4Lio4Lii4Liy4LiZ4LmA4LiK4Li14Lii4LiH4LmD4Lir4Lih4LmI!5e0!3m2!1sen!2sth!4v1549163556549" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 
 {{< picture-lazy src="images/warehouse-direction.jpg" alt="รูป: อาคารคลังสินค้า" >}}
