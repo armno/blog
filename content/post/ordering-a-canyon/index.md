@@ -5,7 +5,7 @@ url: /2019/01/28/ordering-a-canyon-bike-review
 layout: wide
 cover-image: images/cover.jpg
 thumbnail: images/box-front.jpg
-description: รีวิวการสั่งซื้อจักรยาน Canyon ออนไลน์ด้วยตัวเองจาก canyon.com ตั้งแต่ขั้นตอนการสั่งซื้อ จนถึงการนำเข้าและเสียภาษีต่างๆ
+description: ขั้นตอนการสั่งซื้อจักรยาน Canyon ออนไลน์ด้วยตัวเองจาก canyon.com รวมถึงการนำเข้าและเสียภาษีอย่างละเอียด
 tags:
   - bicycle
   - canyon
