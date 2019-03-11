@@ -1,30 +1,39 @@
-@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
-@import url('https://fonts.googleapis.com/css?family=Kanit:400,500,700|Sarabun:300,400,700');
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url("https://fonts.googleapis.com/css?family=Kanit:300,400,700|Sarabun:300,400,700");
+@import url("./font.css");
+
+:root {
+  --body-color: #444;
+  --heading-color: #222324;
+  --light-gray: #a7a8a9;
+}
 
 body {
-	font-family: Sarabun, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-	font-weight: 300;
-	font-size: 19px;
-	line-height: 1.6;
-	color: #444;
+  font-family: Boon, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 21px;
+  line-height: 1.6;
+  color: var(--body-color);
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 h1,
 h2,
 h3,
 h4 {
-	font-family: Kanit;
+  font-family: Kanit;
   font-weight: 700;
-  color: #222324;
+  color: var(--heading-color);
 }
 
 h1 {
-	font-size: 50px;
-	line-height: 1.1;
+  font-size: 50px;
+  line-height: 1.1;
 }
 
 strong {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 a {
@@ -32,19 +41,52 @@ a {
 }
 
 time {
-	color: #a7a9a0;
+  color: var(--light-gray);
 }
 
 .publish-date {
-	margin-bottom: 2rem;
-	font-size: 0.9rem;
+  margin-bottom: 2rem;
+  font-size: 0.8em;
 }
 
-main {
-	margin-left: 35%;
-	max-width: 640px;
+@media (min-width: 640px) {
+  main {
+    margin-left: 30%;
+    max-width: 640px;
+  }
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
+}
+
+figcaption {
+  word-break: break-all;
+}
+
+.page-title {
+  margin-top: 3em;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: var(--light-gray);
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid var(--light-gray);
+  width: 80%;
+  max-width: 500px;
+  margin: 4rem auto;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
