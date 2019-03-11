@@ -9,6 +9,7 @@ tags:
   - Hardware
 thumbnail: https://armno.in.th/img/posts/gh60/19-final-keyboard.jpg
 cover-image: /img/posts/gh60/cover.jpg
+layout: plain
 ---
 
 _Read the English version of this post on Medium: [Building My Own Mechanical Keyboard](https://medium.com/@armno/building-my-own-mechanical-keyboard-6903b887b93d)._
