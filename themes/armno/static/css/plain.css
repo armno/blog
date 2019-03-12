@@ -52,7 +52,7 @@ time {
   font-size: 0.8em;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 800px) {
   main {
     margin-left: 30%;
     max-width: 620px;
@@ -99,8 +99,12 @@ hr {
   text-decoration: none;
 }
 
-header {
+.global-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.comments {
+  margin-top: 80px;
 }
