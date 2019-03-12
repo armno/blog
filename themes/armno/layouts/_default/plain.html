@@ -10,7 +10,7 @@
     <a href="/" class="logo-link">
       <h1 class="logo">an.</h1>
     </a>
-    <a href="/">
+    <a href="/" class="home-link">
       home
     </a>
   </header>
@@ -20,28 +20,28 @@
         <h1 class="page-title">{{ .Title }}</h1>
       </header>
 
+      {{ if eq .Section "post" }}
       <div class="publish-date">
         <time>{{ .Date.Format "January 2, 2006" }}</time>
       </div>
+      {{ end }}
 
       {{ .Content }}
     </article>
 
+    {{ if eq .Section "post" }}
     <div class="share-article">
       <h3>Share</h3>
       <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
-        target="_blank"
-        rel="noopener">
+        target="_blank" rel="noopener">
         Twitter
       </a>
 
       <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
-        target="_blank"
-        rel="noopener">
+        target="_blank" rel="noopener">
         Facebook
       </a>
     </div>
-
     <div class="comments">
       <div id="disqus_thread"></div>
       <script>
@@ -62,6 +62,6 @@
       </script>
       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
-
+    {{ end }}
   </main>
 </body>

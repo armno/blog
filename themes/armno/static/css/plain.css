@@ -52,13 +52,6 @@ time {
   font-size: 0.8em;
 }
 
-@media (min-width: 800px) {
-  main {
-    margin-left: 30%;
-    max-width: 620px;
-  }
-}
-
 img {
   max-width: 100%;
 }
@@ -97,6 +90,8 @@ hr {
 
 .logo-link {
   text-decoration: none;
+  transition: transform 0.3s ease-out;
+  transition-delay: 0.4s;
 }
 
 .global-header {
@@ -107,8 +102,44 @@ hr {
 
 .comments {
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .share-article a {
   margin-right: 1em;
+}
+
+.lead {
+  font-size: 1.4rem;
+}
+
+
+@media (min-width: 800px) {
+  .home-link {
+    display: none;
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  main {
+    max-width: 620px;
+    flex-grow: 1;
+  }
+
+  .global-header {
+    width: 30%;
+    align-self: flex-start;
+  }
+
+  .page-title {
+    margin-top: 0.67em;
+  }
+
+  .logo-link {
+    transform: translateY(40px)
+  }
 }
