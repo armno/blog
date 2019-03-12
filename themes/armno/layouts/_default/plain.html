@@ -27,6 +27,21 @@
       {{ .Content }}
     </article>
 
+    <div class="share-article">
+      <h3>Share</h3>
+      <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
+        target="_blank"
+        rel="noopener">
+        Twitter
+      </a>
+
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+        target="_blank"
+        rel="noopener">
+        Facebook
+      </a>
+    </div>
+
     <div class="comments">
       <div id="disqus_thread"></div>
       <script>

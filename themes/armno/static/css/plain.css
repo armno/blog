@@ -108,3 +108,7 @@ hr {
 .comments {
   margin-top: 80px;
 }
+
+.share-article a {
+  margin-right: 1em;
+}
