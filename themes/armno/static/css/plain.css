@@ -47,7 +47,6 @@ time {
   color: var(--light-gray);
 }
 
-
 img {
   max-width: 100%;
 }
@@ -55,7 +54,6 @@ img {
 figcaption {
   word-break: break-all;
 }
-
 
 figure {
   margin-left: 0;
@@ -116,7 +114,7 @@ hr {
   text-decoration: none;
 }
 
-.global-header {
+.sidebar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -136,9 +134,7 @@ hr {
   line-height: 1.4;
 }
 
-
 @media (min-width: 800px) {
-
   body {
     display: flex;
     flex-direction: row;
@@ -147,14 +143,16 @@ hr {
   main {
     max-width: 620px;
     flex-grow: 1;
+    margin-left: 20vw;
   }
 
   .nav {
     margin-top: 3.5rem;
   }
 
-  .global-header {
-    width: 30%;
+  .sidebar {
+    position: fixed;
+    width: 20vw;
     align-self: flex-start;
     margin-top: 40px;
     flex-direction: column;
