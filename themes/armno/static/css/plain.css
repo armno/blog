@@ -108,10 +108,38 @@ hr {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0;
+  transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.logo-link:hover .logo {
+  color: #fff;
 }
 
 .logo-link {
   text-decoration: none;
+  position: relative;
+  border: 5px solid #000;
+  padding: 0.4em 1em 0.5em;
+  background-color: #fff;
+  transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.logo-link:hover {
+  background-color: #000;
+}
+
+.logo-link::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 15px;
+  height: 10px;
+  background-color: #fff;
+  top: -5px;
+  left: -5px;
+  z-index: 10;
+  border-bottom: 5px solid #000;
+  border-right: 5px solid #000;
 }
 
 .sidebar {
