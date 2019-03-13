@@ -48,15 +48,14 @@
 
     {{ if eq .Section "post" }}
     <div class="share-article">
-      <h3>Share</h3>
       <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
         target="_blank" rel="noopener">
-        Twitter
+        Share on Twitter
       </a>
 
       <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
         target="_blank" rel="noopener">
-        Facebook
+        Share on Facebook
       </a>
     </div>
     <div class="comments">
