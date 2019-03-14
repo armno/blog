@@ -11,6 +11,21 @@
       an
     </a>
 
+    <div class="post-aside">
+      {{ if .Params.tags }}
+      <h4>Tags</h4>
+      {{ $taxo := "tags" }}
+      <ul id="{{ $taxo }}">
+        {{ range .Param $taxo }}
+        {{ $name := . }}
+        {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+        <li><a href="{{ .Permalink }}">#{{ $name }}</a></li>
+        {{ end }}
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav-item home-link">
@@ -37,8 +52,9 @@
         <h1 class="page-title">{{ .Title }}</h1>
       </header>
 
-      <div class="publish-date">
-        <time>{{ .Date.Format "January 2, 2006" }}</time>
+      <div class="post-meta">
+        <time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+        &middot; {{ .Page.ReadingTime }} min read
       </div>
 
       {{ .Content }}
