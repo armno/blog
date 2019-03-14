@@ -123,12 +123,30 @@ hr {
   color: var(--heading-color);
   border: 6px solid var(--heading-color);
   background-color: #fff;
+
   transition: clip-path 0.7s cubic-bezier(0.19, 1, 0.22, 1);
   clip-path: polygon(0% 50%, 0% 0%,   100% 0%, 80% 50%, 100% 50%, 100% 100%,  0% 100%, 20% 50%);
+  position: relative;
+}
+
+.logo-link::after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  background-color: var(--heading-color);
+  transform: scaleX(0);
+  transition: transform 0.5s;
+  bottom: 8px;
 }
 
 .logo-link:hover {
   clip-path: polygon(0% 0%,  50% 20%, 50% 0%, 100% 0%,  100% 100%, 50% 80%,  50% 100%, 0% 100%);
+}
+
+.logo-link:hover::after {
+  transform: scaleX(1);
 }
 
 .sidebar {
