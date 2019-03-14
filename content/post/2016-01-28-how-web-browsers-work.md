@@ -13,6 +13,7 @@ tags:
 thumbnail: https://armno.in.th/img/posts/how-browsers-work/cover-devtools-timeline.png
 title: วิธีการทำงานของ web browser
 url: /2016/01/28/how-web-browsers-work/
+layout: plain
 ---
 
 HTML, CSS กับ JavaScript เป็น 3 องค์ประกอบหลักของเว็บไซต์ทั่วๆ ไปที่เราเห็นกันอยู่

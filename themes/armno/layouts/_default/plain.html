@@ -37,11 +37,9 @@
         <h1 class="page-title">{{ .Title }}</h1>
       </header>
 
-      {{ if eq .Section "post" }}
       <div class="publish-date">
         <time>{{ .Date.Format "January 2, 2006" }}</time>
       </div>
-      {{ end }}
 
       {{ .Content }}
     </article>
