@@ -9,6 +9,10 @@
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Boon, var(--sans-serif);
   font-size: 19px;
@@ -104,29 +108,27 @@ hr {
   margin-top: 3em;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin: 0;
-  transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.logo-link:hover .logo {
-  color: #fff;
-}
-
 .logo-link {
   text-decoration: none;
-  position: relative;
-  border: 5px solid #000;
-  padding: 0.4em 0.6em 0.5em;
+  text-transform: uppercase;
+  font-family: Anakotmai;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -1px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--heading-color);
+  border: 6px solid var(--heading-color);
   background-color: #fff;
-  transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-  clip-path: polygon(0% 20%, 20% 20%, 0% 0%, 100% 0%, 80% 20%, 100% 20%, 100% 80%, 80% 80%, 100% 100%, 0% 100%, 20% 80%, 0% 80%);
+  transition: clip-path 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  clip-path: polygon(0% 50%, 0% 0%,   100% 0%, 80% 50%, 100% 50%, 100% 100%,  0% 100%, 20% 50%);
 }
 
 .logo-link:hover {
-  background-color: #000;
+  clip-path: polygon(0% 0%,  50% 20%, 50% 0%, 100% 0%,  100% 100%, 50% 80%,  50% 100%, 0% 100%);
 }
 
 .sidebar {

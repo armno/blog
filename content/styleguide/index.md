@@ -26,8 +26,8 @@ layout: plain
 
 ### Typefaces
 
-- Headings: [Kanit](https://fonts.google.com/specimen/Kanit) (Google Fonts)
-- Body: [Boon](https://fontuni.com/boon/) (Self-hosted)
+- Headings: [Anakotmai](https://futureforwardparty.org/1965)
+- Body: [Boon](https://fontuni.com/boon/)
 
 ### Sizes
 
