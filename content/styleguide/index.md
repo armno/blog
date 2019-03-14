@@ -8,14 +8,6 @@ layout: plain
   I don't know what I'm doing yet but hopefully this is useful.
 </p>
 
-## Logo
-
-<a href="/" class="logo-link">
-  <h1 class="logo">an.</h1>
-</a>
-
-(Hopefully soon I get a fancy one. For now just use this.)
-
 ## Layout
 
 - Mobile: 1 column, full-width.
