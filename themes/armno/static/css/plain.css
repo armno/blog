@@ -77,7 +77,7 @@ hr {
   margin: 4rem auto;
 }
 
-code {
+code, kbd, samp {
   font-family: 'Roboto Mono', monospace;
   font-display: swap;
 }
