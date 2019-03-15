@@ -1,9 +1,31 @@
 <!DOCTYPE html>
+<html class="no-js">
 <head>
   <title>{{ .Title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Armno Prommarak">
   <link rel="stylesheet" type="text/css" href="/css/plain.css" media="screen">
+
+  <!-- google fonts -->
+  <script>
+    document.querySelector('html').classList.remove('no-js');
+    WebFontConfig = {
+      google: {
+        families: [
+          'Roboto+Mono::latin'
+        ]
+      }
+    };
+    (function () {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
 </head>
 <body>
   <aside class="sidebar">
@@ -35,10 +57,7 @@
           <a href="/about">about</a>
         </li>
         <li class="nav-item">
-          <a href="/blog">blog</a>
-        </li>
-        <li class="nav-item">
-          <a href="https://github.com/armno" target="_blank" rel="noopener">github</a>
+          <a href="/blog">articles</a>
         </li>
         <li class="nav-item">
           <a href="/contact">contact</a>
@@ -94,4 +113,21 @@
     </div>
     {{ end }}
   </main>
+
+  <script>
+    window.lazyLoadOptions = {
+      elements_selector: '.lazy'
+    }
+  </script>
+  <script async src="/js/lazyload.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2721521-7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-2721521-7', { 'anonymize_ip': true });
+  </script>
 </body>
+</html>
