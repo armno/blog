@@ -147,11 +147,13 @@
     {{ if eq .Section "post" }}
     <div class="share-article">
       <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
+        class="btn-share btn-share--twitter"
         target="_blank" rel="noopener">
         Share on Twitter
       </a>
 
       <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+        class="btn-share btn-share--facebook"
         target="_blank" rel="noopener">
         Share on Facebook
       </a>

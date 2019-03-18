@@ -22,8 +22,12 @@ tags:
 
 ```
 --body-color: #444;
---heading-color: #222324;
+--dark-gray: #222324;
 --light-gray: #a7a8a9;
+--ghostwhite: ghostwhite;
+--gold: gold;
+--twitter: #1DA1F2;
+--facebook: #3b5998;
 ```
 
 ## Typography
@@ -61,6 +65,25 @@ _emphasized words to stress_ สเตชันติวเตอร์ราม
 
 วิภัชภาค ไอซียู พาเหรดเบญจมบพิตรบุ๋น ติวจตุคามเอ็กซ์โปพาสต้าดีพาร์ตเมนท์ ป๊อกกฤษณ์รีสอร์ตเก๋ากี้ ไรเฟิลแซนด์วิช ศิลปวัฒนธรรม ฮิบรูโพลล์ เอเซียคอนโดมิเนียม เบลอบึมโบรชัวร์ไวอะกร้ามาเฟีย บริกรชีสอพาร์ตเมนท์คอนโทรล ป่าไม้หลวงตา คาเฟ่เฮียดยุค ไฮเปอร์แตงโมจูนหมวยคอมเมนท์ หยวน ชัวร์ต้าอ่วยนอร์ท
 
+## Buttons
+
+<div class="share-article">
+  <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
+    class="btn-share btn-share--twitter"
+    target="_blank" rel="noopener">
+    Share on Twitter
+  </a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+    class="btn-share btn-share--facebook"
+    target="_blank" rel="noopener">
+    Share on Facebook
+  </a>
+</div>
+
+## Media Elements ‒ Pictures, Videos
+
+TBA
 
 ---
 

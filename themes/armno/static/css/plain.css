@@ -7,6 +7,8 @@
   --light-gray: #a7a8a9;
   --ghostwhite: ghostwhite; /* just so that i can change to another color easier */
   --gold: gold;
+  --twitter: #1DA1F2;
+  --facebook: #3b5998;
   --sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1)
 }
@@ -191,10 +193,6 @@ blockquote {
   margin-bottom: 80px;
 }
 
-.share-article a {
-  margin-right: 1em;
-}
-
 .lead {
   font-size: 1.4rem;
   line-height: 1.4;
@@ -213,6 +211,35 @@ blockquote {
 
 .post-aside__title {
   margin-bottom: 0.5em;
+}
+
+.share-article {
+  margin-top: 4rem;
+}
+
+.btn-share {
+  color: #fff;
+  padding: 0.25em 1em;
+  text-decoration: none;
+  font-size: 0.9em;
+  display: inline-block;
+  transition: transform 0.3s var(--ease-out-expo);
+}
+
+.btn-share:not(:last-child) {
+  margin-right: 1em;
+}
+
+.btn-share:hover {
+  transform: translateY(-2px);
+}
+
+.btn-share--twitter {
+  background-color: var(--twitter);
+}
+
+.btn-share--facebook {
+  background-color: var(--facebook);
 }
 
 @media (min-width: 800px) {
