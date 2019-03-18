@@ -6,7 +6,7 @@ thumbnail: https://armno.in.th/img/cover-blog-stuttgart.jpg
 theme: armno
 permalinks:
   post: /:year/:month/:day/:slug/
-pygmentsStyle: "native"
+pygmentsStyle: "murphy"
 pygmentsCodefences: true
 ignoreFiles:
   - "_drafts"

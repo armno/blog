@@ -3,8 +3,10 @@
 
 :root {
   --body-color: #444;
-  --heading-color: #222324;
+  --dark-gray: #222324;
   --light-gray: #a7a8a9;
+  --ghostwhite: ghostwhite; /* just so that i can change to another color easier */
+  --gold: gold;
   --sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1)
 }
@@ -27,7 +29,7 @@ h3,
 h4 {
   font-family: Anakotmai, var(--sans-serif);
   font-weight: 700;
-  color: var(--heading-color);
+  color: var(--dark-gray);
 }
 
 h1 {
@@ -74,13 +76,37 @@ hr {
   width: 28%;
   margin: 4rem auto 4rem 0;
   height: 6px;
-  background-color: var(--heading-color);
+  background-color: var(--dark-gray);
 }
 
 code, kbd, samp {
   font-family: 'Roboto Mono', monospace;
-  font-display: swap;
+  font-size: 0.9em;
+  background-color: var(--ghostwhite);
+  padding: 3px;
 }
+
+mark {
+  background-color: var(--gold);
+  padding: 0 3px;
+}
+
+pre code {
+  background-color: transparent;
+}
+
+blockquote {
+  margin: 0;
+  padding: 1em 40px;
+  background-color: var(--ghostwhite);
+}
+
+/* hugo-generated footnote */
+.footnote {
+  font-size: 0.9em;
+}
+
+/* ------ */
 
 .nav-list {
   list-style: none;
@@ -125,8 +151,8 @@ code, kbd, samp {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--heading-color);
-  border: 6px solid var(--heading-color);
+  color: var(--dark-gray);
+  border: 6px solid var(--dark-gray);
   background-color: #fff;
 
   transition: clip-path 0.7s var(--ease-out-expo);
@@ -140,7 +166,7 @@ code, kbd, samp {
   position: absolute;
   width: 50%;
   height: 3px;
-  background-color: var(--heading-color);
+  background-color: var(--dark-gray);
   transform: scaleX(0);
   transition: transform 0.5s;
   bottom: 8px;
@@ -175,7 +201,7 @@ code, kbd, samp {
 }
 
 .post-aside {
-  margin-top: 80px;
+  margin-top: 68px;
   font-size: 1rem;
 }
 
@@ -183,6 +209,10 @@ code, kbd, samp {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.post-aside__title {
+  margin-bottom: 0.5em;
 }
 
 @media (min-width: 800px) {
@@ -194,27 +224,21 @@ code, kbd, samp {
   main {
     max-width: 640px;
     flex-grow: 1;
-    margin-left: 20vw;
+    margin-left: 28vw;
   }
 
   .nav {
-    margin-top: 3.5rem;
+    margin-top: 5.6rem;
   }
 
   .sidebar {
     position: fixed;
-    width: 20vw;
+    width: 25vw;
     margin-top: 40px;
     flex-direction: column;
     align-items: flex-end;
     padding-right: 60px;
     text-align: right;
-    opacity: 0.2;
-    transition: opacity 0.4s var(--ease-out-expo);
-  }
-
-  .sidebar:hover {
-    opacity: 1;
   }
 
   .page-title {

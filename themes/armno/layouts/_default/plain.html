@@ -95,9 +95,9 @@
       an
     </a>
 
-    <div class="post-aside">
+    <!-- <div class="post-aside">
       {{ if .Params.tags }}
-      <h4>Tagged</h4>
+      <h4 class="post-aside__title">Tagged</h4>
       {{ $taxo := "tags" }}
       <ul id="{{ $taxo }}">
         {{ range .Param $taxo }}
@@ -108,7 +108,7 @@
         {{ end }}
       </ul>
       {{ end }}
-    </div>
+    </div> -->
 
     <nav class="nav">
       <ul class="nav-list">
@@ -123,6 +123,9 @@
         </li>
         <li class="nav-item">
           <a href="/contact">contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="/styleguide">styleguide</a>
         </li>
       </ul>
     </nav>

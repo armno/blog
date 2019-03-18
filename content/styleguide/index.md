@@ -1,6 +1,10 @@
 ---
 title: Styleguide
 layout: plain
+tags:
+  - reference
+  - styelguide
+  - web performance
 ---
 
 <p class="lead">
