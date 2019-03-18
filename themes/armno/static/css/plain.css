@@ -71,10 +71,10 @@ figcaption {
 
 hr {
   border: 0;
-  border-bottom: 1px solid var(--light-gray);
-  width: 80%;
-  max-width: 500px;
-  margin: 4rem auto;
+  width: 28%;
+  margin: 4rem auto 4rem 0;
+  height: 6px;
+  background-color: var(--heading-color);
 }
 
 code, kbd, samp {
