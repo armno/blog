@@ -90,12 +90,37 @@
   </script>
 </head>
 <body>
+  <header class="site-header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item nav-item-mobile-logo">
+          <a href="/" class="logo-link">
+            an
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/about">about</a>
+        </li>
+        <li class="nav-item">
+          <a href="/blog">articles</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact">contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="content">
   <aside class="sidebar">
     <a href="/" class="logo-link">
       an
     </a>
 
-    <!-- <div class="post-aside">
+    <div class="post-aside">
+      <h4 class="post-aside__title">Published</h4>
+      <time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+      <div>{{ .Page.ReadingTime }} min read</div>
+
       {{ if .Params.tags }}
       <h4 class="post-aside__title">Tagged</h4>
       {{ $taxo := "tags" }}
@@ -108,38 +133,14 @@
         {{ end }}
       </ul>
       {{ end }}
-    </div> -->
-
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item home-link">
-          <a href="/">home</a>
-        </li>
-        <li class="nav-item">
-          <a href="/about">about</a>
-        </li>
-        <li class="nav-item">
-          <a href="/blog">articles</a>
-        </li>
-        <li class="nav-item">
-          <a href="/contact">contact</a>
-        </li>
-        <li class="nav-item">
-          <a href="/styleguide">styleguide</a>
-        </li>
-      </ul>
-    </nav>
+    </div>
   </aside>
+
   <main>
     <article>
       <header>
         <h1 class="page-title">{{ .Title }}</h1>
       </header>
-
-      <div class="post-meta">
-        <time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
-        &middot; {{ .Page.ReadingTime }} min read
-      </div>
 
       {{ .Content }}
     </article>
@@ -180,7 +181,7 @@
     </div>
     {{ end }}
   </main>
-
+</div>
   <script>
     window.lazyLoadOptions = {
       elements_selector: '.lazy'
