@@ -1,0 +1,12 @@
+name = "nerd"
+license = "MIT"
+licenselink = "https://github.com/armno/blog"
+description = "a theme built by a nerd"
+homepage = "https://github.com/armno/blog"
+tags = ["blog", "plain"]
+features = ["blog"]
+min_version = 0.19
+
+[author]
+  name = "Armno"
+  homepage = "https://armno.in.th"
