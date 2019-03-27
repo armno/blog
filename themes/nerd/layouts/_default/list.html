@@ -102,7 +102,7 @@
           <a href="/about">about</a>
         </li>
         <li class="nav-item">
-          <a href="/blog">articles</a>
+          <a href="/post">articles</a>
         </li>
         <li class="nav-item">
           <a href="/contact">contact</a>
@@ -111,87 +111,32 @@
     </nav>
   </header>
   <div class="content">
-  <aside class="sidebar">
-    <a href="/" class="logo-link">
-      an
-    </a>
-  </aside>
-
-  <main>
-    <header>
-      <h1 class="page-title">{{ .Title }}</h1>
-    </header>
-
-    <ol class="blog-list">
-      {{ range where .Site.Pages "Type" "post" }}
-      <li>
-        <div class="post-teaser">
-          <div class="post-teaser-text">
-            <h3 class="post-title">
-              <a class="post-link" href="{{ .Permalink }}">
-                {{ .Title }}
-              </a>
-            </h3>
-            <div class="publish-time">
-              <time>{{ .Date.Format "January 2, 2006" }}</time>
-            </div>
-
-            <ul class="tags-list tags-list-inline">
-              {{ range .Params.tags }}
-              <li class="tag-list-item">
-                #{{ . }}
-              </li>
-              {{ end }}
-            </ul>
-
-            <p>
-              {{ .Params.description }}
-            </p>
-
-          </div>
-        </div>
-
-      </li>
-      {{ end }}
-    </ol>
-
-    {{ if eq .Section "post" }}
-    <div class="share-article">
-      <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
-        class="btn-share btn-share--twitter"
-        target="_blank" rel="noopener">
-        Share on Twitter
+    <aside class="sidebar">
+      <a href="/" class="logo-link">
+        an
       </a>
+    </aside>
 
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
-        class="btn-share btn-share--facebook"
-        target="_blank" rel="noopener">
-        Share on Facebook
-      </a>
-    </div>
-    <div class="comments">
-      <div id="disqus_thread"></div>
-      <script>
+    <main>
+      <header>
+        <h1 class="page-title">{{ .Title }}</h1>
+      </header>
 
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-        var disqus_config = function () {
-          this.page.url = '{{ .Permalink }}';  // Replace PAGE_URL with your page's canonical URL variable
-          this.page.identifier = '{{ .UniqueID }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        (function () { // DON'T EDIT BELOW THIS LINE
-          var d = document, s = d.createElement('script');
-          s.src = 'https://armnointh.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
+      {{ range .Data.Pages.GroupByDate "2006" }}
+      <h2>{{ .Key }}</h2>
+      <ol>
+        {{ range .Pages }}
+        <li>
+          <a class="post-link" href="{{ .Permalink }}">
+            {{ .Title }}
+          </a>
+        </li>
+        {{ end }}
+      </ol>
     {{ end }}
-  </main>
-</div>
+
+    </main>
+  </div>
   <script>
     window.lazyLoadOptions = {
       elements_selector: '.lazy'
