@@ -115,35 +115,42 @@
     <a href="/" class="logo-link">
       an
     </a>
-
-    <div class="post-aside">
-      <h4 class="post-aside__title">Published</h4>
-      <time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
-      <div class="reading-time">{{ .Page.ReadingTime }} min read</div>
-
-      {{ if .Params.tags }}
-      <h4 class="post-aside__title">Tagged</h4>
-      {{ $taxo := "tags" }}
-      <ul id="{{ $taxo }}">
-        {{ range .Param $taxo }}
-        {{ $name := . }}
-        {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
-        <li><a href="{{ .Permalink }}">#{{ $name }}</a></li>
-        {{ end }}
-        {{ end }}
-      </ul>
-      {{ end }}
-    </div>
   </aside>
 
   <main>
-    <article>
-      <header>
-        <h1 class="page-title">{{ .Title }}</h1>
-      </header>
+    <h2>Latest Articles</h2>
+      {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+      {{ range $paginator.Pages }}
+      <article class="post-teaser">
+        {{ if .Params.thumbnail }}
+        <img src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
+        {{ end }}
+          <h3 class="post-title">
+            <a class="post-link" href="{{ .Permalink }}">
+              {{ .Title }}
+            </a>
+          </h3>
+          <div class="publish-time">
+            <time>{{ .Date.Format "January 2, 2006" }}</time>
+          </div>
+          <p>
+          {{ .Params.description }}
+          </p>
 
-      {{ .Content }}
-    </article>
+          <footer>
+            <ul class="tags-list tags-list-inline">
+              {{ range .Params.tags }}
+              <li class="tag-list-item">
+                #{{ . }}
+              </li>
+              {{ end }}
+            </ul>
+          </footer>
+      </article>
+
+      {{ end }}
+      <!-- Hugo's default pagination template. -->
+      {{ template "_internal/pagination.html" . }}
 
     {{ if eq .Section "post" }}
     <div class="share-article">
