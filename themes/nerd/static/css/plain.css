@@ -109,8 +109,8 @@ pre code {
 }
 
 blockquote {
-  margin: 0;
-  padding: 1em 40px;
+  margin: 0 0 2em;
+  padding: 1em 2em;
   background-color: var(--ghostwhite);
 }
 
