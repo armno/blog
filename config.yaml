@@ -6,7 +6,7 @@ thumbnail: https://armno.in.th/img/cover-blog-stuttgart.jpg
 theme: nerd
 permalinks:
   post: /:year/:month/:day/:slug/
-pygmentsStyle: "murphy"
+pygmentsStyle: "dracula"
 pygmentsCodefences: true
 ignoreFiles:
   - "_drafts"

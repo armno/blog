@@ -101,6 +101,7 @@ mark {
 
 pre {
   white-space: pre-wrap;
+  padding: 1em;
 }
 
 pre code {
@@ -135,7 +136,7 @@ blockquote {
   align-items: center;
 }
 
-.nav-item a {
+.nav-link {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 400;
@@ -143,7 +144,7 @@ blockquote {
   font-family: Anakotmai, var(--sans-serif);
 }
 
-.nav-item a:not(.logo-link):hover {
+.nav-link:not(.logo-link):hover {
   text-decoration: underline;
 }
 
@@ -165,15 +166,15 @@ blockquote {
   text-transform: uppercase;
   font-family: Anakotmai;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: -1px;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--dark-gray);
-  border: 6px solid var(--dark-gray);
+  border: 5px solid var(--dark-gray);
   background-color: #fff;
 
   transition: clip-path 0.7s var(--ease-out-expo);
@@ -195,11 +196,11 @@ blockquote {
   content: "";
   position: absolute;
   width: 50%;
-  height: 3px;
+  height: 2px;
   background-color: var(--dark-gray);
   transform: scaleX(0);
   transition: transform 0.5s;
-  bottom: 8px;
+  bottom: 6px;
 }
 
 .logo-link:hover {
@@ -237,6 +238,7 @@ blockquote {
 }
 
 .post-aside {
+  margin-top: 5.3rem;
   font-size: 1rem;
 }
 
@@ -289,7 +291,7 @@ blockquote {
 
 .site-header {
   background-color: #fff;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
   border-bottom: 2px solid var(--ghostwhite);
 }
 
