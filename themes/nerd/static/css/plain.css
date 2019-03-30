@@ -43,6 +43,10 @@ h2 {
   margin-top: 4rem;
 }
 
+h3 {
+  margin-top: 2rem;
+}
+
 strong {
   font-weight: 700;
 }
@@ -87,12 +91,16 @@ samp {
   font-family: "Roboto Mono", monospace;
   font-size: 0.9em;
   background-color: var(--ghostwhite);
-  padding: 3px;
+  padding: 2px 5px;
 }
 
 mark {
   background-color: var(--gold);
   padding: 0 3px;
+}
+
+pre {
+  white-space: pre-wrap;
 }
 
 pre code {
@@ -112,6 +120,12 @@ blockquote {
 
 /* ------ */
 
+.message--warning {
+  background-color: #fff6b5;
+  margin-top: 2em;
+  padding: 1em;
+}
+
 .nav-list {
   list-style: none;
   margin: 0;
@@ -129,7 +143,7 @@ blockquote {
   font-family: Anakotmai, var(--sans-serif);
 }
 
-.nav-item a:hover {
+.nav-item a:not(.logo-link):hover {
   text-decoration: underline;
 }
 
@@ -223,7 +237,6 @@ blockquote {
 }
 
 .post-aside {
-  margin-top: 68px;
   font-size: 1rem;
 }
 
@@ -235,6 +248,14 @@ blockquote {
 
 .post-aside__title {
   margin-bottom: 0.5em;
+}
+
+.post-aside__title:first-child {
+  margin-top: 0;
+}
+
+.post-aside__title:not(:first-child) {
+  margin-top: 3rem;
 }
 
 .share-article {
@@ -329,9 +350,9 @@ main {
     margin-right: 2em;
   }
 
-  .nav-item-mobile-logo {
+  /* .nav-item-mobile-logo {
     display: none;
-  }
+  } */
 
   /* .nav-item:not(.home-link) {
     display: list-item;
