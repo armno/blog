@@ -61,6 +61,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 figcaption {
@@ -339,7 +340,6 @@ main {
     flex-direction: column;
     align-items: flex-end;
     padding-right: 60px;
-    text-align: right;
   }
 
   .page-title {
