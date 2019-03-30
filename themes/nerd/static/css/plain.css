@@ -291,7 +291,7 @@ blockquote {
 
 .site-header {
   background-color: #fff;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   border-bottom: 2px solid var(--ghostwhite);
 }
 
