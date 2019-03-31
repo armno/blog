@@ -56,6 +56,7 @@ a {
 }
 
 .reading-time {
+  margin-top: 1rem;
   color: var(--light-gray);
 }
 
@@ -317,9 +318,9 @@ main {
   }
 
   main {
-    max-width: 640px;
+    max-width: 720px;
     flex-grow: 1;
-    margin-left: 28vw;
+    /* margin-left: 300px; */
   }
 
   .nav-list {
@@ -334,8 +335,8 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    width: 25vw;
+    /* position: fixed; */
+    width: 300px;
     margin-top: 40px;
     flex-direction: column;
     align-items: flex-end;
