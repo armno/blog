@@ -1,9 +1,9 @@
-name = "nerd"
+name = "lazy"
 license = "MIT"
 licenselink = "https://github.com/armno/blog"
-description = "a theme built by a nerd"
+description = "a theme which is lazily built"
 homepage = "https://github.com/armno/blog"
-tags = ["blog", "plain"]
+tags = ["blog", "plain", "lazy"]
 features = ["blog"]
 min_version = 0.19
 
