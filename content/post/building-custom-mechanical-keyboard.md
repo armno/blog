@@ -12,7 +12,9 @@ cover-image: /img/posts/gh60/cover.jpg
 layout: wide
 ---
 
-_Read the English version of this post on Medium: [Building My Own Mechanical Keyboard](https://medium.com/@armno/building-my-own-mechanical-keyboard-6903b887b93d)._
+<p class="message--warning">
+Read the English version of this post on Medium: <a href="https://medium.com/@armno/building-my-own-mechanical-keyboard-6903b887b93d">Building My Own Mechanical Keyboard</a>.
+</p>
 
 สวัสดีชาวเนิร์ด
 

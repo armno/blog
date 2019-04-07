@@ -97,22 +97,12 @@
   <aside class="sidebar">
 
     <div class="post-aside">
-      <h4 class="post-aside__title">Published</h4>
-      <time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
-      <div class="reading-time">{{ .Page.ReadingTime }} min read</div>
-
-      <!--
-      {{ if .Params.tags }}
-      <h4 class="post-aside__title">Tagged</h4>
-      {{ $taxo := "tags" }}
-      <ul id="{{ $taxo }}">
-        {{ range .Param $taxo }}
-        {{ $name := . }}
-        <li><a href="#">#{{ $name }}</a></li>
-        {{ end }}
-      </ul>
-      {{ end }}
-    -->
+      <div class="author">
+        <img class="author-avatar" src="/img/me.jpg" alt="me">
+        <div class="author-name">Armno P.</div>
+        <time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+        <div class="reading-time">{{ .Page.ReadingTime }} min read</div>
+        </div>
     </div>
   </aside>
 
