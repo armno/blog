@@ -7,7 +7,7 @@ tags:
   - Blog
   - Continuous Delivery
   - Netlify
-thumbnail: https://armno.in.th/img/posts/migrate-to-netlify/05-first-deploy-success.png
+thumbnail: images/05-first-deploy-success.png
 cover-image: images/cover.png
 ---
 

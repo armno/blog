@@ -91,24 +91,7 @@
 </head>
 <body>
   <header class="site-header">
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item nav-item-mobile-logo">
-          <a href="/" class="nav-link logo-link">
-            an
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="/about" class="nav-link">about</a>
-        </li>
-        <li class="nav-item">
-          <a href="/post" class="nav-link">articles</a>
-        </li>
-        <li class="nav-item">
-          <a href="/contact" class="nav-link">contact</a>
-        </li>
-      </ul>
-    </nav>
+    {{ partial "nav.html" . }}
   </header>
   <div class="content">
   <aside class="sidebar">
