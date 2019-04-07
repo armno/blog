@@ -117,9 +117,14 @@
       {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
       {{ range $paginator.Pages }}
       <article class="post-teaser">
-        {{ if .Params.thumbnail }}
-        <img src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
-        {{ end }}
+        <div class="post-teaser__thumbnail">
+          {{ if .Params.thumbnail }}
+          <a class="post-link" href="{{ .Permalink }}">
+            <img src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
+          </a>
+          {{ end }}
+        </div>
+        <div class="post-teaser__content">
           <h3 class="post-title">
             <a class="post-link" href="{{ .Permalink }}">
               {{ .Title }}
@@ -132,8 +137,9 @@
           {{ .Params.description }}
           </p>
 
+          <!--
           <footer>
-            <ul class="tags-list tags-list-inline">
+            <ul class="tags-list">
               {{ range .Params.tags }}
               <li class="tag-list-item">
                 #{{ . }}
@@ -141,6 +147,8 @@
               {{ end }}
             </ul>
           </footer>
+          -->
+        </div>
       </article>
 
       {{ end }}
