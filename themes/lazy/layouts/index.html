@@ -7,8 +7,9 @@
   </header>
   <div class="content">
 
-  <main>
-    <h2>Latest Articles</h2>
+  <main class="main--home">
+    <h2 class="home-blog-title">Latest Articles</h2>
+    <ul class="home-articles">
       {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
       {{ range $paginator.Pages }}
       <article class="post-teaser">
@@ -53,46 +54,13 @@
       </article>
 
       {{ end }}
+      </ul>
       <!-- Hugo's default pagination template. -->
       {{ template "_internal/pagination.html" . }}
 
-    {{ if eq .Section "post" }}
-    <div class="share-article">
-      <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
-        class="btn-share btn-share--twitter"
-        target="_blank" rel="noopener">
-        Share on Twitter
-      </a>
-
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
-        class="btn-share btn-share--facebook"
-        target="_blank" rel="noopener">
-        Share on Facebook
-      </a>
-    </div>
-    <div class="comments">
-      <div id="disqus_thread"></div>
-      <script>
-
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-        var disqus_config = function () {
-          this.page.url = '{{ .Permalink }}';  // Replace PAGE_URL with your page's canonical URL variable
-          this.page.identifier = '{{ .UniqueID }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        (function () { // DON'T EDIT BELOW THIS LINE
-          var d = document, s = d.createElement('script');
-          s.src = 'https://armnointh.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
-    {{ end }}
   </main>
 </div>
+  <hr>
   <script>
     window.lazyLoadOptions = {
       elements_selector: '.lazy'

@@ -5,7 +5,8 @@
   --body-color: #444;
   --dark-gray: #222324;
   --light-gray: #a7a8a9;
-  --ghostwhite: ghostwhite; /* just so that i can change to another color easier */
+  --ghostwhite: ghostwhite;
+  /* just so that i can change to another color easier */
   --gold: gold;
   --twitter: #1da1f2;
   --facebook: #3b5998;
@@ -163,16 +164,14 @@ blockquote {
   background-color: #fff;
 
   transition: clip-path 0.7s var(--ease-out-expo);
-  clip-path: polygon(
-    0% 50%,
+  clip-path: polygon(0% 50%,
     0% 0%,
     100% 0%,
     80% 50%,
     100% 50%,
     100% 100%,
     0% 100%,
-    20% 50%
-  );
+    20% 50%);
   position: relative;
 }
 
@@ -189,16 +188,14 @@ blockquote {
 }
 
 .logo-link:hover {
-  clip-path: polygon(
-    0% 0%,
+  clip-path: polygon(0% 0%,
     50% 20%,
     50% 0%,
     100% 0%,
     100% 100%,
     50% 80%,
     50% 100%,
-    0% 100%
-  );
+    0% 100%);
 }
 
 .logo-link:hover::after {
