@@ -3,4 +3,6 @@ layout: page
 title: About Me
 ---
 
-Hi there
+<p class="lead">
+  Hi there
+</p>

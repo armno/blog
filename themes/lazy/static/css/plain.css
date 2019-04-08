@@ -476,6 +476,11 @@ main {
     flex-grow: 1;
   }
 
+  .no-sidebar {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .nav-list {
     justify-content: center;
   }
