@@ -297,7 +297,8 @@ blockquote {
   max-width: 100%;
 }
 
-main {
+main,
+.site-footer {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
@@ -457,6 +458,11 @@ main {
   margin: 0;
 }
 
+/* Section: Fotoer */
+.site-footer {
+  font-size: 1rem;
+}
+
 @media (min-width: 800px) {
   .content {
     max-width: 1200px;
@@ -471,7 +477,8 @@ main {
     flex-direction: column;
   }
 
-  main {
+  main,
+  .site-footer {
     max-width: 720px;
     flex-grow: 1;
   }
@@ -537,7 +544,8 @@ main {
     justify-content: center;
   }
 
-  main {
+  main,
+  .site-footer {
     max-width: 800px;
   }
 

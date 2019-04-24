@@ -273,7 +273,8 @@ blockquote {
   max-width: 100%;
 }
 
-main {
+main,
+.site-footer {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
@@ -290,7 +291,8 @@ main {
     top: 0;
   }
 
-  main {
+  main,
+  .site-footer {
     max-width: 640px;
     flex-grow: 1;
     margin-left: 28vw;
@@ -299,10 +301,6 @@ main {
   .nav-list {
     justify-content: center;
   }
-
-  /* .nav {
-    margin-top: 5.6rem;
-  } */
 
   .sidebar {
     display: flex;
@@ -329,8 +327,4 @@ main {
   .nav-item-mobile-logo {
     display: none;
   }
-
-  /* .nav-item:not(.home-link) {
-    display: list-item;
-  } */
 }
