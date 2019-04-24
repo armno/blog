@@ -28,6 +28,7 @@ keywords:
 --gold: gold;
 --twitter: #1DA1F2;
 --facebook: #3b5998;
+--purple: #9370DB;
 ```
 
 ## Typography

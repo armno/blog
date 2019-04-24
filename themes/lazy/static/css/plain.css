@@ -10,6 +10,8 @@
   --gold: gold;
   --twitter: #1da1f2;
   --facebook: #3b5998;
+  --purple: #9370DB;
+  /* `mediumpurple` html color name */
   --sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
@@ -165,22 +167,22 @@ blockquote {
 }
 
 .logo-link {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: Anakotmai;
+  /* text-decoration: none; */
+  /* text-transform: uppercase; */
+  /* font-family: Anakotmai;
   font-weight: 700;
   font-size: 12px;
-  letter-spacing: -1px;
+  letter-spacing: -1px; */
   width: 40px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--dark-gray);
-  border: 5px solid var(--dark-gray);
-  background-color: #fff;
+  /* border: 5px solid var(--dark-gray); */
+  /* background-color: #fff; */
 
-  transition: clip-path 0.7s var(--ease-out-expo);
+  /* transition: clip-path 0.7s var(--ease-out-expo);
   clip-path: polygon(0% 50%,
     0% 0%,
     100% 0%,
@@ -189,9 +191,10 @@ blockquote {
     100% 100%,
     0% 100%,
     20% 50%);
-  position: relative;
+  position: relative; */
 }
 
+/*
 .logo-link::after {
   display: block;
   content: "";
@@ -217,7 +220,7 @@ blockquote {
 
 .logo-link:hover::after {
   transform: scaleX(1);
-}
+} */
 
 .sidebar {
   /* display: flex; */
