@@ -23,10 +23,11 @@
 
   <link rel="stylesheet" type="text/css" href="/css/plain.css" media="screen">
 
-  {{ if .RSSLink -}}
-  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
-  {{- end }}
-  {{ .Hugo.Generator }}
+  {{ with .OutputFormats.Get "RSS" }}
+  <link rel="alternate" href="{{ .RelPermalink }}" type="application/rss+xml" title="RSS">
+  {{ end }}
+
+  {{ hugo.Generator }}
   <meta name="theme-color" content="#000000">
 
   <!-- open graph meta tags -->
