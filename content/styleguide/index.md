@@ -9,8 +9,16 @@ keywords:
 
 <p class="lead">
   This page contains definitions of layout and elements used in this website.
-  I don't know what I'm doing yet but hopefully this is useful.
 </p>
+
+## Logo
+
+<img src="/img/logo.svg" alt="blog logo 2019 edition" width="97" height="74">
+
+<img src="/img/logo.svg" alt="blog logo 2019 edition at 300px" width="300">
+
+The logo is created from 2 _scalene_ triangles overlap each other. The color is `var(--purple)` (`#9370DB`) with different opacity.
+
 
 ## Layout
 
