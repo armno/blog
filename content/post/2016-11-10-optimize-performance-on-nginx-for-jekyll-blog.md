@@ -5,7 +5,7 @@ description: หลังจาก setup server พร้อมกับ deploy 
   optimize blog นี้ให้ไวขึ้น โพสต์นี้จะเกี่ยวกับการ config server nginx กับ jekyll
   เพื่อ performance ครับ
 published: true
-tags:
+keywords:
   - jekyll
   - nginx
   - browsers

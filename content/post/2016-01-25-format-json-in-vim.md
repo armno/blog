@@ -5,7 +5,7 @@ description: การ format file JSON (จัดให้เป็นระเ
   Vim ต้องพึ่ง editor ตัวอื่น แต่ด้วยความสงสัยก็เลยลองค้นหาวิธีในเน็ตดู ก็พบว่ามีหลายทางให้เลือก
   และก็ไม่อยากเลย
 published: true
-tags:
+keywords:
  - JSON
  - Vim
  - Editor

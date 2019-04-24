@@ -7,7 +7,7 @@ description:
   ผมเพิ่งซื้อโทรศัพท์เครื่องใหม่ครับ เป็น iPhone 4S สั่งจาก Apple Store
   Thailand ก็ขอเล่าประสบการณ์การซื้อของจาก Apple Online Store ครั้งแรก แบ่งปันกันนะครับ
 slug: iphone-4s-from-apple-online-store
-tags:
+keywords:
   - AIS
   - Apple Online Store
   - DHL

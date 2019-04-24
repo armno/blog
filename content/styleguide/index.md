@@ -1,7 +1,7 @@
 ---
 title: Styleguide
 layout: plain
-tags:
+keywords:
   - reference
   - styelguide
   - web performance

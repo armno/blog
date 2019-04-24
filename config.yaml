@@ -14,3 +14,12 @@ ignoreFiles:
 blackfriday:
   extensionsmask:
     - noIntraEmphasis
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+  - name: keywords
+    weight: 100
+  - name: date
+    weight: 10

@@ -8,7 +8,7 @@ description:
   Sass แต่จะเกี่ยวกับการติดตั้งและเซ็ต environment ให้เข้าที่เข้าทางเพื่อทำงานกับ
   Sass มากกว่าครับผม
 slug: setting-up-sass
-tags:
+keywords:
   - CSS
   - Preprocessor
   - Sass

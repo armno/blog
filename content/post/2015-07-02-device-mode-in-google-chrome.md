@@ -4,7 +4,7 @@ description: Device mode เป็นส่วนหนึ่งของ Chrome
   website หรือ mobile web app ได้สะดวกมากขึ้น โดยที่เราสามารถให้ Chrome จำลองตัวเองเป็น
   mobile device ที่ไม่เพียงแค่เซ็ตขนาดหน้าจอ แต่ยังมีฟีเจอร์อื่นๆ ให้อีกมากมายครับ
 published: true
-tags:
+keywords:
   - chrome
   - devtools
   - mobileweb
