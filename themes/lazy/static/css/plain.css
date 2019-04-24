@@ -376,6 +376,20 @@ main,
   padding-top: 56.25%;
 }
 
+.post-teaser__thumbnail.no-thumbnail::after {
+  position: absolute;
+  content: '(no thumbnail)';
+  color: var(--light-gray);
+  box-shadow: inset 0 0 2px var(--light-gray);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .post-teaser__thumbnail img {
   position: absolute;
   top: 0;
