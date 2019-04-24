@@ -129,7 +129,8 @@ blockquote {
 .message--warning {
   background-color: #fff6b5;
   margin-top: 2em;
-  padding: 1em;
+  padding: 1em 2em;
+  /* same paddings as `blockquote` */
 }
 
 .nav-list {

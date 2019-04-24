@@ -55,6 +55,10 @@ than normal paragraphs due to the larger <code>font-size</code>.
 
 ฟอยล์ศิลปวัฒนธรรม นินจาสต๊อกซิลเวอร์พุดดิ้งแซ็ก เหมยบาร์บี้กีวี เธคจีดีพีเอ็กซ์เพรสมัฟฟินวอล์ค อัลบัมมยุราภิรมย์ แพนดา ตุ๊กตุ๊กโปรเจคท์ดีไซน์เนอร์แฟรนไชส์นางแบบ ป๊อปว้อดก้าขั้นตอน อิสรชนร็อคแฮมเบอร์เกอร์ ศึกษาศาสตร์ ต่อรองเรซินง่าวซูฮก คอร์ปอเรชั่นกีวี ไฟต์ รีพอร์ท ทีวีเบอร์รีซีนีเพล็กซ์เซฟตี้ คอรัปชัน
 
+<p class="message--warning">
+  This paragraph is a warning message: <code>p.message--warning</code>. It shares the same paddings with <code>blockquote</code> elements.
+</p>
+
 ### Other text elements
 
 [A link would be nice](#). ยิวนู้ด **strong text to get attention** แคมปัสซูโม่
