@@ -467,7 +467,7 @@ main,
   margin: 0.5em 0 0;
   text-transform: uppercase;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .hero-sub-text {
@@ -477,7 +477,7 @@ main,
   text-align: center;
 }
 
-/* Section: Fotoer */
+/* Section: Footer */
 .site-footer {
   font-size: 1rem;
 }
@@ -548,11 +548,11 @@ main,
   }
 
   .hero-main-text {
-    font-size: 3rem;
+    font-size: 2.4rem;
   }
 
   .hero-sub-text {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
 }
