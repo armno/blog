@@ -9,4 +9,4 @@ title: Armno Prommarak
 
 ### Contact Info
 
-If you want to contact me for anything, please send me an email to `monkeyarmno@gmail.com`.
+If you want to contact me for anything, please send me an [email](mailto:monkeyarmno@gmail.com).
