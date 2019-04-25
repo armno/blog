@@ -3,15 +3,18 @@ title: "ทำ Mechanical Keyboard ใช้เอง"
 url: /2017/08/20/building-custom-mechanical-keyboard
 date: 2017-08-20T15:24:09+07:00
 description: "ลองทำ mechanical keyboard ขนาด 60% เองด้วยบอร์ด GH60 Satan กับ Gateron Brown Switch โดยหาซื้อชิ้นส่วนจาก AliExpress แล้วนำมาประกอบเองครับ"
-tags:
+keywords:
   - Mechanical Keyboard
   - Build
   - Hardware
 thumbnail: https://armno.in.th/img/posts/gh60/19-final-keyboard.jpg
 cover-image: /img/posts/gh60/cover.jpg
+layout: wide
 ---
 
-_Read the English version of this post on Medium: [Building My Own Mechanical Keyboard](https://medium.com/@armno/building-my-own-mechanical-keyboard-6903b887b93d)._
+<p class="message--warning">
+Read the English version of this post on Medium: <a href="https://medium.com/@armno/building-my-own-mechanical-keyboard-6903b887b93d">Building My Own Mechanical Keyboard</a>.
+</p>
 
 สวัสดีชาวเนิร์ด
 

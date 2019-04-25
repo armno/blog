@@ -1,0 +1,12 @@
+[build]
+	publish = "public"
+	command = "hugo"
+
+[build.environment]
+	HUGO_VERSION = "0.55.3"
+
+[[redirects]]
+  from = "/blog"
+  to = "/post"
+  status = 301
+  force = false

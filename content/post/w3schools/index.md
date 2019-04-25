@@ -3,7 +3,7 @@ date: 2014-04-10T00:00:00Z
 description: เรามักจะเจอ w3schools.com อยู่อันดันต้นๆ ของ Google อยู่บ่อยๆ เมื่อค้นหาอะไรก็ตามเกี่ยวกับ
   web development และหลายคนเชื่อว่ามันเป็น resource ที่ดี แต่ความเป็นจริงไม่ได้เป็นแบบนั้น
 published: true
-tags:
+keywords:
   - documentation
   - resources
   - w3schools

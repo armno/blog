@@ -6,5 +6,5 @@ layout: wide
 cover-image: images/cover.jpg
 thumbnail:
 description:
-tags:
+keywords:
 ---

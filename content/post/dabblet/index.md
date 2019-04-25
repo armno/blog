@@ -7,7 +7,7 @@ description:
   เป็นเหมือนสนามทดลอง CSS ให้เราได้เล่นกันก่อนนำไปใช้งานจริง คล้ายกับทางฝั่ง
   JavaScript ที่มี JsFiddle หรือ JsBin ให้ลองเล่นกัน
 slug: dabblet-com-css-playground
-tags:
+keywords:
   - CSS
   - Dabblet
   - Lea Verou

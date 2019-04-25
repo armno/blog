@@ -7,7 +7,7 @@ description:
   ปกติใช้ Sublime Text 2 ผมจะใช้งานใน Distraction Free mode แทบตลอดเวลา
   อยากให้มันแสดงเลขบรรทัดใน Distraction Free mode ด้วย
 slug: sublime-text-2-distraction-free-mode
-tags:
+keywords:
   - Distraction Free
   - Editor
   - SublimeText

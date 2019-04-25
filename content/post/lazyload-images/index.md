@@ -5,7 +5,7 @@ url: /2018/09/10/lazyload-images
 layout: wide
 thumbnail: images/audit-results-after.png
 description: การใช้ lazy loading กับไฟล์จำพวกรูปภาพ เป็นเทคนิคที่นำมาใช้ได้ง่าย และส่งผลดีอย่างเห็นได้ชัด ในโพสต์นี้ผมนำ library ที่ชื่อว่า LazyLoad มาใช้งานกับบล็อกนี้ครับ
-tags:
+keywords:
   - lazy load
   - performance
   - javascript

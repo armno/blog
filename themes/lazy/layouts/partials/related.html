@@ -1,0 +1,24 @@
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<h3>Related Posts</h3>
+<ul class="related-posts">
+  {{ range . }}
+  <li class="related-posts__item">
+    <a href="{{ .Permalink }}">
+    {{ if and (.Params.thumbnail) (hasPrefix .Params.thumbnail "http") }}
+      <div class="related-posts__thumbnail">
+        <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="no-medium-zoom">
+      </div>
+    {{ else if .Params.thumbnail }}
+      <div class="related-posts__thumbnail">
+        <img src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}" class="no-medium-zoom">
+      </div>
+    {{ end }}
+    <div class="related-posts__title">
+      {{ .Title }}
+    </div>
+    </a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

@@ -1,0 +1,26 @@
+<script>
+  window.lazyLoadOptions = {
+    elements_selector: '.lazy'
+  }
+</script>
+<script async src="/js/lazyload.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2721521-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2721521-7', {
+    'anonymize_ip': true
+  });
+</script>
+<script src="/js/medium-zoom.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    mediumZoom('img:not(.no-medium-zoom)');
+  });
+</script>

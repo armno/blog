@@ -1,0 +1,12 @@
+name = "lazy"
+license = "MIT"
+licenselink = "https://github.com/armno/blog"
+description = "a theme which is lazily built"
+homepage = "https://github.com/armno/blog"
+tags = ["blog", "plain", "lazy"]
+features = ["blog"]
+min_version = 0.19
+
+[author]
+  name = "Armno"
+  homepage = "https://armno.in.th"

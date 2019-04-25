@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html class="no-js" lang="th">
+<head>
+  <title>{{ .Title }} - armno.in.th</title>
+
+  {{ if .Page.Params.description }}
+  <meta name="description" content="{{ .Page.Params.description }}">
+  {{ else }}
+  <meta name="description" content="{{ .Title }}">
+  {{ end }}
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Armno Prommarak">
+
+  <!-- preload fonts -->
+  <link rel="preload" href="{{ .Site.BaseURL }}fonts/woff2-otf/Boon-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ .Site.BaseURL }}fonts/woff2-otf/Boon-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ .Site.BaseURL }}fonts/woff2-otf/Boon-Italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ .Site.BaseURL }}fonts/anakotmai/anakotmai-bold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://www.google-analytics.com">
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://armnointh.disqus.com">
+
+  <link rel="stylesheet" type="text/css" href="/css/plain.css" media="screen">
+
+  {{ if .RSSLink -}}
+  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
+  {{- end }}
+  {{ .Hugo.Generator }}
+  <meta name="theme-color" content="#000000">
+
+  <!-- open graph meta tags -->
+  <meta property="og:title" content="{{ .Title }}">
+  {{ with .Page.Params.description }}
+  <meta property="og:description" content="{{ . }}">
+  {{ end }}
+  {{ if and (.Page.Params.thumbnail) (hasPrefix .Page.Params.thumbnail "http") }}
+  <meta property="og:image" content="{{ .Page.Params.thumbnail }}">
+  {{else if .Page.Params.thumbnail }}
+  <meta property="og:image" content="{{ .Permalink }}{{ .Page.Params.thumbnail }}">
+  {{ end }}
+
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ .Title }}">
+  <meta property="og:type" content="article">
+
+  <meta property="fb:admins" content="1007588651">
+  <meta property="fb:app_id" content="127330613993014">
+  <meta property="article:author" content="https://www.facebook.com/armno">
+	<meta property="article:publisher" content="https://www.facebook.com/armno.in.th">
+
+  <!-- twitter card meta tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@armno">
+  <meta name="twitter:domain" content="{{ .Site.BaseURL }}">
+  <meta name="twitter:creator" content="@armno">
+  <meta name="twitter:url" content="{{ .Permalink }}">
+  <meta name="twitter:title" content="{{ .Title }}">
+  {{ with .Site.Params.description }}
+  <meta name="twitter:description" content="{{ . }}">
+  {{ end }}
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <!-- google fonts -->
+  <script>
+    document.querySelector('html').classList.remove('no-js');
+    WebFontConfig = {
+      google: {
+        families: [
+          'Roboto+Mono::latin'
+        ]
+      }
+    };
+    (function () {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item nav-item-mobile-logo">
+          <a href="/" class="logo-link">
+            an
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/about">about</a>
+        </li>
+        <li class="nav-item">
+          <a href="/post">articles</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact">contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="content">
+  <aside class="sidebar">
+    <a href="/" class="logo-link">
+      an
+    </a>
+
+    <div class="post-aside">
+      <h4 class="post-aside__title">Published</h4>
+      <time datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+      <div class="reading-time">{{ .Page.ReadingTime }} min read</div>
+
+      {{ if .Params.tags }}
+      <h4 class="post-aside__title">Tagged</h4>
+      {{ $taxo := "tags" }}
+      <ul id="{{ $taxo }}">
+        {{ range .Param $taxo }}
+        {{ $name := . }}
+        {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+        <li><a href="{{ .Permalink }}">#{{ $name }}</a></li>
+        {{ end }}
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+  </aside>
+
+  <main>
+    <article>
+      <header>
+        <h1 class="page-title">{{ .Title }}</h1>
+      </header>
+
+      {{ .Content }}
+    </article>
+
+    {{ if eq .Section "post" }}
+    <div class="share-article">
+      <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
+        class="btn-share btn-share--twitter"
+        target="_blank" rel="noopener">
+        Share on Twitter
+      </a>
+
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+        class="btn-share btn-share--facebook"
+        target="_blank" rel="noopener">
+        Share on Facebook
+      </a>
+    </div>
+    <div class="comments">
+      <div id="disqus_thread"></div>
+      <script>
+
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        var disqus_config = function () {
+          this.page.url = '{{ .Permalink }}';  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = '{{ .UniqueID }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        (function () { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://armnointh.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+    {{ end }}
+  </main>
+</div>
+  <script>
+    window.lazyLoadOptions = {
+      elements_selector: '.lazy'
+    }
+  </script>
+  <script async src="/js/lazyload.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2721521-7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-2721521-7', { 'anonymize_ip': true });
+  </script>
+</body>
+</html>

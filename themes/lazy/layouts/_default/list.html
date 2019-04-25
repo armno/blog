@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html class="no-js" lang="th">
+{{ partial "head.html" . }}
+<body>
+  <header class="site-header">
+    {{ partial "nav.html" . }}
+  </header>
+  <div class="content">
+    <main>
+      <header>
+        <h1 class="page-title">{{ .Title }}</h1>
+      </header>
+
+      {{ range .Pages.GroupByDate "2006" }}
+      <h2>{{ .Key }}</h2>
+      <ol>
+        {{ range .Pages }}
+        <li>
+          <a class="post-link" href="{{ .Permalink }}">
+            {{ .Title }}
+          </a>
+        </li>
+        {{ end }}
+      </ol>
+    {{ end }}
+
+    </main>
+  </div>
+  {{ partial "bottom-script.html" . }}
+</body>
+</html>

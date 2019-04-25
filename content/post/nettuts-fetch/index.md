@@ -7,7 +7,7 @@ description:
   หากต้องทำ HTML Mockup อยู่บ่อยๆ ปลั๊กอิน Nettuts+ Fetch นั้นช่วยประหยัดเวลาในช่วงแรกๆ
   ไปได้เยอะเลยครับ
 slug: sublime-text-2-nettuts-fetch
-tags:
+keywords:
   - Editor
   - Plugin
   - SublimeText

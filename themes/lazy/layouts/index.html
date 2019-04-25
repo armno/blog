@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="no-js" lang="th">
+{{ partial "head.html" .}}
+<body>
+  <header class="site-header">
+    {{ partial "nav.html" . }}
+  </header>
+  <div class="content content--home">
+    <div class="hero">
+      <div>
+        <img src="/img/logo.svg" alt="logo on home page" width="200">
+      </div>
+      <h1 class="hero-main-text">#NERDALERT</h1>
+      <h2 class="hero-sub-text">Armno is a frontend developer & a big nerd at
+        <a href="https://buzzwoo.de" target="_blank" rel="noopener">BUZZWOO!</a>
+      </h2>
+    </div>
+    <main class="main--home">
+
+      <div class="latest-articles">
+        <h2 class="home-blog-title">Latest Articles</h2>
+        <ul class="home-articles">
+          {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+          {{ range $paginator.Pages }}
+          <article class="post-teaser">
+            <div class="post-teaser__thumbnail {{ if not .Params.thumbnail }}no-thumbnail{{ end }}">
+              {{ if and (.Params.thumbnail) (hasPrefix .Params.thumbnail "http") }}
+              <a class="post-link" href="{{ .Permalink }}">
+                <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+              </a>
+              {{ else if .Params.thumbnail }}
+              <a class="post-link" href="{{ .Permalink }}">
+                <img src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
+              </a>
+              {{ end }}
+            </div>
+            <div class="post-teaser__content">
+              <h3 class="post-title">
+                <a class="post-link" href="{{ .Permalink }}">
+                  {{ .Title }}
+                </a>
+              </h3>
+              <div class="publish-time">
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+              </div>
+              <p>
+              {{ .Params.description }}
+              </p>
+            </div>
+          </article>
+
+          {{ end }}
+          </ul>
+          <!-- Hugo's default pagination template. -->
+          {{ template "_internal/pagination.html" . }}
+        </div>
+    </main>
+  </div>
+  {{ partial "footer.html" . }}
+
+  <script>
+    window.lazyLoadOptions = {
+      elements_selector: '.lazy'
+    }
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2721521-7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-2721521-7', { 'anonymize_ip': true });
+  </script>
+</body>
+</html>

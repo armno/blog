@@ -4,7 +4,7 @@ description: ในระหว่างที่กำลังเขียน 
   (ไม่ว่าจะเป็น bug หรือ feature ก็ตาม!) เราสามารถใช้ <code>git stash</code> กับ <code>git
   commit -p</code> ช่วยให้งานที่ทำอยู่นั้นปลอดภัย ไม่หายไปจากโลกได้
 published: true
-tags:
+keywords:
   - git
   - terminal
 thumbnail: images/15356691278_05f7357447_z.jpg
