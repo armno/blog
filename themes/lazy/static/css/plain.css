@@ -119,6 +119,11 @@ blockquote {
   background-color: var(--ghostwhite);
 }
 
+/* utilities ¯\_(ツ)_/¯ */
+.text-center {
+  text-align: center;
+}
+
 /* hugo-generated footnote */
 .footnote {
   font-size: 0.9em;
