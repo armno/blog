@@ -22,7 +22,7 @@ url: /2012/02/26/git-vs-svn/
 
 ไม่ขอลงรายละเอียดว่า Git หรือ SVN คืออะไรนะครับ ลองตามไปอ่านได้ที่ เว็บไซต์ของ [Git](http://git-scm.com/) และ ​[SVN](http://subversion.tigris.org/) ได้เลยครับผม
 
-![subversion](images/8507770554_f903cb0522_o.png)
+![subversion](images/svn-name-banner.jpg)
 
 ![git](images/8507774158_4e737d4d86_o.jpg)
 
