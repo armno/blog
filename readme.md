@@ -56,3 +56,7 @@ output:
   <img class="lazy" data-src="images/platoo.jpg" alt="test">
 </p>
 ```
+
+## Optimize Images
+
+Use [squoosh app](https://squoosh.app/) to optimize images
