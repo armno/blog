@@ -217,9 +217,9 @@ blockquote {
   font-size: 0.8em;
 }
 
-.page-title {
-  margin-top: 2em;
-}
+/* .page-title { */
+/* margin-top: 2em; */
+/* } */
 
 .logo-link {
   /* text-decoration: none; */
@@ -659,10 +659,10 @@ main,
     padding: 0 60px;
   }
 
-  .page-title {
+  /* .page-title {
     margin-top: 0.67em;
     margin-bottom: 2em;
-  }
+  } */
 
   .nav-item {
     margin-left: 2em;
