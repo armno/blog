@@ -3,6 +3,8 @@ title: Typography Layout
 layout: empty
 ---
 
+# เสียงลือเสียงเล่าอ้าง อันได พี่เอย
+
 บังคับควบคุม + ลงเขา: สิ่งที่ผมชอบที่สุด คือการเข้าโค้งและลงเขา นิ่ง แน่น และหนึบ (ติดถนน) กว่า Émonda มากๆ
 ความรู้สึกปลอดภัย มั่นใจ มันก็เลยทำให้รู้สึก "สนุก" เวลาลงเขามากกว่าเดิมไปด้วย
 ได้ยินคำร่ำลือมาก็บ้าง กับจุดเด่นด้านความนิ่ง และการบังคับควบคุมของจักรยาน Storck พอได้ปั่นเองก็ไม่ผิดหวังจริงๆ
@@ -16,3 +18,5 @@ layout: empty
 หลายคนไม่เข้าใจว่าทำไมจ่ายแพงกว่า แต่ได้รถที่หนักกว่าเดิม
 แต่จริงๆ แล้ว รถที่เบากว่า ไม่ได้หมายความว่าจะ_ดีกว่า_เสมอไปนะ
 จักรยานหนึ่งคันก็มีองค์ประกอบหลายๆ อย่าง ที่ส่งผลต่อประสิทธิภาพของมัน
+
+They are using the different firmware and the tools I used to customize my GH60 keyboards doesn’t work with DZ60. To keep the same layout and functionality as my previous keyboards, I have to use other tools to customize DZ60’s firmware.

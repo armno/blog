@@ -10,22 +10,45 @@
   --gold: gold;
   --twitter: #1da1f2;
   --facebook: #3b5998;
-  --purple: #9370DB;
+  --purple: #9370db;
   /* `mediumpurple` html color name */
   --sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
+/* base font-size: 18px */
+/* line-height: 26px */
+
 * {
   box-sizing: border-box;
+  line-height: 26px;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+
+html {
+  font-size: 112.5%;
 }
 
 body {
   font-family: Boon, var(--sans-serif);
-  font-size: 19px;
-  line-height: 1.5;
+  /* font-size: 18px; */
+  line-height: 1.45;
   color: var(--body-color);
+}
+
+p {
+  max-width: 31em;
+}
+
+ul,
+ol {
+  margin-bottom: 52px;
+}
+
+li {
+  margin-bottom: 0;
 }
 
 h1,
@@ -38,6 +61,32 @@ h4 {
 }
 
 h1 {
+  line-height: 52px;
+  margin-top: 78px;
+  margin-bottom: 26px;
+}
+
+h2 {
+  line-height: 39px;
+  margin-top: 52px;
+  margin-bottom: 26px;
+}
+
+h3 {
+  line-height: 39px;
+  margin-top: 26px;
+  margin-bottom: 0;
+}
+
+h4,
+h5,
+h6 {
+  line-height: 26px;
+  margin-top: 26px;
+  margin-bottom: 0;
+}
+
+/* h1 {
   font-size: 50px;
   line-height: 1.1;
 }
@@ -48,7 +97,7 @@ h2 {
 
 h3 {
   margin-top: 2rem;
-}
+} */
 
 strong {
   font-weight: 700;
@@ -376,14 +425,14 @@ main,
 }
 
 .post-teaser__thumbnail::before {
-  content: '';
+  content: "";
   display: block;
   padding-top: 56.25%;
 }
 
 .post-teaser__thumbnail.no-thumbnail::after {
   position: absolute;
-  content: '(no thumbnail)';
+  content: "(no thumbnail)";
   color: var(--light-gray);
   box-shadow: inset 0 0 2px var(--light-gray);
   top: 0;
@@ -509,7 +558,7 @@ main,
 }
 
 .related-posts__thumbnail::before {
-  content: '';
+  content: "";
   display: block;
   padding-top: 75%;
 }
@@ -556,7 +605,7 @@ main,
 }
 
 .content img:after {
-  content: "\2260"" (broken image) ""\2260";
+  content: "\2260"" (broken image) " "\2260";
   display: block;
   font-size: 16px;
   font-style: normal;
@@ -641,7 +690,6 @@ main,
   .hero-sub-text {
     font-size: 1.1rem;
   }
-
 }
 
 @media (min-width: 1200px) {
@@ -659,5 +707,4 @@ main,
     width: 30%;
     margin-bottom: 5rem;
   }
-
 }
