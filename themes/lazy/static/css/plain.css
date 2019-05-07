@@ -1,6 +1,30 @@
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 @import url("./font.css");
 
+/* overlay grid */
+body {
+  position: relative;
+}
+
+body::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+  content: "";
+  display: block;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent
+  );
+  background-size: 100% 26px;
+}
+
 :root {
   --body-color: #444;
   --dark-gray: #222324;
