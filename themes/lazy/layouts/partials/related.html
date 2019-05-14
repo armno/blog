@@ -13,6 +13,10 @@
       <div class="related-posts__thumbnail">
         <img src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}" class="no-medium-zoom">
       </div>
+
+    {{ else }}
+      <div class="related-posts__thumbnail no-thumbnail">
+      </div>
     {{ end }}
     <div class="related-posts__title">
       {{ .Title }}
