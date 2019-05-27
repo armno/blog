@@ -2,17 +2,17 @@
 @import url("./font.css");
 
 /* overlay grid */
-body {
+body.grid-on {
   position: relative;
 }
 
-body::after {
+body.grid-on::after {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 999999;
+  z-index: 9;
   content: "";
   display: block;
   background: linear-gradient(
@@ -23,6 +23,22 @@ body::after {
     transparent
   );
   background-size: 100% 26px;
+}
+
+#grid {
+  z-index: 10;
+  position: fixed;
+  top: 26px;
+  right: 26px;
+  background: transparent;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.83em;
+}
+
+#grid:focus {
+  outline: none;
 }
 
 :root {
@@ -41,9 +57,10 @@ body::after {
   --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-/* base font-size: 18px */
+/* base font-size: 19px */
 /* line-height: 26px */
 
+/* TODO: this should apply only to text elements? */
 * {
   box-sizing: border-box;
   line-height: 26px;
@@ -52,23 +69,25 @@ body::after {
 }
 
 html {
-  font-size: 112.5%;
+  font-size: 118.75%;
 }
 
 body {
   font-family: Boon, var(--sans-serif);
-  /* font-size: 18px; */
-  line-height: 1.45;
+  line-height: 1.5;
   color: var(--body-color);
 }
 
-p {
+p,
+ul,
+ol {
   max-width: 31em;
 }
 
 ul,
 ol {
   margin-bottom: 52px;
+  padding-left: 0;
 }
 
 li {
@@ -110,6 +129,15 @@ h6 {
   margin-bottom: 0;
 }
 
+img,
+div,
+.nav,
+.nav-link {
+  margin-bottom: 0;
+}
+
+/* typography experiment ends here */
+
 /* h1 {
   font-size: 50px;
   line-height: 1.1;
@@ -132,7 +160,7 @@ a {
 }
 
 .reading-time {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   color: var(--light-gray);
 }
 
@@ -213,11 +241,16 @@ blockquote {
 
 .nav-list {
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+}
+
+.nav-item {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .nav-link {
@@ -340,9 +373,9 @@ blockquote {
   margin-top: 3rem;
 }
 
-.share-article {
+/* .share-article {
   margin-top: 4rem;
-}
+} */
 
 .btn-share {
   color: #fff;
@@ -371,8 +404,9 @@ blockquote {
 
 .site-header {
   background-color: #fff;
-  padding: 1rem 2rem;
-  border-bottom: 2px solid var(--ghostwhite);
+  /* padding: 1rem 2rem; */
+  margin-top: 26px;
+  /* border-bottom: 2px solid var(--ghostwhite); */
 }
 
 .video-wrapper iframe {
@@ -510,8 +544,8 @@ main,
 /* Section: Sidebar */
 .author-avatar {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   object-fit: cover;
   margin: auto;
@@ -523,13 +557,13 @@ main,
 
 .author-name {
   font-weight: bold;
-  margin-top: 1em;
+  /* margin-top: 1em; */
   color: var(--dark-gray);
 }
 
 /* Section: Hero section on home page */
 .hero {
-  height: calc(80vh - 74px);
+  /* height: calc(80vh - 78px); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -604,7 +638,7 @@ main,
 
 /* styles for broken images (404) */
 /* https://bitsofco.de/styling-broken-images/ */
-.content img {
+.content article img {
   font-weight: 300;
   line-height: 2;
   text-align: center;
@@ -613,9 +647,11 @@ main,
   display: block;
   position: relative;
   min-height: 50px;
+
+  margin-bottom: 26px;
 }
 
-.content img:before {
+.content article img:before {
   content: " ";
   display: block;
 
@@ -628,7 +664,7 @@ main,
   box-shadow: inset 0 0 2px var(--light-gray);
 }
 
-.content img:after {
+.content article img:after {
   content: "\2260"" (broken image) " "\2260";
   display: block;
   font-size: 16px;
@@ -642,12 +678,17 @@ main,
   text-align: center;
 }
 
+.media.semi-full,
+.media.full {
+  max-width: none;
+}
+
 @media (min-width: 800px) {
   .content {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     display: flex;
     flex-direction: row;
   }
@@ -667,9 +708,9 @@ main,
     margin-right: auto;
   }
 
-  .nav-list {
+  /* .nav-list {
     justify-content: center;
-  }
+  } */
 
   .sidebar {
     display: flex;
@@ -677,7 +718,7 @@ main,
     align-items: center;
     min-width: 220px;
     width: auto;
-    margin-top: 40px;
+    margin-top: 78px;
     flex-direction: column;
     align-items: flex-end;
     padding: 0 60px;
@@ -687,11 +728,11 @@ main,
     margin-top: 0.67em;
     margin-bottom: 2em;
   } */
-
+  /*
   .nav-item {
     margin-left: 2em;
     margin-right: 2em;
-  }
+  } */
 
   .post-teaser {
     width: 40%;
@@ -704,7 +745,7 @@ main,
 
   .hero {
     height: calc(100vh - 100px - 74px);
-    margin-top: -60px;
+    /* margin-top: -60px; */
   }
 
   .hero-main-text {
