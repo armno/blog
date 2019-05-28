@@ -3,7 +3,7 @@
 {{ partial "head.html" . }}
 <body>
   <header class="site-header">
-    {{ partial "nav.html" . }}
+    {{ partial "nav.html" (dict "context" . "pageName" "post") }}
   </header>
   <div class="content">
     <main class="no-sidebar">

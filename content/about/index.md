@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Armno Prommarak
+activeMenu: about
 ---
 
 <p class="lead">

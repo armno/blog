@@ -290,9 +290,13 @@ blockquote p:last-child {
 .nav-link {
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 0.75rem;
   font-family: Anakotmai, var(--sans-serif);
+}
+
+.nav-link.active {
+  font-weight: 400;
 }
 
 .nav-link:not(.logo-link):hover {
