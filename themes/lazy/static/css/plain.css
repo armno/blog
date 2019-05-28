@@ -221,6 +221,11 @@ hr {
   background-color: var(--dark-gray);
 }
 
+hr.right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
 code,
 kbd,
 samp {
@@ -285,7 +290,25 @@ blockquote p:last-child {
 .nav-item {
   margin-left: 1em;
   margin-right: 1em;
+  position: relative;
 }
+
+/* .nav-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: var(--dark-gray);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: transform 0.2s ease-out;
+}
+
+.nav-item:hover::after {
+  transform: translateX(-50%) scaleX(1);
+} */
 
 .nav-link {
   text-decoration: none;
@@ -299,9 +322,10 @@ blockquote p:last-child {
   font-weight: 400;
 }
 
+/* .nav-link:not(.logo-link):hover,
 .nav-link:not(.logo-link):hover {
   text-decoration: underline;
-}
+} */
 
 /* .nav-item:not(.home-link) {
   display: none;
@@ -385,8 +409,8 @@ blockquote p:last-child {
 }
 
 .lead {
-  font-size: 1.4rem;
-  line-height: 1.4;
+  font-size: 1.25rem;
+  line-height: 1.2;
 }
 
 .post-aside {
@@ -606,33 +630,29 @@ main,
 
 /* Section: Hero section on home page */
 .hero {
-  /* height: calc(80vh - 78px); */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 80vw;
+  width: 75vw;
   margin-left: auto;
   margin-right: auto;
 }
 
 .hero-text {
-  width: 80%;
+  /* width: 80%; */
   margin: auto;
 }
 
 .hero-main-text {
-  margin: 0.5em 0 0;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1.5rem;
+  line-height: 1.1;
 }
 
 .hero-sub-text {
-  font-weight: 300;
-  font-size: 1rem;
-  margin: 0;
-  text-align: center;
+  /* font-weight: 300; */
+  /* font-size: 1rem; */
+  /* margin: 0; */
+  /* text-align: center; */
 }
 
 /* Section: Footer */
@@ -791,15 +811,17 @@ main,
 
   .hero {
     height: calc(100vh - 100px - 74px);
-    /* margin-top: -60px; */
+    width: 75vw;
+    flex-direction: row;
   }
 
-  .hero-main-text {
-    font-size: 2.4rem;
+  .hero > div {
+    width: 50%;
   }
 
   .hero-sub-text {
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
+    width: 80%;
   }
 }
 

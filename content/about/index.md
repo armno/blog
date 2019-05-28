@@ -5,7 +5,7 @@ activeMenu: about
 ---
 
 <p class="lead">
-  I am Armno P. and I am a Frontend Developer at <a href="https://buzzwoo.de" target="_blank" rel="noopener">BUZZWOO!</a> from Chiang Mai, Thailand.
+  I am a Frontend Developer at <a href="https://buzzwoo.de" target="_blank" rel="noopener">BUZZWOO!</a> from Chiang Mai, Thailand.
 </p>
 
 My primary focus is around HTML/CSS, JavaScript, Angular, and Frontend Performance in general.
