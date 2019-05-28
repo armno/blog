@@ -495,6 +495,7 @@ main,
 }
 
 .home-articles {
+  max-width: none;
   margin: 0;
   padding: 0;
   display: flex;
@@ -561,6 +562,7 @@ main,
 
 .post-teaser .post-link {
   text-decoration: none;
+  line-height: 1.1;
 }
 
 .post-teaser .post-link:hover {
@@ -674,7 +676,7 @@ main,
 
 /* styles for broken images (404) */
 /* https://bitsofco.de/styling-broken-images/ */
-.content article img {
+.content article:not(.post-teaser) img {
   font-weight: 300;
   line-height: 2;
   text-align: center;
