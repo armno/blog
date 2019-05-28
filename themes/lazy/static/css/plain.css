@@ -58,12 +58,12 @@ body.grid-on::after {
 }
 
 /* base font-size: 19px */
-/* line-height: 26px */
+/* line-height: 26.6px */
 
 /* TODO: this should apply only to text elements? */
 * {
   box-sizing: border-box;
-  line-height: 26px;
+  line-height: 1.4;
   margin-top: 0;
   margin-bottom: 26px;
 }
@@ -81,7 +81,7 @@ body {
 p,
 ul,
 ol {
-  max-width: 31em;
+  max-width: 32em;
 }
 
 ul,
@@ -104,21 +104,21 @@ h4 {
 }
 
 h1 {
-  line-height: 52px;
+  line-height: 1.1;
   margin-top: 78px;
-  margin-bottom: 26px;
+  margin-bottom: 52px;
 }
 
 h2 {
-  line-height: 39px;
+  line-height: 1.1;
   margin-top: 52px;
   margin-bottom: 26px;
 }
 
 h3 {
   line-height: 39px;
-  margin-top: 26px;
-  margin-bottom: 0;
+  margin-top: 52px;
+  margin-bottom: 26px;
 }
 
 h4,
@@ -127,6 +127,31 @@ h6 {
   line-height: 26px;
   margin-top: 26px;
   margin-bottom: 0;
+}
+
+/* perfect-fifth scale */
+h1 {
+  font-size: 3.375rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+figcaption {
+  font-size: 0.75rem;
+}
+
+small {
+  font-size: 0.5rem;
 }
 
 img,
@@ -215,9 +240,13 @@ pre code {
 }
 
 blockquote {
-  margin: 0 0 2em;
-  padding: 1em 2em;
+  margin: 0 0 26px;
+  padding: 26px 26px;
   background-color: var(--ghostwhite);
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
 }
 
 /* utilities ¯\_(ツ)_/¯ */
