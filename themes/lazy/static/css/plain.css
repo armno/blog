@@ -291,7 +291,7 @@ blockquote p:last-child {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-family: Anakotmai, var(--sans-serif);
 }
 
@@ -606,6 +606,9 @@ main,
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-text {
