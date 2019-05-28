@@ -523,6 +523,7 @@ main,
   padding-top: 56.25%;
 }
 
+.related-posts__thumbnail.no-thumbnail::after,
 .post-teaser__thumbnail.no-thumbnail::after {
   position: absolute;
   content: "(no thumbnail)";
