@@ -10,7 +10,7 @@
       <div class="home-page-photo">
         <img src="img/home1.jpg" alt="armno's photo">
       </div>
-      <div>
+      <div class="home-page-text">
         <h1 class="hero-main-text">สวัสดี!,<br>I&rsquo;m Armno</h1>
         <p class="hero-sub-text">
           I&rsquo;m a Frontend Developer at <a href="https://buzzwoo.de" target="_blank" rel="noopener">BUZZWOO!</a>, focusing on JavaScript and frontend performance. Here I write about things I have learned.
@@ -21,7 +21,7 @@
     <main class="main--home">
 
       <div class="latest-articles">
-        <h2 class="home-blog-title">Latest Articles</h2>
+        <h2 class="home-blog-title">Latest Posts</h2>
         <ul class="home-articles">
           {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
           {{ range $paginator.Pages }}
