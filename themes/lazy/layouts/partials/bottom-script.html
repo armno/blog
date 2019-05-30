@@ -22,14 +22,5 @@
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     mediumZoom('img:not(.no-medium-zoom)');
-
-    document.querySelector('#grid').addEventListener('click', () => {
-      toggleGrid();
-    })
   });
-
-  function toggleGrid() {
-    const body = document.querySelector('body');
-    body.classList.toggle('grid-on');
-  }
 </script>

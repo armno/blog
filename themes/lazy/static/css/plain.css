@@ -25,22 +25,6 @@ body.grid-on::after {
   background-size: 100% 26px;
 }
 
-#grid {
-  z-index: 10;
-  position: fixed;
-  top: 26px;
-  right: 26px;
-  background: transparent;
-  border: 0;
-  font-weight: bold;
-  cursor: pointer;
-  font-size: 0.83em;
-}
-
-#grid:focus {
-  outline: none;
-}
-
 :root {
   --body-color: #444;
   --dark-gray: #222324;
@@ -275,7 +259,7 @@ blockquote p:last-child {
   background-color: #fff6b5;
   margin-top: 52px;
   margin-bottom: 52px;
-  padding: 1em 2em;
+  padding: 26px;
   /* same paddings as `blockquote` */
 }
 
