@@ -273,7 +273,8 @@ blockquote p:last-child {
 
 .message--warning {
   background-color: #fff6b5;
-  margin-top: 2em;
+  margin-top: 52px;
+  margin-bottom: 52px;
   padding: 1em 2em;
   /* same paddings as `blockquote` */
 }
