@@ -1,6 +1,7 @@
 ---
 layout: page
 Title: Uses
+activeMenu: uses
 ---
 
 Here are lists of things I use. I will add details about each one soon.
