@@ -71,7 +71,7 @@ ol {
 ul,
 ol {
   margin-bottom: 52px;
-  padding-left: 0;
+  padding-left: 1.5rem;
 }
 
 li {
@@ -462,8 +462,8 @@ blockquote p:last-child {
 
 main,
 .site-footer {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* Section: Pagination */
@@ -755,6 +755,11 @@ main,
 }
 
 @media (min-width: 800px) {
+  ol,
+  ul {
+    padding-left: 0;
+  }
+
   .content {
     max-width: 1200px;
     margin-left: auto;
