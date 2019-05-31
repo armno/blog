@@ -26,16 +26,17 @@ body.grid-on::after {
 }
 
 :root {
-  --body-color: #444;
-  --dark-gray: #222324;
-  --light-gray: #a7a8a9;
-  --ghostwhite: ghostwhite;
+/* https://coolors.co/3f5261-d9dde1-0c120c-c20114-c7d6d5 */
+  --smoky-black: #0C120C;
+  --harvard-crimson-red: #C20114;
+  --independence: #3F5261;
+  --light-gray: ghostwhite;
+  --gainsboro: #D9DDE1;
   /* just so that i can change to another color easier */
   --gold: gold;
   --twitter: #1da1f2;
   --facebook: #3b5998;
   --purple: #9370db;
-  /* `mediumpurple` html color name */
   --sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
@@ -59,7 +60,7 @@ html {
 body {
   font-family: Boon, var(--sans-serif);
   line-height: 1.5;
-  color: var(--body-color);
+  color: var(--smoky-black);
 }
 
 p,
@@ -84,7 +85,7 @@ h3,
 h4 {
   font-family: Anakotmai, var(--sans-serif);
   font-weight: 700;
-  color: var(--dark-gray);
+  color: var(--smoky-black);
 }
 
 h1 {
@@ -174,8 +175,7 @@ a {
 }
 
 .reading-time {
-  /* margin-top: 1rem; */
-  color: var(--light-gray);
+  color: var(--independence);
 }
 
 img {
@@ -202,7 +202,7 @@ hr {
   width: 28%;
   margin: 4rem auto 4rem 0;
   height: 6px;
-  background-color: var(--dark-gray);
+  background-color: var(--independence);
 }
 
 hr.right {
@@ -215,7 +215,7 @@ kbd,
 samp {
   font-family: "Roboto Mono", monospace;
   font-size: 0.9em;
-  background-color: var(--ghostwhite);
+  background-color: var(--light-gray);
   padding: 2px 5px;
 }
 
@@ -236,7 +236,7 @@ pre code {
 blockquote {
   margin: 0 0 26px;
   padding: 26px 26px;
-  background-color: var(--ghostwhite);
+  background-color: var(--light-gray);
 }
 
 blockquote p:last-child {
@@ -284,7 +284,7 @@ blockquote p:last-child {
   position: absolute;
   height: 2px;
   width: 100%;
-  background-color: var(--dark-gray);
+  background-color: var(--smoky-black);
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -305,6 +305,7 @@ blockquote p:last-child {
 
 .nav-link.active {
   font-weight: 400;
+  color: var(--harvard-crimson-red);
 }
 
 /* .nav-link:not(.logo-link):hover,
@@ -337,8 +338,8 @@ blockquote p:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--dark-gray);
-  /* border: 5px solid var(--dark-gray); */
+  color: var(--smoky-black);
+  /* border: 5px solid var(--smoky-black); */
   /* background-color: #fff; */
 
   /* transition: clip-path 0.7s var(--ease-out-expo);
@@ -360,7 +361,7 @@ blockquote p:last-child {
   position: absolute;
   width: 50%;
   height: 2px;
-  background-color: var(--dark-gray);
+  background-color: var(--smoky-black);
   transform: scaleX(0);
   transition: transform 0.5s;
   bottom: 6px;
@@ -453,7 +454,7 @@ blockquote p:last-child {
   background-color: #fff;
   /* padding: 1rem 2rem; */
   margin-top: 26px;
-  /* border-bottom: 2px solid var(--ghostwhite); */
+  /* border-bottom: 2px solid var(--light-gray); */
 }
 
 .video-wrapper iframe {
@@ -565,7 +566,7 @@ main,
 
 .post-teaser__content .publish-time {
   font-size: 0.8em;
-  color: var(--light-gray);
+  color: var(--independence);
 }
 
 .post-teaser .post-link {
@@ -616,7 +617,7 @@ main,
 .author-name {
   font-weight: bold;
   /* margin-top: 1em; */
-  color: var(--dark-gray);
+  color: var(--smoky-black);
 }
 
 /* Section: Hero section on home page */
