@@ -640,6 +640,10 @@ main,
   line-height: 1.1;
 }
 
+.hero-main-text br {
+  line-height: 0;
+}
+
 .home-page-photo {
   text-align: center;
   margin-top: 52px;
@@ -663,7 +667,17 @@ main,
 
 /* Section: Footer */
 .site-footer {
-  font-size: 1rem;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer > div:last-child {
+  text-align: right;
+}
+
+.footer-nav-link {
+  text-decoration: none;
 }
 
 /* Section: Related Posts */
@@ -774,8 +788,7 @@ main,
     flex-direction: column;
   }
 
-  main,
-  .site-footer {
+  main {
     max-width: 720px;
     flex-grow: 1;
   }
@@ -862,8 +875,7 @@ main,
     justify-content: center;
   }
 
-  main,
-  .site-footer {
+  main {
     max-width: 800px;
   }
 

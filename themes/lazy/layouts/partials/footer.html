@@ -1,11 +1,13 @@
 <hr>
 
 <footer class="site-footer">
-  <p>
+  <div>
     <img src="/img/logo.svg" alt="footer logo" width="22">
     &copy; {{ dateFormat "2006" "2007-11-02" }} &ndash; {{ now.Format "2006" }}
-    <a href="/">armno.in.th</a> ·
-    <a href="https://github.com/armno/blog" target="_blank" rel="noopenner">github</a> ·
-    <a href="/styleguide">styleguide</a>
-  </p>
+    <a href="/" class="footer-nav-link">armno.in.th</a>
+  </div>
+  <div>
+    <a href="https://github.com/armno/blog" target="_blank" rel="noopenner" class="footer-nav-link">github</a> ·
+    <a href="/styleguide" class="footer-nav-link">styleguide</a>
+  </div>
 </footer>
