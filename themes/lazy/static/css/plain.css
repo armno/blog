@@ -199,7 +199,7 @@ figcaption {
 
 hr {
   border: 0;
-  width: 28%;
+  width: 40%;
   margin: 4rem auto 4rem 0;
   height: 6px;
   background-color: var(--independence);
@@ -535,8 +535,8 @@ main,
 .post-teaser__thumbnail.no-thumbnail::after {
   position: absolute;
   content: "(no thumbnail)";
-  color: var(--light-gray);
-  box-shadow: inset 0 0 2px var(--light-gray);
+  color: var(--gainsboro);
+  box-shadow: inset 0 0 2px var(--gainsboro);
   top: 0;
   bottom: 0;
   left: 0;
@@ -670,10 +670,7 @@ main,
   font-size: 0.9rem;
   display: flex;
   justify-content: space-between;
-}
-
-.site-footer > div:last-child {
-  text-align: right;
+  flex-direction: column;
 }
 
 .footer-nav-link {
@@ -770,6 +767,10 @@ main,
 }
 
 @media (min-width: 800px) {
+  hr {
+    width: 28%;
+  }
+
   ol,
   ul {
     padding-left: 0;
@@ -866,6 +867,14 @@ main,
 
   .home-page-photo {
     margin-top: 0;
+  }
+
+  .site-footer {
+    flex-direction: row;
+  }
+
+  .site-footer > div:last-child {
+    text-align: right;
   }
 }
 

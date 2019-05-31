@@ -5,7 +5,7 @@
   <header class="site-header">
     {{ partial "nav.html" (dict "context" . "pageName" "post") }}
   </header>
-  <div class="content">
+  <div class="content content--home">
     <main class="no-sidebar">
       <header>
         <h1 class="page-title">{{ .Title }}</h1>
@@ -25,6 +25,7 @@
     {{ end }}
 
     </main>
+    {{ partial "footer.html" . }}
   </div>
   {{ partial "bottom-script.html" . }}
 </body>
