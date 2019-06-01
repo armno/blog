@@ -33,7 +33,7 @@ var p = document.getElementById('welcome');
 
 หรือหาจากชื่อ class
 
-{{< highlight html >}}
+{{< highlight javascript >}}
 var p = document.getElementsByClassName('message')[0];
 {{< / highlight >}}
 

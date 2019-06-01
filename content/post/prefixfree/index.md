@@ -19,7 +19,8 @@ url: /2012/03/18/prefixfree-js/
 
 ปกติเวลาเราเขียน CSS3 นั้นต้องเขียน prefix สำหรับ property บางตัว ที่ browser บางเวอร์ชั่นที่ยังไม่รู้จัก W3C standards เช่น gradient background ลากยาวมหึมา (โค้ดจาก [CSS3Please.com](http://css3please.com/))
 
-<pre><code class="language-css">.box_gradient {
+{{< highlight css >}}
+.box_gradient {
   background-color: #444444;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#999999));
   background-image: -webkit-linear-gradient(top, #444444, #999999);
@@ -27,7 +28,8 @@ url: /2012/03/18/prefixfree-js/
   background-image: -ms-linear-gradient(top, #444444, #999999);
   background-image: -o-linear-gradient(top, #444444, #999999);
   background-image: linear-gradient(to bottom, #444444, #999999);
-}</code></pre>
+}
+{{< / highlight >}}
 
 เห็นโค้ดแล้วเหนื่อย **[Lea Verou](http://lea.verou.me/)** เจ้าของเดียวกับ [dabblet](https://armno.in.th/2012/03/12/dabblet-com-css-playground/) เลยทำ [prefixfree.js](http://leaverou.github.com/prefixfree/) ขึ้นมาเพื่อเป็นตัวจัดการกับ prefix ต่างๆ ให้ โดยที่เราเขียนแค่เวอร์ชั่น W3C standards ตัว prefixfree.js ก็จะใส่ prefix ให้เท่าที่จำเป็น ขึ้นอยู่กับ browser ที่ใช้ครับ
 
@@ -35,13 +37,17 @@ url: /2012/03/18/prefixfree-js/
 
 วิธีใช้ก็แค่เรียกใช้ prefixfree.js ในหน้าที่เราต้องการครับ
 
-<pre><code class="language-markup">&lt;script src="js/prefixfree.min.js"&gt;&lt;/script&gt;</code></pre>
+{{< highlight css >}}
+&lt;script src="js/prefixfree.min.js"&gt;&lt;/script&gt;
+{{< / highlight >}}
 
 เวลาเขียน CSS ก็เขียนแค่เวอร์ชั่นธรรมดา
 
-<pre><code class="language-css">.box_gradient {
+{{< highlight css >}}
+.box_gradient {
   background-image: linear-gradient(to bottom, #444444, #999999);
-}</code></pre>
+}
+{{< / highlight >}}
 
 พอไปรันใน browser ตัว prefixfree.js ก็จะเติม prefix ให้อัตโนมัติ ข้อดีก็คือ เราไม่ต้องไปจำ vendor prefix ที่ไม่ใช่มาตรฐานของ CSS3 ไม่ต้องเขียนให้เสียเวลา โค้ด CSS เราก็จะสั้นลงนิดหน่อย อีกอย่างก็คือ ดูไม่รกรุงรังเมื่อใช้ developer tools inspect ดูใน browser ครับ
 
