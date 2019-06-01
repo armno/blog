@@ -568,6 +568,21 @@ main,
 .author-name {
   font-weight: bold;
   color: var(--smoky-black);
+  position: relative ;
+  margin-bottom: 3rem;
+}
+
+.author-name::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 2px;
+  background-color: var(--harvard-crimson-red);
+  bottom: -1.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+
 }
 
 /* Section: Hero section on home page */
