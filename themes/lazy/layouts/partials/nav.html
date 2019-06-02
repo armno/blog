@@ -1,21 +1,19 @@
 <nav class="nav">
   <ul class="nav-list">
     <li class="nav-item nav-item-mobile-logo">
-      <a href="/" class="nav-link logo-link">
-        <img src="/img/logo.svg" alt="logo" class="no-medium-zoom">
+      <a href="/" class="nav-link {{ if eq .pageName "home" }}active{{ end }}">
+        <!-- <img src="/img/logo.svg" alt="logo" class="no-medium-zoom"> -->
+        home
       </a>
     </li>
     <li class="nav-item">
-      <a href="/about" class="nav-link">about</a>
+      <a href="/about" class="nav-link {{ if eq .pageName "about" }}active{{ end }}">about</a>
     </li>
     <li class="nav-item">
-      <a href="/uses" class="nav-link">uses</a>
+      <a href="/uses" class="nav-link {{ if eq .pageName "uses" }}active{{ end }}">uses</a>
     </li>
     <li class="nav-item">
-      <a href="/post" class="nav-link">articles</a>
+      <a href="/post" class="nav-link {{ if eq .pageName "post" }}active{{ end }}">articles</a>
     </li>
-    <!-- <li class="nav-item">
-      <a href="/contact" class="nav-link">contact</a>
-    </li> -->
   </ul>
 </nav>

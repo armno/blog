@@ -4,9 +4,9 @@
 
 <body>
   <header class="site-header">
-    {{ partial "nav.html" . }}
+    {{ partial "nav.html" (dict "context" . "pageName" .Params.activeMenu) }}
   </header>
-  <div class="content">
+  <div class="content content--home">
     <main class="no-sidebar">
       <article>
         <header>
@@ -16,8 +16,8 @@
         {{ .Content }}
       </article>
     </main>
+    {{ partial "footer.html" . }}
   </div>
-  {{ partial "footer.html" . }}
   {{ partial "bottom-script.html" . }}
 </body>
 
