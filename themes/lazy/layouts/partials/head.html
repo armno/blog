@@ -38,7 +38,7 @@
   {{ end }}
   {{ if and (.Page.Params.thumbnail) (hasPrefix .Page.Params.thumbnail "http") }}
   <meta property="og:image" content="{{ .Page.Params.thumbnail }}">
-  {{else if .Page.Params.thumbnail }}
+  {{ else if .Page.Params.thumbnail }}
   <meta property="og:image" content="{{ .Permalink }}{{ .Page.Params.thumbnail }}">
   {{ end }}
 
