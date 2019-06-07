@@ -1,8 +1,9 @@
 baseURL: https://armno.in.th/
 disablePathToLower: true
 languageCode: th
-title: Armno P. - A Frontend Developer at BUZZWOO! Asia, Chiang Mai, Thailand. <3 Web Platform. Blogs about web and frontend toolings.
-thumbnail: https://armno.in.th/img/cover-blog-stuttgart.jpg
+title: Armno P. - Frontend Developer at BUZZWOO! Asia, Chiang Mai, Thailand.
+params:
+  thumbnail: https://armno.in.th/img/home1.jpg
 theme: lazy
 paginate: 12
 permalinks:
