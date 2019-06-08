@@ -6,7 +6,7 @@
     {{ partial "nav.html" (dict "context" . "pageName" "home") }}
   </header>
   <div class="content content--home">
-{{if .IsHome}}
+    {{ if eq .Paginator.PageNumber 1 }}
     <div class="hero">
       <div class="home-page-photo">
         <img src="/img/home1.jpg" alt="armno's photo">
@@ -23,7 +23,12 @@
     <main class="main--home">
 
       <div class="latest-articles">
-        <h2 class="home-blog-title">Latest Posts</h2>
+        <h2 class="home-blog-title">
+          Latest Posts
+          {{ if ge .Paginator.PageNumber 2 }}
+          <span class="page-number">/ Page {{ .Paginator.PageNumber }}</span>
+          {{ end }}
+        </h2>
         <ul class="home-articles">
           {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
           {{ range $paginator.Pages }}

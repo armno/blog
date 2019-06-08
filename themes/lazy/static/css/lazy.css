@@ -341,13 +341,14 @@ blockquote p:last-child {
 /* ------ */
 
 .reading-time,
-.publish-time {
+.publish-time,
+.publish-time-article {
   color: var(--independence);
+  font-style: italic;
 }
 
-.publish-time {
+.publish-time-article {
   font-size: 0.8rem;
-  font-style: italic;
 }
 
 .page-title {
@@ -500,6 +501,12 @@ main,
   margin: 4rem 0;
 }
 
+.home-blog-title .page-number {
+  color: var(--gainsboro);
+  font-size: 0.75em;
+  font-weight: normal;
+}
+
 .home-articles {
   max-width: none;
   margin: 0;
@@ -520,6 +527,10 @@ main,
 .post-teaser__thumbnail {
   width: 100%;
   position: relative;
+}
+
+.post-teaser__thumbnail.no-thumbnail {
+  padding-top: 56.25%;
 }
 
 .related-posts__thumbnail.no-thumbnail::after,
@@ -900,7 +911,7 @@ main,
     width: 30%;
   }
 
-  .publish-time {
+  .publish-time-article {
     display: none;
   }
 }
