@@ -71,7 +71,7 @@ keywords:
 
 -----
 
-## Mark 4 (มาร์กโฟร์)
+## Mark 4 (มาร์กโฟร์) {#mark-4}
 
 {{< picture-lazy wrapper-class="semi-full" ratio="16-9" src="images/mark-iv.jpg" alt="custom mechanical keyboard mark 4" >}}
 
@@ -181,7 +181,7 @@ profile หรือ รูปทรงของ keycaps ที่ต่าง�
 
 -----
 
-## Mark 5 (มาร์กไฟฟ์)
+## Mark 5 (มาร์กไฟฟ์) {#mark-5}
 
 {{< picture-lazy wrapper-class="semi-full" ratio="3-2" src="images/mark5.jpg" alt="custom mechanical keyboard mark 5 ของนีโม่" >}}
 
