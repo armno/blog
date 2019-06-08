@@ -7,7 +7,6 @@
   </header>
   <div class="content">
   <aside class="sidebar">
-
     <div class="post-aside">
       <div class="author">
         <img class="author-avatar" src="/img/me.jpg" alt="me">
@@ -22,6 +21,7 @@
     <article>
       <header>
         <h1 class="page-title">{{ .Title }}</h1>
+        <time class="publish-time" datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
       </header>
 
       {{ .Content }}
