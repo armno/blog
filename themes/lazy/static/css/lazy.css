@@ -340,11 +340,14 @@ blockquote p:last-child {
 
 /* ------ */
 
-.reading-time,
 .publish-time,
 .publish-time-article {
   color: var(--independence);
   font-style: italic;
+}
+
+.reading-time {
+  color: var(--smoky-black);
 }
 
 .publish-time-article {
@@ -725,6 +728,8 @@ main,
 
 .related-posts__title {
   margin-top: 0.5em;
+  font-size: 0.9rem;
+  line-height: 1.1;
 }
 
 /* styles for broken images (404) */
@@ -911,8 +916,15 @@ main,
     text-align: right;
   }
 
+  .related-posts {
+    justify-content: flex-start;
+  }
+
   .related-posts__item {
     width: 30%;
+  }
+  .related-posts__item:not(:last-child) {
+    margin-right: 5%;
   }
 
   .publish-time-article {
