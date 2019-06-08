@@ -340,8 +340,14 @@ blockquote p:last-child {
 
 /* ------ */
 
-.reading-time {
+.reading-time,
+.publish-time {
   color: var(--independence);
+}
+
+.publish-time {
+  font-size: 0.8rem;
+  font-style: italic;
 }
 
 .page-title {
@@ -680,7 +686,7 @@ main,
 }
 
 .related-posts__item {
-  width: 30%;
+  width: 45%;
   flex-grow: 0;
   flex-shrink: 0;
   font-size: 1rem;
@@ -889,6 +895,14 @@ main,
 
   .site-footer > div:last-child {
     text-align: right;
+  }
+
+  .related-posts__item {
+    width: 30%;
+  }
+
+  .publish-time {
+    display: none;
   }
 }
 
