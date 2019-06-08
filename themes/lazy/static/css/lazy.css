@@ -351,7 +351,6 @@ blockquote p:last-child {
 }
 
 .page-title {
-  overflow: hidden;
   word-break: break-word;
   font-size: 2.25rem;
 }
