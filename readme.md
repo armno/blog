@@ -28,7 +28,12 @@ attributes:
 - `ratio`
 
 ```
-{{< picture-lazy wrapper-class="semi-full" src="images/platoo.jpg" alt="test" ratio="16-9">}}
+{{< picture-lazy
+  wrapper-class="semi-full"
+  src="images/platoo.jpg"
+  alt="test"
+  ratio="16-9"
+>}}
 ```
 
 `ratio` attribute can be set for a lazily-loaded image to [perserve vertical space](https://github.com/verlok/lazyload#occupy-vertical-space-and-maintain-ratio) and prevent page jumps when the image is loaded.
@@ -50,6 +55,9 @@ output:
 ```html
 <p class="media lazy-wrapper semi-full ratio ratio-16-9">
   <img class="lazy" data-src="images/platoo.jpg" alt="test">
+  <noscript>
+    <img src="images/platoo.jpg" alt="test">
+  </noscript>
 </p>
 ```
 
@@ -63,7 +71,12 @@ attributes:
 - `alt`
 
 ```
-{{< picture wrapper-class="semi-full" img-class="nom" src="images/platoo.jpg" alt="test" >}}
+{{< picture
+  wrapper-class="semi-full"
+  img-class="nom"
+  src="images/platoo.jpg"
+  alt="test"
+>}}
 ```
 
 output:
