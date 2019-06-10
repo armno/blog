@@ -2,7 +2,7 @@
 layout: post
 title: Resumé
 description: My name is Arm. I am a web developer based in Chiang Mai, Thailand. I started my career since 2010. My experiences cover both front-end and back-end development.
-hide: true
+draft: true
 ---
 
 <div class="resume-gravatar text-center">
