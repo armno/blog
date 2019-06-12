@@ -119,6 +119,10 @@ body.grid-on::after {
   line-height: 1.45;
   margin-top: 0;
   margin-bottom: var(--bottom-space);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 html {
