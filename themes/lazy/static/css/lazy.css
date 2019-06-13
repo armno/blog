@@ -158,12 +158,12 @@ li {
   margin-bottom: 0;
 }
 
-ol li {
+ol > li {
   counter-increment: listCounter;
   position: relative;
 }
 
-ol li::before {
+ol > li::before {
   content: counter(listCounter, decimal-leading-zero) '.';
   position: absolute;
   left: -1.75em;
@@ -176,7 +176,7 @@ ul li {
   position: relative;
 }
 
-ul:not(.no-list-style):not(.pagination) li::before {
+ul:not(.no-list-style):not(.pagination) > li::before {
   content: ' ';
   width: 7px;
   height: 7px;
