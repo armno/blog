@@ -7,11 +7,17 @@
     <a href="{{ .Permalink }}">
     {{ if and (.Params.thumbnail) (hasPrefix .Params.thumbnail "http") }}
       <div class="related-posts__thumbnail">
-        <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" class="no-medium-zoom">
+        <img class="no-medium-zoom lazy" data-src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+        <noscript>
+          <img class="no-medium-zoom" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+        </noscript>
       </div>
     {{ else if .Params.thumbnail }}
       <div class="related-posts__thumbnail">
-        <img src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}" class="no-medium-zoom">
+        <img class="no-medium-zoom lazy" data-src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
+        <noscript>
+          <img class="no-medium-zoom" src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
+        </noscript>
       </div>
     {{ else if not .Params.thumbnail }}
       <div class="related-posts__thumbnail no-thumbnail">
