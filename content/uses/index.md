@@ -57,7 +57,10 @@ Desk Setup: เลือกใช้ MacBook Pro เครื่องเดี�
 
 - [VSCode](https://code.visualstudio.com/) เป็น code editor หลัก คู่กับ [VSCodeVim](https://github.com/VSCodeVim/Vim)
 - [Vim](https://www.vim.org/) เป็น editor สำหรับไว้ใช้เวลาต้องแก้ไฟล์ใน terminal
-- [iTerm2 Version 3](https://www.iterm2.com/version3.html) ร่วมกับ [base16-shell](https://github.com/chriskempson/base16-shell) และ [dotfiles ](https://github.com/armno/dotfiles)
+- [iTerm2 Version 3](https://www.iterm2.com/version3.html) ร่วมกับ
+  - [zsh](https://www.zsh.org/) กับ [oh-my-zsh](https://ohmyz.sh/)
+  - [base16-shell](https://github.com/chriskempson/base16-shell)
+  - [dotfiles ](https://github.com/armno/dotfiles)
 - ฟอนต์ [Fira Code](https://armno.in.th/2017/08/10/fira-code-font-for-coding/)
 - terminal color schemes: ผมใช้ทั้งโทนมืดและสว่างสลับกันไประหว่างวัน แล้วแต่สภาพแสงในห้องทำงาน
   - โทนมืด: `base16_material-darker`
@@ -67,11 +70,12 @@ Desk Setup: เลือกใช้ MacBook Pro เครื่องเดี�
 
 {{< picture wrapper-class="semi-full" src="images/light.png" alt="light terminal" >}}
 
+- [Homebrew](https://brew.sh/) package manager
 - [Google Chrome](https://www.google.com/chrome/) เป็น browser หลัก
 - [Spectacle](https://www.spectacleapp.com/) เป็นแอพ window management ใน macOS ด้วย hotkey ที่ตั้งได้ตามใจชอบ ฟรีด้วย
 - [Trello](https://trello.com) สำหรับจดบันทึกอะไรที่ต้องเป็น list (todo list, wishlist), จดรายการหนังสือที่อ่านจบ
-- [Alfred](https://www.alfredapp.com/) แทน Spotlight ใน macOS
-- [Airmail](https://airmailapp.com/) แทนแอพ Mail ใน macOS เบากว่า และเร็วกว่าแอพ Mail เยอะ
+- [Alfred](https://www.alfredapp.com/) แทน Spotlight
+- [Airmail](https://airmailapp.com/) แทนแอพ Mail
 - Adobe Photoshop & Lightroom
 - [VSCO](https://vsco.co/)
 - [LastPass](http://lastpass.com) Password Manager
