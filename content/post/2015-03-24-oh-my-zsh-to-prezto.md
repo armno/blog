@@ -4,7 +4,7 @@ description: ปกติผมใช้ zsh คู่กับ oh-my-zsh เพ
   ก็ใช้งานได้ดีปกติ ไม่มีปัญหาอะไร แต่แล้ววันหนึ่งอากาศแจ่มใส ไม่รู้มีอะไรดลให้ Prezto
   ผ่านมาให้พบเจอ เลยต้องลองเสียหน่อย
 published: true
-keywords:
+tags:
   - zsh
   - prezto
   - terminal

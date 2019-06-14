@@ -7,7 +7,7 @@ description:
   เคยเขียนเรื่อง Zen Coding ใน Netbeans มาแล้วครั้งหนึ่ง ตอนนี้ Zen Coding
   เปลี่ยนชื่อเป็น Emmet แล้วครับ มาพร้อมกับฟีเจอร์ใหม่อีกเยอะแยะมากมาย
 slug: emmet-zen-coding-replacement
-keywords:
+tags:
   - Emmet
   - Sublime Text 2
   - Web Development

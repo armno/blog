@@ -3,7 +3,7 @@ date: 2013-09-11T00:00:00Z
 description: Terminal นั้นก็เป็นอีก tool สำคัญที่ต้องใช้บ่อยๆ ถือว่าเป็นหนึ่งในเครื่องมือทำมาหากินของ
   web developer ยุคนี้เลยก็ว่าได้ ผมเองมีปรับแต่ง terminal บ้าง หลักๆ ก็เพื่อให้ใช้งานได้สะดวกขึ้นครับ
 published: true
-keywords:
+tags:
   - terminal
   - iterm
   - zsh

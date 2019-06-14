@@ -4,7 +4,7 @@ categories:
 date: 2013-04-22T00:00:00Z
 description: การเปิดใช้งาน Source maps กับ Google Chrome ทำให้ debug Sass file ได้ง่ายขึ้น
   เราสามารถดู source ของไฟล์ .scss ได้จาก browser เลย
-keywords:
+tags:
   - css
   - sourcemaps
   - devtools

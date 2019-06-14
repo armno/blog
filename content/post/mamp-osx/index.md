@@ -5,7 +5,7 @@ description:
   MAMP (รวมถึง MAMP Pro) นั้นเป็นเครื่องมือที่ดีสำหรับติดตั้ง local web
   server บน OSX แต่ปัญหาที่ผมพบกับ MAMP คือกินแรมเยอะมาก ซึ่งจริงๆ แล้วเราไม่ต้องมี
   MAMP ก็รัน web server ในเครื่องได้ Homebrew คือพระเอกของเราครับ
-keywords:
+tags:
   - tooling
   - development
 title: ติดตั้ง Apache, PHP, MySQL บน OSX แบบไม่ง้อ MAMP

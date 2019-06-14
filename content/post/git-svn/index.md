@@ -7,7 +7,7 @@ description:
   ความแตกต่างหลักของ Git กับ SVN คือ Git เป็น distributed แต่ SVN นั้นเป็น
   centralized version control system ทำให้เกิดความแตกต่างข้ออื่นๆ ตามมาด้วยครับ
 slug: git-vs-svn
-keywords:
+tags:
   - Git
   - Subversion
   - SVN

@@ -6,7 +6,7 @@ layout: wide
 cover-image: images/cover.png
 thumbnail: images/thumbnail.png
 description: ใช้ประโยชน์จาก archetype ใน hugo สำหรับสร้าง template ของ front matter เวลาสร้างโพสต์ใหม่
-keywords:
+tags:
   - hugo
   - archetypes
   - blog
@@ -91,7 +91,7 @@ url: /2018/09/02/netlify-deploy-preview
 layout: wide
 description: Netlify มีฟีเจอร์หนึ่งชื่อว่า Deploy Preview ที่ทุกครั้งที่เราสร้าง pull request (หรือ merge request สำหรับ GitLab) Netlify จะสร้าง URL สำหรับ pull requets นั้นให้โดยอัตโนมัติ ทำให้เราสามารถเช็คดูก่อนได้โดยที่ยังไม่ต้อง merge branch นั้น เข้า production branch
 thumbnail: https://armno.in.th/img/posts/netlify-deploy-previews/idea.png
-keywords:
+tags:
   - Netlify
   - Continuous Deployment
 ```
@@ -119,7 +119,7 @@ layout: wide
 cover-image: images/cover.jpg
 thumbnail:
 description:
-keywords:
+tags:
 ---
 ```
 
@@ -141,7 +141,7 @@ layout: wide
 cover-image: images/cover.jpg
 thumbnail:
 description:
-keywords:
+tags:
 ---
 ```
 

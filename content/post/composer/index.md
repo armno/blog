@@ -7,7 +7,7 @@ description:
   library อื่นๆ ในโปรเจ็คของเรา Composer นั้นช่วย install library ที่จำเป็นเหล่านั้นในโปรเจ็คให้ครับ
   Composer นั้นกำลังได้รับความนิยมเพิ่มขึ้นเรื่อยๆ สำหรับ PHP developer สมัยใหม่ครับผม
 pygment: true
-keywords:
+tags:
   - php
   - composer
 title: ติดตั้ง Composer บน OSX

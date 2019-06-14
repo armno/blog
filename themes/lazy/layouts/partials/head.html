@@ -51,7 +51,9 @@
   <meta property="fb:admins" content="1007588651">
   <meta property="fb:app_id" content="127330613993014">
   <meta property="article:author" content="https://www.facebook.com/armno">
-	<meta property="article:publisher" content="https://www.facebook.com/armno.in.th">
+  <meta property="article:publisher" content="https://www.facebook.com/armno.in.th">
+  {{ range .Params.tags }}
+  <meta property="article:tag" content="{{ . }}">{{ end }}
 
   <!-- twitter card meta tags -->
   <meta name="twitter:card" content="summary">
@@ -65,6 +67,13 @@
   {{ end }}
 
   <meta name="google-site-verification" content="YJ93aLrmjImM0gYP8OK-YqQ_9UmNYNj-7UOu2FGQfPo">
+
+  <!-- ignore tags page from being indexed -->
+  {{ if and (eq .Kind "taxonomy") (eq .Type "tags")}}
+  <meta name="robots" content="noindex, follow">
+  {{ else }}
+  <meta name="robots" content="index, follow">
+  {{ end }}
 
   <!--Favicon-->
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">

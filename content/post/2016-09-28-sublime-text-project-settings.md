@@ -5,7 +5,7 @@ description:
   Sublime Text ดูเผินๆ แล้วเป็น text editor ธรรมดา แต่จริงๆ แล้ว ก็มาพร้อมกับฟีเจอร์ในการจัดการโปรเจ็คอยู่อย่างพอเหมาะ
   อาจไม่ครบครันเท่ากับ IDE ทั่วๆ ไป แต่ก็ถือว่าใช้ทำงานได้ดีเลย
 published: true
-keywords:
+tags:
   - editor
   - sublimetext
   - tools

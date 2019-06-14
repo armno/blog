@@ -6,7 +6,7 @@ description:
   มีโอกาสซื้อของจาก Apple Store Thailand อีกครั้ง คราวนี้ประสบการณ์แปลกใหม่ไปนิดหน่อย
   ขอบันทึกไว้บ้างนะ
 slug: apple-wireless-keyboard
-keywords:
+tags:
   - Apple Store
   - Apple Wireless Keyboard
   - Mac

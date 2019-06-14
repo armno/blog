@@ -4,7 +4,7 @@ description:
   เคยแชร์ blog post เกี่ยวกับการ set up Sublime Text ของ developer หลายคนไปแล้ว
   ขอแชร์ของผมเองบ้างนะครับ ว่าตั้งแต่เริ่มติดตั้งจนถึงลงมือทำงาน ทำอะไรไปบ้าง
 published: true
-keywords:
+tags:
   - sublimetext
   - packages
 title: Setting up Sublime Text 3

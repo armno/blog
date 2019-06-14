@@ -4,7 +4,7 @@ description: Gulp.js นั้นเป็น build tool/task runner ช่ว�
   ใน build process ไปได้เยอะ (sass/minify/concat js/html) เป็น tool ลักษณะเดียวกับ
   Grunt แต่ config คนละแบบครับ
 published: true
-keywords:
+tags:
   - gulp
   - tooling
   - buildtools

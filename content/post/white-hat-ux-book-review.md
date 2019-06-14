@@ -2,7 +2,7 @@
 title: "แนะนำหนังสือ White Hat UX"
 date: 2018-04-26T11:48:06+07:00
 description: ที่ออฟฟิศมีหนังสือ White Hat UX ที่สั่งซื้อมาจาก Smashing Magazine ผมหยิบมาอ่านแล้วรู้สึกว่าน่าสนใจดี เลยอยากจะแนะนำครับ
-keywords:
+tags:
   - Book
   - User Experience
   - Review

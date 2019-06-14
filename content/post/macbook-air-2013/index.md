@@ -5,7 +5,7 @@ date: 2013-07-03T00:00:00Z
 description: ครั้งนี้เป็นครั้งที่ 3 ของผมกับการซื้อของจาก Apple Store ของที่สั่งคราวนี้เป็น
   MacBook Air 2013 จาก Education Store ทำให้ได้ราคานักศึกษาซึ่งถูกลงมาหน่อย คราวนี้
   DHL มาส่งถึงบ้านครับ
-keywords:
+tags:
   - macbookair
   - applestore
 title: 'ซื้อของจาก Apple Store #3: MacBook Air 2013'

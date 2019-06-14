@@ -7,7 +7,7 @@ description:
   Prefixfree.js เป็น JavaScript เล็กๆ ที่ทำให้เราสามารถเขียน CSS แบบไม่ต้องมี
   vendor prefix ได้ โดย prefixfree.js จะเติม vendor prefix ให้เองตอน runtime ครับ
 slug: prefixfree-js
-keywords:
+tags:
   - CSS3
   - JavaScript
   - Lea Verou

@@ -5,7 +5,7 @@ url: /2019/06/08/60-percent-mechanical-keyboard-with-arrows
 cover-image: images/cover.jpg
 thumbnail: images/after-fixes.jpg
 description: ลองแก้ layout ของ mechanical keyboard ขนาด 60% ที่ใช้อยู่ ให้มีปุ่มลูกศร (arrows keys) พร้อมกับ split spacebar
-keywords:
+tags:
   - Mechanical Keyboard
   - Build
   - Hardware

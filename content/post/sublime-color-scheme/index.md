@@ -6,7 +6,7 @@ description:
   Sublime Text นั้นมาพร้อมกับ color scheme ให้เลือกใช้กันมากมาย นอกจากนี้เรายังสามารถติดตั้ง
   color scheme จาก source อื่นๆ ได้ด้วย
 slug: sublime-text-color-schemes
-keywords:
+tags:
   - Coding
   - color scheme
   - Sublime Text 2

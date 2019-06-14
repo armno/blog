@@ -4,7 +4,7 @@ categories:
 comments: true
 date: 2010-03-24T01:25:30Z
 slug: dont-make-me-think-web-usability-book
-keywords:
+tags:
 - Book
 - Steve Krug
 - Web Standards

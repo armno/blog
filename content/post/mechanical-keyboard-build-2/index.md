@@ -5,7 +5,7 @@ url: /2019/05/01/custom-mechanical-keyboard-build-2
 cover-image: images/mark4-3.jpg
 thumbnail: images/mark4-3.jpg
 description: custom mechanical keyboard อีก 2 ตัวล่าสุดที่ทำ จากแผงวงจร DZ60 เป็น keyboard ขนาด 60%
-keywords:
+tags:
   - Mechanical Keyboard
   - Build
   - Hardware

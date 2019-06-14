@@ -5,7 +5,7 @@ date: 2013-05-18T00:00:00Z
 description: Grado SR-80i เป็นหูฟังตัวถัดมาจาก AKG K420 ที่ผมนั้นใช้เป็นประจำอยู่ทุกวัน
   SR-80i เสียงออกแนวใสๆ กว้างๆ ฟังเพลงได้หลากหลายแนวดีครับ
 published: true
-keywords:
+tags:
   - headphones
   - grado
   - music

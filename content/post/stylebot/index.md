@@ -8,7 +8,7 @@ description:
   สีพื้นหลังเปรี้ยวเกิน หรือฟอนต์ตัวเล็กเท่าจิ๋มมดครั้นจะไปแจ้งเจ้าของเว็บให้ปรับปรุง
   ก็ดูจะเกินกำลังไปหน่อย Stylebot ช่วยคุณได้ครับ
 slug: stylebot-custom-css
-keywords:
+tags:
   - CSS
   - Extension
   - Google Chrome

@@ -7,7 +7,7 @@ description:
   เราสามารถใช้ querySelector() และ querySelectorAll() สำหรับ query DOM
   element โดยใช้ CSS selector ได้อย่างสะดวกใจ คล้าย selector ของ jQuery ครับ
 slug: queryselector-queryselectorall-selectors-api
-keywords:
+tags:
   - HTML5
   - JavaScript
   - Selectors API

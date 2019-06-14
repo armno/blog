@@ -7,7 +7,7 @@ description:
   Normalize.css เป็น CSS ที่ทำให้ทุก browser แสดงผล default style ได้ใกล้เคียงกันที่สุด
   ต่างจาก CSS Reset ตรงที่ Normalize.css นั้นไม่เคลียร์ style ทุกอย่างทิ้งไปเลย
 slug: normalize-css
-keywords:
+tags:
   - CSS
   - CSS Reset
   - Normalize.css
