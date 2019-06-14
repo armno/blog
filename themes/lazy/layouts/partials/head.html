@@ -54,6 +54,8 @@
   <meta property="article:publisher" content="https://www.facebook.com/armno.in.th">
   {{ range .Params.tags }}
   <meta property="article:tag" content="{{ . }}">{{ end }}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
+  <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02" }}">
 
   <!-- twitter card meta tags -->
   <meta name="twitter:card" content="summary">
