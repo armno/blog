@@ -36,11 +36,17 @@
             <div class="post-teaser__thumbnail {{ if not .Params.thumbnail }}no-thumbnail{{ end }}">
               {{ if and (.Params.thumbnail) (hasPrefix .Params.thumbnail "http") }}
               <a class="post-link" href="{{ .Permalink }}">
-                <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                <img class="lazy no-medium-zoom" data-src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                <noscript>
+                  <img class="no-medium-zoom" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                </noscript>
               </a>
               {{ else if .Params.thumbnail }}
               <a class="post-link" href="{{ .Permalink }}">
-                <img src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                <img class="lazy no-medium-zoom" data-src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                <noscript>
+                  <img class="no-medium-zoom" src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                </noscript>
               </a>
               {{ end }}
             </div>
@@ -68,19 +74,6 @@
     {{ partial "footer.html" . }}
   </div>
 
-  <script>
-    window.lazyLoadOptions = {
-      elements_selector: '.lazy'
-    }
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2721521-7"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-2721521-7', { 'anonymize_ip': true });
-  </script>
+  {{ partial "bottom-script.html" . }}
 </body>
 </html>
