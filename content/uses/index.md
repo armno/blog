@@ -40,6 +40,9 @@ Desk Setup: เลือกใช้ MacBook Pro เครื่องเดี�
 {{< picture-lazy wrapper-class="semi-full" src="images/laptop-stand.jpg" alt="laptop stand" ratio="3-2" >}}
 
 - กล้องดิจิตอล Fuji XT-20 เลนส์ 18-55mm F2.8-4, Meike 35mm F1.7 ยืมของภรรยามาใช้ประจำ
+
+{{< picture-lazy wrapper-class="semi-full" src="images/camera.jpg" alt="fuji xt-20" ratio="4-3" >}}
+
 - iPhone 6s ของเก่าของภรรยาเช่นกัน (ถึงได้เป็นสีชมพู)
 
 {{< picture-lazy wrapper-class="semi-full" src="images/iphone.jpg" alt="iPhone 6s" ratio="3-2" >}}
