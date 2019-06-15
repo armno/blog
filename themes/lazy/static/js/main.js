@@ -13,6 +13,7 @@
     mediumZoom('img:not(.no-medium-zoom)');
 
     document
+      .querySelector('article.single')
       .querySelectorAll('h2, h3')
       .forEach(element => appendAnchor(element));
   });
