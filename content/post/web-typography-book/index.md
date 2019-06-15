@@ -11,6 +11,8 @@ tags:
   - review
   - design
   - coding
+categories:
+- books
 ---
 
 <p class="lead">

@@ -10,6 +10,8 @@ tags:
   - bicycle
   - canyon
   - review
+categories:
+- hobby
 ---
 
 ผมสั่งซื้อจักรยานจาก [Canyon](https://www.canyon.com/en-th/) เมื่อไม่กี่เดือนก่อน จึงอยากจะเขียนรีวิวขั้นตอนการสั่งซื้อจักรยานจาก canyon.com เก็บไว้ สำหรับคนที่สนใจครับ

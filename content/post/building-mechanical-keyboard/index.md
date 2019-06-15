@@ -9,7 +9,8 @@ tags:
   - Hardware
 thumbnail: images/19-final-keyboard.jpg
 cover-image: /img/posts/gh60/cover.jpg
-layout: wide
+categories:
+- hobby
 ---
 
 <p class="message--warning">

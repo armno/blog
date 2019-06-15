@@ -9,6 +9,8 @@ tags:
   - Mechanical Keyboard
   - Build
   - Hardware
+categories:
+- hobby
 ---
 
 เมื่อเกือบ 2 ปีที่แล้ว ผมได้ลองทำ [mechanical keyboard ขนาด 60%](https://armno.in.th/2017/08/20/building-custom-mechanical-keyboard/) อันแรก

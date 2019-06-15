@@ -6,9 +6,11 @@ cover-image: images/cover.jpg
 thumbnail: images/after-fixes.jpg
 description: ลองแก้ layout ของ mechanical keyboard ขนาด 60% ที่ใช้อยู่ ให้มีปุ่มลูกศร (arrows keys) พร้อมกับ split spacebar
 tags:
-  - Mechanical Keyboard
-  - Build
-  - Hardware
+- Mechanical Keyboard
+- Build
+- Hardware
+categories:
+- hobby
 ---
 
 หลังจากได้ลองทำ [custom mechanical keyboard ขนาด 60% แบบมี arrow keys](https://armno.in.th/2019/05/01/custom-mechanical-keyboard-build-2/#mark-5) ให้ภรรยาใช้

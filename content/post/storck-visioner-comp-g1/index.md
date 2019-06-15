@@ -10,6 +10,8 @@ tags:
 thumbnail: images/front.jpg
 cover-image: images/cover.jpg
 layout: wide
+categories:
+- hobby
 ---
 
 ปั่นจักรยานเสือบหมอบมาได้ประมาณ 2 ปี เพิ่งมีโอกาสได้เปลี่ยนจักรยานเสือหมอบ จากเฟรมอลูมิเนียมเป็นเฟรมคาร์บอนกับเขาบ้าง เฟรมที่เลือกเป็น [Storck Visioner Comp G1](https://www.storckworld.com/en/bike-finder/bike/visioner-comp-g1/)
