@@ -23,7 +23,7 @@ wordpress_id: 13
 
 ออกแนวเศร้าๆนิดๆเนาะ
 
-[![](http://files.armno.in.th/uploads/2007/11/arte_01.jpg)](http://files.armno.in.th/uploads/2007/11/arte_01.jpg)
+[![](https://files.armno.in.th/uploads/2007/11/arte_01.jpg)](https://files.armno.in.th/uploads/2007/11/arte_01.jpg)
 
 
 _ภาพวาดเทพีอาร์เทมิส จาก [Kagaya's Gallery](http://www.kagayastudio.com/)_

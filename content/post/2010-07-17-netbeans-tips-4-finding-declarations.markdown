@@ -35,12 +35,12 @@ wordpress_id: 1272
 
 วิธีการก็ง่ายมากครับ คลิกขวาที่ฟังก์ชั่น คลาส หรือตัวแปรที่ต้องการ แล้วเลือกเมนู **Navigate > Go to Declaration** ครับ
 
-[![image](http://files.armno.in.th/uploads/2010/07/image_thumb16.png)](http://files.armno.in.th/uploads/2010/07/image16.png)
+[![image](https://files.armno.in.th/uploads/2010/07/image_thumb16.png)](https://files.armno.in.th/uploads/2010/07/image16.png)
 
 คลิกปุ๊ปมันก็จะกระโดดไปทันทีเลย!
 
-[![image](http://files.armno.in.th/uploads/2010/07/image_thumb17.png)](http://files.armno.in.th/uploads/2010/07/image17.png)
+[![image](https://files.armno.in.th/uploads/2010/07/image_thumb17.png)](https://files.armno.in.th/uploads/2010/07/image17.png)
 
-ถ้าต้องการเร็วกว่านี้ มีคีย์ลัดคือ** Ctrl + คลิกซ้าย** ครับผม .. คลิกปุ๊ป ไปปั๊บเลย ![Open-mouthed smile](http://files.armno.in.th/uploads/2010/07/wlEmoticonopenmouthedsmile1.png)
+ถ้าต้องการเร็วกว่านี้ มีคีย์ลัดคือ** Ctrl + คลิกซ้าย** ครับผม .. คลิกปุ๊ป ไปปั๊บเลย ![Open-mouthed smile](https://files.armno.in.th/uploads/2010/07/wlEmoticonopenmouthedsmile1.png)
 
 ลองใช้กันดูนะครับ

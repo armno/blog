@@ -31,31 +31,31 @@ wordpress_id: 1397
 
 วิธีติดตั้งก็แค่ ไปที่เมนู **Tools** > **Options** > ปุ่ม **Import** (ล่างซ้าย) > กด **browse** เลือกไฟล์ที่เราโหลดมา (.zip) > กด **OK** แล้วก็รีสตาร์ท NetBeans ครับ
 
-[![image](http://files.armno.in.th/uploads/2010/10/image_thumb.png)](http://files.armno.in.th/uploads/2010/10/image.png)
+[![image](https://files.armno.in.th/uploads/2010/10/image_thumb.png)](https://files.armno.in.th/uploads/2010/10/image.png)
 
 
 
 น่าเสียดายที่ Zen Coding สำหรับ NetBeans นั้น **ไม่ได้รองรับ Expand Abbreviation** (ฟีเจอร์เทพๆที่เห็นในวิดีโอนั่นแหละครับ) แต่ก็ทดแทนด้วย Code Templates ที่เยอะมากๆ ซึ่งจะช่วยให้เราใช้งานร่วมกัน[ฟีเจอร์ auto-complete](https://armno.in.th/netbeans-tips2-%e0%b9%83%e0%b8%8a%e0%b9%89%e0%b8%87%e0%b8%b2%e0%b8%99-code-auto-complete) ได้อย่างสนุกสนานยิ่งขึ้น .. สามารถเข้าไปดู code templates ได้ที่ **Options** > **Editor** > **Code Templates** > เลือก **Language** เป็น **HTML** ครับ
 
-[![image](http://files.armno.in.th/uploads/2010/10/image_thumb1.png)](http://files.armno.in.th/uploads/2010/10/image1.png)
+[![image](https://files.armno.in.th/uploads/2010/10/image_thumb1.png)](https://files.armno.in.th/uploads/2010/10/image1.png)
 
 ก็จะพบกับลิสต์ยาวเหยียดของ code template ที่มีให้ครับ ผมเองก็จำไม่หมดหรอกครับ .. วิธีใช้งานก็แสนง่าย แค่พิมพ์โค้ดในส่วน Abbreviation เจ้าตัว NetBeans ก็จะแปลงเป็น Expanded Text ให้อย่างรวดเร็ว ตัวอย่างผมพิมพ์ **html:4s** หมายถึง ต้องการสร้างไฟล์ html 4 ที่ประกาศ doctype แบบ strict ..
 
-[![image](http://files.armno.in.th/uploads/2010/10/image_thumb2.png)](http://files.armno.in.th/uploads/2010/10/image2.png)
+[![image](https://files.armno.in.th/uploads/2010/10/image_thumb2.png)](https://files.armno.in.th/uploads/2010/10/image2.png)
 
 แล้วพอกด **tab** Netbeans ก็จะแปลงโค้ดให้เราทันที พร้อม cursor ก็ไปอยู่ในตำแหน่งที่อำนวยความสะดวกให้เราสุดๆ (กด tab เลื่อนๆไปเรื่อยๆได้)
 
-[![image](http://files.armno.in.th/uploads/2010/10/image_thumb3.png)](http://files.armno.in.th/uploads/2010/10/image3.png)
+[![image](https://files.armno.in.th/uploads/2010/10/image_thumb3.png)](https://files.armno.in.th/uploads/2010/10/image3.png)
 
 หรืออย่าง **link:css**
 
-[![image](http://files.armno.in.th/uploads/2010/10/image_thumb4.png)](http://files.armno.in.th/uploads/2010/10/image4.png)
+[![image](https://files.armno.in.th/uploads/2010/10/image_thumb4.png)](https://files.armno.in.th/uploads/2010/10/image4.png)
 
-กด tab ปุ๊ป .. พร้อมพิมพ์ชื่อไฟล์ได้ทันที ![Open-mouthed smile](http://files.armno.in.th/uploads/2010/10/wlEmoticon-openmouthedsmile1.png)
+กด tab ปุ๊ป .. พร้อมพิมพ์ชื่อไฟล์ได้ทันที ![Open-mouthed smile](https://files.armno.in.th/uploads/2010/10/wlEmoticon-openmouthedsmile1.png)
 
-[![image](http://files.armno.in.th/uploads/2010/10/image_thumb5.png)](http://files.armno.in.th/uploads/2010/10/image5.png)
+[![image](https://files.armno.in.th/uploads/2010/10/image_thumb5.png)](https://files.armno.in.th/uploads/2010/10/image5.png)
 
-เท่าที่ดู มีแท็ก html ให้เกือบครบ รวมถึง html5 ด้วย ถ้าจำได้เยอะๆ หรือฝึกใช้คล่อง คิดว่าจะทำให้เขียนโค้ด html ได้เร็วขึ้นมากๆเลยล่ะครับ ![Winking smile](http://files.armno.in.th/uploads/2010/10/wlEmoticon-winkingsmile.png)
+เท่าที่ดู มีแท็ก html ให้เกือบครบ รวมถึง html5 ด้วย ถ้าจำได้เยอะๆ หรือฝึกใช้คล่อง คิดว่าจะทำให้เขียนโค้ด html ได้เร็วขึ้นมากๆเลยล่ะครับ ![Winking smile](https://files.armno.in.th/uploads/2010/10/wlEmoticon-winkingsmile.png)
 
 
 ### And the last click (กับเขามั่ง)

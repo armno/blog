@@ -20,11 +20,11 @@ wordpress_id: 1225
 
 โม้มาซะยาว ใครยังไม่รู้ว่า IDE คืออะไร ไปหาคำตอบใน Google เอาเองนะครับ (ถ้ายังขี้เกียจอีก [คลิกลิ้งก์นี้สิ](http://www.google.co.th/search?hl=th&source=hp&q=ide+%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3&btnG=%E0%B8%84%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2+Google)) .. ใช้ Zend Studio ก็ OK ดีครับ แต่ด้วยความที่ละอายแก่ใจ ไม่อยากใช้ซอฟต์แวร์เถื่อน (ว่าไปนั่น) เลยอยากหา IDE ที่ฟรี และเบากว่า (กินทรัพยากรเครื่องน้อยกว่า) และก็มาลงเอยที่ **NetBeans IDE** ครับ ซึ่งผมเริ่มใช้จริงจังมาตั้งแต่เวอร์ชั่น 6.7 .. ก็ช่วงที่เริ่มทำโปรเจ็คจบพอดี
 
-[![netbeans_website](http://files.armno.in.th/uploads/2010/07/netbeans_website_thumb.png)](http://files.armno.in.th/uploads/2010/07/netbeans_website.png)
+[![netbeans_website](https://files.armno.in.th/uploads/2010/07/netbeans_website_thumb.png)](https://files.armno.in.th/uploads/2010/07/netbeans_website.png)
 
 ผมกะว่าจะเขียนเรื่อง **NetBeans IDE** เป็นตอนสั้นๆ หลายๆตอนนะครับ (ขี้เกียจเขียนยาวนั่นเอง) สำหรับตอนแรกนี้ ก็คงมาโม้ๆกันแบบนี้ก่อน .. ไอ้เจ้า IDE เนี่ย ครั้งแรกที่ใช้รู้สึกงงมากครับ เมนูประหลาดๆที่มีแต่ชื่อยากๆ, Panel อะไรไม่รู้รกเต็มหน้าจอไปหมด, ทำไมไม่เปิดไฟล์เฉยๆ ทำไมต้อง create project ใหม่ ฯลฯ .. ในตอนแรกที่มีแต่คำถามเต็มหัว แต่พอใช้ไปสักพัก เริ่มคุ้นเคย ก็จะพบว่ามันไม่ได้ยากอย่างที่คิดครับ
 
-### Netbeans แล้ว มันดีอย่างไร ![Note](http://files.armno.in.th/uploads/2010/07/wlEmoticonnote.png)
+### Netbeans แล้ว มันดีอย่างไร ![Note](https://files.armno.in.th/uploads/2010/07/wlEmoticonnote.png)
 
 (แอบจิ๊กทำนองเพลง “ดีอย่างไร” ของ Jetset’er มา) .. ตัวผมเองยังใหม่กับ NetBeans อยู่มาก ถึงจะใช้เป็นหลัก แต่ส่วนตัวก็ยังคิดว่า ยังใช้ไม่คุ้มอยู่ดี เพราะเท่าที่ดู NetBeans มันทำอะไรได้เยอะมากกกก จะลองลิสต์ประโยชน์ที่ผมได้จากการใช้ NetBeans ดูนะครับ
 
@@ -42,4 +42,4 @@ wordpress_id: 1225
   * [ดาวน์โหลด NetBeans IDE](http://netbeans.org/downloads/index.html) _(ผมโหลดเฉพาะ PHP 31MB เอง)_ ***ต้องลง [JRE](http://www.java.com/en/download/manual.jsp) ด้วยนะ***
   * [เว็บไซต์ NetBeans.org](http://netbeans.org/)
 
-Highly Recommended จ้าาาา ![Winking smile](http://files.armno.in.th/uploads/2010/07/wlEmoticonwinkingsmile.png)
+Highly Recommended จ้าาาา ![Winking smile](https://files.armno.in.th/uploads/2010/07/wlEmoticonwinkingsmile.png)

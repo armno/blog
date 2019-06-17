@@ -17,7 +17,7 @@ url: /2011/09/29/google-devfest-chiang-mai-2011-part-2/
 wordpress_id: 1856
 ---
 
-![DevFest 2011 unofficial logo](http://files.armno.in.th/uploads/2011/09/devfest_custom_logo.png)
+![DevFest 2011 unofficial logo](https://files.armno.in.th/uploads/2011/09/devfest_custom_logo.png)
 
 ## HTML5 Offline Applications
 

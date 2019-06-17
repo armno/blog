@@ -30,4 +30,4 @@ wordpress_id: 18
 
 แต่... มีอะไรที่เดินทางเร็วกว่าแสงมั้ยน้อ...??? ผมก็สนใจเรื่องพวกนี้อยู่เหมือนกัน
 
-[![](http://files.armno.in.th/uploads/2007/12/5314841024_5628481750_b-600x401.jpg)](http://files.armno.in.th/uploads/2007/12/5314841024_5628481750_b.jpg)
+[![](https://files.armno.in.th/uploads/2007/12/5314841024_5628481750_b-600x401.jpg)](https://files.armno.in.th/uploads/2007/12/5314841024_5628481750_b.jpg)

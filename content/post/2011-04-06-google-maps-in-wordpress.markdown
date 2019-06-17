@@ -17,25 +17,25 @@ url: /2011/04/06/google-maps-in-wordpress/
 
 - Download plugin ที่ [http://code.google.com/p/wordpress-geo-mashup/](http://code.google.com/p/wordpress-geo-mashup/)
 
-  ![GeoMashup website](http://files.armno.in.th/uploads/2011/04/wordpress-geo-mashup-website.png)
+  ![GeoMashup website](https://files.armno.in.th/uploads/2011/04/wordpress-geo-mashup-website.png)
 
 - จะได้ไฟล์ .zip มาหนึ่งไฟล์ .. จากนั้นไปที่ **Plugins > Add New** เลือกที่ **Upload **แล้วก็เลือกไฟล์ที่โหลดมาครับ
 
-![Upload plugin](http://files.armno.in.th/uploads/2011/04/select_plugin_file.png)
+![Upload plugin](https://files.armno.in.th/uploads/2011/04/select_plugin_file.png)
 
 - อัพโหลดเสร็จแล้ว ก็ activate ตามปกติ จากนั้นไปที่ **Settings > Geo Mashup** ครับ ตอนแรกต้องไปเอา **Google API Key** มาก่อน โดยจะมีลิงก์ให้กด <del>(แต่ในรูปของผมมไม่มีครับ เพราะว่าใส่แล้วมันก็หายไปเลย -*-)</del> ถ้าใช้ Google v2 ต้องใส่ API Key แต่ถ้าเป็น v3 ไม่ต้องใส่ครับ จากนั้นกด Update Options .. ส่วนตั้งค่าอื่นๆ ได้ตามใจชอบครับ
 
-![google maps api key](http://files.armno.in.th/uploads/2011/04/google_maps_api_key.png)
+![google maps api key](https://files.armno.in.th/uploads/2011/04/google_maps_api_key.png)
 
-![plugin config](http://files.armno.in.th/uploads/2011/04/plugin_config.png)
+![plugin config](https://files.armno.in.th/uploads/2011/04/plugin_config.png)
 
 - ในโพสต์หรือเพจที่ต้องการ จะมีติ่งงอกออกมาด้านล่างครับ จะเสิชหา หรือว่าจิ้มเอาบนแผนที่ก็ได้ครับ .. แต่จิ้มอย่างเดียวยังไม่พอนะ
 
-![pick location](http://files.armno.in.th/uploads/2011/04/pick_location.png)
+![pick location](https://files.armno.in.th/uploads/2011/04/pick_location.png)
 
 - อย่าลืมในส่ shortcode ใน content ด้วยครับ ไม่งั้นมันไม่ออก
 
-![add shortcode](http://files.armno.in.th/uploads/2011/04/add_shortcode.png)
+![add shortcode](https://files.armno.in.th/uploads/2011/04/add_shortcode.png)
 
 เสร็จละครับ ;)
 

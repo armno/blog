@@ -37,22 +37,22 @@ NetBeans Tips มาอีกแล้ววว
 
 ขั้นแรก ไปที่เมนู **Tools > Options** เพื่อเปิดหน้าต่างการตั้งค่าต่างๆของ NetBeans IDE ขึ้นมาครับ
 
-[![image](http://files.armno.in.th/uploads/2010/07/image_thumb19.png)](http://files.armno.in.th/uploads/2010/07/image19.png)
+[![image](https://files.armno.in.th/uploads/2010/07/image_thumb19.png)](https://files.armno.in.th/uploads/2010/07/image19.png)
 
 
 
 แล้วไปที่แท็บ **Fonts & Colors** เพื่อตั้งค่าสีสันต่างๆให้ editor ของเราครับ .. ซึ่งเราสามารถเลือกภาษาที่เราใช้ใน drop-down menu ได้ตามที่แสดงในรูปครับ แยกย่อยกันไปตามแต่ละ syntax ของภาษานั้นๆได้เลย
 
-[![image](http://files.armno.in.th/uploads/2010/07/image_thumb20.png)](http://files.armno.in.th/uploads/2010/07/image20.png)
+[![image](https://files.armno.in.th/uploads/2010/07/image_thumb20.png)](https://files.armno.in.th/uploads/2010/07/image20.png)
 
 ตรงส่วน **Category** นั้นคือ ประเภทของตัวอักษร(คำ)ใน source code ของเราครับ ว่าเป็นตัวแปร ชื่อฟังก์ชั่น ชื่อคลาส เป็นต้นครับ .. ซึ่งถ้าเราไม่ชัวร์ว่า category ไหนคืออะไร เราสามารถคลิกลงไปที่โค้ดในช่อง Preview ข้างล่างได้ครับ .. อย่างเช่นผมคลิกคำว่า `<<<HEREDOC` ตัว Category ก็จะไป select ตัว HereDoc Delimiter ให้
 
-[![image](http://files.armno.in.th/uploads/2010/07/image_thumb21.png)](http://files.armno.in.th/uploads/2010/07/image21.png)
+[![image](https://files.armno.in.th/uploads/2010/07/image_thumb21.png)](https://files.armno.in.th/uploads/2010/07/image21.png)
 
 ค่าที่เราตั้งเองได้ ก็ตั้งแต่รูปแบบฟอนต์ (รวมถึงขนาด ตัวหนา เอียง) สีพื้นหน้าและพื้นหลัง และยังเลือกได้ด้วยว่า effect จะให้เป็นขีดเส้นใต้หรือขีดทับก็ได้นะ
 
-[![image](http://files.armno.in.th/uploads/2010/07/image_thumb22.png)](http://files.armno.in.th/uploads/2010/07/image22.png)
+[![image](https://files.armno.in.th/uploads/2010/07/image_thumb22.png)](https://files.armno.in.th/uploads/2010/07/image22.png)
 
 นอกจากนี้ยังเปลี่ยนสีของส่วนอื่นๆเช่น สีพื้นหน้า/พื้นหลังของการ highlight ข้อความ หรือเมื่อตอน diff ไฟล์ดูก็ยังได้ครับ .. เรียกได้ว่า ได้หมดแทบจะทุกส่วนของ editor เลยก็ว่าได้
 
-ลองปรับเปลี่ยนตามสไตล์ของคุณเองดูนะครับ ![Winking smile](http://files.armno.in.th/uploads/2010/07/wlEmoticonwinkingsmile1.png)
+ลองปรับเปลี่ยนตามสไตล์ของคุณเองดูนะครับ ![Winking smile](https://files.armno.in.th/uploads/2010/07/wlEmoticonwinkingsmile1.png)

@@ -15,16 +15,16 @@ wordpress_id: 1509
 
 ดูเหมือนเป็นข่าวฮือฮากันพอสมควรนะ กับ **Super Moon** เมื่อวานเนี่ย .. ส่วนตัวผมคิดว่าสื่อประโคมข่าวเยอะไปหน่อย (ก็เหมือนกับปรากฏการณ์ทุกๆครั้งที่ผ่านมา) ทำเอาหลายคนตั้งหน้าตั้งตารอ และก็พบว่าพระจันทร์ก็ใหญ่เท่าเดิม .. แต่ก็เอาเถอะนะ เมื่อวานได้ไปถ่ายรูปพระจันทร์ที่เขาว่าใหญ่ๆมาเหมือนกัน
 
-[![DSC_2753-3](http://files.armno.in.th/uploads/2011/03/DSC_2753-3_thumb.jpg)](http://files.armno.in.th/uploads/2011/03/DSC_2753-31.jpg)
+[![DSC_2753-3](https://files.armno.in.th/uploads/2011/03/DSC_2753-3_thumb.jpg)](https://files.armno.in.th/uploads/2011/03/DSC_2753-31.jpg)
 
-Crop 100% + Sharpen ไปอีกประมาณ 90 แล้วก็ย้อมสีน้ำตาลให้ดูซีเปียนิดๆด้วย ![Smile](http://files.armno.in.th/uploads/2011/03/wlEmoticon-smile.png)
+Crop 100% + Sharpen ไปอีกประมาณ 90 แล้วก็ย้อมสีน้ำตาลให้ดูซีเปียนิดๆด้วย ![Smile](https://files.armno.in.th/uploads/2011/03/wlEmoticon-smile.png)
 
 [กล้องตัวเดิม](https://armno.in.th/content/nikon-d60) กับเลนส์ [55-200 VR](https://armno.in.th/content/nikon-af-s-55-200-vr) ตัวเดิมเหมือนกันครับ .. ทุกครั้งที่ถ่ายภาพพระจันทร์ ต้องเพิ่ม sharpen ในคอมตลอดเลย (ในกล้องก็ +2 เต็มแม็กซ์แล้ว) .. ไม่รู้ว่าถ้าใช้เลนส์คุณภาพดีกว่านี้อีกหน่อย ภาพจะออกมาเป็นไงนะ
 
-[![DSC_2753-4](http://files.armno.in.th/uploads/2011/03/DSC_2753-4_thumb1.jpg)](http://files.armno.in.th/uploads/2011/03/DSC_2753-4.jpg)
+[![DSC_2753-4](https://files.armno.in.th/uploads/2011/03/DSC_2753-4_thumb1.jpg)](https://files.armno.in.th/uploads/2011/03/DSC_2753-4.jpg)
 
 ภาพต้นฉบับครับ (ดัน crop มาไม่เท่ากันอีก) ถ่ายมาด้วย RAW file กันตายครับ .. เห็นได้ชัดว่ารายละเอียดไม่ค่อยมากเท่ากับภาพแรก
 
 ช่วงนี้อากาศที่เชียงใหม่ยังสดใสอยู่ครับ หลังจากฝนตกหลายวัน อากาศกลับมาเป็นเหมือนเดิมแล้ว .. ท้องฟ้าหลังฝนเนี่ยมันสดใสจริงๆ (และก็กำลังกลับมาร้อนเหมือนเดิมละด้วย)
 
-ไม่รู้จะจบยังไง มีภาพมาแค่ 2 ภาพ .. งั้นก็ขอให้ทุกคนมีความสุขกับการดูดาวนะครับ ![Winking smile](http://files.armno.in.th/uploads/2011/03/wlEmoticon-winkingsmile1.png)
+ไม่รู้จะจบยังไง มีภาพมาแค่ 2 ภาพ .. งั้นก็ขอให้ทุกคนมีความสุขกับการดูดาวนะครับ ![Winking smile](https://files.armno.in.th/uploads/2011/03/wlEmoticon-winkingsmile1.png)

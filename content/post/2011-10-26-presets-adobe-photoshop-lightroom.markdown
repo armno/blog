@@ -22,16 +22,16 @@ Presets ใน Adobe Photoshop Lightroom ก็คือชุดการปร
 
 ปกติใน Lightroom (อ้างอิงจากเวอร์ชั่น 3.4 ที่ผมใช้อยู่) จะมี presets มาด้วยจำนวนหนึ่งครับ preset จะขึ้นมาในโหมด develop นะครับ อยู่ทางซ้ายมือ (กด D เพื่อเข้าสู่โหมด develop) เมื่อเราชี้เมาส์ที่ preset ใดๆ ก็จะมีพรีวิวให้ดูตรง navigator ครับ
 
-![default preset ของ Lightroom](http://files.armno.in.th/uploads/2011/10/default.jpg)
+![default preset ของ Lightroom](https://files.armno.in.th/uploads/2011/10/default.jpg)
 
 เราอยากใช้ preset ไหน ก็คลิกที่ตัวนั้น Lightroom จะปรับค่าต่างๆ ให้หมด เสร็จเลย .. ในที่นี้ผมลองใช้ preset ชื่อว่า antique light ครับ
 
-![ปรับค่าหลังจากเลือก preset แล้ว](http://files.armno.in.th/uploads/2011/10/applied.jpg)
+![ปรับค่าหลังจากเลือก preset แล้ว](https://files.armno.in.th/uploads/2011/10/applied.jpg)
 
 preset จะมีการตั้งค่าแบบตายตัว นั่นหมายความว่า ไม่ว่าผมกดใช้ antique light กับรูปใดๆ ก็ตาม มันจะปรับเป็นค่าตามรูปข้างบนทุกครั้ง .. แต่ในความเป็นจริงนั้น รูปที่เราถ่ายมาแต่ละรูปนั้นไม่เหมือนกัน การปรับค่าต่างๆ ย่อมไม่เหมือนกันด้วย (ยกเว้นว่าเราถ่ายด้วยค่า exposure เท่ากันทุกรูปนะ) หลังจากที่เรากดใช้ preset แล้ว เราก็ยังปรับค่าต่างๆ ขึ้นลงได้ตามในชอบ วิธีที่ผมใช้บ่อยมาก คือกด preset แล้วกด auto tone หนึ่งครั้ง จะได้ค่าที่พอดีกับรูปเรามากกว่าครับ
 
 เสร็จแล้วก็ export ได้เลย
 
-![export รูปหลังจากใช้ Lightroom preset](http://files.armno.in.th/uploads/2011/10/adjusted-600x337.jpg)
+![export รูปหลังจากใช้ Lightroom preset](https://files.armno.in.th/uploads/2011/10/adjusted-600x337.jpg)
 
 ต่อกันตอน 2 กับ [วิธีติดตั้ง Lightroom Preset](https://armno.in.th/2011/10/27/installing-lightroom-presets/) ได้เลยครับ

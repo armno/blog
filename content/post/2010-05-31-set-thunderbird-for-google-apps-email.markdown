@@ -26,7 +26,7 @@ wordpress_id: 1195
 
 
 
-[![image](http://files.armno.in.th/uploads/2010/05/image_thumb1.png)](http://files.armno.in.th/uploads/2010/05/image1.png)
+[![image](https://files.armno.in.th/uploads/2010/05/image_thumb1.png)](https://files.armno.in.th/uploads/2010/05/image1.png)
 
 
 
@@ -34,7 +34,7 @@ wordpress_id: 1195
 
 
 
-[![image](http://files.armno.in.th/uploads/2010/05/image_thumb2.png)](http://files.armno.in.th/uploads/2010/05/image2.png)
+[![image](https://files.armno.in.th/uploads/2010/05/image_thumb2.png)](https://files.armno.in.th/uploads/2010/05/image2.png)
 
 
 
@@ -42,7 +42,7 @@ wordpress_id: 1195
 
 
 
-[![image](http://files.armno.in.th/uploads/2010/05/image_thumb3.png)](http://files.armno.in.th/uploads/2010/05/image3.png)
+[![image](https://files.armno.in.th/uploads/2010/05/image_thumb3.png)](https://files.armno.in.th/uploads/2010/05/image3.png)
 
 
 
@@ -58,12 +58,12 @@ wordpress_id: 1195
 
 เสร็จแล้วกด `Re-test Configuration` เลย
 
-[![image](http://files.armno.in.th/uploads/2010/05/image_thumb4.png)](http://files.armno.in.th/uploads/2010/05/image4.png)
+[![image](https://files.armno.in.th/uploads/2010/05/image_thumb4.png)](https://files.armno.in.th/uploads/2010/05/image4.png)
 
 รอมันหมุนๆต่ออีกซักแป๊ป ก็จะมีเม็ดถั่วเขียวขึ้นมาแบบภาพด้านล่างครับ กด `Create Account` ได้เลย
 
-[![image](http://files.armno.in.th/uploads/2010/05/image_thumb5.png)](http://files.armno.in.th/uploads/2010/05/image5.png)
+[![image](https://files.armno.in.th/uploads/2010/05/image_thumb5.png)](https://files.armno.in.th/uploads/2010/05/image5.png)
 
 รอ Thunderbird ไป get mail มาอีกสักนิด ก็ใช้ได้แล้วล่ะครับ
 
-[![image](http://files.armno.in.th/uploads/2010/05/image_thumb6.png)](http://files.armno.in.th/uploads/2010/05/image6.png)
+[![image](https://files.armno.in.th/uploads/2010/05/image_thumb6.png)](https://files.armno.in.th/uploads/2010/05/image6.png)

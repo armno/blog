@@ -15,7 +15,7 @@ url: /2011/11/12/apparai-review-mobile-apps/
 wordpress_id: 1907
 ---
 
-![AppArai.in.th Logo](http://files.armno.in.th/uploads/2011/11/apparai_logo_2_no_android.png)
+![AppArai.in.th Logo](https://files.armno.in.th/uploads/2011/11/apparai_logo_2_no_android.png)
 
 มันเริ่มมาจากการชักชวน "เล่นๆ" ของผมกับเพื่อนๆ อีก 3 คน ว่าอยากทำบล็อกรีวิวแอพมือถือ/แท็บเล็ต ดีๆ ซักบล็อกนึง ไม่คิดว่าจะมีใครเอาด้วย แต่ปรากฏว่าทุกคนตอบตกลงหมดเลย บล็อก [AppArai.in.th](http://www.apparai.in.th) จึงถือกำเนิดขึ้นตอนบ่ายวันนั้นเอง
 

@@ -15,7 +15,7 @@ wordpress_id: 1667
 
 iPad 3G ของผมได้ถูก Jailbreak เป็นที่เรียบร้อยแล้วครับ .. โดยผมเอง
 
-![](http://files.armno.in.th/wp-content/gallery/say-hi-ipad-3g/dsc_7699.jpg)
+![](https://files.armno.in.th/wp-content/gallery/say-hi-ipad-3g/dsc_7699.jpg)
 
 เมื่อวานเพื่อนผมนั่งเล่น iPad พยายามใช้ 4 นิ้วลากขึ้นเพื่อเปิด app ที่รันอยู่ ปรากฏว่าทำไม่ได้ .. "เห้ยเครื่องมึงทำไม่ได้เหรอวะ" ผมก็เลยบอกไปว่าต้อง jailbreak ก่อนถึงจะมี เพราะว่าฟีเจอร์นี้ apple ปิดไว้
 

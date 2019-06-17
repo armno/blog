@@ -24,7 +24,7 @@ url: /2011/09/20/sublime-text-2-editor-v12-engine/
 
 ผมเห็นชื่อนี้จาก [Nettuts+](http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/) ตอนแรกไม่รู้ว่ามันคืออะไร ช่วงเปลี่ยน IDE ผมเลยลองไปปล้ำกับ [Vim](http://www.vim.org/) อยู่ครึ่งวัน ซึ่ง Vim นั้นก็เป็น editor เทพสมคำร่ำลือ ใช้งานสนุกครับ แต่ไม่ค่อยได้งานให้ทันกับช่วงเร่งรีบ เลยกลับไปที่ Nettuts+ และลอง [Sublime Text 2](http://www.sublimetext.com/) ดู
 
-[![](http://files.armno.in.th/uploads/2011/09/sublime_website-600x472.png)](http://files.armno.in.th/uploads/2011/09/sublime_website.png)
+[![](https://files.armno.in.th/uploads/2011/09/sublime_website-600x472.png)](https://files.armno.in.th/uploads/2011/09/sublime_website.png)
 
 ตัว Sublime Text นั้นน่าจะเรียกว่าเป็น text editor มากกว่า IDE เพราะตัวเล็กๆ เบาๆ คล้ายกับพวก [Notepad++](http://notepad-plus-plus.org/) <del>ซึ่ง ณ ตอนนี้ Sublime Text เวอร์ชั่น 2 นั้นยังอยู่ในสถานะ beta อยู่</del>  หลุดจากสถานะ beta ตอนเวอร์ชั่น 2.0 ออก เราสามารถใช้งานได้ฟรีครับ หรือจะซื้อ license ก็ได้ ถ้าใช้งานแบบฟรี จะมี pop up เด้งมาให้กดซื้อเป็นระยะๆ ครับ นานๆ มาที ไม่รบกวนการทำงาน ส่วนใครที่อยากซื้อ ก็ราคาประมาณ <del>1,800</del> 2,100 บาท
 
@@ -32,7 +32,7 @@ url: /2011/09/20/sublime-text-2-editor-v12-engine/
 
 ตามแบบฉบับของ text editor ทั่วไป ด้านซ้ายมือเป็น sidebar ที่แสดงชื่อไฟล์ที่เราเปิดอยู่ ซึ่งเราก็สามารถลาก folder ที่เราทำงานอยู่ทั้ง folder มาโยนลงตรง sidebar นี้ได้ มันก็จะทำหน้าที่เป็น file explorer ให้โดยอัตโนมัติ ส่วนด้านขวามือเป็น mini map ของ code ในไฟล์นั้น ซึ่งผมไม่ได้ใช้ประโยชน์ก็เลยปิดทิ้งไปเลย
 
-[![](http://files.armno.in.th/uploads/2011/09/sublime_interface_overview-600x333.png)](http://files.armno.in.th/uploads/2011/09/sublime_interface_overview.png)
+[![](https://files.armno.in.th/uploads/2011/09/sublime_interface_overview-600x333.png)](https://files.armno.in.th/uploads/2011/09/sublime_interface_overview.png)
 
 ### ข้อดีของ Sublime Text 2
 
@@ -43,7 +43,7 @@ url: /2011/09/20/sublime-text-2-editor-v12-engine/
 * เพิ่ม snippet เองได้แบบไม่ยากเย็นนัก (แต่ก็ไม่ง่ายเท่าของ Netbeans)
 * มี portable version ด้วยนะ
 
-[![](http://files.armno.in.th/uploads/2011/09/sublime_fullscreen-600x337.png)](http://files.armno.in.th/uploads/2011/09/sublime_fullscreen.png)
+[![](https://files.armno.in.th/uploads/2011/09/sublime_fullscreen-600x337.png)](https://files.armno.in.th/uploads/2011/09/sublime_fullscreen.png)
 
 ### ข้อสังเกต
 
@@ -70,4 +70,4 @@ url: /2011/09/20/sublime-text-2-editor-v12-engine/
 * กด `Ctrl + g` กระโดดไปยังบรรทัดที่ต้องการ
 * Code!
 
-[![](http://files.armno.in.th/uploads/2011/09/sublime_search-600x354.png)](http://files.armno.in.th/uploads/2011/09/sublime_search.png)
+[![](https://files.armno.in.th/uploads/2011/09/sublime_search-600x354.png)](https://files.armno.in.th/uploads/2011/09/sublime_search.png)

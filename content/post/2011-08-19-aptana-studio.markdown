@@ -25,7 +25,7 @@ url: /2011/08/19/aptana-studio/
 
 เหตุผลสองข้อนี่แหละครับ ที่ผมเปลี่ยนมาใช้ Aptana Studio
 
-[![image](http://files.armno.in.th/uploads/2011/08/image_thumb.png)](http://files.armno.in.th/uploads/2011/08/image.png)
+[![image](https://files.armno.in.th/uploads/2011/08/image_thumb.png)](https://files.armno.in.th/uploads/2011/08/image.png)
 
 ### เริ่มต้นกับ Aptana
 
@@ -47,7 +47,7 @@ url: /2011/08/19/aptana-studio/
 * **Code autocomplete กวนตีนเกิน** คือมันมีหลายคีย์มากที่จะช่วยเติมโค้ดให้เรา (นอกจากการกด tab) และผมก็ไม่รู้ทั้งหมดว่ามีตัวไหนบ้าง แต่บ่อยครั้งเลยที่มันฉลาดเกิน เติมโค้ดที่ไม่ต้องการให้เรา อยากพิมพ์ `.` (จุด) แต่มันดันเติมโค้ดอะไรก็ไม่รู้ให้ ซึ่งไม่ได้เกี่ยวกันเลย
 * **เมนูเยอะเกิน** จนไม่รู้ว่าอะไรเป็นอะไร ข้อด้อยไม่ใช่ความเยอะ แต่เป็นความยากในการเข้าถึง พอเข้าถึงแล้ว กลับไม่เข้าใจเลยว่าปรับตรงนี้มันจะเกินอะไรขึ้นวะ
 
-[![image](http://files.armno.in.th/uploads/2011/08/image_thumb1.png)](http://files.armno.in.th/uploads/2011/08/image1.png)
+[![image](https://files.armno.in.th/uploads/2011/08/image_thumb1.png)](https://files.armno.in.th/uploads/2011/08/image1.png)
 
 ### Aptana กับ Netbeans ด้อยเหมือนกัน
 
@@ -56,4 +56,4 @@ url: /2011/08/19/aptana-studio/
 
 เขียนมาซะเยอะ จะเห็นว่าผมเจอข้อเสียของ Aptana เยอะกว่า Netbeans อีก (และก็บ่นทุก Aptana ทุกวันด้วย) แต่ก็ยังดื้อดึงใช้ Aptana ต่อไปเพราะ Netbeans นั้นให้สู้เรื่องความเร็วกับความสวยงามไม่ได้ ทำงานโค้ดมันก็ต้องมีสุนทรีย์กันบ้างนะครับ ใครอยากเล่นของโหลดมาเล่นดูนะ [Aptana Studio](http://www.aptana.com)
 
-ความสามารถของ Aptana (หรือว่า Eclipse-based IDE) นั้นยังมีที่ผมไม่รู้อีกเยอะครับ คนที่เหมาะจะใช้ Aptana คือคนที่สามารถรีดความสามารถของ IDE ตัวนี้ออกมาให้ได้มากที่สุด .. ซึ่งผมยังนะ ![Smile with tongue out](http://files.armno.in.th/uploads/2011/08/wlEmoticon-smilewithtongueout.png)
+ความสามารถของ Aptana (หรือว่า Eclipse-based IDE) นั้นยังมีที่ผมไม่รู้อีกเยอะครับ คนที่เหมาะจะใช้ Aptana คือคนที่สามารถรีดความสามารถของ IDE ตัวนี้ออกมาให้ได้มากที่สุด .. ซึ่งผมยังนะ ![Smile with tongue out](https://files.armno.in.th/uploads/2011/08/wlEmoticon-smilewithtongueout.png)

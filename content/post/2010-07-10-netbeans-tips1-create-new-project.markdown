@@ -35,7 +35,7 @@ wordpress_id: 1240
 
 ขั้นตอนหมูมากๆใน [NetBeans IDE](https://armno.in.th/content/netbeans-ide) ครับ .. หลังจากเปิดโปรแกรม NetBeans IDE ขึ้นมาแล้ว ไปที่เมนู **File > New Project …**
 
-[![image](http://files.armno.in.th/uploads/2010/07/image_thumb.png)](http://files.armno.in.th/uploads/2010/07/image.png)
+[![image](https://files.armno.in.th/uploads/2010/07/image_thumb.png)](https://files.armno.in.th/uploads/2010/07/image.png)
 
 
 
@@ -45,7 +45,7 @@ wordpress_id: 1240
 
 สำหรับโปรเจ็ค PHP จะมี 3 แบบให้เลือกครับ
 
-[![image](http://files.armno.in.th/uploads/2010/07/image_thumb1.png)](http://files.armno.in.th/uploads/2010/07/image1.png)
+[![image](https://files.armno.in.th/uploads/2010/07/image_thumb1.png)](https://files.armno.in.th/uploads/2010/07/image1.png)
 
 
 
@@ -64,7 +64,7 @@ wordpress_id: 1240
 ### ตั้งค่า Name and Location
 
 
-[![image](http://files.armno.in.th/uploads/2010/07/image_thumb2.png)](http://files.armno.in.th/uploads/2010/07/image2.png)
+[![image](https://files.armno.in.th/uploads/2010/07/image_thumb2.png)](https://files.armno.in.th/uploads/2010/07/image2.png)
 
 หน้าจอถัดมาเป็นการตั้งค่าต่างๆของโปรเจ็ค ตามนี้เลยครับ
 
@@ -111,9 +111,9 @@ wordpress_id: 1240
 ### ตั้งค่าเกี่ยวกับ Remote Server
 
 
-[![image](http://files.armno.in.th/uploads/2010/07/image_thumb3.png)](http://files.armno.in.th/uploads/2010/07/image3.png)
+[![image](https://files.armno.in.th/uploads/2010/07/image_thumb3.png)](https://files.armno.in.th/uploads/2010/07/image3.png)
 
-ต่อมาเป็นหน้าจอตั้งค่าเกี่ยวกับเซิฟเวอร์ครับ .. ผมเพิ่งเคยเจอหน้าจอนี้ครั้งแรก งั้นผมจะมั่วไปก่อนนะครับ ![Smile with tongue out](http://files.armno.in.th/uploads/2010/07/wlEmoticonsmilewithtongueout.png) .. สำหรับใครที่สร้างโปรเจ็คในเครื่องตัวเอง จะไม่มีหน้าจอแบบนี้นะครับ ข้ามขั้นตอนนี้ไปได้เลย
+ต่อมาเป็นหน้าจอตั้งค่าเกี่ยวกับเซิฟเวอร์ครับ .. ผมเพิ่งเคยเจอหน้าจอนี้ครั้งแรก งั้นผมจะมั่วไปก่อนนะครับ ![Smile with tongue out](https://files.armno.in.th/uploads/2010/07/wlEmoticonsmilewithtongueout.png) .. สำหรับใครที่สร้างโปรเจ็คในเครื่องตัวเอง จะไม่มีหน้าจอแบบนี้นะครับ ข้ามขั้นตอนนี้ไปได้เลย
 
 
 
@@ -129,8 +129,8 @@ wordpress_id: 1240
 
 จากนั้นก็รอให้ NetBeans ดาวน์โหลดไฟล์จากเซิฟเวอร์ มาไว้ในเครื่องของเราครับ
 
-[![image](http://files.armno.in.th/uploads/2010/07/image_thumb4.png)](http://files.armno.in.th/uploads/2010/07/image4.png)
+[![image](https://files.armno.in.th/uploads/2010/07/image_thumb4.png)](https://files.armno.in.th/uploads/2010/07/image4.png)
 
-รอจนเสร็จ เราก็จะได้โปรเจ็ค PHP ใหม่ พร้อมเริ่มงานได้ทันที ![Open-mouthed smile](http://files.armno.in.th/uploads/2010/07/wlEmoticonopenmouthedsmile.png)
+รอจนเสร็จ เราก็จะได้โปรเจ็ค PHP ใหม่ พร้อมเริ่มงานได้ทันที ![Open-mouthed smile](https://files.armno.in.th/uploads/2010/07/wlEmoticonopenmouthedsmile.png)
 
-_เนื่องจากอินเตอร์เน็ตของผมมีปัญหา ไม่สามารถดาวน์โหลดไฟล์ได้ทันเวลา จึงขอจบโพสต์นี้ไว้แต่เพียงเท่านี้ครับ_ ![Sick smile](http://files.armno.in.th/uploads/2010/07/wlEmoticonsicksmile.png)
+_เนื่องจากอินเตอร์เน็ตของผมมีปัญหา ไม่สามารถดาวน์โหลดไฟล์ได้ทันเวลา จึงขอจบโพสต์นี้ไว้แต่เพียงเท่านี้ครับ_ ![Sick smile](https://files.armno.in.th/uploads/2010/07/wlEmoticonsicksmile.png)

@@ -17,17 +17,17 @@ url: /2010/11/03/comment-reply-javascript-for-wordpress/
 
 เปิด Console ใน **[Firebug](http://www.getfirebug.com)** ดู ถึงได้รู้ว่าพอกด reply จะมี error ของ JavaScript เกิดขึ้น แสดงว่า มันน่าจะหาฟังก์ชั่น addComment ไม่เจอ .. ฟังก์ชั่นนี้ผมไม่ได้เขียนเองครับ จึงพอเดาได้ว่า น่าจะเป็นของ WordPress .. และสาเหตุที่น่าจะทำให้เกิด error นี้ก็คือ น่าจะลืม include ไฟล์ JavaScript ที่มีฟังก์ชั่นนี้อยู่ เข้าในในเพจของเราครับ
 
-[![image](http://files.armno.in.th/uploads/2010/11/image_thumb.png)](http://files.armno.in.th/uploads/2010/11/image.png)
+[![image](https://files.armno.in.th/uploads/2010/11/image_thumb.png)](https://files.armno.in.th/uploads/2010/11/image.png)
 
 ก็เลยไปแงะโค้ดของ **Twenty Ten** ดู พบว่า ผมลืมใส่โค้ดนี้ลงไปในแท็ก `<head>`
 
-[![image](http://files.armno.in.th/uploads/2010/11/image_thumb1.png)](http://files.armno.in.th/uploads/2010/11/image1.png)
+[![image](https://files.armno.in.th/uploads/2010/11/image_thumb1.png)](https://files.armno.in.th/uploads/2010/11/image1.png)
 
-ใน if block นะครับ เป็นการบอกว่า หากเพจนี้เป็น single page และบล็อกเราได้เปิดใช้งาน threaded comments ไว้ ให้โหลด JavaScript ชื่อว่า** comment-reply** เข้ามาด้วย ซึ่งไฟล์นี้แหละครับที่มีฟังก์ชั่น addComment ที่หายไป ![Open-mouthed smile](http://files.armno.in.th/uploads/2010/11/wlEmoticon-openmouthedsmile.png)
+ใน if block นะครับ เป็นการบอกว่า หากเพจนี้เป็น single page และบล็อกเราได้เปิดใช้งาน threaded comments ไว้ ให้โหลด JavaScript ชื่อว่า** comment-reply** เข้ามาด้วย ซึ่งไฟล์นี้แหละครับที่มีฟังก์ชั่น addComment ที่หายไป ![Open-mouthed smile](https://files.armno.in.th/uploads/2010/11/wlEmoticon-openmouthedsmile.png)
 
-ทีนี้พอกด reply ฟอร์มคอมเม้นต์จะเด้งไปใต้คอมเม้นท์ที่เรากด reply ให้ทันที รวมถึงกด cancel ฟอร์มก็จะเด้งกลับไปที่เดิมให้ด้วย .. ไม่ต้องรอโหลดให้เสียเวลา ![Winking smile](http://files.armno.in.th/uploads/2010/11/wlEmoticon-winkingsmile.png)
+ทีนี้พอกด reply ฟอร์มคอมเม้นต์จะเด้งไปใต้คอมเม้นท์ที่เรากด reply ให้ทันที รวมถึงกด cancel ฟอร์มก็จะเด้งกลับไปที่เดิมให้ด้วย .. ไม่ต้องรอโหลดให้เสียเวลา ![Winking smile](https://files.armno.in.th/uploads/2010/11/wlEmoticon-winkingsmile.png)
 
-[![image](http://files.armno.in.th/uploads/2010/11/image_thumb2.png)](http://files.armno.in.th/uploads/2010/11/image2.png)
+[![image](https://files.armno.in.th/uploads/2010/11/image_thumb2.png)](https://files.armno.in.th/uploads/2010/11/image2.png)
 
 อย่าลืมนะครับ ใส่โค้ดนี้ในแท็ก `<head>` ในธีมด้วย หากเปิดใช้งาน Threaded Comments ครับ
 

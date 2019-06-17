@@ -31,15 +31,15 @@ wordpress_id: 1892
 5. เสร็จแล้ว เราก็จะได้ preset ไว้พร้อมใช้งานเพิ่มแล้ว
 
 
-![Import จากโหมด develop](http://files.armno.in.th/uploads/2011/10/import.jpg)
+![Import จากโหมด develop](https://files.armno.in.th/uploads/2011/10/import.jpg)
 
 <i>เลือก import จากโหมด develop</i>
 
-![เลือกไฟล์ .lrtemplate ที่โหลดมา](http://files.armno.in.th/uploads/2011/10/select_files.jpg)
+![เลือกไฟล์ .lrtemplate ที่โหลดมา](https://files.armno.in.th/uploads/2011/10/select_files.jpg)
 
 <i>เลือกไฟล์ .lrtemplate ที่โหลดมา</i>
 
-![ได้แล้ว preset ใหม่](http://files.armno.in.th/uploads/2011/10/finished.jpg)
+![ได้แล้ว preset ใหม่](https://files.armno.in.th/uploads/2011/10/finished.jpg)
 
 <i>ได้แล้ว preset ใหม่</i>
 
