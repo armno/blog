@@ -31,18 +31,18 @@ wordpress_id: 32
 
 
 
-[![Comet-Hale-Bopp](http://www.armno.in.th/wp-content/uploads/2008/01/comet-hale-bopp-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/01/comet-hale-bopp.jpg)
+[![Comet-Hale-Bopp](https://armno.in.th/wp-content/uploads/2008/01/comet-hale-bopp-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/01/comet-hale-bopp.jpg)
 ภาพดาวหาง[เฮลล์-บ็อบพ์](http://en.wikipedia.org/wiki/Comet_Hale-Bopp) หางฝุ่นก็คือส่วนที่เป็นสีขาว ส่วนหางไอออนคือสีน้ำเงินครับ
 
 นักดาราศาสตร์จำแนกดาวหางออกเป็น 2 ประเภทครับ  คือ**ดาวหางคาบสั้น (Short Peroid Comet)**  มีคาบการโคจรรอบดวงอาทิตย์ต่ำกว่า 200 ปี  และอีกประเภทหนึ่งคือ** ดาวหางคาบยาว (Long Period Comet)** ที่มีคาบการโคจรรอบดวงอาทิตย์มากกว่า 200 ปีขึ้นไป  ส่วนมากวงโคจรของดาวหางเป็นรูปวงรี  และไม่ค่อยมีระนาบกันซักเท่าไหร่  แต่ก็มีบางดวงนะครับ ที่วงโคจรไม่ได้เป็นวงรี  แต่เป็นรูปพาราโบลา  เข้ามาหาดวงอาทิตย์ครั้งหนึ่งแล้วก็ออกไป ไม่กลับมาอีกเลย
 
 สิ่งที่ทำให้ดาวหางส่องแสงสว่างขึ้นมาได้  ก็เพราะได้รับพลังงานจากดวงอาทิตย์ครับ  ยิ่งเข้าใกล้ดวงอาทิตย์มากเท่าไหร่  หางก็จะยิ่งยาวขึ้นเท่านั้น สำหรับดางหางที่มีชื่อเสียงในอดีต เช่น
 
-[![image_comet](http://www.armno.in.th/wp-content/uploads/2008/01/image-comet-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/01/image-comet.jpg)   [ดาวหาง McNaught](http://en.wikipedia.org/wiki/Comet_McNaught) ปี 2007 สว่างที่สุดในรอบ 40 ปี
+[![image_comet](https://armno.in.th/wp-content/uploads/2008/01/image-comet-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/01/image-comet.jpg)   [ดาวหาง McNaught](http://en.wikipedia.org/wiki/Comet_McNaught) ปี 2007 สว่างที่สุดในรอบ 40 ปี
 
-[![bradfld2e](http://www.armno.in.th/wp-content/uploads/2008/01/bradfld2e-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/01/bradfld2e.jpg)   [ดาวหาง Hyakutake](http://en.wikipedia.org/wiki/Comet_Hyakutake) ปี 1997
+[![bradfld2e](https://armno.in.th/wp-content/uploads/2008/01/bradfld2e-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/01/bradfld2e.jpg)   [ดาวหาง Hyakutake](http://en.wikipedia.org/wiki/Comet_Hyakutake) ปี 1997
 
-[![Lspn_comet_halley](http://www.armno.in.th/wp-content/uploads/2008/01/lspn-comet-halley-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/01/lspn-comet-halley.jpg)   [ดาวหาง Helley](http://en.wikipedia.org/wiki/Halley%27s_Comet) ปี 1986
+[![Lspn_comet_halley](https://armno.in.th/wp-content/uploads/2008/01/lspn-comet-halley-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/01/lspn-comet-halley.jpg)   [ดาวหาง Helley](http://en.wikipedia.org/wiki/Halley%27s_Comet) ปี 1986
 
 เป็นไงล่ะครับ ดาวหางสวยๆกันทั้งนั้นเลย
 ขอให้ทุกคนมีความสุขกับการดูดาวนะครับ

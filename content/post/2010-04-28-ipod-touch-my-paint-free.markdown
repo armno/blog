@@ -14,11 +14,11 @@ url: /2010/04/28/ipod-touch-my-paint-free/
 wordpress_id: 1150
 ---
 
-ช่วงนี้กำลังเห่อโปรแกรม **MyPaint Free** ใน [iPod Touch](http://www.armno.in.th/content/ipod-touch) อยู่ครับ เป็นโปรแกรมวาดภาพด้วยแปรง (Brush, แต่ในภาพเป็นดินสอแฮะ) แบบง่ายๆครับ
+ช่วงนี้กำลังเห่อโปรแกรม **MyPaint Free** ใน [iPod Touch](https://armno.in.th/content/ipod-touch) อยู่ครับ เป็นโปรแกรมวาดภาพด้วยแปรง (Brush, แต่ในภาพเป็นดินสอแฮะ) แบบง่ายๆครับ
 
 
 
-[![หน้าจอโปรแกรม MyPaint Free](http://www.armno.in.th/wp-content/uploads/2010/04/IMG_0004_thumb.png)](http://www.armno.in.th/wp-content/uploads/2010/04/IMG_0004.png)
+[![หน้าจอโปรแกรม MyPaint Free](https://armno.in.th/wp-content/uploads/2010/04/IMG_0004_thumb.png)](https://armno.in.th/wp-content/uploads/2010/04/IMG_0004.png)
 
 
 
@@ -34,4 +34,4 @@ wordpress_id: 1150
 
 
 
-[![ภาพวาดของอามโน](http://www.armno.in.th/wp-content/uploads/2010/04/IMG_0003_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2010/04/IMG_0003.jpg)
+[![ภาพวาดของอามโน](https://armno.in.th/wp-content/uploads/2010/04/IMG_0003_thumb.jpg)](https://armno.in.th/wp-content/uploads/2010/04/IMG_0003.jpg)

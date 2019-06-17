@@ -14,11 +14,11 @@ url: /2009/08/12/perseids-meteor-shower-2009/
 wordpress_id: 869
 ---
 
-เป็นประจำของทุกๆปีครับ คืนวันแม่ จะมีฝนดาวตกที่โด่งดังครั้งหนึ่งของปี ก็คือ ฝนดาวตกเพอร์ซิอิดส์ ประจำกลุ่มดาวเปอร์เซอุส .. แต่ว่า คนไทยไม่ค่อยได้ให้ความสนใจกันเท่าไหร่ เนื่องจากตรงกับฤดูฝนพอดี .. ผมเคยเขียนรายละเอียดเกี่ยวกับ[ฝนดาวตกเพอร์ซิอิดส์](http://www.armno.in.th/20080811/%E0%B8%9D%E0%B8%99%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B8%95%E0%B8%81%E0%B9%80%E0%B8%9E%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%8B%E0%B8%B4%E0%B8%AD%E0%B8%B4%E0%B8%94%E0%B8%AA%E0%B9%8C)ไว้ เมื่อปีที่แล้วครับ ขออนุญาตไม่เขียนซ้ำนะ ^^
+เป็นประจำของทุกๆปีครับ คืนวันแม่ จะมีฝนดาวตกที่โด่งดังครั้งหนึ่งของปี ก็คือ ฝนดาวตกเพอร์ซิอิดส์ ประจำกลุ่มดาวเปอร์เซอุส .. แต่ว่า คนไทยไม่ค่อยได้ให้ความสนใจกันเท่าไหร่ เนื่องจากตรงกับฤดูฝนพอดี .. ผมเคยเขียนรายละเอียดเกี่ยวกับ[ฝนดาวตกเพอร์ซิอิดส์](https://armno.in.th/20080811/%E0%B8%9D%E0%B8%99%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B8%95%E0%B8%81%E0%B9%80%E0%B8%9E%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%8B%E0%B8%B4%E0%B8%AD%E0%B8%B4%E0%B8%94%E0%B8%AA%E0%B9%8C)ไว้ เมื่อปีที่แล้วครับ ขออนุญาตไม่เขียนซ้ำนะ ^^
 
 
 
-[![perseid-meteor-shower-2008-3[1]](http://www.armno.in.th/wp-content/uploads/7001d3185966_C298/perseidmeteorshower200831_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/7001d3185966_C298/perseidmeteorshower200831.jpg)_(ภาพจาก _[_http://www.jackbook.com/sexy-news/perseid-meteor-shower_](http://www.jackbook.com/sexy-news/perseid-meteor-shower)_)_
+[![perseid-meteor-shower-2008-3[1]](https://armno.in.th/wp-content/uploads/7001d3185966_C298/perseidmeteorshower200831_thumb.jpg)](https://armno.in.th/wp-content/uploads/7001d3185966_C298/perseidmeteorshower200831.jpg)_(ภาพจาก _[_http://www.jackbook.com/sexy-news/perseid-meteor-shower_](http://www.jackbook.com/sexy-news/perseid-meteor-shower)_)_
 
 
 

@@ -27,7 +27,7 @@ Focal Length: 18 mm
 ISO: 200
 White Balance: Auto
 
-[![DSC_0413](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-0413-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-0413.jpg)
+[![DSC_0413](https://armno.in.th/wp-content/uploads/2008/10/dsc-0413-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/10/dsc-0413.jpg)
 
 **รูปที่สอง** ต้นมะพร้าวที่อ่างแก้ว สภาพแดดตอนสายๆ ประมาณ 10 โมงเช้าครับ
 โหมด A (Aperture Priority)
@@ -37,7 +37,7 @@ Focal Length: 18 mm
 ISO: 100
 White Balance: Auto
 
-[![DSC_0442](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-0442-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-0442.jpg)
+[![DSC_0442](https://armno.in.th/wp-content/uploads/2008/10/dsc-0442-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/10/dsc-0442.jpg)
 
 **รูปที่สาม** ถ่ายที่อ่างแก้ว ม.เชียงใหม่ ลองใช้สปีดชัตเตอร์นานๆดู  ไม่ใช้ขาตั้งกล้อง แต่วางกล้องกับพื้น โฟกัสแบบแมนวล ใช้ค่ารูรับแสงที่ 3.5 ใช้แคบกว่านี้ภาพจะมืดไปเยอะครับ (ที่ ISO 100)
 โหมด M (Manual)
@@ -47,7 +47,7 @@ Focal Length: 18 mm
 ISO: 100
 White Balance: Sunny (Daylight)
 
-[![DSC_0058](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-0058-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-0058.jpg)
+[![DSC_0058](https://armno.in.th/wp-content/uploads/2008/10/dsc-0058-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/10/dsc-0058.jpg)
 
 **รูปที่สี่** ถ่ายท้องฟ้าสีส้ม ตอนเย็นครับ
 โหมด A (Aperture Priority)
@@ -57,7 +57,7 @@ Focal Length: 18 mm
 ISO: 200
 White Balance: Sunny (Daylight)
 
-[![DSC_0136](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-0136-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-0136.jpg)
+[![DSC_0136](https://armno.in.th/wp-content/uploads/2008/10/dsc-0136-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/10/dsc-0136.jpg)
 
 **รูปที่ห้า** ผีเสื้อเมืองน่าน กะจะลอง close-up ดูหน่อยครับ ว่าทำได้ขนาดไหน รูปนี้ซูมจนสุดเท่าที่เลนส์ทำได้ จะได้ค่ารูรับแสงที่ f/5.6 แล้วพยายามเข้าใกล้ตัวแบบให้มากที่สุด (ก่อนที่ผีเสื้อมันจะบินหนีไปซะก่อน)
 โหมด A (Aperture Priority)
@@ -67,7 +67,7 @@ Focal Length: 55 mm
 ISO: 200
 White Balance: Auto
 
-[![DSC_0492](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-0492-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-0492.jpg)
+[![DSC_0492](https://armno.in.th/wp-content/uploads/2008/10/dsc-0492-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/10/dsc-0492.jpg)
 
 **รูปที่หก** ถ่ายดอกไม้ที่สวนสัตว์เชียงใหม่ ฉากหลังรกใช้ได้เลย - -* เวลาประมาณ 9 โมงกว่าๆ แดดยังไม่แรงมากครับ ตอนนั้นลืมเปลี่ยนค่า ISO ค้างไว้ที่ 400 ทั้งที่แสงเยอะขนาดนั้น สิ่งที่ได้ก็คือ สปีดชัตเตอร์ที่ 1/4000 วินาทีครับ .. - -“
 โหมด A (Aperture Priority)
@@ -77,7 +77,7 @@ Focal Length: 20 mm
 ISO: 400
 White Balance: Auto
 
-[![DSC_1471](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-1471-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-1471.jpg)
+[![DSC_1471](https://armno.in.th/wp-content/uploads/2008/10/dsc-1471-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/10/dsc-1471.jpg)
 
 **รูปที่เจ็ด** ถ่ายดาวโดยไม่ใช้ขาตั้งกล้อง แต่วางกล้องบนพื้นแทน แล้วใช้สปีดชัตเตอร์ที่ 30 วินาที … คือตอนนั้นหาขาตั้งกับรีโมทไม่ได้ครับ เลยทำได้เท่าที่มี … ถ่ายจากดาดฟ้าที่บ้านครับโหมด M (Manual)
 Speed Shutter: 30 s.
@@ -86,6 +86,6 @@ Focal Length: 18 mm
 ISO: 400
 White Balance: Auto
 
-[![DSC_0335](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-0335-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/10/dsc-0335.jpg)
+[![DSC_0335](https://armno.in.th/wp-content/uploads/2008/10/dsc-0335-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/10/dsc-0335.jpg)
 
-ที่ผมถ่ายบ่อยๆก็ประมาณนี้แหละครับ ท้องฟ้า ดอกไม้ ดาว ใครชอบถ่ายแนวประมาณนี้ แล้วกำลังลังเลอยู่ว่าจะเลือก **[Nikon D60](http://www.armno.in.th/20081021/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7-nikon-d60-%E0%B9%80%E0%B8%AB%E0%B8%A3%E0%B8%AD%E0%B9%80%E0%B8%99%E0%B8%B5%E0%B9%88%E0%B8%A2)** ดีหรือไม่ หวังว่ารูปพวกนี้จะช่วยตัดสินใจได้บ้างนะครับ
+ที่ผมถ่ายบ่อยๆก็ประมาณนี้แหละครับ ท้องฟ้า ดอกไม้ ดาว ใครชอบถ่ายแนวประมาณนี้ แล้วกำลังลังเลอยู่ว่าจะเลือก **[Nikon D60](https://armno.in.th/20081021/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7-nikon-d60-%E0%B9%80%E0%B8%AB%E0%B8%A3%E0%B8%AD%E0%B9%80%E0%B8%99%E0%B8%B5%E0%B9%88%E0%B8%A2)** ดีหรือไม่ หวังว่ารูปพวกนี้จะช่วยตัดสินใจได้บ้างนะครับ

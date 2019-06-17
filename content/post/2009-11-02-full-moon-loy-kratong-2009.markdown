@@ -13,7 +13,7 @@ url: /2009/11/02/full-moon-loy-kratong-2009/
 wordpress_id: 885
 ---
 
-[![DSC_9895](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_9895_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_9895.jpg)
+[![DSC_9895](https://armno.in.th/wp-content/uploads/2009/11/DSC_9895_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/11/DSC_9895.jpg)
 
 
 

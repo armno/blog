@@ -17,7 +17,7 @@ wordpress_id: 16
 เล่มแรก ชื่อว่า **เทพกรีกกับดวงดาว ตำนานอันเป็นที่มาของชื่อหมู่ดาวบนท้องฟ้า** เขียนโดยคุณ **คอสมอส **ผมชอบตำนานเทพกรีกและโรมันมาก นอกจากอ่านสนุกแล้ว ยังได้ความรู้เกี่ยวกับดวงดาวต่างๆอีกด้วย _(รูปผมถ่ายเองอาจไม่ค่อยชัดนะครับ)_
 
 
-[![DSC02468](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02468-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2007/12/dsc024681.jpg)
+[![DSC02468](https://armno.in.th/wp-content/uploads/2007/12/dsc02468-thumb.jpg)](https://armno.in.th/wp-content/uploads/2007/12/dsc024681.jpg)
 
 
 
@@ -27,7 +27,7 @@ wordpress_id: 16
 
 
 
-[![DSC02472](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02472-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2007/12/dsc024721.jpg)
+[![DSC02472](https://armno.in.th/wp-content/uploads/2007/12/dsc02472-thumb.jpg)](https://armno.in.th/wp-content/uploads/2007/12/dsc024721.jpg)
 
 
 
@@ -37,7 +37,7 @@ wordpress_id: 16
 
 
 
-[![DSC02473](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02473-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2007/12/dsc024731.jpg)
+[![DSC02473](https://armno.in.th/wp-content/uploads/2007/12/dsc02473-thumb.jpg)](https://armno.in.th/wp-content/uploads/2007/12/dsc024731.jpg)
 
 
 สำหรับรูปแบบอาจจะออกแบบมา ได้ไม่สวยงามเท่าไหร่  สองสีทั้งเล่ม แต่ผมก็ไม่อะไรมากกับเรื่องนี้หรอกครับ สำหรับเนื้อหาข้างใน อ่านๆดูแล้วมีความรู้สึกเหมือนกำลังอ่าน **"บล็อก" **ที่เกี่ยวกับเรื่องนี้อยู่ ผู้เขียนใช้ภาษาธรรมดาๆ เข้าใจง่าย เหมือนว่าเล่านิทานให้เราฟัง อ่านไปก็เพลินๆดีครับ
@@ -45,19 +45,19 @@ wordpress_id: 16
 สำหรับเล่มที่สองที่ซื้อมา มีชื่อว่า **Exploring the Universe**  โดย **Robin Kerrod**
 
 
-[![DSC02467](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02467-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2007/12/dsc024671.jpg)
+[![DSC02467](https://armno.in.th/wp-content/uploads/2007/12/dsc02467-thumb.jpg)](https://armno.in.th/wp-content/uploads/2007/12/dsc024671.jpg)
 
 
 ราคาป้าย 500 บาท 15% ก็เหลือ **425 บาท**ครับ เล่มนี้ผมชั่งใจอยู่นานสองนาน เดินไปดูตั้งสองสามรอบ  งานสัปดาห์หนังสือมีหนังสือเยอะก็จริง แต่หนังสือดาราศาสตร์แบบนี้ผมหายากมาก ทั้งภาษาไทยและภาษาอังกฤษ โดยเฉพาะอันหลัง ผมหาเจออยู่ร้านเดียว เพราะเค้าวางไว้เด่นกว่าร้านอื่น และมีแค่ 5 เล่ม  เปิดดูในเล่มประทับใจมาก เพราะอ่านง่าย และมีรูปภาพประกอบทุกหน้า สี่สีด้่วยนะ
 
 
-[![DSC02469](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02469-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2007/12/dsc024691.jpg)
+[![DSC02469](https://armno.in.th/wp-content/uploads/2007/12/dsc02469-thumb.jpg)](https://armno.in.th/wp-content/uploads/2007/12/dsc024691.jpg)
 
 
 ผมหวังไว้ก่อนเข้างาน ว่าจะเจอหนังสือเกี่ยวกับดาราศาสตร์ที่เป็นภาษาอังกฤษซักเล่ม แต่คิดไว้ว่าคงแพงกว่านี้  ถ้าซื้อคงได้กินแกลบไปทั้งเดือน แต่จริงๆแล้วไม่ใช่เลยครับ เล่มนี้ไม่แพงเลย
 
 
-[![DSC02470](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02470-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2007/12/dsc024701.jpg)
+[![DSC02470](https://armno.in.th/wp-content/uploads/2007/12/dsc02470-thumb.jpg)](https://armno.in.th/wp-content/uploads/2007/12/dsc024701.jpg)
 
 
 ทั้งสองเล่มผมยังอ่านไม่จบ ครับ (แน่นอนอยู่แล้วเพราะเพิ่งซื้อมาเมื่อวาน) แต่เปิดอ่านผ่านๆก็อยากอ่านมันทุกครั้งแหละครับ  ส่วนอีก 4 เล่มที่เหลือ ที่ผมเจอร้านนั้น **ราคาเล่มละ 900 บาท**ทั้งสี่เล่มเลยครับ อยากได้มากเหมือนกัน แต่ผมคงไม่สามารถซื้อได้ทุกเล่ม ไม่มีตัง T-T  ไว้ถ้าอ่านจบจะมารีวิวอีกทีนะครับ

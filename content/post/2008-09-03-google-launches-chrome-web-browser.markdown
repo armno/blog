@@ -16,14 +16,14 @@ wordpress_id: 152
 กูเกิ้ลปล่อยเว็บบราวเซอร์ตัวใหม่ชื่อว่า **Google Chrome** ออกมาให้ดาวน์โหลดกันตั้งแต่เมื่อวาน _(๒ กันยายน ๒๕๕๑)_  ด้วยความที่ผมชอบใช้ผลิตภัณฑ์ของกูเกิ้ลอยู่แล้ว _(แต่ไม่ได้เป็นกูเกิ้ลแฟนคลับนะครับ)_ ก็เลยไม่รอช้า รีบไปโหลดมาลองดูซะหน่อย [ดาวน์โหลด Google Chrome Beta ได้ที่นี่ครับ](http://www.google.com/chrome)
 
 
-[![chrome1](http://www.armno.in.th/wp-content/uploads/2008/09/chrome1-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/09/chrome1.jpg)
+[![chrome1](https://armno.in.th/wp-content/uploads/2008/09/chrome1-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/09/chrome1.jpg)
 
 
 
 ตอน Setup ใช้เวลาน้อยมากๆ แค่ไม่กี่อึดใจ Google Chrome ก็ถูกติดตั้งบนเครื่องผมแล้ว ดูฟีเจอร์กันเลยดีกว่า
 
 
-[![newtab](http://www.armno.in.th/wp-content/uploads/2008/09/newtab-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/09/newtab.jpg) 
+[![newtab](https://armno.in.th/wp-content/uploads/2008/09/newtab-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/09/newtab.jpg) 
 
 
 
@@ -35,21 +35,21 @@ wordpress_id: 152
 แอบหวั่นๆอยู่ว่า ใช้ Firefox 3 มาตลอด ต้องมาเริ่มเก็บบุ๊คมาร์ค เก็บบันทึกรหัสผ่านใหม่อีกไหมหนอ  แต่ Google Chrome เขาก็มีฟีเจอร์ import จาก Firefox มาให้ เรียกได้ว่า import มาได้ทุกอย่างเลย สบายใจเฉิบ
 
 
-[![import](http://www.armno.in.th/wp-content/uploads/2008/09/import-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/09/import.jpg)
+[![import](https://armno.in.th/wp-content/uploads/2008/09/import-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/09/import.jpg)
 
 
 
 แต่ import มาแล้วก็ดันมานั่งงง ไอ้บุ๊คมาร์คทั้งหลายมันอยู่ตรงไหนว่า เมนูก็ไม่มี อ๋อที่แท้มันอยู่ด้านขวาบนนี่เอง
 
 
-[![bookmark2](http://www.armno.in.th/wp-content/uploads/2008/09/bookmark2-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/09/bookmark2.jpg)
+[![bookmark2](https://armno.in.th/wp-content/uploads/2008/09/bookmark2-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/09/bookmark2.jpg)
 
 
 
 จะบุ๊คมาร์คเว็บใหม่ก็แสนจะง่ายดาย คลิกปุ่มดาวที่อยู่หน้าช่อง address bar ได้เลย
 
 
-[![bookmark](http://www.armno.in.th/wp-content/uploads/2008/09/bookmark-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/09/bookmark.jpg)
+[![bookmark](https://armno.in.th/wp-content/uploads/2008/09/bookmark-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/09/bookmark.jpg)
 
 
 

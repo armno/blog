@@ -14,7 +14,7 @@ url: /2009/10/05/almost-full-moon/
 wordpress_id: 881
 ---
 
-[![](http://www.armno.in.th/wp-content/uploads/ba5eba3351bd_121AD/DSC_7708_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/ba5eba3351bd_121AD/DSC_7708.jpg)
+[![](https://armno.in.th/wp-content/uploads/ba5eba3351bd_121AD/DSC_7708_thumb.jpg)](https://armno.in.th/wp-content/uploads/ba5eba3351bd_121AD/DSC_7708.jpg)
 
 
 
@@ -26,7 +26,7 @@ wordpress_id: 881
 
 
 
-[![DSC_7703](http://www.armno.in.th/wp-content/uploads/ba5eba3351bd_121AD/DSC_7703_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/ba5eba3351bd_121AD/DSC_7703.jpg)
+[![DSC_7703](https://armno.in.th/wp-content/uploads/ba5eba3351bd_121AD/DSC_7703_thumb.jpg)](https://armno.in.th/wp-content/uploads/ba5eba3351bd_121AD/DSC_7703.jpg)
 
 
 

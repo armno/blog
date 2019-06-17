@@ -17,7 +17,7 @@ wordpress_id: 383
 
 
 
-[![gemini](http://www.armno.in.th/wp-content/uploads/2008/12/gemini-thumb.png)](http://www.armno.in.th/wp-content/uploads/2008/12/gemini.png)
+[![gemini](https://armno.in.th/wp-content/uploads/2008/12/gemini-thumb.png)](https://armno.in.th/wp-content/uploads/2008/12/gemini.png)
 _กลุ่มดาวคนคู่ (ภาพจากโปรแกรม Stellarium)_
 
 

@@ -23,20 +23,20 @@ wordpress_id: 23
 
 
 **กลุ่มดาวนายพราน
-**[![DSC02608](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02608-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02608.jpg) [![DSC02611](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02611-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02611.jpg)
+**[![DSC02608](https://armno.in.th/wp-content/uploads/2007/12/dsc02608-thumb.jpg)](https://armno.in.th/wp-content/uploads/2007/12/dsc02608.jpg) [![DSC02611](https://armno.in.th/wp-content/uploads/2007/12/dsc02611-thumb.jpg)](https://armno.in.th/wp-content/uploads/2007/12/dsc02611.jpg)
 
 
 
 **สามเหลี่ยมฤดูหนาว
-**[![DSC02609](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02609-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02609.jpg)
+**[![DSC02609](https://armno.in.th/wp-content/uploads/2007/12/dsc02609-thumb.jpg)](https://armno.in.th/wp-content/uploads/2007/12/dsc02609.jpg)
 
 
 
 **ดาวลูกไก่ กับดาววัว
-**[![DSC02610](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02610-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02610.jpg)
+**[![DSC02610](https://armno.in.th/wp-content/uploads/2007/12/dsc02610-thumb.jpg)](https://armno.in.th/wp-content/uploads/2007/12/dsc02610.jpg)
 
 
 
 **กลุ่มดาวสุนัขใหญ่
-**[![DSC02614](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02614-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2007/12/dsc02614.jpg)
+**[![DSC02614](https://armno.in.th/wp-content/uploads/2007/12/dsc02614-thumb.jpg)](https://armno.in.th/wp-content/uploads/2007/12/dsc02614.jpg)
 

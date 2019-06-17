@@ -13,7 +13,7 @@ url: /2009/11/07/buffalo-ministation-new-vs-old/
 wordpress_id: 912
 ---
 
-ปีนี้กระแส [External Harddisk ยี่ห้อ Buffalo](http://www.armno.in.th/20081109/external-harddisk-%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B9%89%E0%B8%AD-buffalo) มาแรงมาก งาน Dgital ICT Chiang Mai 2009 ที่เพิ่งผ่านมาหยกๆ ก็มีเจ้านี่วางขายแทบจะทุกร้าน (ผิดกับปีที่แล้ว ที่ทั้งงานมีขายอยู่ร้านเดียว) และก็คิดว่างาน Commart Thailand ปีนี้ [Buffalo](http://www.armno.in.th/content/buffalo) ก็คงจะมาแรงเหมือนกัน (สังเกตเอาจากคนเข้าบล็อกช่วงนี้นะ ^^”)
+ปีนี้กระแส [External Harddisk ยี่ห้อ Buffalo](https://armno.in.th/20081109/external-harddisk-%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B9%89%E0%B8%AD-buffalo) มาแรงมาก งาน Dgital ICT Chiang Mai 2009 ที่เพิ่งผ่านมาหยกๆ ก็มีเจ้านี่วางขายแทบจะทุกร้าน (ผิดกับปีที่แล้ว ที่ทั้งงานมีขายอยู่ร้านเดียว) และก็คิดว่างาน Commart Thailand ปีนี้ [Buffalo](https://armno.in.th/content/buffalo) ก็คงจะมาแรงเหมือนกัน (สังเกตเอาจากคนเข้าบล็อกช่วงนี้นะ ^^”)
 
 
 
@@ -21,7 +21,7 @@ wordpress_id: 912
 
 
 
-[![DSC_0144](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0144_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0144.jpg)
+[![DSC_0144](https://armno.in.th/wp-content/uploads/2009/11/DSC_0144_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/11/DSC_0144.jpg)
 
 
 
@@ -29,27 +29,27 @@ wordpress_id: 912
 
 
 
-[![DSC_0152](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0152_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0152.jpg)
+[![DSC_0152](https://armno.in.th/wp-content/uploads/2009/11/DSC_0152_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/11/DSC_0152.jpg)
 
 
 
-[![DSC_0145](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0145_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0145.jpg)ขนาดแทบไม่ต่างกัน แต่รูปร่างลักษณะ สวยขึ้นกว่าเดิมเยอะเลย
+[![DSC_0145](https://armno.in.th/wp-content/uploads/2009/11/DSC_0145_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/11/DSC_0145.jpg)ขนาดแทบไม่ต่างกัน แต่รูปร่างลักษณะ สวยขึ้นกว่าเดิมเยอะเลย
 
 
 
-[![DSC_0147](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0147_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0147.jpg) รูปลักษณ์น่าใช้ ดูดีมีสไตล์มากกว่าแต่ก่อน
+[![DSC_0147](https://armno.in.th/wp-content/uploads/2009/11/DSC_0147_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/11/DSC_0147.jpg) รูปลักษณ์น่าใช้ ดูดีมีสไตล์มากกว่าแต่ก่อน
 
 
 
-[![DSC_0148](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0148_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0148.jpg)ที่พับเก็บสาย USB ก็ทำได้ดีกว่าเดิม (รุ่นนี้เปลี่ยนเป็นสายแบนๆแทน เสียบเก็บพอดีเป๊ะ ส่วยของผม เริ่มยาน - -“)
+[![DSC_0148](https://armno.in.th/wp-content/uploads/2009/11/DSC_0148_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/11/DSC_0148.jpg)ที่พับเก็บสาย USB ก็ทำได้ดีกว่าเดิม (รุ่นนี้เปลี่ยนเป็นสายแบนๆแทน เสียบเก็บพอดีเป๊ะ ส่วยของผม เริ่มยาน - -“)
 
 
 
-[![DSC_0150](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0150_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0150.jpg)ข้างหลังก็ยังสวยกว่าเลย !
+[![DSC_0150](https://armno.in.th/wp-content/uploads/2009/11/DSC_0150_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/11/DSC_0150.jpg)ข้างหลังก็ยังสวยกว่าเลย !
 
 
 
-[![DSC_0151](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0151_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/11/DSC_0151.jpg) สองพี่น้อง ตระกูล Buffalo
+[![DSC_0151](https://armno.in.th/wp-content/uploads/2009/11/DSC_0151_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/11/DSC_0151.jpg) สองพี่น้อง ตระกูล Buffalo
 
 
 

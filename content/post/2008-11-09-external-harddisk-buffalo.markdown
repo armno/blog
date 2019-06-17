@@ -17,7 +17,7 @@ wordpress_id: 353
 
 
 
-[![DSC_0242](http://www.armno.in.th/wp-content/uploads/2008/11/dsc-0242-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/11/dsc-0242.jpg)
+[![DSC_0242](https://armno.in.th/wp-content/uploads/2008/11/dsc-0242-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/11/dsc-0242.jpg)
 
 
 
@@ -25,7 +25,7 @@ wordpress_id: 353
 
 
 
-[![DSC_0243](http://www.armno.in.th/wp-content/uploads/2008/11/dsc-0243-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2008/11/dsc-0243.jpg)
+[![DSC_0243](https://armno.in.th/wp-content/uploads/2008/11/dsc-0243-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/11/dsc-0243.jpg)
 
 
 

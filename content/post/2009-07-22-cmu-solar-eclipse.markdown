@@ -15,7 +15,7 @@ url: /2009/07/22/cmu-solar-eclipse/
 wordpress_id: 859
 ---
 
-ฟ้าฝนค่อนข้างจะเป็นใจ ให้ชาวมอชอได้สังเกต **[“ปรากฏการณ์สุริยุปราคาแห่งศตวรรษ”](http://www.armno.in.th/20090512/%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%B8%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A1%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87)** .. โชคดีที่ฝนไม่ตก และฟ้ายังพอเปิดให้เห็นพระอาทิตย์บ้าง ชาวมอชอจึงสังเกตปรากฏการณ์นี้กันอย่างถ้วนหน้า .. กิจกรรมจัดที่บริเวณสนามรักบี้หน้ามอ โดย [ภาควิชาฟิสิกส์ คณะวิทยาศาสตร์](http://physics.science.cmu.ac.th/)และ[ชมรมดาราศาสตร์ คณะวิทยาศาสตร์](http://www.science.cmu.ac.th/observatory/astroclub/index.html) ร่วมสนับสนุนโดย AIS ด้วยเน้อ
+ฟ้าฝนค่อนข้างจะเป็นใจ ให้ชาวมอชอได้สังเกต **[“ปรากฏการณ์สุริยุปราคาแห่งศตวรรษ”](https://armno.in.th/20090512/%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%B8%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A1%E0%B8%94%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87)** .. โชคดีที่ฝนไม่ตก และฟ้ายังพอเปิดให้เห็นพระอาทิตย์บ้าง ชาวมอชอจึงสังเกตปรากฏการณ์นี้กันอย่างถ้วนหน้า .. กิจกรรมจัดที่บริเวณสนามรักบี้หน้ามอ โดย [ภาควิชาฟิสิกส์ คณะวิทยาศาสตร์](http://physics.science.cmu.ac.th/)และ[ชมรมดาราศาสตร์ คณะวิทยาศาสตร์](http://www.science.cmu.ac.th/observatory/astroclub/index.html) ร่วมสนับสนุนโดย AIS ด้วยเน้อ
 
 
 
@@ -23,7 +23,7 @@ wordpress_id: 859
 
 
 
-[![DSC_5432](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5432_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5432.jpg)
+[![DSC_5432](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5432_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5432.jpg)
 
 
 
@@ -31,7 +31,7 @@ wordpress_id: 859
 
 
 
-[![DSC_5428](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5428_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5428.jpg)
+[![DSC_5428](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5428_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5428.jpg)
 
 
 
@@ -41,11 +41,11 @@ wordpress_id: 859
 
 
 
-[![DSC_5430](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5430_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5430.jpg)
+[![DSC_5430](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5430_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5430.jpg)
 
 
 
-[![DSC_5510](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5510_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5510.jpg)
+[![DSC_5510](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5510_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5510.jpg)
 
 
 
@@ -53,7 +53,7 @@ wordpress_id: 859
 
 
 
-[![DSC_5438](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5438_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5438.jpg) [![DSC_5439](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5439_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5439.jpg)
+[![DSC_5438](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5438_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5438.jpg) [![DSC_5439](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5439_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5439.jpg)
 
 
 
@@ -61,7 +61,7 @@ wordpress_id: 859
 
 
 
-[![DSC_5441](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5441_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5441.jpg)
+[![DSC_5441](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5441_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5441.jpg)
 
 
 
@@ -69,7 +69,7 @@ wordpress_id: 859
 
 
 
-[![DSC_5442](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5442_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5442.jpg)
+[![DSC_5442](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5442_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5442.jpg)
 
 
 
@@ -77,11 +77,11 @@ wordpress_id: 859
 
 
 
-[![DSC_5444](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5444_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5444.jpg)
+[![DSC_5444](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5444_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5444.jpg)
 
 
 
-[![DSC_5508](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5508_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5508.jpg)
+[![DSC_5508](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5508_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5508.jpg)
 
 
 
@@ -89,7 +89,7 @@ wordpress_id: 859
 
 
 
-[![DSC_5521](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5521_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5521.jpg)
+[![DSC_5521](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5521_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5521.jpg)
 
 
 
@@ -97,7 +97,7 @@ wordpress_id: 859
 
 
 
-[![DSC_5458](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5458_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5458.jpg)
+[![DSC_5458](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5458_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5458.jpg)
 
 
 
@@ -105,7 +105,7 @@ wordpress_id: 859
 
 
 
-[![DSC_5459](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5459_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5459.jpg)
+[![DSC_5459](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5459_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5459.jpg)
 
 
 
@@ -113,7 +113,7 @@ wordpress_id: 859
 
 
 
-[![DSC_5491](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5491_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5491.jpg)
+[![DSC_5491](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5491_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5491.jpg)
 
 
 
@@ -125,7 +125,7 @@ wordpress_id: 859
 
 
 
-[![DSC_5525](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5525_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5525.jpg)
+[![DSC_5525](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5525_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5525.jpg)
 
 
 
@@ -133,7 +133,7 @@ wordpress_id: 859
 
 
 
-[![DSC_5526](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5526_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5526.jpg)
+[![DSC_5526](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5526_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5526.jpg)
 
 
 
@@ -141,7 +141,7 @@ wordpress_id: 859
 
 
 
-[![DSC_5527](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5527_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5527.jpg)
+[![DSC_5527](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5527_thumb.jpg)](https://armno.in.th/wp-content/uploads/5b6f7044d0f9_F08E/DSC_5527.jpg)
 
 
 

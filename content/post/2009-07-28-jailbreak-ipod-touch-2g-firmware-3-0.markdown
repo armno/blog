@@ -16,7 +16,7 @@ url: /2009/07/28/jailbreak-ipod-touch-2g-firmware-3-0/
 wordpress_id: 864
 ---
 
-ตอนแรกผมไม่ได้สนใจ Firmware 3.0 ของ iPhone/iPod Touch เลยครับ เนื่องจากขี้เกียจหาโหลด และก็ขี้เกียจ Jailbreak ใหม่อีกรอบ แต่นั่งเล่นเน็ตดึกๆของคืนเมื่อวาน เจอ Review จาก [PDAMobiz.com](http://www.pdamobiz.com) ซึ่งคุณ** tarnpee** ได้เขียน[วิธีการ Jailbreak iPod Touch สำหรับ Firmware 3.0 โดยใช้ RedPwn](http://pdamobiz.com/forum/forum_posts.asp?TID=232197&PN=1&TPN=1) .. อ่านดูคร่าวๆแล้วไม่น่าจะยาก (เหมือนครั้งก่อนที่ผม [Jailbreak Firmware 2.0 ตอนที่ยังไม่มี QuickPwn](http://www.armno.in.th/20090210/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C-jailbreak-ipod-touch-2g)) ก็เลยลองทำดูครับ
+ตอนแรกผมไม่ได้สนใจ Firmware 3.0 ของ iPhone/iPod Touch เลยครับ เนื่องจากขี้เกียจหาโหลด และก็ขี้เกียจ Jailbreak ใหม่อีกรอบ แต่นั่งเล่นเน็ตดึกๆของคืนเมื่อวาน เจอ Review จาก [PDAMobiz.com](http://www.pdamobiz.com) ซึ่งคุณ** tarnpee** ได้เขียน[วิธีการ Jailbreak iPod Touch สำหรับ Firmware 3.0 โดยใช้ RedPwn](http://pdamobiz.com/forum/forum_posts.asp?TID=232197&PN=1&TPN=1) .. อ่านดูคร่าวๆแล้วไม่น่าจะยาก (เหมือนครั้งก่อนที่ผม [Jailbreak Firmware 2.0 ตอนที่ยังไม่มี QuickPwn](https://armno.in.th/20090210/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C-jailbreak-ipod-touch-2g)) ก็เลยลองทำดูครับ
 
 
 
@@ -34,7 +34,7 @@ wordpress_id: 864
 
 เช้าวันนี้เลยลองดูอีกซักรอบ มาใช้เน็ตที่ในมอ .. ผมก็ต้อง Jailbreak ถึงสองรอบครับ เพราะว่ารอบแรกเกือบเสร็จแล้ว เจ้า iPod ของผมมันไม่ยอม reboot ตัวเองซะอย่างงั้น ดับเดี้ยงไปอีก .. รอบสองก็ผ่านฉลุยเลย ลุ้นดีเหมือนกัน
 
-[![IMG_0001](http://www.armno.in.th/wp-content/uploads/JailbreakiPodTouch2GFirmware3.0_9B3C/IMG_0001_thumb.png)](http://www.armno.in.th/wp-content/uploads/JailbreakiPodTouch2GFirmware3.0_9B3C/IMG_0001.png)
+[![IMG_0001](https://armno.in.th/wp-content/uploads/JailbreakiPodTouch2GFirmware3.0_9B3C/IMG_0001_thumb.png)](https://armno.in.th/wp-content/uploads/JailbreakiPodTouch2GFirmware3.0_9B3C/IMG_0001.png)
 
 #### สรุปคร่าวๆ
 

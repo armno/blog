@@ -16,7 +16,7 @@ url: /2009/05/28/crescent-shot/
 wordpress_id: 803
 ---
 
-ภาพถ่ายพระจันทร์เสี้ยว จากกล้อง [**Nikon D60**](http://www.armno.in.th/content/nikon-d60) กับเลนส์ตัวใหม่ **AF-S 55-200 VR** .. ภาพนี้ถ่ายเมื่อวานนี้ครับ พระจันทร์เสี้ยวประมาณขึ้นสี่ค่ำมั้งนะ ถ่ายตอนมืดๆ เกือบสองทุ่มแล้วล่ะ นานๆได้นั่งมองพระจันทร์เสี้ยวแบบยาวๆ ก็เลยลองถ่ายดูหน่อย
+ภาพถ่ายพระจันทร์เสี้ยว จากกล้อง [**Nikon D60**](https://armno.in.th/content/nikon-d60) กับเลนส์ตัวใหม่ **AF-S 55-200 VR** .. ภาพนี้ถ่ายเมื่อวานนี้ครับ พระจันทร์เสี้ยวประมาณขึ้นสี่ค่ำมั้งนะ ถ่ายตอนมืดๆ เกือบสองทุ่มแล้วล่ะ นานๆได้นั่งมองพระจันทร์เสี้ยวแบบยาวๆ ก็เลยลองถ่ายดูหน่อย
 
 
 
@@ -28,7 +28,7 @@ wordpress_id: 803
 
 
 
-[![ภาพถ่ายพระจันทร์เสี้ยว จากกล้อง Nikon D60](http://www.armno.in.th/wp-content/uploads/2009/05/moon-thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/05/moon.jpg)
+[![ภาพถ่ายพระจันทร์เสี้ยว จากกล้อง Nikon D60](https://armno.in.th/wp-content/uploads/2009/05/moon-thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/05/moon.jpg)
 
 
 

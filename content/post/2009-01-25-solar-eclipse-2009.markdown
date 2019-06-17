@@ -16,7 +16,7 @@ wordpress_id: 498
 
 
 
-อ่านเรื่องราวเกี่ยวกับ “สุริยุปราคา” ได้[ที่นี่](http://www.armno.in.th/20080716/%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%B8%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2-1-%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B8%B2%E0%B8%84%E0%B8%A1-2551)ครับ
+อ่านเรื่องราวเกี่ยวกับ “สุริยุปราคา” ได้[ที่นี่](https://armno.in.th/20080716/%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%B8%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2-1-%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B8%B2%E0%B8%84%E0%B8%A1-2551)ครับ
 
 
 
@@ -34,11 +34,11 @@ wordpress_id: 498
 
 
 
-งั้นลองใช้ [Stellarium](http://www.armno.in.th/20071220/%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-stellarium-%e0%b9%82%e0%b8%9b%e0%b8%a3%e0%b9%81%e0%b8%81%e0%b8%a3%e0%b8%a1%e0%b8%94%e0%b8%b9%e0%b8%94%e0%b8%b2%e0%b8%a7) ดูดีกว่า ปลอดภัยต่อดวงตา ^^
+งั้นลองใช้ [Stellarium](https://armno.in.th/20071220/%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b8%a7-stellarium-%e0%b9%82%e0%b8%9b%e0%b8%a3%e0%b9%81%e0%b8%81%e0%b8%a3%e0%b8%a1%e0%b8%94%e0%b8%b9%e0%b8%94%e0%b8%b2%e0%b8%a7) ดูดีกว่า ปลอดภัยต่อดวงตา ^^
 
 
 
-[![krabi](http://www.armno.in.th/wp-content/uploads/2009/01/krabi-thumb.png)](http://www.armno.in.th/wp-content/uploads/2009/01/krabi.png)
+[![krabi](https://armno.in.th/wp-content/uploads/2009/01/krabi-thumb.png)](https://armno.in.th/wp-content/uploads/2009/01/krabi.png)
 ลองไปอยู่ที่จังหวัดกระบี่ดู ก็บังเยอะเหมือนกันนะเนี่ย (อิจฉาทางใต้ ที่ได้เห็นดวงจันทร์บังเยอะกว่าทางเหนือ)
 
 
@@ -47,7 +47,7 @@ wordpress_id: 498
 
 
 
-[![indo](http://www.armno.in.th/wp-content/uploads/2009/01/indo-thumb.png)](http://www.armno.in.th/wp-content/uploads/2009/01/indo.png)
+[![indo](https://armno.in.th/wp-content/uploads/2009/01/indo-thumb.png)](https://armno.in.th/wp-content/uploads/2009/01/indo.png)
 
 
 

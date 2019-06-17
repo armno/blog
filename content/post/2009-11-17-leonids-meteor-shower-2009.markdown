@@ -48,7 +48,7 @@ wordpress_id: 924
 
 
 
-[![doi_pui](http://www.armno.in.th/wp-content/uploads/2009/11/doi_pui_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/11/doi_pui.jpg)
+[![doi_pui](https://armno.in.th/wp-content/uploads/2009/11/doi_pui_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/11/doi_pui.jpg)
 _ภาพถ่ายจากจุดชมวิวบนดอยปุย จ.เชียงใหม่_
 
 

@@ -16,7 +16,7 @@ url: /2009/12/29/hoya-hd-c-pl-field-test/
 wordpress_id: 1062
 ---
 
-ต่อจาก[ตอนที่ 1](http://www.armno.in.th/20091219/%E0%B8%9F%E0%B8%B4%E0%B8%A5%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C-hoya-hd-cp-l-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-1) นะครับ ผมก็มีโอกาสได้เอาเจ้าฟิลเตอร์ **Hoya HD C-PL** ออกไปใช้งานกันจริงๆบ้าง สถานที่ที่ผมไปถ่ายภาพก็ **สวนเฉลิมพระเกียรติฯ** (ตรงข้ามสนามกีฬา 700 ปี เชียงใหม่) และก็ ดอกพญาเสือโคร่ง ที่**ขุนช่างเคี่ยน** ดอยปุย เชียงใหม่ ครับผม
+ต่อจาก[ตอนที่ 1](https://armno.in.th/20091219/%E0%B8%9F%E0%B8%B4%E0%B8%A5%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C-hoya-hd-cp-l-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-1) นะครับ ผมก็มีโอกาสได้เอาเจ้าฟิลเตอร์ **Hoya HD C-PL** ออกไปใช้งานกันจริงๆบ้าง สถานที่ที่ผมไปถ่ายภาพก็ **สวนเฉลิมพระเกียรติฯ** (ตรงข้ามสนามกีฬา 700 ปี เชียงใหม่) และก็ ดอกพญาเสือโคร่ง ที่**ขุนช่างเคี่ยน** ดอยปุย เชียงใหม่ ครับผม
 
 
 
@@ -28,11 +28,11 @@ wordpress_id: 1062
 
 
 
-[![DSC_2958](http://www.armno.in.th/wp-content/uploads/2009/12/DSC_2958_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/12/DSC_2958.jpg)
+[![DSC_2958](https://armno.in.th/wp-content/uploads/2009/12/DSC_2958_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/12/DSC_2958.jpg)
 
 
 
-[![DSC_2999](http://www.armno.in.th/wp-content/uploads/2009/12/DSC_2999_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/12/DSC_2999.jpg)
+[![DSC_2999](https://armno.in.th/wp-content/uploads/2009/12/DSC_2999_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/12/DSC_2999.jpg)
 
 
 
@@ -40,7 +40,7 @@ wordpress_id: 1062
 
 
 
-[![DSC_3012](http://www.armno.in.th/wp-content/uploads/2009/12/DSC_3012_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/12/DSC_3012.jpg)
+[![DSC_3012](https://armno.in.th/wp-content/uploads/2009/12/DSC_3012_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/12/DSC_3012.jpg)
 
 
 
@@ -48,11 +48,11 @@ wordpress_id: 1062
 
 
 
-[![DSC_3071](http://www.armno.in.th/wp-content/uploads/2009/12/DSC_3071_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/12/DSC_3071.jpg)
+[![DSC_3071](https://armno.in.th/wp-content/uploads/2009/12/DSC_3071_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/12/DSC_3071.jpg)
 
 
 
-[![DSC_3080](http://www.armno.in.th/wp-content/uploads/2009/12/DSC_3080_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/2009/12/DSC_3080.jpg)
+[![DSC_3080](https://armno.in.th/wp-content/uploads/2009/12/DSC_3080_thumb.jpg)](https://armno.in.th/wp-content/uploads/2009/12/DSC_3080.jpg)
 
 
 

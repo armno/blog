@@ -14,11 +14,11 @@ url: /2009/07/02/search-and-replace-wordpress-plugin/
 wordpress_id: 850
 ---
 
-จากที่เคยแนะนำ [“วิธีการย้ายบล็อก WordPress”](http://www.armno.in.th/20090624/%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-wordpress) ไปแล้ว ผมพบปัญหาอยู่อย่างนึงครับ คือ internal links (ลิ้งก์ภายในบล็อก) ยังคงลิ้งก์ไปยังบล็อกเดิมอยู่ ไม่ว่าจะเป็นลิ้งก์รูป หรือลิ้งก์ที่เราทำไปยังบทความต่างๆ (แต่ไม่รวมจากปลั๊กอินนะครับ) .. ผมจึงต้องมานั่งแก้ลิ้งก์ของทุกโพสต์จากเมนู edit post .. ซึ่งทำไปได้สักโพสต์สองโพสต์ ผมรู้สึกว่าเป็นงานที่ถึกมาก ทั้งบล็อกมีบทความแค่ 148 posts แต่ว่าจำนวนลิ้งก์นั้นไม่น้อยเลย ไหนจะโพสต์ที่เป็น Gallery อีกแน่ะ .. ก็เลยลองหาเครื่องมือทุ่นแรงดูครับ และก็พบกับปลั๊กอินตัวนี้ **[“Search and Replace”](http://wordpress.org/extend/plugins/search-and-replace/)**
+จากที่เคยแนะนำ [“วิธีการย้ายบล็อก WordPress”](https://armno.in.th/20090624/%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81-wordpress) ไปแล้ว ผมพบปัญหาอยู่อย่างนึงครับ คือ internal links (ลิ้งก์ภายในบล็อก) ยังคงลิ้งก์ไปยังบล็อกเดิมอยู่ ไม่ว่าจะเป็นลิ้งก์รูป หรือลิ้งก์ที่เราทำไปยังบทความต่างๆ (แต่ไม่รวมจากปลั๊กอินนะครับ) .. ผมจึงต้องมานั่งแก้ลิ้งก์ของทุกโพสต์จากเมนู edit post .. ซึ่งทำไปได้สักโพสต์สองโพสต์ ผมรู้สึกว่าเป็นงานที่ถึกมาก ทั้งบล็อกมีบทความแค่ 148 posts แต่ว่าจำนวนลิ้งก์นั้นไม่น้อยเลย ไหนจะโพสต์ที่เป็น Gallery อีกแน่ะ .. ก็เลยลองหาเครื่องมือทุ่นแรงดูครับ และก็พบกับปลั๊กอินตัวนี้ **[“Search and Replace”](http://wordpress.org/extend/plugins/search-and-replace/)**
 
 
 
-[![search_and_replace_wordpress_plugin](http://www.armno.in.th/wp-content/uploads/SearchandReplace_E319/search_and_replace_wordpress_plugin_thumb.png)](http://www.armno.in.th/wp-content/uploads/SearchandReplace_E319/search_and_replace_wordpress_plugin.png)
+[![search_and_replace_wordpress_plugin](https://armno.in.th/wp-content/uploads/SearchandReplace_E319/search_and_replace_wordpress_plugin_thumb.png)](https://armno.in.th/wp-content/uploads/SearchandReplace_E319/search_and_replace_wordpress_plugin.png)
 
 
 

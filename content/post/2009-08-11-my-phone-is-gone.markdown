@@ -15,11 +15,11 @@ url: /2009/08/11/my-phone-is-gone/
 wordpress_id: 867
 ---
 
-นี่คือ Gadget สุดที่รักของผมครับ [**iPod Touch 2G**](http://www.armno.in.th/20090202/ipod-touch-2g-8gb)
+นี่คือ Gadget สุดที่รักของผมครับ [**iPod Touch 2G**](https://armno.in.th/20090202/ipod-touch-2g-8gb)
 
 
 
-[![DSC_5967](http://www.armno.in.th/wp-content/uploads/e4b3f720ce22_D763/DSC_5967_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/e4b3f720ce22_D763/DSC_5967.jpg)
+[![DSC_5967](https://armno.in.th/wp-content/uploads/e4b3f720ce22_D763/DSC_5967_thumb.jpg)](https://armno.in.th/wp-content/uploads/e4b3f720ce22_D763/DSC_5967.jpg)
 
 
 
@@ -27,7 +27,7 @@ wordpress_id: 867
 
 
 
-[![DSC_5966](http://www.armno.in.th/wp-content/uploads/e4b3f720ce22_D763/DSC_5966_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/e4b3f720ce22_D763/DSC_5966.jpg)
+[![DSC_5966](https://armno.in.th/wp-content/uploads/e4b3f720ce22_D763/DSC_5966_thumb.jpg)](https://armno.in.th/wp-content/uploads/e4b3f720ce22_D763/DSC_5966.jpg)
 
 
 
@@ -47,7 +47,7 @@ wordpress_id: 867
 
 
 
-[![Nokia_6303_classic_05_lowres](http://www.armno.in.th/wp-content/uploads/e4b3f720ce22_D763/Nokia_6303_classic_05_lowres_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/e4b3f720ce22_D763/Nokia_6303_classic_05_lowres.jpg)
+[![Nokia_6303_classic_05_lowres](https://armno.in.th/wp-content/uploads/e4b3f720ce22_D763/Nokia_6303_classic_05_lowres_thumb.jpg)](https://armno.in.th/wp-content/uploads/e4b3f720ce22_D763/Nokia_6303_classic_05_lowres.jpg)
 
 
 
@@ -55,7 +55,7 @@ wordpress_id: 867
 
 
 
-[![nokia_6700](http://www.armno.in.th/wp-content/uploads/e4b3f720ce22_D763/nokia_6700_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/e4b3f720ce22_D763/nokia_6700.jpg)
+[![nokia_6700](https://armno.in.th/wp-content/uploads/e4b3f720ce22_D763/nokia_6700_thumb.jpg)](https://armno.in.th/wp-content/uploads/e4b3f720ce22_D763/nokia_6700.jpg)
 
 
 
@@ -63,7 +63,7 @@ wordpress_id: 867
 
 
 
-[![Sony Ericsson C510](http://www.armno.in.th/wp-content/uploads/e4b3f720ce22_D763/SonyEricssonC510_thumb.jpg)](http://www.armno.in.th/wp-content/uploads/e4b3f720ce22_D763/SonyEricssonC510.jpg)
+[![Sony Ericsson C510](https://armno.in.th/wp-content/uploads/e4b3f720ce22_D763/SonyEricssonC510_thumb.jpg)](https://armno.in.th/wp-content/uploads/e4b3f720ce22_D763/SonyEricssonC510.jpg)
 
 
 
