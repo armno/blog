@@ -9,11 +9,16 @@
     element.classList.add('heading-linked');
     element.appendChild(a);
   }
+
   document.addEventListener('DOMContentLoaded', () => {
     mediumZoom('img:not(.no-medium-zoom)');
 
-    document
-      .querySelector('article.single')
+    const articles = document.querySelector('article.single');
+    if (!articles) {
+      return;
+    }
+
+    articles
       .querySelectorAll('h2, h3')
       .forEach(element => appendAnchor(element));
   });
