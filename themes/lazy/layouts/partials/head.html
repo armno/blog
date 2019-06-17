@@ -10,19 +10,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Armno Prommarak">
 
-  <!-- preload fonts -->
-  <link rel="preload" href="{{ .Site.BaseURL }}fonts/woff2-otf/Boon-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="{{ .Site.BaseURL }}fonts/woff2-otf/Boon-Bold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="{{ .Site.BaseURL }}fonts/woff2-otf/Boon-Italic.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="{{ .Site.BaseURL }}fonts/anakotmai/anakotmai-bold.woff2" as="font" type="font/woff2" crossorigin>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://www.google-analytics.com">
-  <link rel="preconnect" href="https://ajax.googleapis.com">
   <link rel="preconnect" href="https://armnointh.disqus.com">
 
-  <link rel="stylesheet" type="text/css" href="/css/normalize.css" media="screen">
-  <link rel="stylesheet" type="text/css" href="/css/lazy.css" media="screen">
+  {{ partial "style.html" .}}
 
   {{ with .OutputFormats.Get "RSS" }}
   <link rel="alternate" href="{{ .RelPermalink }}" type="application/rss+xml" title="RSS">
