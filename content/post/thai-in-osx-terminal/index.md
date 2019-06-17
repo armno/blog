@@ -1,6 +1,7 @@
 ---
 date: 2014-03-18T00:00:00Z
-description: เพิ่งลง OSX Mavericks ใหม่แล้วภาษาไทยใน terminal มันเพี้ยนๆ ซ่อมได้ด้วยการ
+description:
+  เพิ่งลง OSX Mavericks ใหม่แล้วภาษาไทยใน terminal มันเพี้ยนๆ ซ่อมได้ด้วยการ
   set locale ให้ถูกครับ
 tags:
   - thai
@@ -22,7 +23,7 @@ url: /2014/03/18/thai-in-osx-terminal/
 ลองหาใน Google ดู ก็พบว่าเป็นปัญหาที่ locale ในเครื่องเรา ที่มันอ่านภาษาไทยไม่ออก เมื่อรัน command `locale` มันก็ได้แบบนี้ครับ
 
 {{< highlight bash >}}
-$ locale
+\$ locale
 LANG=
 LC_COLLATE="C"
 LC_CTYPE="C"
@@ -36,7 +37,9 @@ LC_ALL=
 วิธีแก้ก็คือ เซ็ต locale ให้มันเป็น `en_US.UTF-8` ครับ โดยเพิ่ม 2 บรรทัดนี้เข้าไปใน `~/.zshrc` (ถ้าใครใช้ bash ก็เป็น `~/.bashrc`)
 
 {{< highlight bash >}}
+
 # ~/.zshrc
+
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 {{< / highlight >}}
@@ -50,7 +53,7 @@ export LANG=en_US.UTF-8
 เช็ค locale ดูก็เป็น `en_US.UTF-8`
 
 {{< highlight bash >}}
-$ locale
+\$ locale
 LANG="en_US.UTF-8"
 LC_COLLATE="en_US.UTF-8"
 LC_CTYPE="en_US.UTF-8"
@@ -61,9 +64,9 @@ LC_TIME="en_US.UTF-8"
 LC_ALL="en_US.UTF-8"
 {{< / highlight >}}
 
-ที่มา: [In OSX Lion, LANG is not set to utf8. how to fix?](http://stackoverflow.com/questions/7165108/in-osx-lion-lang-is-not-set-to-utf8-how-fix)
+ที่มา: [In OSX Lion, LANG is not set to utf8. how to fix?](https://stackoverflow.com/questions/7165108/in-osx-lion-lang-is-not-set-to-utf8-how-fix)
 
 ### ปล.
+
 - ผมไม่ค่อยรู้เรื่อง locale เท่าไหร่ เอะอะก็ใช้ UTF8 ไว้ก่อน
 - ไม่รู้งานนี้ฟอนต์ที่ใช้มีส่วนเกี่ยวด้วยไหม แต่ฟอนต์ที่ผมใช้กับ iTerm2 คือ [Inconsolata for Powerline](https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata) ครับ
-

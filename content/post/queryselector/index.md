@@ -16,7 +16,7 @@ title: querySelector() และ querySelectorAll() Selectors API
 url: /2012/03/26/queryselector-queryselectorall-selectors-api/
 ---
 
-ปกติ [DOM](http://www.w3.org/DOM/) _(Document Object Model)_ มี API method สำหรับการหา element จาก ID และจากชื่อ class อยู่แล้ว ตัวอย่างเช่น มี HTML แบบนี้
+ปกติ [DOM](https://www.w3.org/DOM/) _(Document Object Model)_ มี API method สำหรับการหา element จาก ID และจากชื่อ class อยู่แล้ว ตัวอย่างเช่น มี HTML แบบนี้
 
 {{< highlight html >}}
 
@@ -82,7 +82,7 @@ var li = document.querySelector('#adminmenu').querySelectorAll('li');
 
 ### Performance
 
-มี [test บน jsperf.com](http://jsperf.com/getelementbyid-vs-queryselector) นั้นบอกว่า `getElementById()` เร็วกว่า `querySelector()` อยู่ค่อนข้างเยอะครับ (หลายเท่าตัว) (แต่ผมว่าเอาเข้าจริงๆ การใช้งานทั่วไปคงไม่มีใครเห็นความแตกต่าง) แต่ถ้าัสังเกตกราฟของ Google Chrome รวมถึง Webkit ในเวอร์ชั่นหลังๆ มานี้ จำนวน opt/sec ของ `querySelector` นั้นก็เพิ่มขึ้นเยอะอยู่เหมือนกัน
+มี [test บน jsperf.com](https://jsperf.com/getelementbyid-vs-queryselector) นั้นบอกว่า `getElementById()` เร็วกว่า `querySelector()` อยู่ค่อนข้างเยอะครับ (หลายเท่าตัว) (แต่ผมว่าเอาเข้าจริงๆ การใช้งานทั่วไปคงไม่มีใครเห็นความแตกต่าง) แต่ถ้าัสังเกตกราฟของ Google Chrome รวมถึง Webkit ในเวอร์ชั่นหลังๆ มานี้ จำนวน opt/sec ของ `querySelector` นั้นก็เพิ่มขึ้นเยอะอยู่เหมือนกัน
 
 ![chrome-performance](images/8536143624_42b62d563a_z.jpg)
 
@@ -104,5 +104,5 @@ var li = document.querySelector('#adminmenu').querySelectorAll('li');
 อ่านรายละเอียดเพิ่มเติม เกี่ยวกับ Selectors API ได้ที่
 
 - [querySelector](https://developer.mozilla.org/En/DOM/Document.querySelector) และ [querySelectorAll](https://developer.mozilla.org/en/DOM/document.querySelectorAll) จาก MDN
-- [Selectors API Specifications](http://www.w3.org/TR/selectors-api/) จาก W3
-- [Can I use](http://caniuse.com/#search=querySelector) ดูการ support ของแต่ละ browser
+- [Selectors API Specifications](https://www.w3.org/TR/selectors-api/) จาก W3
+- [Can I use](https://caniuse.com/#search=querySelector) ดูการ support ของแต่ละ browser

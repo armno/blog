@@ -78,7 +78,7 @@ Desk Setup: เลือกใช้ MacBook Pro เครื่องเดี�
 - [Airmail](https://airmailapp.com/) แทนแอพ Mail
 - Adobe Photoshop & Lightroom
 - [VSCO](https://vsco.co/)
-- [LastPass](http://lastpass.com) Password Manager
+- [LastPass](https://lastpass.com) Password Manager
 - Google Photos
 
 ### อื่นๆ {#other}

@@ -19,7 +19,7 @@ url: /2013/03/09/from-wordpress-to-jekyll/
   <img src="images/8540179341_f34d468c82_o.png" alt="WordPress Logo">
 </div>
 
-ผมเริ่มทำบล็อกด้วย [WordPress](http://wordpress.org) มาตั้งแต่ปี 2007 (น่าจะราวๆ เวอร์ชั่น 2.0) หลังจากนั้นก็ลองผิดลองถูกอยู่เรื่อยมาจนถึงทุกวันนี้ สังเกตความเปลี่ยนแปลงของ WordPress จาก blogging platform จนทุกวันนี้เป็นมากกว่านั้นไปเยอะแล้ว สำหรับผม WordPress ตอนนี้ "เยอะเกินไป" สำหรับการเขียนบล็อก เลยรู้สึกเบื่อขึ้นมา
+ผมเริ่มทำบล็อกด้วย [WordPress](https://wordpress.org) มาตั้งแต่ปี 2007 (น่าจะราวๆ เวอร์ชั่น 2.0) หลังจากนั้นก็ลองผิดลองถูกอยู่เรื่อยมาจนถึงทุกวันนี้ สังเกตความเปลี่ยนแปลงของ WordPress จาก blogging platform จนทุกวันนี้เป็นมากกว่านั้นไปเยอะแล้ว สำหรับผม WordPress ตอนนี้ "เยอะเกินไป" สำหรับการเขียนบล็อก เลยรู้สึกเบื่อขึ้นมา
 
 เหตุผลสำคัญอีกอย่างคือ บล็อก WordPress นั้นขับเคลื่อนด้วย PHP + MySQL นั่นหมายความว่าต้องมีทั้ง Apache รันอยู่ มี code ในเครื่อง database ก็ต้องติดตั้งในเครื่องไว้พร้อม ไม่ค่อยสะดวกเวลาเปลี่ยนไปทำงานด้วยคอมพิวเตอร์เครื่องอื่น กว่าจะเซ็ตอัพทุกอย่างให้รันได้ใน localhost พร้อมอัพเดท database ก็รู้สึกว่าเสียเวลาไปบ้างเหมือนกัน
 
@@ -33,11 +33,11 @@ url: /2013/03/09/from-wordpress-to-jekyll/
 
 [Jekyll](https://github.com/mojombo/jekyll) นั้นเป็น static website generator ที่เขียนด้วย Ruby ผลลัพธ์ที่ออกมาก็คือเว็บที่เป็น HTML ธรรมดาๆ ผมชอบ Jekyll ตรงที่มี server ในตัว (ไม่ต้องมี Apache ก็รันบล็อกได้) อีกทั้งใช้ Markdown ในการเขียน content ด้วย เลยทำให้ชอบมากขึ้น
 
-Jekyll นั้นเข้ากันเป็นปี่เป็นขลุ่ยกับ [Github Pages](http://pages.github.com/) บล็อกที่ทำด้วย Jekyll สามารถ deploy บน Github Pages ได้เลย ซึ่งก็หมายความว่า ตอนนี้บล็อก armno.in.th นั้นถูกโฮสต์บน Github ครับ (แน่นอนว่า [source code](https://github.com/armno/armno.github.com) ก็ต้องอยู่บน Github ด้วย)
+Jekyll นั้นเข้ากันเป็นปี่เป็นขลุ่ยกับ [Github Pages](https://pages.github.com/) บล็อกที่ทำด้วย Jekyll สามารถ deploy บน Github Pages ได้เลย ซึ่งก็หมายความว่า ตอนนี้บล็อก armno.in.th นั้นถูกโฮสต์บน Github ครับ (แน่นอนว่า [source code](https://github.com/armno/armno.github.com) ก็ต้องอยู่บน Github ด้วย)
 
 ### Exitwp
 
-จาก[โพสต์นี้](http://csswizardry.com/2012/12/a-new-css-wizardry/)ที่ csswizardry.com ผมก็ใช้ [exitwp](https://github.com/thomasf/exitwp) ตามเขาบ้าง ปัญหาที่พบหลังจาก export posts ใน WordPress ออกมาเป็น Markdown คือ
+จาก[โพสต์นี้](https://csswizardry.com/2012/12/a-new-css-wizardry/)ที่ csswizardry.com ผมก็ใช้ [exitwp](https://github.com/thomasf/exitwp) ตามเขาบ้าง ปัญหาที่พบหลังจาก export posts ใน WordPress ออกมาเป็น Markdown คือ
 
 - exitwp ตั้งชื่อไฟล์ `.markdown` จาก slug ของแต่ละ post และไม่เวิร์กกับ slug ภาษาไทย (ชื่อไฟล์จะเป็นตัวยึกยือๆ) ผมจึงต้องเปลี่ยน slug ของ post ทั้งหมดใน WordPress ให้เป็นภาษาอังกฤษก่อน
 - markdown syntax ยังไม่สมบูรณ์ 100% พวก space ระหว่าง `*` หรือ `_` มักชอบทำให้ syntax error แล้วเวลารัน jekyll server จะมี error dump ออกมาเยอะ ทำให้เสียเวลา generate ต้องนั่งซ่อมที่ละไฟล์

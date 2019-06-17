@@ -12,7 +12,7 @@ tags:
   - Editor
   - SublimeText
   - Web Development
-title: "Sublime Text 2: แสดงเลขบรรทัดใน Distraction Free Mode"
+title: 'Sublime Text 2: แสดงเลขบรรทัดใน Distraction Free Mode'
 url: /2012/06/26/sublime-text-2-distraction-free-mode/
 ---
 
@@ -37,4 +37,4 @@ Distraction Free Mode นั้นมีไฟล์ Settings แยกต่า
 
 สำหรับผมแล้ว เลขบรรทัดมันสำคัญเวลาขี้เกียจกด Ctrl + G เพื่อกระโดดข้ามบรรทัด และบางครั้งถึงแม้รู้แล้วว่า error อยู่ที่บรรทัดไหน แต่ก็ชอบเลื่อนๆ ไปดูมากกว่าอยู่ดี ง่ายต่อการเดา :)
 
-ปล. Sublime Text 2 เวอร์ชั่น 2.0 (build 2210) มาแล้วนะครับ [http://www.sublimetext.com/2](http://www.sublimetext.com/2)
+ปล. Sublime Text 2 เวอร์ชั่น 2.0 (build 2210) มาแล้วนะครับ [https://www.sublimetext.com/2](https://www.sublimetext.com/2)

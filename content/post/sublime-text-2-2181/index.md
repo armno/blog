@@ -39,4 +39,4 @@ Editor โปรดของผม [Sublime Text 2](https://armno.in.th/2011/09/
 
 ![word-highlighting](images/8506694699_09e78b81e8_z.jpg)
 
-นอกจากนี้ก็ยังมีฟีเจอร์อื่นอีกมากมาย ตามไปอ่านทั้งหมดได้ [ที่นี่](http://www.sublimetext.com/2) ครับ
+นอกจากนี้ก็ยังมีฟีเจอร์อื่นอีกมากมาย ตามไปอ่านทั้งหมดได้ [ที่นี่](https://www.sublimetext.com/2) ครับ
