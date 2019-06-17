@@ -134,7 +134,7 @@ save file แล้วก็ restart nginx ด้วย `$ sudo service nginx re
 
 ## Minify HTML output ของ Jekyll
 
-ปกติ HTML output ของ Jekyll ในโฟลเดอร์ `_site` นั้นจะไม่ถูก minify ไว้ แต่เราสามารถทำได้ผ่าน plugin อย่างเช่น [compressor.rb](https://gist.github.com/mytharcher/2758691), [minify-html](https://github.com/octopress/minify-html) หรือจะใช้วิธีที่ง่ายกว่านั้น คือ [minify HTML ด้วย Liquid layout](http://jch.penibelst.de/) ซึ่งไม่ต้องใช้ plugin เลย ผมเลือกใช้วิธีนี้ครับ
+ปกติ HTML output ของ Jekyll ในโฟลเดอร์ `_site` นั้นจะไม่ถูก minify ไว้ แต่เราสามารถทำได้ผ่าน plugin อย่างเช่น [compressor.rb](https://gist.github.com/mytharcher/2758691), [minify-html](https://github.com/octopress/minify-html) หรือจะใช้วิธีที่ง่ายกว่านั้น คือ [minify HTML ด้วย Liquid layout](https://jch.penibelst.de/) ซึ่งไม่ต้องใช้ plugin เลย ผมเลือกใช้วิธีนี้ครับ
 
 วิธีการนั้นก็คือ download `compress.html` มาจากเว็บไซต์ ใส่ไว้ใน `/layouts/compress.html` แล้วก็ค่อยให้ default layout นั้นใช้ compress layout อีกทีหนึ่ง เพราะว่าเราสามารถใช้ layout jekyll ซ้อนกันได้หลายๆ ชั้น
 

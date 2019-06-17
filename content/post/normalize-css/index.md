@@ -17,11 +17,11 @@ url: /2012/03/11/normalize-css/
 wordpress_id: 1993
 ---
 
-Web Developer หลายคนคงรู้จักและคุ้นเคยกับ [CSS Reset](https://www.google.co.th/#hl=th&q=css+reset) เป็นอย่างดี บนโลกนี้ก็มี CSS Reset หลายตัวให้เลือกใช้ CSS Framework เกือบทุกตัวก็ยังมี reset เป็นของตัวเองอีกต่างหาก เรียกได้ว่า reset ได้ครองโลก CSS มาอย่างยาวนาน จนกระทั่งมียอดกระทาชาย 2 หนุ่ม คือ **Nicolas Gallagher** ([@necolas](https://twitter.com/necolas)) และ **Jonathan Neal** ([@jon_neal](https://twitter.com/jon_neal)) พัฒนา [Normalize.css](http://necolas.github.com/normalize.css/) ขึ้นมาด้วยจุดประสงค์ที่แตกต่างออกไปจาก CSS Reset คือ ไม่ต้องให้ทุก browser เริ่มกำหนด style ใหม่จาก 0 แต่เน้นปรับการแสดงผล style เริ่มต้นให้ตรงกันทุกๆ browser มากกว่า
+Web Developer หลายคนคงรู้จักและคุ้นเคยกับ [CSS Reset](https://www.google.co.th/#hl=th&q=css+reset) เป็นอย่างดี บนโลกนี้ก็มี CSS Reset หลายตัวให้เลือกใช้ CSS Framework เกือบทุกตัวก็ยังมี reset เป็นของตัวเองอีกต่างหาก เรียกได้ว่า reset ได้ครองโลก CSS มาอย่างยาวนาน จนกระทั่งมียอดกระทาชาย 2 หนุ่ม คือ **Nicolas Gallagher** ([@necolas](https://twitter.com/necolas)) และ **Jonathan Neal** ([@jon_neal](https://twitter.com/jon_neal)) พัฒนา [Normalize.css](https://necolas.github.com/normalize.css/) ขึ้นมาด้วยจุดประสงค์ที่แตกต่างออกไปจาก CSS Reset คือ ไม่ต้องให้ทุก browser เริ่มกำหนด style ใหม่จาก 0 แต่เน้นปรับการแสดงผล style เริ่มต้นให้ตรงกันทุกๆ browser มากกว่า
 
 ### ความแตกต่างระหว่าง CSS Reset กับ Normalize.css
 
-> อ้างอิงจาก [เว็บของผู้พัฒนา](http://nicolasgallagher.com/about-normalize-css/) นะครับ
+> อ้างอิงจาก [เว็บของผู้พัฒนา](https://nicolasgallagher.com/about-normalize-css/) นะครับ
 
 - Normalize.css รักษา style ปกติของ browser ไว้ โดยที่เราไม่จำเป็นต้องกำหนด style ใหม่ให้กับทุกๆ element อีกครั้งหนึ่ง
 - Normalize.css แก้บั๊กหลายๆ อย่างที่อยู่นอกเหนือ CSS Reset เช่น HTML5 search form หรือ การแสดงผล SVG เป็นต้น
@@ -40,4 +40,4 @@ Web Developer หลายคนคงรู้จักและคุ้นเ
 
 ระยะหลังมานี้ผมเลือกใช้ Normalize.css มากกว่า CSS Reset ครับผม
 
-อ่านเพิ่มเติม [What is the different between Normalize.css and Reset CSS?](http://stackoverflow.com/questions/6887336/what-is-the-different-between-normalize-css-and-reset-css) (StackOverflow)
+อ่านเพิ่มเติม [What is the different between Normalize.css and Reset CSS?](https://stackoverflow.com/questions/6887336/what-is-the-different-between-normalize-css-and-reset-css) (StackOverflow)

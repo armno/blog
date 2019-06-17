@@ -151,7 +151,7 @@ Environement variables จะอยู่ที่หน้า **Project > Deplo
 
 ในตอนแรก domain name ของเราจะยังไม่ได้แก้ DNS มันก็จะขึ้น warning แบบนี้ก่อน
 ซึ่งตอนนี้ DNS (Domain Name Server) ยังเป็นที่ DigitalOcean และยังชี้ไปที่ IP Address ของ server ที่ DigitalOcean อยู่
-(ในกรณีของผมที่จด domain name กับ [DotArai.com](http://dotarai.com) คือ **DotArai Registra > DigitalOcean DNS > DigitalOcean server**)
+(ในกรณีของผมที่จด domain name กับ [DotArai.com](https://dotarai.com) คือ **DotArai Registra > DigitalOcean DNS > DigitalOcean server**)
 
 {{< picture-lazy src="images/09-waiting-for-dns-propagation.png" alt="DNS settings ที่ยังไม่ถูกต้่อง">}}
 

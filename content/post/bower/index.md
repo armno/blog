@@ -13,7 +13,7 @@ url: /2013/12/25/using-bower/
 
 ปกติแล้วเวลาเราจะติดตั้ง package หรือ plugin สักตัว สิ่งที่ต้องทำก็คือ (สมมุติ jQuery)
 
-1. เข้าเว็บ [jquery.com](http://jquery.com/)
+1. เข้าเว็บ [jquery.com](https://jquery.com/)
 2. กดปุ่ม download
 3. unzip แล้ว copy ไฟล์ไปไว้ใน directory ที่ทำงานอยู่
 4. เพิ่ม path ในไฟล์ html
@@ -130,5 +130,5 @@ command นี้จะแสดงรายชื่อ package กับเว
 #### เพิ่มเติม
 
 - [Introduction to Bower](https://egghead.io/lessons/bower-introduction-and-setup) (video) แนะนำวิธีใช้ Bower สั้นๆ
-- [Package Managers: An Introductory Guide For The Uninitiated Front-End Developer](http://tech.pro/tutorial/1190/package-managers-an-introductory-guide-for-the-uninitiated-front-end-developer) รวมถึง npm ด้วย
+- [Package Managers: An Introductory Guide For The Uninitiated Front-End Developer](https://tech.pro/tutorial/1190/package-managers-an-introductory-guide-for-the-uninitiated-front-end-developer) รวมถึง npm ด้วย
 - [sublime-bower](https://github.com/benschwarz/sublime-bower) ใช้งาน Bower ผ่าน Sublime Text ได้เลย (ผมไม่ได้ใช้เองนะครับ แต่มีคนแนะนำมา)

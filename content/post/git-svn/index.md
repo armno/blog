@@ -20,7 +20,7 @@ url: /2012/02/26/git-vs-svn/
 
 > ผมไม่เคยใช้ SVN ในการทำงานจริง (แบบที่มีทีมหลายๆ คน) เพราะฉะนั้นเรื่องลึกๆ ของ SVN ผมจะไม่ค่อยรู้นะครับ
 
-ไม่ขอลงรายละเอียดว่า Git หรือ SVN คืออะไรนะครับ ลองตามไปอ่านได้ที่ เว็บไซต์ของ [Git](http://git-scm.com/) และ ​[SVN](http://subversion.tigris.org/) ได้เลยครับผม
+ไม่ขอลงรายละเอียดว่า Git หรือ SVN คืออะไรนะครับ ลองตามไปอ่านได้ที่ เว็บไซต์ของ [Git](https://git-scm.com/) และ ​[SVN](https://subversion.tigris.org/) ได้เลยครับผม
 
 ![subversion](images/svn-name-banner.jpg)
 
@@ -46,8 +46,8 @@ Git ใช้รันเลข revision ด้วย hashed string เช่น
 
 ประเด็นสำคัญๆ ก็คงประมาณนี้ครับ จะเห็นได้ว่าทุกอย่างล้วนต่อมาจากข้อแรก (distributed & centralized) ซึ่งต่างกันตั้งแต่ออกแบบแล้ว นอกจากนี้ก็ยังมีประเด็นยิบย่อยอีกมากมาย (ขนาด repo, ความเร็ว, ฯลฯ) ลองตามไปอ่านต่อได้ที่
 
-- [5 Fundamental differences between GIT & SVN](http://boxysystems.com/index.php/5-fundamental-differences-between-git-svn/)
+- [5 Fundamental differences between GIT & SVN](https://boxysystems.com/index.php/5-fundamental-differences-between-git-svn/)
 - [Git SVN Crash Course](https://git.wiki.kernel.org/articles/g/i/t/GitSvnCrashCourse_512d.html)
-- [Git As A Subversion Replacement (Slide)](http://www.slideshare.net/technicalpickles/git-as-a-subversion-replacement) (แนะนำ)
+- [Git As A Subversion Replacement (Slide)](https://www.slideshare.net/technicalpickles/git-as-a-subversion-replacement) (แนะนำ)
 
 ใครใช้งานตัวไหน คล่องตัวไหน ก็มาแชร์ไอเดียกันได้ครับผม

@@ -11,9 +11,9 @@ title: เริ่มใช้งาน Laravel PHP Framework
 url: /2013/06/18/installing-installing-laravel-framework/
 ---
 
-[Laravel](http://laravel.com) เป็น PHP Framework ที่กำลังได้รับความนิยมเพิ่มขึ้นอย่างต่อเนื่องในระยะหลังมานี้ ผมเองเพิ่งจะเริ่มศึกษาเหมือนกันครับ เริ่มจากการติดตั้ง Laravel ในเครื่องก่อนเลยละกัน
+[Laravel](https://laravel.com) เป็น PHP Framework ที่กำลังได้รับความนิยมเพิ่มขึ้นอย่างต่อเนื่องในระยะหลังมานี้ ผมเองเพิ่งจะเริ่มศึกษาเหมือนกันครับ เริ่มจากการติดตั้ง Laravel ในเครื่องก่อนเลยละกัน
 
-Website ของ Laravel อยู่ที่ laravel.com แปลกอย่างหนึ่งที่บนเว็บไม่มีปุ่มให้ download เหมือนกัน framework ตัวอื่นๆ ซึ่งเราสามารถไป download ได้จาก Github แต่ผมจะลงผ่าน [Composer](https://armno.in.th/installing-composer-osx-lion/) ตามแบบใน [document](http://laravel.com/docs/quick) แนะนำดีกว่าครับ
+Website ของ Laravel อยู่ที่ laravel.com แปลกอย่างหนึ่งที่บนเว็บไม่มีปุ่มให้ download เหมือนกัน framework ตัวอื่นๆ ซึ่งเราสามารถไป download ได้จาก Github แต่ผมจะลงผ่าน [Composer](https://armno.in.th/installing-composer-osx-lion/) ตามแบบใน [document](https://laravel.com/docs/quick) แนะนำดีกว่าครับ
 
 command ที่ใช้สร้างโปรเจ็คจาก <code>composer</code> คือ
 

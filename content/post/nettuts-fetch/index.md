@@ -16,7 +16,7 @@ title: "Sublime Text 2: ใช้งานปลั๊กอิน Nettuts+ Fetc
 url: /2012/09/09/sublime-text-2-nettuts-fetch/
 ---
 
-หากต้องทำ HTML Mockup อยู่บ่อยๆ ปลั๊กอิน Nettuts+ Fetch นั้นช่วยประหยัดเวลาในช่วงแรกๆ ไปได้เยอะเลยครับ ก่อนอื่น หากยังไม่รูู้จักปลั๊กอินตัวนี้ เชิญไปอ่านข้อมููลก่อนที่ [Introducing Nettuts+ Fetch](http://net.tutsplus.com/articles/news/introducing-nettuts-fetch/) จากผู้ผลิตได้เลย
+หากต้องทำ HTML Mockup อยู่บ่อยๆ ปลั๊กอิน Nettuts+ Fetch นั้นช่วยประหยัดเวลาในช่วงแรกๆ ไปได้เยอะเลยครับ ก่อนอื่น หากยังไม่รูู้จักปลั๊กอินตัวนี้ เชิญไปอ่านข้อมููลก่อนที่ [Introducing Nettuts+ Fetch](https://code.tutsplus.com/articles/introducing-nettuts-fetch--net-23490) จากผู้ผลิตได้เลย
 
 หรือชอบดู video ก็ดูได้ที่ [Fetch Files with Ease](https://tutsplus.com/lesson/fetch-files-with-ease/) ที่ Tutsplus+ ได้ครับ
 

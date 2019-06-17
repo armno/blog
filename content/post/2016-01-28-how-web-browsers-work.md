@@ -30,7 +30,7 @@ HTML, CSS กับ JavaScript เป็น 3 องค์ประกอบห�
 browser แต่ละตัวจะมีส่วนที่ทำหน้าที่แสดงผลเว็บไซต์ ที่เรียกว่า rendering engine หรือ layout engine
 เช่น
 
-- [Blink](http://www.chromium.org/blink) (Chrome, Opera)
+- [Blink](https://www.chromium.org/blink) (Chrome, Opera)
 - [Gecko](https://developer.mozilla.org/en-US/docs/Mozilla/Gecko) (Firefox)
 - [WebKit](https://webkit.org/) (Safari)
 - [EdgeHTML](https://en.wikipedia.org/wiki/EdgeHTML) (Edge)
@@ -160,7 +160,7 @@ Paint คือการ render แต่ละ element ใน render tree อ�
 
 ขั้นตอนเหล่านี้ไม่เกิดขึ้นเพียงครั้งเดียวแล้วก็จบไป แต่อาจเกิดขึ้นได้หลายๆ ครั้ง เช่น กรณีที่ DOM ถูกอัพเดท
 หรือการแก้ไข CSS property บางอย่างของ DOM element ก็ทำให้เกิด Layou/Paint ได้ครับ
-ดูเพิ่มได้ที่ [csstriggers.com](http://csstriggers.com/) ได้เลยจ้า
+ดูเพิ่มได้ที่ [csstriggers.com](https://csstriggers.com/) ได้เลยจ้า
 
 ทั้งหมดนี้ก็เป็นขั้นตอนคร่าวๆ ของวิธีการแสดงผลเว็บไซต์ของ web browser ที่เราใช้กันอยู่ในปัจจุบัน
 จะเห็นว่า web browser ที่ทำหน้าที่แสดงผลเว็บไซต์ นั้นจริงๆ แล้วมีขั้นตอนการทำงานที่ค่อนข้างซับซ้อนพอสมควร
@@ -168,8 +168,8 @@ Paint คือการ render แต่ละ element ใน render tree อ�
 
 ### Sources / อ่านเพิ่ม
 
-- [How Browsers Work: Behind the scenes of modern web browsers](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) HTML5Rocks
-- [How Browser Works](http://arvindr21.github.io/howBrowserWorks) (slides) by Arvind Ravulavaru
+- [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) HTML5Rocks
+- [How Browser Works](https://arvindr21.github.io/howBrowserWorks) (slides) by Arvind Ravulavaru
 - [Life of a Button Element](https://vimeo.com/32364192) (video) by Alex Russell
-- [An overview of Lexing and Parsing](http://www.perl.com/pub/2012/10/an-overview-of-lexing-and-parsing.html) by Ron Savage
+- [An overview of Lexing and Parsing](https://www.perl.com/pub/2012/10/an-overview-of-lexing-and-parsing.html) by Ron Savage
 

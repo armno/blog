@@ -17,7 +17,7 @@ title: จัดการ CSS3 Vendor Prefixes ด้วย prefixfree.js
 url: /2012/03/18/prefixfree-js/
 ---
 
-ปกติเวลาเราเขียน CSS3 นั้นต้องเขียน prefix สำหรับ property บางตัว ที่ browser บางเวอร์ชั่นที่ยังไม่รู้จัก W3C standards เช่น gradient background ลากยาวมหึมา (โค้ดจาก [CSS3Please.com](http://css3please.com/))
+ปกติเวลาเราเขียน CSS3 นั้นต้องเขียน prefix สำหรับ property บางตัว ที่ browser บางเวอร์ชั่นที่ยังไม่รู้จัก W3C standards เช่น gradient background ลากยาวมหึมา (โค้ดจาก [CSS3Please.com](https://css3please.com/))
 
 {{< highlight css >}}
 .box_gradient {
@@ -31,7 +31,7 @@ url: /2012/03/18/prefixfree-js/
 }
 {{< / highlight >}}
 
-เห็นโค้ดแล้วเหนื่อย **[Lea Verou](http://lea.verou.me/)** เจ้าของเดียวกับ [dabblet](https://armno.in.th/2012/03/12/dabblet-com-css-playground/) เลยทำ [prefixfree.js](http://leaverou.github.com/prefixfree/) ขึ้นมาเพื่อเป็นตัวจัดการกับ prefix ต่างๆ ให้ โดยที่เราเขียนแค่เวอร์ชั่น W3C standards ตัว prefixfree.js ก็จะใส่ prefix ให้เท่าที่จำเป็น ขึ้นอยู่กับ browser ที่ใช้ครับ
+เห็นโค้ดแล้วเหนื่อย **[Lea Verou](https://lea.verou.me/)** เจ้าของเดียวกับ [dabblet](https://armno.in.th/2012/03/12/dabblet-com-css-playground/) เลยทำ [prefixfree.js](https://leaverou.github.com/prefixfree/) ขึ้นมาเพื่อเป็นตัวจัดการกับ prefix ต่างๆ ให้ โดยที่เราเขียนแค่เวอร์ชั่น W3C standards ตัว prefixfree.js ก็จะใส่ prefix ให้เท่าที่จำเป็น ขึ้นอยู่กับ browser ที่ใช้ครับ
 
 ![prefix-free](images/8506629435_7bed3a069c_o.jpg)
 
@@ -51,4 +51,4 @@ url: /2012/03/18/prefixfree-js/
 
 พอไปรันใน browser ตัว prefixfree.js ก็จะเติม prefix ให้อัตโนมัติ ข้อดีก็คือ เราไม่ต้องไปจำ vendor prefix ที่ไม่ใช่มาตรฐานของ CSS3 ไม่ต้องเขียนให้เสียเวลา โค้ด CSS เราก็จะสั้นลงนิดหน่อย อีกอย่างก็คือ ดูไม่รกรุงรังเมื่อใช้ developer tools inspect ดูใน browser ครับ
 
-ข้อมูลอื่นๆ อ่านได้จาก [http://leaverou.github.com/prefixfree/](http://leaverou.github.com/prefixfree/) ครับ ลองใช้กันดูนะ
+ข้อมูลอื่นๆ อ่านได้จาก [https://leaverou.github.com/prefixfree/](https://leaverou.github.com/prefixfree/) ครับ ลองใช้กันดูนะ

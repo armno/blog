@@ -84,8 +84,8 @@ $ sass --watch style.scss:style.css --debug-info
 
 ### ดูเพิ่ม
 
-- [@import ของ Sass](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#import)
-- [Using Sass source maps in Webkit Inspector (bricss.net)](http://bricss.net/post/33788072565/using-sass-source-maps-in-webkit-inspector)
+- [@import ของ Sass](https://sass-lang.com/documentation/at-rules/import)
+- [Using Sass source maps in Webkit Inspector (bricss.net)](https://bricss.net/post/33788072565/using-sass-source-maps-in-webkit-inspector)
 
 #### ปล.
 

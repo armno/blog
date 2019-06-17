@@ -20,9 +20,9 @@ url: /2014/02/26/using-gulpjs-for-basic-build-process/
 - compile Sass/Less
 - run tests
 
-ขั้นตอนเหล่านี้เป็นส่วนหนึ่งของ build process ที่จำเป็นต้องทำซ้ำๆ อยู่ตลอดเวลา [Gulp](http://gulpjs.com) เป็นตัวช่วยรัน task เหล่านี้ให้อัตโนมัติในระหว่างที่เรากำลัง develop อยู่ได้ครับ (อารมณ์แบบเปิดบอทเวลาเล่นเกม) ซึ่งเรายังสามารถสร้างเงื่อนไขในการรันแต่ละ task ให้ต่างกันได้ด้วย
+ขั้นตอนเหล่านี้เป็นส่วนหนึ่งของ build process ที่จำเป็นต้องทำซ้ำๆ อยู่ตลอดเวลา [Gulp](https://gulpjs.com) เป็นตัวช่วยรัน task เหล่านี้ให้อัตโนมัติในระหว่างที่เรากำลัง develop อยู่ได้ครับ (อารมณ์แบบเปิดบอทเวลาเล่นเกม) ซึ่งเรายังสามารถสร้างเงื่อนไขในการรันแต่ละ task ให้ต่างกันได้ด้วย
 
-ถ้าใครใช้ [Grunt](http://gruntjs.com/) อยู่ก็จะพบว่าเป็น tool ลักษณะเดียวกัน เพียงแต่มีแนวคิดในการ config คนละแบบ และ gulp มี built-in watcher มาให้ตั้งแต่แรก
+ถ้าใครใช้ [Grunt](https://gruntjs.com/) อยู่ก็จะพบว่าเป็น tool ลักษณะเดียวกัน เพียงแต่มีแนวคิดในการ config คนละแบบ และ gulp มี built-in watcher มาให้ตั้งแต่แรก
 
 ![gulp logo](images/12794817294_bd522b5461_z.jpg)
 
@@ -104,7 +104,7 @@ gulp.task('default', function() {
 
 ทุกครั้งที่เรา save ไฟล์ `.sass` ใน directory 'sass' (รวมถึง sub-directory) gulp ก็จะรัน task css ซึ่ง compile Sass เป็น CSS ตาม directory ปลายทางที่ระบุไว้
 
-> `pipe()` ของ Gulp ก็คล้ายๆ กับ [pipe ของ Unix](http://en.wikipedia.org/wiki/Pipeline_(Unix)) เลยครับ รับ output ของ command แรกไปเป็น input ของ command ต่อไป (และต่อไปเรื่อยๆ)
+> `pipe()` ของ Gulp ก็คล้ายๆ กับ [pipe ของ Unix](https://en.wikipedia.org/wiki/Pipeline_(Unix)) เลยครับ รับ output ของ command แรกไปเป็น input ของ command ต่อไป (และต่อไปเรื่อยๆ)
 
 ## เพิ่ม task อีก
 

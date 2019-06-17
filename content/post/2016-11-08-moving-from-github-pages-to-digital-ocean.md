@@ -87,7 +87,7 @@ $ crontab -e
 
 หลักการทำงานของ webhooks ใน GitHub คือ ทุกครั้งที่เรา push code ขึ้นไปที่ repo GitHub ก็จะส่ง HTTP `POST` request ไปยัง URL ที่เรากำหนดไว้ พร้อมกับข้อมูลต่างๆ ของ commit นั้นๆ นั่นหมายความว่า ก่อนอื่นเราต้องมี URL ที่ว่านี้ก่อน หน้าที่ของ URL นี้ก็คือเป็นตัวรับข้อมูลผ่านทาง `POST` request นั่นเอง
 
-tool ที่ผมใช้คือ [jekyll-hook](https://github.com/developmentseed/jekyll-hook) เป็น web server ที่ทำจาก Express ร่วมกับ [pm2](http://pm2.keymetrics.io/) เป็นตัวจัดการ process ของ jekyll-hook อีกทีครับ
+tool ที่ผมใช้คือ [jekyll-hook](https://github.com/developmentseed/jekyll-hook) เป็น web server ที่ทำจาก Express ร่วมกับ [pm2](https://pm2.keymetrics.io/) เป็นตัวจัดการ process ของ jekyll-hook อีกทีครับ
 
 หน้าที่ของ jekyll-hook ก็คือ
 
