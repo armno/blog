@@ -1,21 +1,19 @@
 ---
 categories:
-- Life
+  - Life
 comments: true
 date: 2008-01-06T11:52:17Z
 slug: scopius-constellation
 tags:
-- กลุ่มดาว
-- กลุ่มดาวแมงป่อง
-- ทางช้างเผิอก
+  - กลุ่มดาว
+  - กลุ่มดาวแมงป่อง
+  - ทางช้างเผิอก
 title: กลุ่มดาวแมงป่อง
 url: /2008/01/06/scopius-constellation/
 wordpress_id: 30
 ---
 
 วันนี้มารู้จักกลุ่มดาวที่มีชื่อเสียงอีกกลุ่มดาวหนึ่งกันดีกว่าครับ นั่นคือ **กลุ่มดาวแมงป่อง (Scorpius)** นั่นเอง  กลุ่มดาวแมงป่องเป็นหนึ่งในกลุ่มดาวจักรราศรี  ประจำเดือนพฤศจิกายน  เป็นกลุ่มดาวทางซีกฟ้าใต้ครับ  ไปดูรูปกันก่อนดีกว่า
-
-
 
 [![scorpius](https://armno.in.th/wp-content/uploads/2008/01/scorpius-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/01/scorpius.jpg) [![scorpius2](https://armno.in.th/wp-content/uploads/2008/01/scorpius2-thumb.jpg)](https://armno.in.th/wp-content/uploads/2008/01/scorpius2.jpg)
 _กลุ่มดาวแมงป่อง จากโปรแกรม [Stellarium](https://armno.in.th/20071220/stellarium-review/)_
@@ -24,15 +22,6 @@ _กลุ่มดาวแมงป่อง จากโปรแกรม [S
 
 ดาวแมงป่องจะปรากฏบนท้องฟ้าตั้งแต่ประมาณเดือนกุมภาพันธ์  ไปจนถึงเดือนกันยายน  โดยเริ่มขึ้นจากทางทิศตะวันออกเฉียงใต้  โดยเอาหัวขึ้นก่อน  จากนั้นเมื่ออยู่กลางท้องฟ้า จะอยู่ตรงกับทิศใต้  โดยลำตัวขนานกับขอบฟ้า ไปจนตกขอบฟ้าครับ  ใช้บอกทิศใต้ได้ดีทีเดียว
 
-
-
- ![](http://www.rma-secondhand.com/The%20jewelry%20&%20zodiac/Scorpio_files/Scorpius.jpg)
-ภาพสวยๆจาก Kagaya Gallery
-
-
 อ้อ แมงป่องเป็นอริของ**[นายพราน](https://armno.in.th/20071209/orion-constellation/)**นะครับ ถ้าเห็นแมงป่อง ก็ไม่เห็นนายพราน
-
-
-
 
 ขอให้ทุกคนมีความสุขกับการดูดาวนะครับ
