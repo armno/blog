@@ -1,5 +1,5 @@
 ---
-cover-image: /img/posts/firefox-wifi-debug/cover.png
+cover-image: images/cover.png
 date: 2016-10-25T00:00:00Z
 description: Developer Tools ใน Firefox มี feature WebIDE ที่เราสามารถใช้ debug web
   app จาก Firefox บน Android ได้ผ่าน WiFi ถือว่าสะดวกดี มีขั้นตอนการ setup เพียงเล็กน้อยครับ
@@ -8,7 +8,7 @@ tags:
   - firefox
   - devtools
   - mobileweb
-thumbnail: https://armno.in.th/img/posts/firefox-wifi-debug/desktop-devtools-enabled.png
+thumbnail: images/desktop-devtools-enabled.png
 title: Debug Firefox บน Android ผ่าน Wi-Fi
 url: /2016/10/25/debugging-over-wifi-firefox-for-android/
 ---
@@ -25,7 +25,7 @@ Developer Tools ของ Firefox นั้นได้รับการพั�
   - แอพ [Barcode Scanner (ZXing Team)](https://play.google.com/store/apps/details?id=com.google.zxing.client.android)
 
 <div class="text-center">
-  <img src="/img/posts/firefox-wifi-debug/mobile-download-app.png" alt="download app Barcode Scanner จาก Play Store">
+  <img src="images/mobile-download-app.png" alt="download app Barcode Scanner จาก Play Store">
 </div>
 
 ## Firefox for Android
@@ -33,17 +33,17 @@ Developer Tools ของ Firefox นั้นได้รับการพั�
 กดปุ่ม menu แล้วเลือก **Settings** > **Advanced**
 
 <div class="text-center">
-  <img src="/img/posts/firefox-wifi-debug/mobile-firefox-menu.png" alt="กดปุ่ม menu แล้วเลือก Settings">
+  <img src="images/mobile-firefox-menu.png" alt="กดปุ่ม menu แล้วเลือก Settings">
 </div>
 
 <div class="text-center">
-  <img src="/img/posts/firefox-wifi-debug/mobile-firefox-settings.png" alt="จากเมนู Settings เลือก Advanced">
+  <img src="images/mobile-firefox-settings.png" alt="จากเมนู Settings เลือก Advanced">
 </div>
 
 เปิด **Remote debugging via Wi-Fi**
 
 <div class="text-center">
-  <img src="/img/posts/firefox-wifi-debug/mobile-firefox-dev-settings.png" alt="เปิดใช้งานตัวเลือก Remote debugging via Wi-Fi">
+  <img src="images/mobile-firefox-dev-settings.png" alt="เปิดใช้งานตัวเลือก Remote debugging via Wi-Fi">
 </div>
 
 ## Firefox Desktop
@@ -51,19 +51,19 @@ Developer Tools ของ Firefox นั้นได้รับการพั�
 เปิด WebIDE จากเมนู **Tools** > **Web Developer** > **WebIDE**
 
 <div class="text-center">
-  <img src="/img/posts/firefox-wifi-debug/desktop-webide.png" alt="เปิด WebIDE จากเมนู Tools > Web Developer > WebIDE">
+  <img src="images/desktop-webide.png" alt="เปิด WebIDE จากเมนู Tools > Web Developer > WebIDE">
 </div>
 
 ชื่อ device ที่เปิดตัวเลือก **Remote debugging via Wi-Fi** ไว้ ก็จะขึ้นมาอยู่ด้านขวามือของหน้าต่าง WebIDE
 
 <div class="text-center">
-  <img src="/img/posts/firefox-wifi-debug/desktop-devices-list.png" alt="ชื่อ device ที่เปิดตัวเลือก **Remote debugging via Wi-Fi** ไว้ ก็จะขึ้นมาอยู่ด้านขวามือของหน้าต่าง WebIDE">
+  <img src="images/desktop-devices-list.png" alt="ชื่อ device ที่เปิดตัวเลือก **Remote debugging via Wi-Fi** ไว้ ก็จะขึ้นมาอยู่ด้านขวามือของหน้าต่าง WebIDE">
 </div>
 
 พอคลิกเลือกที่ชื่อ device ในครั้งแรก WebIDE จะแสดงรูป QR Code ขึ้นมา
 
 <div class="text-center">
-  <img src="/img/posts/firefox-wifi-debug/desktop-scan-qr-code.png" alt="คลิกเลือกที่ชื่อ device ในครั้งแรก WebIDE จะแสดงรูป QR Code ขึ้นมา">
+  <img src="images/desktop-scan-qr-code.png" alt="คลิกเลือกที่ชื่อ device ในครั้งแรก WebIDE จะแสดงรูป QR Code ขึ้นมา">
 </div>
 
 ส่วนใน Firefox for Android ก็จะมี dialog ขึ้นมาถามว่า
@@ -71,14 +71,14 @@ Developer Tools ของ Firefox นั้นได้รับการพั�
 ก็เลือก Scan หรือ Scan and Remember ได้เลย จะได้ไม่ต้อง scan หลายรอบ
 
 <div class="text-center">
-  <img src="/img/posts/firefox-wifi-debug/mobile-permission-requests.png" alt="เลือก Scan หรือ Scan and Remember ได้เลย จะได้ไม่ต้อง scan หลายรอบ จาก dialog ใน Firefox for Android">
+  <img src="images/mobile-permission-requests.png" alt="เลือก Scan หรือ Scan and Remember ได้เลย จะได้ไม่ต้อง scan หลายรอบ จาก dialog ใน Firefox for Android">
 </div>
 
 พอ scan QR code แล้ว Developer Tools ของ WebIDE ก็จะใช้งาน debug web app ที่ Firefox for Android ได้ทันที
 ตรงซ้ายมือด้านล่าง จะแสดงชื่อ tab ที่เปิดทั้งหมดของ Firefox for Android ก็เลือกจิ้ม debug ได้ตามต้องการครับ
 
 <div class="text-center">
-  <img src="/img/posts/firefox-wifi-debug/desktop-devtools-enabled.png" alt="เลือก Scan หรือ Scan and Remember ได้เลย จะได้ไม่ต้อง scan หลายรอบ จาก dialog ใน Firefox for Android">
+  <img src="images/desktop-devtools-enabled.png" alt="เลือก Scan หรือ Scan and Remember ได้เลย จะได้ไม่ต้อง scan หลายรอบ จาก dialog ใน Firefox for Android">
 </div>
 
 Happy debugging ครับ

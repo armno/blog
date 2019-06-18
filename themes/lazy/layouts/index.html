@@ -9,7 +9,7 @@
     {{ if eq .Paginator.PageNumber 1 }}
     <div class="hero">
       <div class="home-page-photo">
-        <img src="/img/home1.jpg" alt="armno's photo">
+        <img src="/img/home-photo.jpg" alt="armno's photo">
       </div>
       <div class="home-page-text">
         <h1 class="hero-main-text">สวัสดี!,<br>I&rsquo;m Armno</h1>
@@ -34,18 +34,14 @@
           {{ range $paginator.Pages }}
           <article class="post-teaser">
             <div class="post-teaser__thumbnail {{ if not .Params.thumbnail }}no-thumbnail{{ end }}">
-              {{ if and (.Params.thumbnail) (hasPrefix .Params.thumbnail "http") }}
+              {{ if .Params.thumbnail }}
+              {{ $original :=  .Resources.GetMatch .Params.thumbnail }}
+              {{ .Scratch.Set "thumbnail" ($original.Resize "400x q90") }}
+              {{ $image := .Scratch.Get "thumbnail" }}
               <a class="post-link" href="{{ .Permalink }}">
-                <img class="lazy no-medium-zoom" data-src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                <img class="lazy no-medium-zoom" data-src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
                 <noscript>
-                  <img class="no-medium-zoom" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
-                </noscript>
-              </a>
-              {{ else if .Params.thumbnail }}
-              <a class="post-link" href="{{ .Permalink }}">
-                <img class="lazy no-medium-zoom" data-src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
-                <noscript>
-                  <img class="no-medium-zoom" src="{{ .Permalink }}{{ .Params.thumbnail }}" alt="{{ .Title }}">
+                  <img class="no-medium-zoom" src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
                 </noscript>
               </a>
               {{ end }}

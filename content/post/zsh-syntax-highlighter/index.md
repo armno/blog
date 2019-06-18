@@ -7,7 +7,7 @@ tags:
   - terminal
   - zsh
   - oh-my-zsh
-thumbnail: https://armno.in.th/img/posts/zsh-syntax-highlighter/after.png
+thumbnail: images/after.png
 title: zsh syntax highlighter
 url: /2016/04/12/zsh-syntax-highlighter/
 ---
@@ -16,19 +16,19 @@ url: /2016/04/12/zsh-syntax-highlighter/
 เช่น จากแบบนี้
 
 <div class="text-center">
-  <img src="/img/posts/zsh-syntax-highlighter/before.png" alt="ก่อน" width="375" height="74">
+  <img src="images/before.png" alt="ก่อน" width="375" height="74">
 </div>
 
 เป็นแบบนี้
 
 <div class="text-center">
-  <img src="/img/posts/zsh-syntax-highlighter/after.png" alt="หลัง" width="370" height="81">
+  <img src="images/after.png" alt="หลัง" width="370" height="81">
 </div>
 
 หรือถ้าพิมพ์ command ไม่ถูก (ไม่มีใน `$PATH`) ก็จะเป็นตัวแดงๆ แบบนี้ (จริงๆ จะเป็นสีอะไรนั้นแล้วแต่ theme ของ iTerm อีกที)
 
 <div class="text-center">
-  <img src="/img/posts/zsh-syntax-highlighter/invalid-command.png" alt="เวลาพิมพ์ผิด" width="304" height="76">
+  <img src="images/invalid-command.png" alt="เวลาพิมพ์ผิด" width="304" height="76">
 </div>
 
 ประโยชน์คือนอกจากจะสวยดีแล้ว ยังป้องกันการพิมพ์ command ผิดได้ดีมาก เพราะเราจะเห็นได้ทันทีตอนพิมพ์ถ้าหากเราพิมพ์ผิด จะได้แก้ก่อนกด enter ได้ทัน
