@@ -1,5 +1,5 @@
 ---
-cover-image: /img/posts/m50x/cover-ath-m50x.jpg
+cover-image: images/cover-ath-m50x.jpg
 date: 2015-08-04T00:00:00Z
 description: เปลี่ยนหูฟังใหม่เป็น Audio-Technica ATH-M50x ตอนนี้ก็ใช้งานมาประมาณ 3
   ปีกว่าๆ แล้ว ถือว่าเป็นหูฟังที่ผมชอบมากอีกตัวหนึ่ง จึงอยากสรุปประสบการณ์ + กึ่งๆ

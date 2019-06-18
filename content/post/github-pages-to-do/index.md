@@ -9,7 +9,7 @@ tags:
   - jekyll
   - github
   - letsencrypt
-thumbnail: https://armno.in.th/img/posts/move-from-github-to-digital-ocean/cert-info.png
+thumbnail: images/cert-info.png
 title: ย้าย Blog จาก GitHub Pages มาที่ DigitalOcean ตอน 1
 url: /2016/11/08/moving-from-github-pages-to-digital-ocean/
 ---
@@ -24,7 +24,7 @@ url: /2016/11/08/moving-from-github-pages-to-digital-ocean/
 เลยมีอยู่ช่วงนึงที่ผมปิด custom domain และเปลี่ยน URL จาก armno.in.th กลับไปเป็น armno.github.io เพียงเพื่อจุดประสงค์เดียว คือให้ใช้งานผ่าน HTTPS ได้ (แก้ปัญหาข้อ 2.) แต่ ณ ตอนนั้น GitHub Pages ยังไม่มี option `Enforce HTTPS` ทำให้เวลาเปิดเว็บจะสลับไปมาระหว่าง `http` กับ `https` ซึ่งดูแล้วก็แปลกๆ
 
 <div class="text-center">
-  <img src="/img/posts/move-from-github-to-digital-ocean/enforce-https-option.png" srcset="/img/posts/move-from-github-to-digital-ocean/enforce-https-option-2x.png 2x" alt="option enforce https ใน repo settings">
+  <img src="images/enforce-https-option.png" srcset="images/enforce-https-option-2x.png 2x" alt="option enforce https ใน repo settings">
 </div>
 
 อีกอย่างก็ยังแก้ปัญหาข้อ 1. ไม่ได้ ก็เลยคิดว่าอยากจะลองย้าย blog จาก GitHub Pages ไปอยู่บน server ที่เช่าเองที่ DigitalOcean ดู โดยหวังผลคือ
@@ -55,8 +55,8 @@ Droplet ที่สร้างใหม่บน DigitalOcean เลือก�
 - [How To Secure Nginx with Let's Encrypt on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04)
 
 <div class="text-center">
-  <img src="/img/posts/move-from-github-to-digital-ocean/letsencrypt-homepage.jpg"
-  srcset="/img/posts/move-from-github-to-digital-ocean/letsencrypt-homepage-2x.jpg 2x" alt="หน้า home page ของ letsencrypt">
+  <img src="images/letsencrypt-homepage.jpg"
+  srcset="images/letsencrypt-homepage-2x.jpg 2x" alt="หน้า home page ของ letsencrypt">
 </div>
 
 
@@ -76,8 +76,8 @@ $ crontab -e
 พอมาถึงตรงนี้ก็จะมีโดเมน armno.in.th ที่ใช้งานผ่าน HTTPS ได้ไปยาวๆ เลย ไม่ต้องกังวลว่าจะลืมต่ออายุ SSL ของ Let’s Encrypt ครับ
 
 <div class="text-center">
-  <img src="/img/posts/move-from-github-to-digital-ocean/cert-info.png"
-    srcset="/img/posts/move-from-github-to-digital-ocean/cert-info-2x.png 2x"
+  <img src="images/cert-info.png"
+    srcset="images/cert-info-2x.png 2x"
     alt="valid SSL ของ domain armno.in.th">
 </div>
 
@@ -100,7 +100,7 @@ tool ที่ผมใช้คือ [jekyll-hook](https://github.com/developm
 หลังจาก[ติดตั้ง](https://github.com/developmentseed/jekyll-hook#installation)และเริ่มใช้งาน jekyll-hook บน server แล้ว จึงไปตั้งค่า webhook ใน settings ของ repo
 
 <div class="text-center">
-  <img src="/img/posts/move-from-github-to-digital-ocean/webghook-settings.png" srcset="/img/posts/move-from-github-to-digital-ocean/webghook-settings-2x.png 2x" alt="Webhooks settings ของ repo">
+  <img src="images/webghook-settings.png" srcset="images/webghook-settings-2x.png 2x" alt="Webhooks settings ของ repo">
 </div>
 
 ทุกครั้งที่ผม push code ไปที่ master branch บน github repo รอเพียงไม่กี่วินาที blog ก็ update เหมือนตอนใช้ GitHub Pages ทุกประการ
@@ -110,7 +110,7 @@ tool ที่ผมใช้คือ [jekyll-hook](https://github.com/developm
 สร้างไฟล์ชื่อ CNAME ไว้ที่ root level ของ repo เพื่อให้ armno.github.io redirect ไปที่ armno.in.th ทำให้หน้าเพจเดิมๆ ที่ถูก google index ไว้ สามารถ redirect ไปที่ armno.in.th ได้อย่างถูกต้องครับ
 
 <div class="text-center">
-  <img src="/img/posts/move-from-github-to-digital-ocean/custom-domain.png" srcset="/img/posts/move-from-github-to-digital-ocean/custom-domain-2x.png 2x" alt="Custom domain settings ของ repo">
+  <img src="images/custom-domain.png" srcset="images/custom-domain-2x.png 2x" alt="Custom domain settings ของ repo">
 </div>
 
 ถึงตอนนี้ ก็ได้ระบบ blog เดิม ที่เพิ่มเติมคืออยู่บน server DigitalOcean แบบที่ต้องการแล้ว
