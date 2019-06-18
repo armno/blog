@@ -6,8 +6,8 @@ tags:
   - Book
   - User Experience
   - Review
-thumbnail: https://armno.in.th/img/posts/whitehat-ux/book-cover.jpg
-cover-image: /img/posts/whitehat-ux/cover.jpg
+thumbnail: images/book-cover.jpg
+cover-image: images/cover.jpg
 layout: wide
 ---
 
@@ -16,7 +16,7 @@ layout: wide
 (เคยเขียนแนะนำไว้[เมื่อก่อนนู้นน](https://armno.in.th/2010/03/24/dont-make-me-think-web-usability-book/))
 
 <p class="semi-full">
-  <img src="/img/posts/whitehat-ux/book-cover.jpg" alt="หน้าปก White Hat UX">
+  <img src="images/book-cover.jpg" alt="หน้าปก White Hat UX">
 </p>
 
 สำหรับ White Hat UX นี้จะต่างออกไปนิดหน่อย คือไม่ได้เป็นหนังสือ how-to เกี่ยวกับ UX Design โดยตรง
@@ -32,7 +32,7 @@ layout: wide
 โดยรวมๆ แล้วก็เป็นหนังสือที่ดีครับ เนื้อหาอาจจะไม่ลึกไปด้านใดด้านหนึ่งมากเท่าไหร่ แต่ก็ดีตรงที่ไม่ยืดเยื้อและอ่านง่าย และก็ทำให้มันเหมาะกับทุกสายงานที่เกี่ยวกับ web/software development ด้วยเหมือนกัน เนื้อหาส่วนที่เกี่ยวกับ privacy, ethical design ก็อ่านสนุกดีครับ
 
 <p class="semi-full">
-  <img src="/img/posts/whitehat-ux/book-cover-2.jpg" alt="รูปถ่ายปกด้านข้างหนังสือ White Hat UX">
+  <img src="images/book-cover-2.jpg" alt="รูปถ่ายปกด้านข้างหนังสือ White Hat UX">
 </p>
 
 ## ข้อมูลหนังสือ
@@ -43,13 +43,13 @@ layout: wide
 - ส่วนคุณภาพงานพิมพ์อยู่ในขั้นดีมากถึงมากที่สุด อยู่ระดับเดียวกับหนังสือเล่มอื่นของ Smashing Magazine กระดาษนวลมาก
 
 <p class="semi-full">
-  <img src="/img/posts/whitehat-ux/book-inside-3.jpg" alt="รูปถ่ายภายในหนังสือ White Hat UX">
+  <img src="images/book-inside-3.jpg" alt="รูปถ่ายภายในหนังสือ White Hat UX">
 </p>
 
 <p class="semi-full">
-  <img src="/img/posts/whitehat-ux/book-inside-1.jpg" alt="รูปถ่ายภายในหนังสือ White Hat UX">
+  <img src="images/book-inside-1.jpg" alt="รูปถ่ายภายในหนังสือ White Hat UX">
 </p>
 
 <p class="semi-full">
-  <img src="/img/posts/whitehat-ux/book-inside-2.jpg" alt="รูปถ่ายภายในหนังสือ White Hat UX">
+  <img src="images/book-inside-2.jpg" alt="รูปถ่ายภายในหนังสือ White Hat UX">
 </p>
