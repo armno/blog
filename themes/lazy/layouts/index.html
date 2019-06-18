@@ -34,14 +34,7 @@
           {{ range $paginator.Pages }}
           <article class="post-teaser">
             <div class="post-teaser__thumbnail {{ if not .Params.thumbnail }}no-thumbnail{{ end }}">
-              {{ if and (.Params.thumbnail) (hasPrefix .Params.thumbnail "http") }}
-              <a class="post-link" href="{{ .Permalink }}">
-                <img class="lazy no-medium-zoom" data-src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
-                <noscript>
-                  <img class="no-medium-zoom" src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
-                </noscript>
-              </a>
-              {{ else if .Params.thumbnail }}
+              {{ if .Params.thumbnail }}
               {{ $original :=  .Resources.GetMatch .Params.thumbnail }}
               {{ .Scratch.Set "thumbnail" ($original.Resize "400x q90") }}
               {{ $image := .Scratch.Get "thumbnail" }}
