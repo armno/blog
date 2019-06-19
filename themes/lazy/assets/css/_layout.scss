@@ -35,3 +35,34 @@ main,
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+main {
+  @include breakpoint(m) {
+    max-width: 720px;
+    flex-grow: 1;
+  }
+
+  @include breakpoint(l) {
+    max-width: 800px;
+  }
+}
+
+.content {
+  @include breakpoint(m) {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  @include breakpoint(l) {
+    max-width: 1440px;
+    justify-content: center;
+  }
+
+  &--home {
+    @include breakpoint(m) {
+      flex-direction: column;
+    }
+  }
+}

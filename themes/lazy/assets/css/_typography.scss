@@ -180,6 +180,10 @@ hr {
   margin: 4rem auto 4rem 0;
   height: 6px;
   background-color: var(--smoky-black);
+
+  @include breakpoint(m) {
+    width: 28%;
+  }
 }
 
 hr.right {

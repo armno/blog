@@ -1,0 +1,14 @@
+$viewport-m: 800px;
+$viewport-l: 1200px;
+
+@mixin breakpoint($name) {
+  @if ($name == m) {
+    @media (min-width: $viewport-m) {
+      @content;
+    }
+  } @else if ($name == l) {
+    @media (min-width: $viewport-l) {
+      @content;
+    }
+  }
+}
