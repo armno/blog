@@ -22,31 +22,7 @@
 
 @import 'normalize';
 @import 'fonts';
-
-/* overlay grid */
-body.grid-on {
-  position: relative;
-}
-
-body.grid-on::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 9;
-  content: '';
-  display: block;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.15),
-    rgba(0, 0, 0, 0.15) 1px,
-    transparent 1px,
-    transparent
-  );
-  background-size: 100% 26px;
-}
-
+@import 'layout';
 @import 'typography';
 
 /* utilities ¯\_(ツ)_/¯ */
@@ -116,10 +92,6 @@ body.grid-on::after {
   color: var(--harvard-crimson-red);
 }
 
-.sidebar {
-  display: none;
-}
-
 .comments {
   margin-top: calc(var(--bottom-space) * 3);
   margin-bottom: calc(var(--bottom-space) * 3);
@@ -169,19 +141,8 @@ body.grid-on::after {
   background-color: var(--facebook);
 }
 
-.site-header {
-  background-color: #fff;
-  margin-top: 26px;
-}
-
 .video-wrapper iframe {
   max-width: 100%;
-}
-
-main,
-.site-footer {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 /* Section: Pagination */
