@@ -1,0 +1,221 @@
+/* base font-size: 19px */
+/* line-height: 26.6px */
+
+* {
+  box-sizing: border-box;
+  line-height: 1.45;
+  margin-top: 0;
+  margin-bottom: var(--bottom-space);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  font-size: 118.75%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Boon, var(--sans-serif);
+  line-height: 1.5;
+  color: var(--smoky-black);
+}
+
+p,
+ul,
+ol {
+  max-width: 32em;
+}
+
+ul,
+ol {
+  margin-bottom: var(--bottom-space);
+  padding-left: 1.5rem;
+  list-style: none;
+}
+
+li > ul,
+li > ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0;
+}
+
+ol > li {
+  counter-increment: listCounter;
+  position: relative;
+}
+
+ol > li::before {
+  content: counter(listCounter, decimal-leading-zero) '.';
+  position: absolute;
+  left: -1.75em;
+  font-weight: bold;
+  font-size: 0.85em;
+  color: var(--harvard-crimson-red);
+}
+
+ul li {
+  position: relative;
+}
+
+ul:not(.no-list-style):not(.pagination) > li::before {
+  content: ' ';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: -1em;
+  top: 0.5em;
+  background-color: var(--harvard-crimson-red);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Anakotmai, var(--sans-serif);
+  font-weight: 700;
+  color: var(--smoky-black);
+}
+
+h1 {
+  line-height: 1.1;
+  margin-top: calc(var(--bottom-space) * 3);
+  margin-bottom: calc(var(--bottom-space) * 2);
+}
+
+h2 {
+  line-height: 1.1;
+  margin-top: calc(var(--bottom-space) * 2);
+  margin-bottom: var(--bottom-space);
+}
+
+h3 {
+  line-height: calc(var(--bottom-space) * 1.5);
+  margin-top: calc(var(--bottom-space) * 2);
+  margin-bottom: var(--bottom-space);
+}
+
+h4 {
+  line-height: var(--bottom-space);
+  margin-top: var(--bottom-space);
+  margin-bottom: calc(var(--bottom-space) * 0.5);
+}
+
+h5,
+h6 {
+  line-height: var(--bottom-space);
+  margin-top: var(--bottom-space);
+  margin-bottom: 0;
+}
+
+/* perfect-fifth scale */
+h1 {
+  font-size: 3.375rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+figcaption {
+  font-size: 0.75rem;
+}
+
+small {
+  font-size: 0.5rem;
+}
+
+img,
+div,
+.nav,
+.nav-link {
+  margin-bottom: 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  word-break: break-all;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: var(--light-gray);
+}
+
+hr {
+  border: 0;
+  width: 40%;
+  margin: 4rem auto 4rem 0;
+  height: 6px;
+  background-color: var(--smoky-black);
+}
+
+hr.right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+code,
+kbd,
+samp {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9em;
+  background-color: var(--light-gray);
+  padding: 2px 5px;
+}
+
+mark {
+  background-color: var(--gold);
+  padding: 0 3px;
+}
+
+pre {
+  white-space: pre-wrap;
+  padding: 1em;
+}
+
+pre code {
+  background-color: transparent;
+}
+
+blockquote {
+  margin: 0 0 26px;
+  padding: 26px 26px;
+  background-color: var(--light-gray);
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
