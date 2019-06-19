@@ -1,16 +1,16 @@
 ---
 categories:
-- Life
+  - Life
 comments: true
 date: 2008-05-04T02:51:12Z
 slug: moon-and-mars-transition
 tags:
-- Google
-- Google Mars
-- Google Moon
-- transit
-- ดวงจันทร์
-- ดาวอังคาร
+  - Google
+  - Google Mars
+  - Google Moon
+  - transit
+  - ดวงจันทร์
+  - ดาวอังคาร
 title: ดวงจันทร์บังดาวอังคาร 10 พฤษภาคม นี้
 url: /2008/05/04/moon-and-mars-transition/
 wordpress_id: 42
@@ -26,14 +26,14 @@ wordpress_id: 42
 
 สำหรับผมแล้ว ไม่แน่ใจว่าคืนวันที่ 10 จะมีโอกาสได้ดูหรือเปล่า เพราะอาจต้องนั่งรถกลับบ้านในคืนนั้นครับ แต่เหตุผลสำคัญอีกประการที่จะทำให้ผมพลาด ก็คือการ "ลืม" นั่นเอง ชอบเป็นปลาทองอยู่เรื่อยเลย
 
-ท่องเน็ตไปเพลินๆ หารูปดวงจันทร์อยู่ ดันไปเจอกับเจ้านี่ครับ **[Google Moon](http://www.google.com/moon)**
+ท่องเน็ตไปเพลินๆ หารูปดวงจันทร์อยู่ ดันไปเจอกับเจ้านี่ครับ **[Google Moon](https://www.google.com/moon)**
 
-[![](http://www.google.com/moon/images/moon_res_logo.gif)](http://www.google.com/moon)
+![google moon logo](images/moon_res_logo.gif)
 
-เป็น **[Google Map](http://maps.google.com/)** บนดวงจันทร์ครับ ภาพก็ละเอียดดี มีข้อมูลยานอะพอลโลด้วย ลองไปเล่นกันดูนะครับ แล้วก็นี่อีกอันคล้ายๆกัน **[Google Mars](http://www.google.com/mars)**
+เป็น **[Google Map](https://maps.google.com/)** บนดวงจันทร์ครับ ภาพก็ละเอียดดี มีข้อมูลยานอะพอลโลด้วย ลองไปเล่นกันดูนะครับ แล้วก็นี่อีกอันคล้ายๆกัน **[Google Mars](http://www.google.com/mars)**
 
-[![](http://www.google.com/mars/images/logo_labs_mars.gif)](http://www.google.com/mars)
+![google mars logo](images/logo_labs_mars.gif)
 
-แต่ **Google Mars** ยังอยู่ใน **[LABS](http://labs.google.com/)** อยู่เลย ในส่วนของ **Google Mars** นี้ยังไม่ค่อยมีข้อมูลรายละเอียดเท่าใดนัก แต่ก็พอเล่นได้เพลินๆล่ะครับ (ขออภัยที่ไม่ได้เก็บ Screenshot มาให้ดูเป็นตัวอย่างนะครับ พอดีมีข้อจำกัดด้านเวลา ;-)
+แต่ **Google Mars** ยังอยู่ใน **[LABS](https://labs.google.com/)** อยู่เลย ในส่วนของ **Google Mars** นี้ยังไม่ค่อยมีข้อมูลรายละเอียดเท่าใดนัก แต่ก็พอเล่นได้เพลินๆล่ะครับ (ขออภัยที่ไม่ได้เก็บ Screenshot มาให้ดูเป็นตัวอย่างนะครับ พอดีมีข้อจำกัดด้านเวลา ;-)
 
 ช่วงนี้อากาศเปลี่ยนแปลงบ่อย เดี๋ยวร้อน เดี๋ยวฝน ยังไงก็รักษาสุขภาพกันด้วยนะครับ
