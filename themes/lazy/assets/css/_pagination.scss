@@ -1,0 +1,28 @@
+/* Section: Pagination */
+.pagination {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.page-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.page-item.disabled .page-link {
+  text-decoration: none;
+  color: $light-gray;
+}
+
+.page-item.active .page-link {
+  font-weight: bold;
+  text-decoration: none;
+}

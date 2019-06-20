@@ -1,0 +1,44 @@
+.post-aside {
+  font-size: 1rem;
+}
+
+.post-aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section: Sidebar */
+.author-avatar {
+  display: block;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 26px;
+}
+
+.author {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 26px;
+}
+
+.author-name {
+  font-weight: bold;
+  color: $smoky-black;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.author-name::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 2px;
+  background-color: $harvard-crimson-red;
+  bottom: -1.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -5,7 +5,7 @@
   box-sizing: border-box;
   line-height: 1.45;
   margin-top: 0;
-  margin-bottom: var(--bottom-space);
+  margin-bottom: $bottom-space;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,9 +18,9 @@ html {
 }
 
 body {
-  font-family: Boon, var(--sans-serif);
+  font-family: Boon, $sans-serif;
   line-height: 1.5;
-  color: var(--smoky-black);
+  color: $smoky-black;
 }
 
 p,
@@ -31,7 +31,7 @@ ol {
 
 ul,
 ol {
-  margin-bottom: var(--bottom-space);
+  margin-bottom: $bottom-space;
   padding-left: 1.5rem;
   list-style: none;
 }
@@ -56,7 +56,7 @@ ol > li::before {
   left: -1.75em;
   font-weight: bold;
   font-size: 0.85em;
-  color: var(--harvard-crimson-red);
+  color: $harvard-crimson-red;
 }
 
 ul li {
@@ -72,46 +72,46 @@ ul:not(.no-list-style):not(.pagination) > li::before {
   position: absolute;
   left: -1em;
   top: 0.5em;
-  background-color: var(--harvard-crimson-red);
+  background-color: $harvard-crimson-red;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: Anakotmai, var(--sans-serif);
+  font-family: Anakotmai, $sans-serif;
   font-weight: 700;
-  color: var(--smoky-black);
+  color: $smoky-black;
 }
 
 h1 {
   line-height: 1.1;
-  margin-top: calc(var(--bottom-space) * 3);
-  margin-bottom: calc(var(--bottom-space) * 2);
+  margin-top: $bottom-space * 3;
+  margin-bottom: $bottom-space * 2;
 }
 
 h2 {
   line-height: 1.1;
-  margin-top: calc(var(--bottom-space) * 2);
-  margin-bottom: var(--bottom-space);
+  margin-top: $bottom-space * 2;
+  margin-bottom: $bottom-space;
 }
 
 h3 {
-  line-height: calc(var(--bottom-space) * 1.5);
-  margin-top: calc(var(--bottom-space) * 2);
-  margin-bottom: var(--bottom-space);
+  line-height: $bottom-space * 1.5;
+  margin-top: $bottom-space * 2;
+  margin-bottom: $bottom-space;
 }
 
 h4 {
-  line-height: var(--bottom-space);
-  margin-top: var(--bottom-space);
-  margin-bottom: calc(var(--bottom-space) * 0.5);
+  line-height: $bottom-space;
+  margin-top: $bottom-space;
+  margin-bottom: $bottom-space * 0.5;
 }
 
 h5,
 h6 {
-  line-height: var(--bottom-space);
-  margin-top: var(--bottom-space);
+  line-height: $bottom-space;
+  margin-top: $bottom-space;
   margin-bottom: 0;
 }
 
@@ -153,6 +153,11 @@ strong {
 
 a {
   color: inherit;
+  transition: color 0.15s ease-out;
+
+  &:hover {
+    color: $harvard-crimson-red;
+  }
 }
 
 img {
@@ -171,7 +176,7 @@ figure {
 
 figcaption {
   font-size: 0.9em;
-  color: var(--light-gray);
+  color: $light-gray;
 }
 
 hr {
@@ -179,7 +184,11 @@ hr {
   width: 40%;
   margin: 4rem auto 4rem 0;
   height: 6px;
-  background-color: var(--smoky-black);
+  background-color: $smoky-black;
+
+  @include medium() {
+    width: 28%;
+  }
 }
 
 hr.right {
@@ -192,12 +201,12 @@ kbd,
 samp {
   font-family: 'Roboto Mono', monospace;
   font-size: 0.9em;
-  background-color: var(--light-gray);
+  background-color: $light-gray;
   padding: 2px 5px;
 }
 
 mark {
-  background-color: var(--gold);
+  background-color: $gold;
   padding: 0 3px;
 }
 
@@ -213,9 +222,76 @@ pre code {
 blockquote {
   margin: 0 0 26px;
   padding: 26px 26px;
-  background-color: var(--light-gray);
+  background-color: $light-gray;
 }
 
 blockquote p:last-child {
   margin-bottom: 0;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.page-title {
+  word-break: break-word;
+  font-size: 2.25rem;
+
+  @include medium() {
+    font-size: 3.375rem;
+  }
+}
+
+/* hugo-generated footnote */
+.footnote {
+  font-size: 0.9em;
+}
+
+.message--warning {
+  background-color: $light-gold;
+  margin-top: 52px;
+  margin-bottom: 52px;
+  padding: 26px;
+  /* same paddings as `blockquote` */
+}
+
+/* anchor links to heading tags */
+.heading-linked {
+  position: relative;
+  margin-left: 1em;
+
+  @include medium() {
+    margin-left: 0;
+  }
+}
+
+.heading-anchor {
+  position: absolute;
+  left: -1.1em;
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: normal;
+  text-decoration: none;
+  font-weight: normal;
+  line-height: 1;
+  color: $harvard-crimson-red;
+  opacity: 0.6;
+  transition: opacity 0.2s ease-out;
+
+  @include medium() {
+    top: 0.1em;
+  }
+}
+
+h2 > .heading-anchor {
+  top: 0.1em;
+}
+
+h3 > .heading-anchor {
+  top: 0.3em;
+}
+
+.heading-anchor:hover {
+  opacity: 1;
 }

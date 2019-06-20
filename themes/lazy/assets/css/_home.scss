@@ -1,0 +1,92 @@
+.home-blog-title {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 4rem 0;
+}
+
+.home-blog-title .page-number {
+  color: $gainsboro;
+  font-size: 0.75em;
+  font-weight: normal;
+}
+
+.home-articles {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Section: Hero section on home page */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include medium() {
+    height: calc(100vh - 100px - 74px);
+    width: 75vw;
+    flex-direction: row;
+  }
+
+  & > div {
+    @include medium() {
+      width: 50%;
+    }
+
+    &:first-child {
+      margin-right: 2rem;
+    }
+
+    &:last-child {
+      margin-left: 2rem;
+    }
+  }
+}
+
+.hero-text {
+  margin: auto;
+}
+
+.hero-main-text {
+  line-height: 1.1;
+}
+
+.hero-main-text br {
+  line-height: 0;
+}
+
+.home-page-photo {
+  text-align: center;
+  margin-top: 52px;
+  @include medium() {
+    text-align: right;
+    margin-top: 0;
+  }
+}
+
+.home-page-photo img {
+  width: 60%;
+  min-width: 300px;
+}
+
+.home-page-text {
+  text-align: center;
+
+  @include medium() {
+    text-align: left;
+  }
+}
+
+.hero-sub-text {
+  @include medium() {
+    width: 80%;
+  }
+}
