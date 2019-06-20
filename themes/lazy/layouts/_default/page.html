@@ -3,11 +3,12 @@
 {{ partial "head.html" . }}
 
 <body>
+  {{ partial "skip-to-content.html" . }}
   <header class="site-header">
     {{ partial "nav.html" (dict "context" . "pageName" .Params.activeMenu) }}
   </header>
   <div class="content content--home">
-    <main class="main-content main-content--no-sidebar">
+    <main id="main" class="main-content main-content--no-sidebar">
       <article>
         <header>
           <h1 class="page-title">{{ .Title }}</h1>

@@ -243,3 +243,18 @@ $bottom-space: 26px;
     margin-bottom: 5rem;
   }
 }
+
+.skip-to-content-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 0.75rem;
+  padding: 1em 2em;
+  background-color: $harvard-crimson-red;
+  color: #fff;
+  transform: translateY(-100%);
+
+  &:focus {
+    transform: translateY(0);
+  }
+}

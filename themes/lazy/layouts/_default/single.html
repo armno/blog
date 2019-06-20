@@ -2,6 +2,7 @@
 <html class="no-js" lang="th">
 {{ partial "head.html" . }}
 <body>
+  {{ partial "skip-to-content.html" . }}
   <header class="site-header">
     {{ partial "nav.html" (dict "context" . "pageName" "post") }}
   </header>
@@ -17,7 +18,7 @@
     </div>
   </aside>
 
-  <main class="main-content">
+  <main id="main" class="main-content">
     <article class="single">
       <header>
         <h1 class="page-title">{{ .Title }}</h1>
