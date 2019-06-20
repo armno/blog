@@ -91,6 +91,6 @@ body.grid-on {
 }
 
 .comments {
-  margin-top: calc($bottom-space * 3);
-  margin-bottom: calc($bottom-space * 3);
+  margin-top: $bottom-space * 3;
+  margin-bottom: $bottom-space * 3;
 }

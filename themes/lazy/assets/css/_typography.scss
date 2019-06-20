@@ -86,26 +86,26 @@ h4 {
 
 h1 {
   line-height: 1.1;
-  margin-top: calc($bottom-space * 3);
-  margin-bottom: calc($bottom-space * 2);
+  margin-top: $bottom-space * 3;
+  margin-bottom: $bottom-space * 2;
 }
 
 h2 {
   line-height: 1.1;
-  margin-top: calc($bottom-space * 2);
+  margin-top: $bottom-space * 2;
   margin-bottom: $bottom-space;
 }
 
 h3 {
-  line-height: calc($bottom-space * 1.5);
-  margin-top: calc($bottom-space * 2);
+  line-height: $bottom-space * 1.5;
+  margin-top: $bottom-space * 2;
   margin-bottom: $bottom-space;
 }
 
 h4 {
   line-height: $bottom-space;
   margin-top: $bottom-space;
-  margin-bottom: calc($bottom-space * 0.5);
+  margin-bottom: $bottom-space * 0.5;
 }
 
 h5,
