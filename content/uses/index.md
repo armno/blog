@@ -64,9 +64,11 @@ Desk Setup: เลือกใช้ MacBook Pro แต่ใช้ keyboard ก
 
 {{< picture-lazy wrapper-class="semi-full" src="images/laptop-1.jpg" alt="2016, 13-inch MacBook Pro" ratio="3-2" >}}
 
-- Custom mechanical keyboard ขนาด 60% ที่ทำใช้เอง เขียนบันทึกไว้ที่[โพสต์นี้](https://armno.in.th/2019/05/01/custom-mechanical-keyboard-build-2/)
+- Custom mechanical keyboard ขนาด 60% ที่ทำใช้เอง เขียนบันทึกไว้ที่[โพสต์นี้](https://armno.in.th/2019/05/01/custom-mechanical-keyboard-build-2/) (ตอนนี้ตัวที่ใช้คือรูปที่ 2)
 
 {{< picture-lazy wrapper-class="semi-full" src="images/keyboard.jpg" alt="custom mechanical keyboard" ratio="3-2" >}}
+
+{{< picture-lazy wrapper-class="semi-full" src="images/m4.jpg" alt="custom mechanical keyboard mark 4" ratio="4-3" >}}
 
 - Apple Magic Mouse ของออฟฟิศ ที่เลือกใช้เพราะเป็นเมาส์ไม่กี่ตัวในออฟฟิศที่เป็น bluetooth mouse และไม่ต้องต่อ receiver ไม่ชอบเท่าไหร่เพราะเปลืองถ่านมาก
 
