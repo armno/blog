@@ -1,0 +1,27 @@
+.nav-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 1em;
+  margin-right: 1em;
+  position: relative;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.75rem;
+  font-family: Boon, $sans-serif;
+}
+
+.nav-link.active {
+  font-weight: 700;
+  color: $harvard-crimson-red;
+}

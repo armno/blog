@@ -42,13 +42,13 @@ body.grid-on {
   margin-top: 26px;
 }
 
-main,
+.main-content,
 .site-footer {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-main {
+.main-content {
   @include breakpoint(m) {
     max-width: 720px;
     flex-grow: 1;
@@ -57,6 +57,17 @@ main {
   @include breakpoint(l) {
     max-width: 800px;
   }
+}
+
+.main-content--no-sidebar {
+  @include breakpoint(m) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.main--home {
+  max-width: none;
 }
 
 .content {
@@ -77,4 +88,9 @@ main {
       flex-direction: column;
     }
   }
+}
+
+.comments {
+  margin-top: calc($bottom-space * 3);
+  margin-bottom: calc($bottom-space * 3);
 }

@@ -153,6 +153,11 @@ strong {
 
 a {
   color: inherit;
+  transition: color 0.15s ease-out;
+
+  &:hover {
+    color: $harvard-crimson-red;
+  }
 }
 
 img {
@@ -222,4 +227,71 @@ blockquote {
 
 blockquote p:last-child {
   margin-bottom: 0;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.page-title {
+  word-break: break-word;
+  font-size: 2.25rem;
+
+  @include breakpoint(m) {
+    font-size: 3.375rem;
+  }
+}
+
+/* hugo-generated footnote */
+.footnote {
+  font-size: 0.9em;
+}
+
+.message--warning {
+  background-color: $light-gold;
+  margin-top: 52px;
+  margin-bottom: 52px;
+  padding: 26px;
+  /* same paddings as `blockquote` */
+}
+
+/* anchor links to heading tags */
+.heading-linked {
+  position: relative;
+  margin-left: 1em;
+
+  @include breakpoint(m) {
+    margin-left: 0;
+  }
+}
+
+.heading-anchor {
+  position: absolute;
+  left: -1.1em;
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: normal;
+  text-decoration: none;
+  font-weight: normal;
+  line-height: 1;
+  color: $harvard-crimson-red;
+  opacity: 0.6;
+  transition: opacity 0.2s ease-out;
+
+  @include breakpoint(m) {
+    top: 0.1em;
+  }
+}
+
+h2 > .heading-anchor {
+  top: 0.1em;
+}
+
+h3 > .heading-anchor {
+  top: 0.3em;
+}
+
+.heading-anchor:hover {
+  opacity: 1;
 }
