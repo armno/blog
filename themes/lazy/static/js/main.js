@@ -1,4 +1,10 @@
 (function() {
+  document.addEventListener('DOMContentLoaded', function() {
+    mediumZoom('img:not(.no-medium-zoom)');
+    createAnchorLinks();
+    observeComments();
+  });
+
   function appendAnchor(element) {
     const a = document.createElement('a');
     const currentURL = document.location.href;
@@ -10,9 +16,7 @@
     element.appendChild(a);
   }
 
-  document.addEventListener('DOMContentLoaded', function() {
-    mediumZoom('img:not(.no-medium-zoom)');
-
+  function createAnchorLinks() {
     const articles = document.querySelector('article.single');
     if (!articles) {
       return;
@@ -21,5 +25,53 @@
     articles.querySelectorAll('h2, h3').forEach(function(element) {
       appendAnchor(element);
     });
-  });
+  }
+
+  function observeComments() {
+    const commentsElement = document.querySelector('#comments');
+    if (!commentsElement) {
+      return;
+    }
+
+    const observerOptions = {
+      root: null,
+      rootMargin: '50px 0px',
+      threshold: 0
+    };
+
+    const pageURL = commentsElement.getAttribute('data-page-url');
+    const identifier = commentsElement.getAttribute('data-identifier');
+
+    let loaded = false;
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (loaded) {
+          return;
+        }
+
+        if (entry.isIntersecting) {
+          loaded = true;
+          loadDisqus(pageURL, identifier);
+        }
+      });
+    }, observerOptions);
+
+    observer.observe(commentsElement);
+  }
+
+  function loadDisqus(pageURL, id) {
+    window.disqus_config = function() {
+      this.page.url = pageURL;
+      this.page.identifier = id;
+    };
+
+    (function() {
+      // DON'T EDIT BELOW THIS LINE
+      var d = document,
+        s = d.createElement('script');
+      s.src = 'https://armnointh.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  }
 })();
