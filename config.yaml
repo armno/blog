@@ -8,10 +8,10 @@ theme: lazy
 paginate: 12
 permalinks:
   post: /:year/:month/:day/:slug/
-pygmentsStyle: "dracula"
+pygmentsStyle: 'dracula'
 pygmentsCodefences: true
 ignoreFiles:
-  - "_drafts"
+  - '_drafts'
 blackfriday:
   extensionsmask:
     - noIntraEmphasis
@@ -20,8 +20,8 @@ related:
   includeNewer: true
   toLower: true
   indices:
-  - name: keywords
-    weight: 100
-  - name: date
-    weight: 10
+    - name: tags
+      weight: 100
+    - name: date
+      weight: 10
 enableGitInfo: true
