@@ -10,7 +10,7 @@
     element.appendChild(a);
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', function() {
     mediumZoom('img:not(.no-medium-zoom)');
 
     const articles = document.querySelector('article.single');
@@ -18,8 +18,8 @@
       return;
     }
 
-    articles
-      .querySelectorAll('h2, h3')
-      .forEach(element => appendAnchor(element));
+    articles.querySelectorAll('h2, h3').forEach(function(element) {
+      appendAnchor(element);
+    });
   });
 })();
