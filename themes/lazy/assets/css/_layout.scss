@@ -24,7 +24,7 @@ body.grid-on {
 .sidebar {
   display: none;
 
-  @include breakpoint(m) {
+  @include medium() {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,18 +49,18 @@ body.grid-on {
 }
 
 .main-content {
-  @include breakpoint(m) {
+  @include medium() {
     max-width: 720px;
     flex-grow: 1;
   }
 
-  @include breakpoint(l) {
+  @include large() {
     max-width: 800px;
   }
 }
 
 .main-content--no-sidebar {
-  @include breakpoint(m) {
+  @include medium() {
     margin-left: auto;
     margin-right: auto;
   }
@@ -71,20 +71,20 @@ body.grid-on {
 }
 
 .content {
-  @include breakpoint(m) {
+  @include medium() {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: row;
   }
-  @include breakpoint(l) {
+  @include large() {
     max-width: 1440px;
     justify-content: center;
   }
 
   &--home {
-    @include breakpoint(m) {
+    @include medium() {
       flex-direction: column;
     }
   }

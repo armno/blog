@@ -30,14 +30,14 @@
   margin-left: auto;
   margin-right: auto;
 
-  @include breakpoint(m) {
+  @include medium() {
     height: calc(100vh - 100px - 74px);
     width: 75vw;
     flex-direction: row;
   }
 
   & > div {
-    @include breakpoint(m) {
+    @include medium() {
       width: 50%;
     }
 
@@ -66,7 +66,7 @@
 .home-page-photo {
   text-align: center;
   margin-top: 52px;
-  @include breakpoint(m) {
+  @include medium() {
     text-align: right;
     margin-top: 0;
   }
@@ -80,13 +80,13 @@
 .home-page-text {
   text-align: center;
 
-  @include breakpoint(m) {
+  @include medium() {
     text-align: left;
   }
 }
 
 .hero-sub-text {
-  @include breakpoint(m) {
+  @include medium() {
     width: 80%;
   }
 }
