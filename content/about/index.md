@@ -16,6 +16,8 @@ I also enjoy digging into frontend performance and web animations.
 
 Beside web development, I am also into books, photography, [building mechanical keyboards](https://armno.in.th/2017/08/20/building-custom-mechanical-keyboard/) and [road bike cycling](https://www.strava.com/athletes/3637623).
 
+My favorite color is matte black.
+
 ## Contact Info
 
 If you want to contact me for anything, please send me an [email](mailto:monkeyarmno@gmail.com).
