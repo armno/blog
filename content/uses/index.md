@@ -101,3 +101,7 @@ Desk Setup: เลือกใช้ MacBook Pro แต่ใช้ keyboard ก
 - จักรยาน [Canyon Endurace CF SL ปี 2018](https://armno.in.th/2019/01/28/ordering-a-canyon-bike-review/) &ndash; ถึงไม่ได้เป็นอุปกรณ์ทำงาน แต่ก็เป็นส่วนสำคัญในชีวิตประจำวันเหมือนกัน ทั้งปั่นไปทำงาน (เป็นบางวัน) และปั่นออกกำลังกายด้วย
 
 {{< picture-lazy wrapper-class="semi-full" src="images/bike.jpg" alt="Canyon Endurace CF SL 2018" ratio="3-2" >}}
+
+ทั้งหมดก็ประมาณนี้ครับ ที่เหลือก็เลือกใช้ตามหน้างานที่ได้รับมา
+
+ใครมีเครื่องไม้เครื่องมืออะไรแปลกๆ ประจำตัวมาแนะนำกันได้นะ
