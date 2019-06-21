@@ -24,6 +24,8 @@ thumbnail: images/laptop-1.jpg
   - [EditorConfig](https://github.com/editorconfig/editorconfig-vscode)
   - [ESLint](https://github.com/Microsoft/vscode-eslint)
   - [Prettier](https://github.com/prettier/prettier-vscode)
+  - [IntelliCode](https://github.com/MicrosoftDocs/intellicode)
+  - [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme)
 - [Vim](https://www.vim.org/) เป็น editor สำหรับไว้ใช้เวลาต้องแก้ไฟล์ใน terminal
   - [`.vimrc`](https://github.com/armno/dotfiles/blob/master/.vimrc) config และ plugin ของ Vim ที่ใช้ (ใช้ Vundle จัดการ plugin)
 - [iTerm2](https://www.iterm2.com/version3.html) ร่วมกับ
@@ -53,7 +55,7 @@ thumbnail: images/laptop-1.jpg
 - [LastPass](https://lastpass.com) Password Manager
 - Google Photos
 
------
+---
 
 ## Hardware
 
@@ -85,7 +87,6 @@ Desk Setup: เลือกใช้ MacBook Pro แต่ใช้ keyboard ก
 - สมุดธรรมดาของออฟฟิศ ปากกา Muji สีดำ (0.38), แดง (0.5)
 
 {{< picture-lazy wrapper-class="semi-full" src="images/pens.jpg" alt="muji pens" ratio="3-2" >}}
-
 
 ### อื่นๆ {#other}
 
