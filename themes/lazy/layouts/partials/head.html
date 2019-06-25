@@ -62,7 +62,7 @@
   {{ end }}
 
   <!-- ignore tags page from being indexed -->
-  {{ if and (eq .Kind "taxonomy") (eq .Type "tags")}}
+  {{ if or (eq .Type "tags") (eq .Type "categories") }}
   <meta name="robots" content="noindex, follow">
   {{ else }}
   <meta name="robots" content="index, follow">
