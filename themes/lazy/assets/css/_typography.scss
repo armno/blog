@@ -230,6 +230,11 @@ blockquote p:last-child {
   margin-bottom: 0;
 }
 
+del {
+  color: #919eab;
+  font-style: italic;
+}
+
 .lead {
   font-size: 1.25rem;
   line-height: 1.2;
