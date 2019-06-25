@@ -61,8 +61,6 @@
   <meta name="twitter:description" content="{{ . }}">
   {{ end }}
 
-  <meta name="google-site-verification" content="YJ93aLrmjImM0gYP8OK-YqQ_9UmNYNj-7UOu2FGQfPo">
-
   <!-- ignore tags page from being indexed -->
   {{ if and (eq .Kind "taxonomy") (eq .Type "tags")}}
   <meta name="robots" content="noindex, follow">
