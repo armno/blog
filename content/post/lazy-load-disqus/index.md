@@ -3,7 +3,7 @@ title: "ลองใช้ IntersectionObserver โหลด Disqus Comments"
 date: 2019-06-26T20:25:44+07:00
 url: /2019/06/26/lazy-load-disqus
 description: ใช้ IntersectionObserver เพื่อ lazy load Disqus comment เมื่อ scroll ลงไปถึงด้านล่างของโพสต์
-thumbnail: images/before.png
+thumbnail: images/before.jpg
 tags:
 - JavaScript
 - performance
@@ -22,7 +22,7 @@ tags:
 
 {{< picture-lazy
   wrapper-class="semi-full"
-  src="images/before.png"
+  src="images/before.jpg"
   alt="before"
   ratio="16-10"
 >}}
@@ -211,7 +211,7 @@ resource ของ Disqus จะถูกโหลดเมื่อ scroll ล�
 </video>
 
 ลองใช้ Lighthouse audit ดู (Mobile, 4G, 4x CPU slowdown) ผลออกมาไม่ห่างกันมาก แต่ที่น่าสนใจคือตรงที่ล้อมกรอบไว้
-การไม่โหลด Disqus ตั้งแต่แรก ลดเวลา Time to Interactive กับ Max Potential First Input Delay ได้นิดหน่อย
+การไม่โหลด Disqus ตั้งแต่แรก ลดเวลา [Time to Interactive](https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive) กับ Max Potential [First Input Delay](https://developers.google.com/web/updates/2018/05/first-input-delay) ได้นิดหน่อย
 เพราะ CPU ทำงานน้อยลงกว่าเดิม
 
 {{< picture-lazy

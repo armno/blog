@@ -266,6 +266,11 @@ del {
   margin-bottom: 52px;
   padding: 26px;
   /* same paddings as `blockquote` */
+
+  & > ul,
+  & > ol {
+    margin-bottom: 0;
+  }
 }
 
 /* anchor links to heading tags */
