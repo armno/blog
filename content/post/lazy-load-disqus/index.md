@@ -40,9 +40,9 @@ tags:
 ## IntersectionObserver
 
 เราสามารถใช้ [`IntersectionObserver`](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) เพื่อบอกว่า ให้จับตามอง (observe) กล่อง comment ไว้
-ถ้าแกถูกเลื่อนขึ้นมาอยู่ใน viewport เมื่อไหร่ ให้ไปเรียก function ที่เตรียมไว้นะ
+ถ้าแกถูกเลื่อนขึ้นมาอยู่ใน viewport เมื่อไหร่ ให้ไปเรียก callback function ที่เตรียมไว้นะ
 
-function ที่เตรียมไว้จะเป็นอะไรก็ได้ ในกรณีของผมก็คือ function สำหรับการโหลด Disqus comment
+callback zfunction ที่เตรียมไว้จะเป็นอะไรก็ได้ ในกรณีของผมก็คือ function สำหรับการโหลด Disqus comment
 
 > ถ้าเป็นเมื่อก่อน เราอาจต้องใช้ scroll event ร่วมกับ event handler function
 โดยการเทียบค่า scroll offset ของทั้งตัว element เอง และ `window` object
@@ -85,11 +85,14 @@ const observerOptions = {
 };
 ```
 
-- `root: null`: element ที่เราต้องการมองเป็น "กรอบ" ใช้เป็นตัวอ้างอิงตำแหน่งการ scroll ส่วนที่ให้ root เป็น `null` เพื่อบอกว่า ให้เช็คตำแหน่งกับ viewport
+- `root: null`: element ที่เราต้องการมองเป็น "กรอบ" ใช้เป็นตัวอ้างอิงตำแหน่งการ scroll ส่วนการที่ให้ root เป็น `null` เพื่อบอกว่า ให้ document viewport ทำหน้าที่เป็นกรอบที่เราต้องการเช็ค
 - `rootMargin: '250px 0px 0px'`: เผื่อระยะด้านบนไว้ละ 250px ก่อนจะถึงตัว element จริงๆ (syntax เหมือน CSS margins/paddings แต่ว่าจำเป็นต้องใส่หน่วยให้กับ `0px`)
 - `threshold: 0`: ให้ callback ทำงานเมื่อ element เริ่มโผล่เข้ามาใน viewport หรือ 0%
 
-`threshold` มีค่าตั้งแต่ 0 ถึง 1 ถ้าให้เป็น 1 หมายถึง ให้ callback ทำงานเมื่อ element เข้ามา 100%
+`threshold` มีค่าตั้งแต่ 0 ถึง 1
+
+- ถ้าให้เป็น 0 หมายถึง ให้เรียก callback เมื่อ element เข้ามาในกรอบ 0%
+- ถ้าให้เป็น 1 หมายถึง ให้เรียก callback เมื่อ element เข้ามาในกรอบ 100%
 
 ### 3. สร้าง observer จาก ​`IntersectionObserver`
 
@@ -152,7 +155,7 @@ function loadDisqus(pageURL, id) {
 
 เรียก method `self.unobserve()` เพื่อหยุดการทำงานของ observer
 
-{{< highlight javascript "hl_lines=16 20" >}}
+{{< highlight javascript "hl_lines=16 21" >}}
 const commentsElement = document.querySelector('#comments');
 if (!commentsElement) {
   return;
@@ -198,6 +201,8 @@ function loadDisqus(pageURL, id) {
   })();
 }
 {{< /highlight >}}
+
+(หรือดู [main.js](https://github.com/armno/blog/blob/master/themes/lazy/static/js/main.js#L30) ใน repo ก็ได้ครับ)
 
 ## ผลลัพธ์
 
