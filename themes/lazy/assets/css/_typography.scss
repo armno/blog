@@ -216,8 +216,14 @@ pre {
   overflow: auto;
 }
 
+// codeblocks
 pre code {
   background-color: transparent;
+  padding: 0;
+
+  span {
+    margin: 0;
+  }
 }
 
 blockquote {
@@ -260,6 +266,11 @@ del {
   margin-bottom: 52px;
   padding: 26px;
   /* same paddings as `blockquote` */
+
+  & > ul,
+  & > ol {
+    margin-bottom: 0;
+  }
 }
 
 /* anchor links to heading tags */

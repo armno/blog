@@ -35,23 +35,18 @@
 
     const observerOptions = {
       root: null,
-      rootMargin: '50px 0px',
+      rootMargin: '250px 0px 0px',
       threshold: 0
     };
 
     const pageURL = commentsElement.getAttribute('data-page-url');
     const identifier = commentsElement.getAttribute('data-identifier');
 
-    let loaded = false;
-    const observer = new IntersectionObserver(entries => {
+    const observer = new IntersectionObserver((entries, self) => {
       entries.forEach(entry => {
-        if (loaded) {
-          return;
-        }
-
         if (entry.isIntersecting) {
-          loaded = true;
           loadDisqus(pageURL, identifier);
+          self.unobserve(commentsElement);
         }
       });
     }, observerOptions);
