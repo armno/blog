@@ -45,7 +45,6 @@
     const observer = new IntersectionObserver((entries, self) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          console.info('loading comments');
           loadDisqus(pageURL, identifier);
           self.unobserve(commentsElement);
         }
