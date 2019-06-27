@@ -216,8 +216,14 @@ pre {
   overflow: auto;
 }
 
+// codeblocks
 pre code {
   background-color: transparent;
+  padding: 0;
+
+  span {
+    margin: 0;
+  }
 }
 
 blockquote {
