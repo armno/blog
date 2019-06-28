@@ -86,7 +86,7 @@ const observerOptions = {
 ```
 
 - `root: null`: element ที่เราต้องการมองเป็น "กรอบ" ใช้เป็นตัวอ้างอิงตำแหน่งการ scroll ส่วนการที่ให้ root เป็น `null` เพื่อบอกว่า ให้ document viewport ทำหน้าที่เป็นกรอบที่เราต้องการเช็ค
-- `rootMargin: '250px 0px 0px'`: เผื่อระยะด้านบนไว้ละ 250px ก่อนจะถึงตัว element จริงๆ (syntax เหมือน CSS margins/paddings แต่ว่าจำเป็นต้องใส่หน่วยให้กับ `0px`)
+- `rootMargin: '250px 0px'`: เป็นการขยายขนาของกรอบ `root` เพื่อเผื่อระยะด้านบนและล่างไว้ 250px ทำให้ callback เริ่มทำงานก่อน scroll จะถึงตัว element จริงๆ (syntax เหมือน CSS margins/paddings แต่ว่าจำเป็นต้องใส่หน่วยให้กับ `0px`)
 - `threshold: 0`: ให้ callback ทำงานเมื่อ element เริ่มโผล่เข้ามาใน viewport หรือ 0%
 
 `threshold` มีค่าตั้งแต่ 0 ถึง 1
