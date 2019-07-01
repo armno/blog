@@ -277,6 +277,7 @@ del {
 .heading-linked {
   position: relative;
   margin-left: 1em;
+  word-break: break-word;
 
   @include medium() {
     margin-left: 0;
