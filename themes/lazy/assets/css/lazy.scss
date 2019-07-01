@@ -187,6 +187,7 @@ $bottom-space: 26px;
   flex-grow: 0;
   flex-shrink: 0;
   font-size: 1rem;
+  margin-bottom: $bottom-space;
 }
 
 .related-posts__thumbnail {
@@ -261,5 +262,6 @@ $bottom-space: 26px;
 
   &:focus {
     transform: translateY(0);
+    z-index: 10;
   }
 }

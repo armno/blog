@@ -115,17 +115,17 @@ h6 {
   margin-bottom: 0;
 }
 
-/* perfect-fifth scale */
+// major-third scale for mobile
 h1 {
-  font-size: 3.375rem;
+  font-size: 1.953rem;
 }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 1.563rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 h4 {
@@ -133,11 +133,38 @@ h4 {
 }
 
 figcaption {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 
 small {
-  font-size: 0.5rem;
+  font-size: 0.64rem;
+}
+
+@include medium() {
+  // perfect-fifth scale for desktop
+  h1 {
+    font-size: 3.375rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  figcaption {
+    font-size: 0.75rem;
+  }
+
+  small {
+    font-size: 0.5rem;
+  }
 }
 
 img,
@@ -248,11 +275,6 @@ del {
 
 .page-title {
   word-break: break-word;
-  font-size: 2.25rem;
-
-  @include medium() {
-    font-size: 3.375rem;
-  }
 }
 
 /* hugo-generated footnote */
