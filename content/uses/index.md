@@ -72,9 +72,9 @@ Desk Setup: เลือกใช้ MacBook Pro แต่ใช้ keyboard ก
 
 {{< picture-lazy wrapper-class="semi-full" src="images/m4.jpg" alt="custom mechanical keyboard mark 4" ratio="4-3" >}}
 
-- Apple Magic Mouse ของออฟฟิศ ที่เลือกใช้เพราะเป็นเมาส์ไม่กี่ตัวในออฟฟิศที่เป็น bluetooth mouse และไม่ต้องต่อ receiver ไม่ชอบเท่าไหร่เพราะเปลืองถ่านมาก
+- [Logitech MX Ergo](https://www.logitech.com/en-roeu/product/mx-ergo-wireless-trackball-mouse) เมาส์ bluetooth แบบ trackball
 
-{{< picture-lazy wrapper-class="semi-full" src="images/mouse.jpg" alt="apple magic mouse" ratio="3-2" >}}
+{{< picture-lazy wrapper-class="semi-full" src="images/mx-ergo.jpg" alt="logitech mx ergo mouse" ratio="3-2" >}}
 
 - หูฟัง Audio-Technica M50x เคยเขียน[รีวิว](https://armno.in.th/2015/08/04/audio-technica-ath-m50x/) ไว้ก่อนนู้น กับที่แขวนหูฟังบ้านๆ ที่ทำเอง ([บันทึก](https://armno.wordpress.com/2013/05/09/746-headphone-stand/))
 
