@@ -1,8 +1,9 @@
 ---
-title: "สิบปี"
+title: "10 ปี"
 date: 2019-07-03T21:26:45+07:00
 url: /2019/07/03/ten-years
 description: บันทึกครบรอบ 10 ปี ของ armno.in.th
+cover: images/relaunch.png
 tags:
 - life
 - blog
@@ -18,6 +19,14 @@ tags:
 ก็เลยถือโอกาสในวาระที่โดเมนหมดอายุ ฉลองครบรอบ 10 ปี ของบล็อกนี้
 อยากจะเล่าถึงที่มาที่ไป สิ่งที่ได้พบเจอระหว่างทาง ปัจจุบัน และอนาคตของบล็อกนี้ครับ
 
+{{< picture-lazy
+  wrapper-class="semi-full"
+  src="images/relaunch.png"
+  alt="ภาพ screenshot เมื่อ 10 ปีก่อน"
+>}}
+
+_บน: ภาพ snapshot ของบล็อกนี้เมื่อ 10 ปีก่อน จาก [Web Archive](https://web.archive.org/web/20090630010030/http://www.armno.in.th/)_
+
 ## Timeline คร่าวๆ
 
 - ปี 2007 ได้โดเมน armno.in.th มาฟรีจาก[แคมเปญของ THNIC](https://www.blognone.com/node/6472)
@@ -29,6 +38,7 @@ tags:
 - ปี 2013 เปลี่ยนระบบหลังบ้าน[จาก WordPress มาเป็น Jekyll](https://armno.in.th/2013/03/09/from-wordpress-to-jekyll/)
   - รูปในโพสต์เก่าๆ ที่มันหายไปก็ช่วงนี้แหละ
 - ปี 2018 เปลี่ยนจาก [Jekyll มาเป็น Hugo](https://armno.in.th/2018/03/24/jekyll-to-hugo/) จนถึงปัจจุบัน
+
 
 10 ปีก่อน ผมไม่คิดว่าบล็อกนี้จะอยู่ยาวถึง 10 ปี
 หวังแค่ว่า ถ้ามันยังอยู่ ถึงตอนนั้นน่าจะมีปัญญาจ่ายค่าโดเมนเองได้แล้ว
@@ -158,6 +168,13 @@ tags:
 ผมได้ย้อนไปอ่านโพสต์เก่าๆ ของตัวเองที่เขียนไว้เมื่อหลายปีก่อน ที่แย่ๆ ก็เยอะมาก แต่มันก็เป็นเรื่องธรรมดา
 
 **อย่ากลัวว่ามันจะไม่ perfect** ไม่มีใครคาดหวังว่าบล็อกของเราจะต้อง perfect นอกจากตัวเราเอง
+
+{{< picture-lazy
+  wrapper-class="semi-full"
+  src="images/lake.jpg"
+  alt="ทะเลสาบ Kawaguchi"
+  ratio="16-10"
+>}}
 
 -----
 
