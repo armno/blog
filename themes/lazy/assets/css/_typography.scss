@@ -322,6 +322,7 @@ del {
 
   @include medium() {
     top: 0.1em;
+    opacity: 0;
   }
 }
 
@@ -331,6 +332,13 @@ h2 > .heading-anchor {
 
 h3 > .heading-anchor {
   top: 0.3em;
+}
+
+h2:hover > .heading-anchor,
+h3:hover > .heading-anchor {
+  @include medium() {
+    opacity: 1;
+  }
 }
 
 .heading-anchor:hover {
