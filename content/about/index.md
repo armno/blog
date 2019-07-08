@@ -20,7 +20,8 @@ My favorite color is matte black.
 
 ## Contact Info
 
-If you want to contact me for anything, please send me an [email](mailto:monkeyarmno@gmail.com).
+If you want to contact me for anything, please send me an [email](mailto:monkeyarmno@gmail.com)
+or [shoot me an Issue on GitHub](https://github.com/armno/armno/issues/new).
 
 ### About This Website
 
