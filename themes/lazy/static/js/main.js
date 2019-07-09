@@ -5,6 +5,10 @@
     observeComments();
   });
 
+  window.addEventListener('load', () => {
+    quicklink();
+  });
+
   function appendAnchor(element) {
     const a = document.createElement('a');
     const currentURL = document.location.href;
