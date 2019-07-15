@@ -23,6 +23,7 @@ tags:
   wrapper-class="semi-full"
   src="images/relaunch.png"
   alt="ภาพ screenshot เมื่อ 10 ปีก่อน"
+  caption="ภาพ snapshot ของบล็อกนี้เมื่อ 10 ปีก่อน จาก Web Archive"
 >}}
 
 _บน: ภาพ snapshot ของบล็อกนี้เมื่อ 10 ปีก่อน จาก [Web Archive](https://web.archive.org/web/20090630010030/http://www.armno.in.th/)_
@@ -173,7 +174,8 @@ _บน: ภาพ snapshot ของบล็อกนี้เมื่อ 10 
   wrapper-class="semi-full"
   src="images/lake.jpg"
   alt="ทะเลสาบ Kawaguchi"
-  ratio="16-10"
+  caption="ทะเลสาบ Kawaguchi (ไม่เกี่ยวกับเนื้อหา)"
+  ratio="3-2"
 >}}
 
 -----

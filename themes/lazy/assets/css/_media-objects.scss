@@ -41,7 +41,7 @@
 }
 
 .media {
-  margin-bottom: $bottom-space * 2;
+  margin-bottom: $bottom-space * 3;
 }
 
 .media.semi-full,
@@ -88,4 +88,8 @@
 
 .video-wrapper iframe {
   max-width: 100%;
+}
+
+.media-caption {
+  text-align: center;
 }
