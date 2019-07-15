@@ -26,6 +26,7 @@ attributes:
 - `src`
 - `alt`
 - `ratio`
+- `caption`
 
 ```
 {{< picture-lazy
@@ -33,6 +34,7 @@ attributes:
   src="images/platoo.jpg"
   alt="test"
   ratio="16-9"
+  caption="caption to display below the picture"
 >}}
 ```
 
@@ -53,12 +55,13 @@ better crop images to one of the support ratio :)
 output:
 
 ```html
-<p class="media lazy-wrapper semi-full ratio ratio-16-9">
+<figure class="media lazy-wrapper semi-full ratio ratio-16-9">
   <img class="lazy" data-src="images/platoo.jpg" alt="test">
   <noscript>
     <img src="images/platoo.jpg" alt="test">
   </noscript>
-</p>
+  <figcaption class="media-caption">Test</figcaption>
+</figure>
 ```
 
 ## `picture` shortcode
@@ -69,6 +72,7 @@ attributes:
 - `img-class`: CSS class(or classes) for the `<img>` itself.
 - `src`
 - `alt`
+- `caption`
 
 ```
 {{< picture
@@ -76,17 +80,15 @@ attributes:
   img-class="nom"
   src="images/platoo.jpg"
   alt="test"
+  caption="image caption"
 >}}
 ```
 
 output:
 
 ```html
-<p class="media semi-full">
+<figure class="media semi-full">
   <img class="nom" src="images/platoo.jpg" alt="test">
-</p>
+  <figcaption class="media-caption">image caption</figcaption>
+</figure>
 ```
-
-## Optimize Images
-
-Use [squoosh app](https://squoosh.app/) to optimize images.

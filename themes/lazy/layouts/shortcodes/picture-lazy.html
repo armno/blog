@@ -1,7 +1,10 @@
-<p class="media lazy-wrapper {{ with .Get "wrapper-class"}}{{.}}{{ end }} {{ with .Get "ratio"}}ratio ratio-{{.}}{{ end }}">
+<figure class="media lazy-wrapper {{ with .Get "wrapper-class"}}{{.}}{{ end }} {{ with .Get "ratio"}}ratio ratio-{{.}}{{ end }}">
   <img class="lazy" {{ with .Get "src"}} data-src="{{.}}" {{ end }}
     {{ with .Get "alt"}} alt="{{.}}" {{ end }}>
   <noscript>
     <img {{ with .Get "src"}} src="{{.}}" {{ end }} {{ with .Get "alt" }} alt="{{.}}" {{end}}>
   </noscript>
-</p>
+  {{ if .Get "caption" }}
+  <figcaption class="media-caption">{{ . }}</figcaption>
+  {{ end }}
+</figure>
