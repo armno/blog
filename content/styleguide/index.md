@@ -17,33 +17,33 @@ date: 1988-03-29T8:30:07+07:00
 ### Primary colors
 
 <div class="styleguide-colors black">
-Black
+Black: <code>#0C120C</code>
 </div>
 
 <div class="styleguide-colors red">
-Red
+Red: <code>#C20114</code>
 </div>
 
 ### Secondary colors
 
 <div class="styleguide-colors dark-gray">
-Dark Gray
+Dark Gray <code>#3F5261</code>
 </div>
 
 <div class="styleguide-colors gray">
-Gray
+Gray <code>#D9DDE1</code>
 </div>
 
 <div class="styleguide-colors light-gray">
-Light Gray
+Light Gray <code>#F8F8FF</code>
 </div>
 
 <div class="styleguide-colors light-gold">
-Light Gold
+Light Gold <code>FFF6B5</code>
 </div>
 
 <div class="styleguide-colors gold">
-Gold
+Gold <code>#FFD700</code>
 </div>
 
 ---
@@ -78,9 +78,27 @@ than normal paragraphs due to the larger <code>font-size</code>.
 
 ฟอยล์ศิลปวัฒนธรรม นินจาสต๊อกซิลเวอร์พุดดิ้งแซ็ก เหมยบาร์บี้กีวี เธคจีดีพีเอ็กซ์เพรสมัฟฟินวอล์ค อัลบัมมยุราภิรมย์ แพนดา ตุ๊กตุ๊กโปรเจคท์ดีไซน์เนอร์แฟรนไชส์นางแบบ ป๊อปว้อดก้าขั้นตอน อิสรชนร็อคแฮมเบอร์เกอร์ ศึกษาศาสตร์ ต่อรองเรซินง่าวซูฮก คอร์ปอเรชั่นกีวี ไฟต์ รีพอร์ท ทีวีเบอร์รีซีนีเพล็กซ์เซฟตี้ คอรัปชัน
 
+### Warning Message
+
 <p class="message--warning">
   This paragraph is a warning message: <code>p.message--warning</code>. It shares the same paddings with <code>blockquote</code> elements.
 </p>
+
+### Blockquotes
+
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae. Note that you can use Markdown syntax within a blockquote.
+
+### Unordered Lists
+
+- Unordered list item
+- Unordered list item
+- Unordered list item
+
+### Ordered Lists
+
+1. Ordered list item
+2. Ordered list item
+3. Ordered list item
 
 ### Other text elements
 
@@ -93,6 +111,8 @@ _emphasized words to stress_ สเตชันติวเตอร์ราม
 
 วิภัชภาค ไอซียู พาเหรดเบญจมบพิตรบุ๋น ติวจตุคามเอ็กซ์โปพาสต้าดีพาร์ตเมนท์ ป๊อกกฤษณ์รีสอร์ตเก๋ากี้ ไรเฟิลแซนด์วิช ศิลปวัฒนธรรม ฮิบรูโพลล์ เอเซียคอนโดมิเนียม เบลอบึมโบรชัวร์ไวอะกร้ามาเฟีย บริกรชีสอพาร์ตเมนท์คอนโทรล ป่าไม้หลวงตา คาเฟ่เฮียดยุค ไฮเปอร์แตงโมจูนหมวยคอมเมนท์ หยวน ชัวร์ต้าอ่วยนอร์ท
 
+---
+
 ## Buttons
 
 <div class="share-article">
@@ -102,15 +122,28 @@ _emphasized words to stress_ สเตชันติวเตอร์ราม
     Share on Twitter
   </a>
 
-<a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
-    class="btn-share btn-share--facebook"
-    target="_blank" rel="noopener">
-Share on Facebook
-</a>
-
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+      class="btn-share btn-share--facebook"
+      target="_blank" rel="noopener">
+  Share on Facebook
+  </a>
 </div>
 
+---
+
 ## Media Elements ‒ Pictures, Videos
+
+TBA
+
+---
+
+## Cards
+
+### Article Cards
+
+TBA
+
+### Related Article Cards
 
 TBA
 
