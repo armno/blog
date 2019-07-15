@@ -12,38 +12,47 @@ date: 1988-03-29T8:30:07+07:00
   This is still a work-in-progress and is not nearly finished.
 </p>
 
-<p class="lead">
-  This page contains definitions of layout and elements used in this website.
-</p>
+## Colors
+
+### Primary colors
+
+<div class="styleguide-colors black">
+Black
+</div>
+
+<div class="styleguide-colors red">
+Red
+</div>
+
+### Secondary colors
+
+<div class="styleguide-colors dark-gray">
+Dark Gray
+</div>
+
+<div class="styleguide-colors gray">
+Gray
+</div>
+
+<div class="styleguide-colors light-gray">
+Light Gray
+</div>
+
+<div class="styleguide-colors light-gold">
+Light Gold
+</div>
+
+<div class="styleguide-colors gold">
+Gold
+</div>
+
+---
 
 ## Logo
 
 TBA
 
-## Layout
-
-- Mobile: 1 column, full-width.
-- Desktop: 2 columns with a left sidebar.
-- Breakpoints: 1 breakpoint at `800px`.
-
-## Colors
-
-Represented in these CSS variables.
-
-```css
-/* https://coolors.co/3f5261-d9dde1-0c120c-c20114-c7d6d5 */
---smoky-black: #0c120c;
---harvard-crimson-red: #c20114;
---independence: #3f5261;
---light-gray: ghostwhite;
---gainsboro: #d9dde1;
-
---light-gold: #fff6b5;
---gold: gold;
---twitter: #1da1f2;
---facebook: #3b5998;
---purple: #9370db;
-```
+---
 
 ## Typography
 

@@ -1,15 +1,14 @@
 // colorscheme from: https://coolors.co/3f5261-d9dde1-0c120c-c20114-c7d6d5
-$smoky-black: #0c120c;
-$harvard-crimson-red: #c20114;
-$independence: #3f5261;
+$black: #0c120c;
+$red: #c20114;
+$dark-gray: #3f5261;
 $light-gray: ghostwhite;
-$gainsboro: #d9dde1;
+$gray: #d9dde1;
 
 $light-gold: #fff6b5;
 $gold: gold;
 $twitter: #1da1f2;
 $facebook: #3b5998;
-$purple: #9370db;
 
 $sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
   Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
@@ -30,6 +29,7 @@ $bottom-space: 26px;
 @import 'pagination';
 
 @import 'home';
+@import 'styleguide';
 
 /* utilities ¯\_(ツ)_/¯ */
 .text-center {
@@ -40,12 +40,12 @@ $bottom-space: 26px;
 
 .publish-time,
 .publish-time-article {
-  color: $independence;
+  color: $dark-gray;
   font-style: italic;
 }
 
 .reading-time {
-  color: $smoky-black;
+  color: $black;
 }
 
 .publish-time-article {
@@ -107,8 +107,8 @@ $bottom-space: 26px;
 .post-teaser__thumbnail.no-thumbnail::after {
   position: absolute;
   content: '(no thumbnail)';
-  color: $gainsboro;
-  box-shadow: inset 0 0 2px $gainsboro;
+  color: $gray;
+  box-shadow: inset 0 0 2px $gray;
   top: 0;
   bottom: 0;
   left: 0;
@@ -139,7 +139,7 @@ $bottom-space: 26px;
 
 .post-teaser__content .publish-time {
   font-size: 0.8em;
-  color: $independence;
+  color: $dark-gray;
   margin-bottom: 1.5rem;
 }
 
@@ -256,7 +256,7 @@ $bottom-space: 26px;
   left: 0;
   font-size: 0.75rem;
   padding: 1em 2em;
-  background-color: $harvard-crimson-red;
+  background-color: $red;
   color: #fff;
   transform: translateY(-101%);
 

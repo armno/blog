@@ -1,0 +1,39 @@
+.styleguide-colors {
+  padding: 1em 2em;
+  display: block;
+
+  &:not(:last-child) {
+    margin-bottom: 1em;
+  }
+
+  &.black {
+    background-color: $black;
+    color: white;
+  }
+
+  &.red {
+    background-color: $red;
+    color: white;
+  }
+
+  &.dark-gray {
+    background-color: $dark-gray;
+    color: white;
+  }
+
+  &.light-gray {
+    background-color: $light-gray;
+  }
+
+  &.gray {
+    background-color: $gray;
+  }
+
+  &.light-gold {
+    background-color: $light-gold;
+  }
+
+  &.gold {
+    background-color: $gold;
+  }
+}
