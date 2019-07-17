@@ -18,7 +18,7 @@ thumbnail: images/laptop-1.jpg
 
 ### Coding
 
-- [VSCode](https://code.visualstudio.com/) เป็น code editor หลัก ใช้เขียน HTML/CSS/JavaScript กับเขียนบล็อก (Markdown) ไม่ได้ใช้ extension เยอะเท่าไหร่ มีที่จำเป็นคือ
+- [VSCode Insider](https://code.visualstudio.com/insiders/) เป็น code editor หลัก ใช้เขียน HTML/CSS/JavaScript กับเขียนบล็อก (Markdown) ไม่ได้ใช้ extension เยอะเท่าไหร่ มีที่จำเป็นคือ
   - [VSCodeVim](https://github.com/VSCodeVim/Vim)
   - [Angular Language Service](https://github.com/angular/vscode-ng-language-service)
   - [EditorConfig](https://github.com/editorconfig/editorconfig-vscode)
@@ -44,7 +44,7 @@ thumbnail: images/laptop-1.jpg
 ### อื่นๆ
 
 - [Homebrew](https://brew.sh/) package manager
-- [Google Chrome](https://www.google.com/chrome/) เป็น browser หลัก
+- [Google Chrome Canary](https://www.google.com/chrome/canary) เป็น browser หลัก
 - [Spectacle](https://www.spectacleapp.com/) เป็นแอพ window management ใน macOS ด้วย hotkey ที่ตั้งได้ตามใจชอบ ฟรีด้วย
 - [Trello](https://trello.com) สำหรับจดบันทึกอะไรที่ต้องเป็น list (todo list, wishlist), จดรายการหนังสือที่อ่านจบ
 - [Alfred](https://www.alfredapp.com/) แทน Spotlight
