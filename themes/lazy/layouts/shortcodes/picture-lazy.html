@@ -4,7 +4,7 @@
   <noscript>
     <img {{ with .Get "src"}} src="{{.}}" {{ end }} {{ with .Get "alt" }} alt="{{.}}" {{end}}>
   </noscript>
-  {{ if .Get "caption" }}
+  {{ with .Get "caption" }}
   <figcaption class="media-caption">{{ . }}</figcaption>
   {{ end }}
 </figure>
