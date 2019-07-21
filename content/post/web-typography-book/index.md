@@ -23,6 +23,7 @@ categories:
 {{<
   image src="images/book-cover.jpg"
   alt="ปกหนังสือ Better Web Typography for a Better Web"
+  caption="ปกหนังสือ Better Web Typography for a Better Web"
 >}}
 
 > เล่มที่ผมอ่านเป็น edition แรก แต่ตอนนี้มี 2<sup>nd</sup> edition ออกมาแล้ว เพิ่มเนื้อหาและปรับปรุงรูปภาพนิดหน่อย แต่ผมไม่แน่ใจว่า 2<sup>nd</sup> edition ยังพิมพ์ออกมาเป็นเล่มอยู่ไหม บนหน้าเว็บตอนนี้มีแต่แบบ e-book ให้เลือกครับ
@@ -53,9 +54,7 @@ categories:
 เดี๋ยวนี้อักษรแบบ serif สมัยใหม่หลายๆ แบบ ก็ถูกออกแบบมาให้แสดงผลได้ดีบนจอคอมพิวเตอร์/มือถือแล้ว
 
 {{<
-  picture-lazy
-  wrapper-class="semi-full"
-  ratio="3-2"
+  image
   src="images/ch-5.jpg"
   alt="บทที่ 5"
 >}}

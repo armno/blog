@@ -9,12 +9,24 @@
 {{ $small := .Scratch.Get "small" }}
 {{ $medium := .Scratch.Get "medium" }}
 
-<img class="no-medium-zoom"
-  src="{{ $src.RelPermalink }}"
-  sizes="100vw"
-  srcset='
-  {{ if ge $src.Width "500" }} {{ with $small.RelPermalink }}{{.}} 500w{{ end }} {{ end }}
-  {{ if ge $src.Width "800" }} {{ with $medium.RelPermalink }}, {{.}} 800w{{ end }} {{ end }}
-  '
-  {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
->
+{{ if .Get "caption" }}
+<figure class="media">
+{{ else }}
+<div class="media">
+{{ end }}
+  <img
+    src="{{ $src.RelPermalink }}"
+    data-zoom-src="{{ $src.RelPermalink }}"
+    sizes="100vw"
+    srcset='
+    {{ if ge $src.Width "500" }} {{ with $small.RelPermalink }}{{.}} 500w{{ end }} {{ end }}
+    {{ if ge $src.Width "800" }} {{ with $medium.RelPermalink }}, {{.}} 800w{{ end }} {{ end }}
+    '
+    {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
+  >
+  {{ if .Get "caption" }}
+  <figcaption class="media-caption">{{ .Get "caption" }}</figcaption>
+</figure>
+{{ else }}
+</div>
+{{ end }}
