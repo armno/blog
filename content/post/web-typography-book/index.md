@@ -24,6 +24,7 @@ categories:
   image src="images/book-cover.jpg"
   alt="ปกหนังสือ Better Web Typography for a Better Web"
   caption="ปกหนังสือ Better Web Typography for a Better Web"
+  ratio="3-2"
 >}}
 
 > เล่มที่ผมอ่านเป็น edition แรก แต่ตอนนี้มี 2<sup>nd</sup> edition ออกมาแล้ว เพิ่มเนื้อหาและปรับปรุงรูปภาพนิดหน่อย แต่ผมไม่แน่ใจว่า 2<sup>nd</sup> edition ยังพิมพ์ออกมาเป็นเล่มอยู่ไหม บนหน้าเว็บตอนนี้มีแต่แบบ e-book ให้เลือกครับ
@@ -57,6 +58,7 @@ categories:
   image
   src="images/ch-5.jpg"
   alt="บทที่ 5"
+  ratio="3-2"
 >}}
 
 ถัดมาเป็นเรื่องเกี่ยวกับเว็บโดยตรงเลยคือ การหาขนาดอักษร `font-size`, ระยะ `line-height` และความยาวของบรรทัด `line width` หรือ `line length`  ที่เหมาะสม

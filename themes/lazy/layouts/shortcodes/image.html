@@ -10,11 +10,11 @@
 {{ $medium := .Scratch.Get "medium" }}
 
 {{ if .Get "caption" }}
-<figure class="media">
+<figure class="media lazy-wrapper {{ with .Get "ratio"}}ratio ratio-{{.}}{{ end }}">
 {{ else }}
-<div class="media">
+<div class="media lazy-wrapper {{ with .Get "ratio"}}ratio ratio-{{.}}{{ end }}">
 {{ end }}
-  <img
+  <img class="lazy"
     src="{{ $src.RelPermalink }}"
     data-zoom-src="{{ $src.RelPermalink }}"
     sizes="100vw"
