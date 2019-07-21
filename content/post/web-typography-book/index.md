@@ -21,10 +21,7 @@ categories:
 </p>
 
 {{<
-  picture-lazy
-  wrapper-class="semi-full"
-  ratio="3-2"
-  src="images/book-cover.jpg"
+  image src="images/book-cover.jpg"
   alt="ปกหนังสือ Better Web Typography for a Better Web"
 >}}
 

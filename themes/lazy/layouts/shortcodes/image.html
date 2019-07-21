@@ -1,0 +1,20 @@
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+
+{{ $smallw := default "500x q90" }}
+{{ $mediumw := default "800x q90" }}
+
+{{ .Scratch.Set "small" ($src.Resize $smallw) }}
+{{ .Scratch.Set "medium" ($src.Resize $mediumw) }}
+
+{{ $small := .Scratch.Get "small" }}
+{{ $medium := .Scratch.Get "medium" }}
+
+<img class="no-medium-zoom"
+  src="{{ $src.RelPermalink }}"
+  sizes="100vw"
+  srcset='
+  {{ if ge $src.Width "500" }} {{ with $small.RelPermalink }}{{.}} 500w{{ end }} {{ end }}
+  {{ if ge $src.Width "800" }} {{ with $medium.RelPermalink }}, {{.}} 800w{{ end }} {{ end }}
+  '
+  {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
+>
