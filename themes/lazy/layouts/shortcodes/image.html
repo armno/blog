@@ -10,20 +10,22 @@
 {{ $medium := .Scratch.Get "medium" }}
 
 {{ if .Get "caption" }}
-<figure class="media lazy-wrapper {{ with .Get "ratio"}}ratio ratio-{{.}}{{ end }}">
+<figure class="media">
 {{ else }}
-<div class="media lazy-wrapper {{ with .Get "ratio"}}ratio ratio-{{.}}{{ end }}">
+<div class="media">
 {{ end }}
-  <img class="lazy"
-    src="{{ $src.RelPermalink }}"
-    data-zoom-src="{{ $src.RelPermalink }}"
-    sizes="100vw"
-    srcset='
-    {{ if ge $src.Width "500" }} {{ with $small.RelPermalink }}{{.}} 500w{{ end }} {{ end }}
-    {{ if ge $src.Width "800" }} {{ with $medium.RelPermalink }}, {{.}} 800w{{ end }} {{ end }}
-    '
-    {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
-  >
+  <div class="lazy-wrapper {{ with .Get "ratio"}}ratio ratio-{{.}}{{ end }}">
+    <img class="lazy"
+      src="{{ $src.RelPermalink }}"
+      data-zoom-src="{{ $src.RelPermalink }}"
+      sizes="100vw"
+      srcset='
+      {{ if ge $src.Width "500" }} {{ with $small.RelPermalink }}{{.}} 500w{{ end }} {{ end }}
+      {{ if ge $src.Width "800" }} {{ with $medium.RelPermalink }}, {{.}} 800w{{ end }} {{ end }}
+      '
+      {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
+    >
+  </div>
   {{ if .Get "caption" }}
   <figcaption class="media-caption">{{ .Get "caption" }}</figcaption>
 </figure>
