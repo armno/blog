@@ -18,6 +18,19 @@ $ hugo new post/<post-title>/index.md
 
 ---
 
+## **New!** - `image` shortcode
+
+A shortcode to insert responsive, lazy-loaded images into post content.
+
+```
+{{< image
+  src="images/platoo.jpg"
+  alt="test"
+  ratio="16-9"
+  caption="caption to display below the picture"
+>}}
+```
+
 ## `picture-lazy` shortcode for lazy-loaded pictures
 
 attributes:

@@ -1,6 +1,6 @@
 // styles for broken images (404)
 //  https://bitsofco.de/styling-broken-images/
-.content article:not(.post-teaser) img {
+.content article:not(.post-teaser) img:not(.lazy) {
   font-weight: 300;
   line-height: 2;
   text-align: center;
@@ -41,7 +41,7 @@
 }
 
 .media {
-  margin-bottom: $bottom-space * 3;
+  margin-bottom: $bottom-space * 2;
 }
 
 .media.semi-full,
