@@ -37,12 +37,11 @@
             <div class="post-teaser__thumbnail {{ if not .Params.thumbnail }}no-thumbnail{{ end }}">
               {{ if .Params.thumbnail }}
               {{ $original :=  .Resources.GetMatch .Params.thumbnail }}
-              {{ .Scratch.Set "thumbnail" ($original.Resize "400x q90") }}
-              {{ $image := .Scratch.Get "thumbnail" }}
+              {{ $thumbnail := $original.Resize "400x q90" }}
               <a class="post-link" href="{{ .Permalink }}">
-                <img class="lazy no-medium-zoom" data-src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
+                <img class="lazy no-medium-zoom" data-src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}">
                 <noscript>
-                  <img class="no-medium-zoom" src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
+                  <img class="no-medium-zoom" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}">
                 </noscript>
               </a>
               {{ end }}
