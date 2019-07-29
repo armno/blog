@@ -96,3 +96,68 @@ $ git reset
 ```sh
 $ git push origin HEAD
 ```
+
+เอาไว้ push feature branch ที่สร้างใหม่ในเครื่อง
+พร้อมกับไปสร้าง branch ใหม่ในชื่อเดียวกันบน remote repo
+
+### Pull
+
+```sh
+$ git pull                         # (1)
+
+$ git fetch origin                 # (2)
+$ git merge origin/<branch_name>   # (3)
+```
+
+ถึงแม้ว่า `pull` จะเป็น shorthand command ของ `fetch+merge`
+แต่ผมกลับชอบ `fetch+merge` มากกว่า เพราะ fetch มันจะยังไม่ทำอะไรกับไฟล์ในเครื่องเราจะกว่าเราจะ merge เอง
+รู้สึกปลอดภัยดี
+
+### Log
+
+```sh
+$ git log -p
+```
+
+ต่างจาก `git log` ธรรมดาตรงที่จะแสดงผลทั้ง commit message
+และส่วนของไฟล์ที่ถูกแก้ไขใน commit นั้น
+
+### Checkout
+
+```sh
+$ git checkout .
+$ git checkout -
+$ git checkout <commit_hash>
+$ git checkout -b feature/xxx origin/feature/xxx
+```
+
+### Clean
+
+```sh
+$ git clean -df
+```
+
+### Stash
+
+```sh
+$ git stash
+$ git stash pop
+```
+
+### Remote
+
+```sh
+$ git remote -v
+```
+
+### Branch
+
+```sh
+$ git branch -D feature/xxx
+```
+
+### Help
+
+```sh
+$ git help
+```
