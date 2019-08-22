@@ -57,6 +57,51 @@ fzf is still very fast. It can do the search without waiting for file indexing t
 
 <video src="images/big-folder.mp4" width="100%" autoplay muted controls>
 
+## Example Use Case: `git diff`
+
+Let's look at a bit more complex example.
+
+I use `$ git diff` command a lot in a day.
+It displays the diffs of all files changed at once in order.
+Sometimes it hard to find the file I want to see the diff
+when there are many files changed.
+
+I can use `fzf` to filter through the files
+and check the diff of 1 file at a time in the preview panel.
+
+<video src="images/git-diff.mp4" width="100%" autoplay muted controls>
+
+The command I use is:
+
+```sh
+$ git status -s \
+	| fzf --no-sort --reverse \
+	--preview 'git diff --color=always {+2} | diff-so-fancy' \
+	--bind=ctrl-j:preview-down --bind=ctrl-k:preview-up \
+	--preview-window=right:60%:wrap
+```
+
+Let's break it down:
+
+1. `git status -s` prints git status in short format - only status and file name separated by a space.
+2. Then pipe the output to `fzf`.
+3. `--no-sort --reverse`: disable sorting (no need here), use reverse layout to display the list from the top.
+4. `--preview 'git diff --color=always {+2} | diff-so-fancy`: display file preview using `git diff` command with [`diff-so-fancy`](https://github.com/so-fancy/diff-so-fancy).
+The `{+2}` part is to tell fzf to split selected line (which is the output from `git status -s`) with a space, and take the 2nd part which is the file name to use with `git diff`.
+5. `--bind=ctrl-j:preview-down --bind=ctrl-k:preview-up`: bind 2 keys <kdb>ctrl-j</kbd> and <kbd>ctrl-k</kbd> to scroll down and up in the preview panel without using the mouse.
+6. `--preview-window=right:60%:wrap`: set the layout for preview window to display at the right side of the screen, take 60% of the screen space, and wrap the text if it is too long.
+
+I create an alias `gd` for this long command in my `.zshrc` profile.
+
+```sh
+# ~/.aliases
+alias gd="git status -s | fzf ..."
+```
+
+(Check out [forgit](https://github.com/wfxr/forgit) plugin of fzf for more integrations with git)
+
+---
+
 I only touch the surface but already have a lot of joy trying fzf.
 To me, it's like when [`z`](https://github.com/rupa/z) makes `cd` fun again.
 
