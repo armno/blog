@@ -19,7 +19,7 @@ Renaming a component is not a common task I would do often.
 However, it can be a bit cumbersome when I have to.
 
 With help from VSCode, and some manual tasks, this is how I rename an Angular component.
-Maybe it's not the best way but at least it works.
+Maybe it's not the best way but at least it works most of the time. And if you have a better solution, please let me know.
 
 This post is based on `@angular/cli 8.2.2`.
 
