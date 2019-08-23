@@ -87,3 +87,5 @@ just to see if there is any error reported.
 - `$ ng build --prod`
 
 If not, I *assume* renaming the component is done. 🤞
+
+![production build](images/prod-build.png)
