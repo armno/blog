@@ -12,7 +12,7 @@
         <h1 class="page-title">{{ .Title }}</h1>
       </header>
 
-      {{ range .Pages.GroupByDate "2006" }}
+      {{ range .Site.RegularPages.GroupByDate "2006" }}
       <h2>{{ .Key }}</h2>
       <ol>
         {{ range .Pages }}
