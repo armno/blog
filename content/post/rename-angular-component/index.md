@@ -66,7 +66,7 @@ with new file names that were changed in the previous step.
 
 ### 5. Update component selector used in the templates
 
-Since the component's selctor is changed, there will be a need to update componet's template tag in other templates too.
+Since the component's selector is changed, there will be a need to update component's template tag in other templates too.
 
 ![update template tag](images/update-template-tag.png)
 
