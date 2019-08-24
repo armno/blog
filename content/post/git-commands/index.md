@@ -266,6 +266,7 @@ $ man git-<sub_command>
   co = checkout
   poh = push origin HEAD
   pom = push orign master
+  undo = reset HEAD~1
 ```
 
 (alias ทั้งหมดที่ผมมีอยู่ที่ [dotfiles:`.gitconfig`](https://github.com/armno/dotfiles/blob/master/.gitconfig#L12))
