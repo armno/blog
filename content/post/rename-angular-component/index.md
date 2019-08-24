@@ -32,7 +32,7 @@ Select **"Rename Symbol"** command and change the class name.
 VSCode will change the class name, and update all the references to this class in other files.
 This is safer than using global search and replace.
 
-<video src="images/rename-symbol.mp4" width="100%" autoplay muted controls>
+<video src="images/rename-symbol.mp4" width="100%" autoplay muted controls loop>
 
 ### 2. Save all files with `Save All` command
 
@@ -42,7 +42,7 @@ A quick way to save all files is also using the command palette.
 
 <kbd>cmd+shift+p</kbd> and select **"File: Save All"**.
 
-<video src="images/save-all.mp4" width="100%" autoplay muted controls>
+<video src="images/save-all.mp4" width="100%" autoplay muted controls loop>
 
 ### 3. Rename folder and file names manually
 
@@ -62,7 +62,7 @@ VSCode will prompt to update import paths in other files. Select Yes.
 Back to the component class, update paths in component decorator
 with new file names that were changed in the previous step.
 
-<video src="images/update-references.mp4" width="100%" autoplay muted controls>
+<video src="images/update-references.mp4" width="100%" autoplay muted controls loop>
 
 ### 5. Update component selector used in the templates
 
@@ -74,7 +74,7 @@ Since the component's selctor is changed, there will be a need to update compone
 
 Update component's name in its spec file `*.spec.ts` to make the unit test report correct with updated name.
 
-<video src="images/update-spec.mp4" width="100%" autoplay muted controls>
+<video src="images/update-spec.mp4" width="100%" autoplay muted controls loop>
 
 ### 7. Verify
 
