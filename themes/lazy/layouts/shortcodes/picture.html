@@ -1,6 +1,6 @@
 <figure class="media {{ with .Get "wrapper-class"}}{{.}}{{ end }}">
   <img {{ with .Get "img-class"}} class="{{.}}"{{ end }} {{ with .Get "src"}} src="{{.}}"{{ end }} {{ with .Get "alt"}} alt="{{.}}"{{ end }}>
-  {{ if .Get "caption" }}
+  {{ with .Get "caption" }}
   <figcaption class="media-caption">{{ . }}</figcaption>
   {{ end }}
 </figure>
