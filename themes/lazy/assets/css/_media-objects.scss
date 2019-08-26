@@ -41,8 +41,12 @@
 }
 
 .media {
-  margin-bottom: $bottom-space * 2;
+  margin-bottom: $bottom-space * 3;
   position: relative;
+}
+
+.media + h3 {
+  margin-top: $bottom-space * 4;
 }
 
 .media.semi-full,
