@@ -101,6 +101,7 @@ $bottom-space: 26px;
 
 .post-teaser__thumbnail.no-thumbnail {
   padding-top: 56.25%;
+  margin-bottom: $bottom-space;
 }
 
 .related-posts__thumbnail.no-thumbnail::after,
