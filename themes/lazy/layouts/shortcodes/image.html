@@ -15,10 +15,10 @@
 {{ end }}
   <div class="lazy-wrapper {{ with .Get "ratio"}}ratio ratio-{{.}}{{ end }}">
     <img class="lazy"
-      src="{{ $src.RelPermalink }}"
+      data-src="{{ $src.RelPermalink }}"
       data-zoom-src="{{ $src.RelPermalink }}"
-      sizes="100vw"
-      srcset='
+      data-sizes="100vw"
+      data-srcset='
       {{ if ge $src.Width "500" }}{{ with $small.RelPermalink }}{{.}} 500w{{ end }} {{ end }}
       {{ if ge $src.Width "800" }}{{ with $medium.RelPermalink }}, {{.}} 800w{{ end }} {{ end }}
       {{ if ge $src.Width "1400" }}{{ with $medium2x.RelPermalink }}, {{.}} 1400w{{ end }}{{ end }}
