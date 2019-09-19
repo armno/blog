@@ -3,7 +3,7 @@
 	command = "hugo --minify"
 
 [build.environment]
-	HUGO_VERSION = "0.55.6"
+	HUGO_VERSION = "0.58.2"
 
 [[redirects]]
   from = "/blog"
