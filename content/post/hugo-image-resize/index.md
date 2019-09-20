@@ -127,4 +127,7 @@ attribute `srcset` ของแท็ก `<img>` เพื่อทำ responsiv
 
 ถือเป็นการประหยัดเวลาในการเตรียมรูปประกอบ content ได้ดีครับ
 
+ข้อควรระวังก็คือ ถ้าในโพสต์มีรูปที่ต้อง process เยอะ ก็จะยิ่งกินเวลา build time นานขึ้นด้วย
+บางทีทำให้เกิด timeout ตอน build ได้ครับ
+
 Image Processing ยังมี option อื่นๆ อีก ตามอ่านได้ที่ [Hugo Docs](https://gohugo.io/content-management/image-processing/) ได้เลย
