@@ -44,18 +44,29 @@ li {
   margin-bottom: 0;
 }
 
+ol {
+  counter-reset: listCounter;
+}
+
 ol > li {
-  counter-increment: listCounter;
   position: relative;
 }
 
 ol > li::before {
-  content: counter(listCounter, decimal-leading-zero) '.';
+  counter-increment: listCounter;
+  content: counters(listCounter, '.') '.';
   position: absolute;
-  left: -1.75em;
+  top: 0.05em;
+  left: -2.25em;
+  width: 2em;
+  text-align: right;
   font-weight: bold;
   font-size: 0.85em;
   color: $red;
+}
+
+ol > li > ol > li::before {
+  content: counters(listCounter, '.') ' ';
 }
 
 ul li {
