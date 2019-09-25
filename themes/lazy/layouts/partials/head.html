@@ -31,9 +31,12 @@
   <meta property="og:image" content="{{ .Page.Params.thumbnail }}">
   {{ else if .Page.Params.thumbnail }}
   {{ $thumbnailImage := .Page.Resources.GetMatch (printf "*%s*" .Page.Params.thumbnail) }}
-  <meta property="og:image" content="{{ $thumbnailImage.Permalink }}">
-  <meta property="og:image:width" content="{{ $thumbnailImage.Width }}">
-  <meta property="og:image:height" content="{{ $thumbnailImage.Height }}">
+
+    {{ if eq $thumbnailImage.ResourceType "image" }}
+    <meta property="og:image" content="{{ $thumbnailImage.Permalink }}">
+    <meta property="og:image:width" content="{{ $thumbnailImage.Width }}">
+    <meta property="og:image:height" content="{{ $thumbnailImage.Height }}">
+    {{ end }}
   {{ else }}
   <meta property="og:image" content="{{ .Site.Params.thumbnail }}">
   {{ end }}
