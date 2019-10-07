@@ -49,7 +49,7 @@ plate ที่ผมอยากได้ ก็คือ plate ขนาด 60
 2. เลือกแท็บ Raw data ด้านล่างของ keymap แล้ว copy code ทั้งหมดในช่อง Raw data มา
 3. ไปที่ [builder.swillkb.com](http://builder.swillkb.com/) เอา code ที่ copy มาใส่ในช่อง Plate layout พร้อม option ตามที่อยากได้คือ
   * Switch Type เลือกแบบแรก `MX` (Classic MX Cutout)
-  * Stablizer Type เลือก `Cherry Only`
+  * Stablizer Type เลือก `Cherry + Costar`
   * Case Type เลือก `Poker - 60%`
 
 {{< picture
