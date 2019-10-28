@@ -33,10 +33,12 @@ $ touch .gitmessage
 
 ```
 '#[TICKET_ID] - [COMMIT SUMMARY]
+
 ```
 
-Note: I prefix the line with `'` to prevent Git to see it as a comment.
+- Note: I prefix the line with `'` to prevent Git to see it as a comment.
 (A line started with `#` is excluded from the commit message.)
+- I also add an empty line at the end to seperate my template with Git's default template.
 
 Then tell Git to use this file as a commit message's template.
 by setting Git's config `commit.template` to point to the file.
