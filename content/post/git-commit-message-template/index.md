@@ -47,6 +47,12 @@ $ git config commit.template .gitmessage
 
 Then when we run `$ git commit`, the editor window is now pre-filled with our template.
 
+{{< image
+  src="images/commit-with-template.png"
+  alt="git commit with template"
+  caption="commit message with pre-filled template"
+>}}
+
 I prefer to have the same template for all repositories,
 so move the template to my home folder and make it a global configuration.
 
