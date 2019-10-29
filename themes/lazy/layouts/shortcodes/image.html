@@ -15,6 +15,7 @@
 {{ end }}
   <div class="lazy-wrapper {{ with .Get "ratio"}}ratio ratio-{{.}}{{ end }}">
     <img class="lazy"
+      {{ with .Get "width"}}width="{{.}}"{{ end }}
       data-src="{{ $src.RelPermalink }}"
       data-zoom-src="{{ $src.RelPermalink }}"
       data-sizes="100vw"
