@@ -61,12 +61,12 @@ thumbnail: images/laptop-1.jpg
 
 Desk Setup: เลือกใช้ MacBook Pro แต่ใช้ keyboard กับ mouse แยก แล้วยกให้สูงขึ้นมาใกล้เคียงระดับสายตา
 
-- [2016, 13-inch MacBook Pro](https://support.apple.com/kb/SP747?locale=en_US) (2GHz, 16GB RAM) (ที่ทำงาน),
+- [2015, 15-inch MacBook Pro](https://support.apple.com/kb/SP719?locale=en_US) (2.2GHz, 16GB RAM) (ที่ทำงาน),
   [2013, 13-inch MacBook Pro](https://support.apple.com/kb/SP691?locale=en_US) (2.3GHz, 8GB RAM) (ที่บ้าน) (แต่โต๊ะที่บ้านไม่ได้สะอาดแบบรูปข้างล่างนะ 😅)
 
 {{< picture-lazy wrapper-class="semi-full" src="images/laptop-1.jpg" alt="2016, 13-inch MacBook Pro" ratio="3-2" >}}
 
-- Custom mechanical keyboard ขนาด 60% ที่ทำใช้เอง เขียนบันทึกไว้ที่[โพสต์นี้](https://armno.in.th/2019/05/01/custom-mechanical-keyboard-build-2/) (ตอนนี้ตัวที่ใช้คือรูปที่ 2)
+- Custom mechanical keyboard ขนาด 60% ที่ทำใช้เอง เขียนบันทึกไว้ที่[โพสต์นี้](https://armno.in.th/2019/05/01/custom-mechanical-keyboard-build-2/) มีอยู่สองสามตัว ใช้สลับไปมา
 
 {{< picture-lazy wrapper-class="semi-full" src="images/keyboard.jpg" alt="custom mechanical keyboard" ratio="3-2" >}}
 
