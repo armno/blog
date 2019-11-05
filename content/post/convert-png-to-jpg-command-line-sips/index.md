@@ -44,8 +44,8 @@ $ sips --setProperty format jpeg \
 ## Convert the last captured screenshot to a JPG
 
 When I captured a screenshot to send via Slack or to attach in a ticket,
-I often found the captured PNG file is way to big in terms of the file size,
-especially when the screenshot contains photos in it.
+I often found the captured PNG file is way too big in terms of the file size,
+especially when the screenshot has photos in it.
 
 {{< image
   src="images/screenshot-png.jpg"
