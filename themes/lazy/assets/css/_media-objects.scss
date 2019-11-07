@@ -104,3 +104,9 @@
 .media-caption {
   text-align: center;
 }
+
+.no-js .lazy-wrapper.ratio {
+  padding-top: 0;
+  height: auto;
+  position: static;
+}
