@@ -59,6 +59,12 @@
 }
 
 /* section: lazy-loaded images */
+.no-js .lazy,
+.no-js .content article img:before,
+.no-js .content article img:after {
+  display: none;
+}
+
 .lazy-wrapper.ratio {
   width: 100%;
   height: 0;
