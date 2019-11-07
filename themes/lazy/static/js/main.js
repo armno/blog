@@ -3,6 +3,8 @@
     mediumZoom('img:not(.no-medium-zoom)');
     createAnchorLinks();
     observeComments();
+
+    document.querySelector('html').classList.remove('no-js');
   });
 
   window.addEventListener('load', () => {
