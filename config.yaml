@@ -8,7 +8,7 @@ theme: lazy
 paginate: 12
 permalinks:
   post: /:year/:month/:day/:slug/
-pygmentsStyle: 'dracula'
+pygmentsStyle: 'friendly'
 pygmentsCodefences: true
 ignoreFiles:
   - '_drafts'
