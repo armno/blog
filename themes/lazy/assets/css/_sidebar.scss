@@ -10,16 +10,13 @@
 
 /* Section: Sidebar */
 .author-avatar {
-  display: block;
   width: 52px;
   height: 52px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 26px;
 }
 
 .author {
-  text-align: center;
   font-size: 0.75rem;
   line-height: 26px;
 }
@@ -36,9 +33,9 @@
   display: block;
   position: absolute;
   width: 40%;
-  height: 2px;
+  height: 4px;
   background-color: $red;
   bottom: -1.6rem;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  transform: translateX(-25%);
 }
