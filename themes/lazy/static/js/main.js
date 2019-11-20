@@ -7,10 +7,6 @@
     document.querySelector('html').classList.remove('no-js');
   });
 
-  window.addEventListener('load', () => {
-    quicklink();
-  });
-
   function appendAnchor(element) {
     const a = document.createElement('a');
     const currentURL = document.location.href;
