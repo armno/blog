@@ -3,7 +3,7 @@ disablePathToLower: true
 languageCode: th
 title: Armno P. - Frontend Developer at BUZZWOO! Asia, Chiang Mai, Thailand.
 params:
-  thumbnail: https://armno.in.th/img/home1.jpg
+  thumbnail: https://armno.in.th/img/blog-social-media-cover.png
 theme: lazy
 paginate: 12
 permalinks:
