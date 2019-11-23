@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html class="no-js" lang="th">
 {{ partial "head.html" . }}
-<body data-instant-intensity="viewport">
+<body class="free-layout" data-instant-intensity="viewport">
   {{ partial "skip-to-content.html" . }}
 
-  <div style="width: 100%; height: 80vh; background-image: url('{{ .Page.Params.cover }}'); background-size: 100% auto; background-position: top center; background-repeat: no-repeat; display: grid; grid-template-columns: 20% 30% 30% 20%; grid-template-rows: 54px 1fr 160px">
-    <header class="site-header" style="margin: 0; background-color: transparent; grid-column-start: 2; grid-column-end: 4;">
+  <div class="free-hero" style="background-image: url('{{ .Page.Params.cover }}');">
+    <header class="site-header">
       {{ partial "nav.html" (dict "context" . "pageName" "post") }}
     </header>
-    <h1 class="page-title" style="padding: 0.5em; background-color: rgba(0,0,0,0.7);color: #fff; margin: 0; grid-column-start: 3; grid-column-end: 5; grid-row-start: 3; grid-row-end: 5; position: relative; top: 30%;">{{ .Title }}</h1>
+    <h1 class="page-title">{{ .Title }}</h1>
   </div>
-  <div class="content" style="padding-top: 4rem">
+  <div class="content">
   {{ partial "sidebar.html" . }}
 
   <main id="main" class="main-content">

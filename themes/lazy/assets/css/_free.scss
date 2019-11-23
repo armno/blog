@@ -1,0 +1,65 @@
+.free-hero {
+  width: 100%;
+  height: 50vh;
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-rows: 54px 1fr 160px;
+
+  @include large() {
+    height: 80vh;
+  }
+}
+
+.free-layout {
+  .page-title {
+    padding: 0.5em;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    position: relative;
+    top: 0;
+
+    @include medium() {
+      top: 30%;
+    }
+
+    @media (min-width: 560px) {
+      grid-column-start: 2;
+    }
+
+    @media (min-width: 1400px) {
+      grid-column-start: 3;
+    }
+  }
+
+  .site-header {
+    margin: 0;
+    background-color: transparent;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  .nav,
+  .nav-list {
+    height: 100%;
+  }
+
+  .nav-link {
+    color: white;
+  }
+
+  .content {
+    padding-top: 2rem;
+
+    @include medium() {
+      padding-top: 6rem;
+    }
+  }
+}

@@ -8,7 +8,7 @@ tags:
   - Cycling
   - Storck
 thumbnail: images/front.jpg
-layout: full
+layout: free
 cover: images/02.jpg
 categories:
 - hobby

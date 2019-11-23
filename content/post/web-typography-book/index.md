@@ -2,8 +2,9 @@
 title: "แนะนำหนังสือ Better Web Typography for a Better Web"
 date: 2019-06-09T10:29:00+07:00
 url: /2019/06/09/better-web-typography-for-a-better-web-book
-cover-image: images/cover.jpg
+cover: images/book-cover.jpg
 thumbnail: images/thumbnail.jpg
+layout: free
 description: หนังสือ Better Web Typography for a Better Web เขียนโดย Matej Latin เป็นหนังสืออีกเล่มที่อยู่บนชั้นหนังสือเล็กๆ ที่บริษัท ผมยืมมาอ่านแล้วรู้สึกชอบจึงอยากจะแนะนำครับ
 tags:
   - book
