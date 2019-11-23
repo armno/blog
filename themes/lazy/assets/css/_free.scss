@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 20% 30% 30% 20%;
-  grid-template-rows: 54px 1fr 160px;
+  grid-template-rows: 54px 1fr auto; // auto = content height
 
   @include large() {
     height: 80vh;
@@ -42,8 +42,13 @@
   .site-header {
     margin: 0;
     background-color: transparent;
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    @media (min-width: 560px) {
+      grid-column-start: 3;
+      grid-column-end: 5;
+    }
   }
 
   .nav,
@@ -54,12 +59,24 @@
   .nav-link {
     color: white;
   }
+}
 
-  .content {
-    padding-top: 2rem;
+.free-layout-content {
+  display: grid;
+  grid-template-columns: auto;
+  padding-top: 2rem;
 
-    @include medium() {
-      padding-top: 6rem;
-    }
+  @include medium() {
+    grid-template-columns: minmax(min-content, 280px) auto;
+    padding-top: 6rem;
+  }
+}
+
+.sidebar-author {
+  display: none;
+
+  @include medium {
+    display: block;
+    padding: 0 2rem;
   }
 }
