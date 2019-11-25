@@ -9,6 +9,8 @@ tags:
 - canyon
 - unboxing
 - tools
+layout: free
+cover: images/box-back.jpg
 ---
 
 โพสต์นี้เป็นภาคต่อของ [รีวิว: สั่งซื้อจักรยานจาก Canyon](https://armno.in.th/2019/01/28/ordering-a-canyon-bike-review/)

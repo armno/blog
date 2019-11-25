@@ -2,7 +2,7 @@
 title: "บันทึกการทำ Custom Mechanical Keyboard ภาค 2"
 date: 2019-05-01T22:38:57+07:00
 url: /2019/05/01/custom-mechanical-keyboard-build-2
-cover-image: images/mark4-3.jpg
+cover: images/mark4-3.jpg
 thumbnail: images/mark4-3.jpg
 description: custom mechanical keyboard อีก 2 ตัวล่าสุดที่ทำ จากแผงวงจร DZ60 เป็น keyboard ขนาด 60%
 tags:
@@ -11,6 +11,7 @@ tags:
   - Hardware
 categories:
 - hobby
+layout: free
 ---
 
 เมื่อเกือบ 2 ปีที่แล้ว ผมได้ลองทำ [mechanical keyboard ขนาด 60%](https://armno.in.th/2017/08/20/building-custom-mechanical-keyboard/) อันแรก

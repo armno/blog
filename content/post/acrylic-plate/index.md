@@ -11,6 +11,8 @@ tags:
 categories:
 - hobby
 thumbnail: images/on-keyboard.jpg
+cover: images/on-keyboard.jpg
+layout: free
 ---
 
 ความเดิมจากตอนที่แล้ว: [Mechanical Keyboard จาก DZ60RGB](https://armno.in.th/2019/07/19/mechanical-keyboard-mark-6/)
