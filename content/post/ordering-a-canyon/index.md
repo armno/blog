@@ -3,7 +3,7 @@ title: "รีวิว: สั่งซื้อจักรยานจาก 
 date: 2019-01-28T23:08:07+07:00
 url: /2019/01/28/ordering-a-canyon-bike-review
 layout: wide
-cover-image: images/cover.jpg
+cover: images/box-front.jpg
 thumbnail: images/box-front.jpg
 description: ขั้นตอนการสั่งซื้อจักรยาน Canyon ออนไลน์ด้วยตัวเองจาก canyon.com รวมถึงการนำเข้าและเสียภาษีอย่างละเอียด
 tags:
@@ -12,6 +12,7 @@ tags:
   - review
 categories:
 - hobby
+layout: free
 ---
 
 ผมสั่งซื้อจักรยานจาก [Canyon](https://www.canyon.com/en-th/) เมื่อไม่กี่เดือนก่อน จึงอยากจะเขียนรีวิวขั้นตอนการสั่งซื้อจักรยานจาก canyon.com เก็บไว้ สำหรับคนที่สนใจครับ

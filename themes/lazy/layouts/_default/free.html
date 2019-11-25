@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="no-js" lang="th">
+{{ partial "head.html" . }}
+<body class="free-layout" data-instant-intensity="viewport">
+  {{ partial "skip-to-content.html" . }}
+
+  <div class="free-hero" style="background-image: url('{{ .Page.Params.cover }}');">
+    <header class="site-header">
+      <nav class="nav">
+        <ul class="nav-list no-list-style">
+          <li class="nav-item nav-item-mobile-logo">
+            <a href="/" class="nav-link">
+              home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/about/" class="nav-link">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="/uses/" class="nav-link">uses</a>
+          </li>
+          <li class="nav-item">
+            <a href="/post/" class="nav-link active">articles</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="page-title">{{ .Title }}</h1>
+  </div>
+
+  <div class="content free-layout-content">
+    <aside class="sidebar-author">
+      <div class="post-aside">
+        <div class="author">
+          <img class="author-avatar" src="/img/me.jpg" alt="me">
+          <div class="author-name">Armno P.</div>
+          <p>
+            Hi! I&rsquo;m Armno, a frontend developer at <a href="https://buzzwoo.de">Buzzwoo</a>.
+            Proactively lazy.
+          </p>
+          </div>
+      </div>
+    </aside>
+
+
+  <main id="main" class="main-content">
+    <article class="single">
+      <header>
+
+        <time class="publish-time-article" datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+      </header>
+
+      {{ .Content }}
+    </article>
+
+    {{ if eq .Section "post" }}
+    <div class="share-article">
+      <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
+        class="btn-share btn-share--twitter"
+        target="_blank" rel="noopener">
+        Share on Twitter
+      </a>
+
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+        class="btn-share btn-share--facebook"
+        target="_blank" rel="noopener">
+        Share on Facebook
+      </a>
+    </div>
+    {{ partial "related.html" . }}
+    <div id="comments" class="comments" data-page-url="{{ .Permalink }}" data-identifier="{{ .File.UniqueID }}">
+      <div id="disqus_thread"></div>
+    </div>
+    {{ end }}
+  </main>
+</div>
+  {{ partial "footer.html" . }}
+  {{ partial "bottom-script.html" . }}
+</body>
+</html>
