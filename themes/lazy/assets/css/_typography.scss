@@ -56,12 +56,12 @@ ol > li::before {
   counter-increment: listCounter;
   content: counters(listCounter, '.') '.';
   position: absolute;
-  top: 0.05em;
+  top: 0;
   left: -2.25em;
   width: 2em;
   text-align: right;
   font-weight: bold;
-  font-size: 0.85em;
+  font-size: 0.95em;
   color: $red;
 }
 
