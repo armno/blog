@@ -4,8 +4,8 @@
 <body class="free-layout" data-instant-intensity="viewport">
   {{ partial "skip-to-content.html" . }}
 
-  <div class="wrapper" style="height: 100vh; overflow-x: hidden; overflow-y: auto; perspective: 1px; position: relative;transform-style: preserve-3d;">
-    <div class="parallax" style="background-image: url('{{ .Page.Params.cover }}'); position: absolute; top: 0; left: 0; bottom: 0; right: 0; transform: translateZ(-1px) scale(2); background-size: 100%; z-index: -1; background-size: 100%; background-repeat: no-repeat;"></div>
+  <div class="wrapper">
+    <div class="parallax" style="background-image: url('{{ .Page.Params.cover }}')"></div>
     <div class="free-hero">
       <header class="site-header">
         <nav class="nav">
