@@ -5,5 +5,9 @@
 
 {{ $sass := resources.Get "css/lazy.scss" }}
 {{ $style := $sass | resources.ToCSS }}
+<!--
 <link rel="preload" href="{{ $style.RelPermalink }}" as="style" onload='this.onload=null;this.rel="stylesheet"'>
 <noscript><link rel="stylesheet" href="{{ $style.RelPermalink }}"></noscript>
+-->
+
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
