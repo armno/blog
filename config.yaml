@@ -25,4 +25,5 @@ related:
     - name: date
       weight: 10
 enableGitInfo: true
+enableRobotsTXT: true
 timeout: 30000
