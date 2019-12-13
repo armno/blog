@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /tags/
+Sitemap: https://armno.in.th/sitemap.xml
