@@ -9,7 +9,7 @@ tags:
   - Hardware
 thumbnail: images/19-final-keyboard.jpg
 cover-image: /img/posts/gh60/cover.jpg
-cover: images/06-test-switches-during-install.jpg
+cover: images/cover.jpg
 layout: free
 categories:
 - hobby
