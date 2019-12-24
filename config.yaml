@@ -27,3 +27,7 @@ related:
 enableGitInfo: true
 enableRobotsTXT: true
 timeout: 30000
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
