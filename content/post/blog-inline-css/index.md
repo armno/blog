@@ -28,7 +28,7 @@ categories:
 แล้ว copy critial CSS มา inline ใส่ในแท็ก `<style>` ใน `<head>` อีกที [แบบนี้](https://github.com/armno/blog/blob/3f55490bb0ac275fa02723f4c112e1e811a96a3a/themes/lazy/layouts/partials/style.html#L2)
 
 <p class="message--warning">
-ที่ทำให้ยุ่งยากขนาดนี้เพื่อลองเล่นฟีเจอร์ Sass Pipe ของ Hugo พร้อมกับใช้ loadCSS เพื่อเพิ่ม performance ครับ
+ที่ทำไว้เยอะขนาดนี้ เพื่อลองเล่นฟีเจอร์ Sass Pipe ของ Hugo พร้อมกับใช้ loadCSS เพื่อเพิ่ม performance เมื่อก่อนนู้นครับ
 </p>
 
 ---
@@ -86,7 +86,9 @@ categories:
 {{ end }}
 ```
 
-ไม่มีท่าพิศดาร, ไม่ต้องเปิดเว็บไป generate critical CSS อีก, ไม่มี external resource จากแท็ก `<link>`, ไม่มี JavaScript หรือ `<noscript>` อะไรทั้งนั้น
+ไม่มีท่าพิศดาร, ไม่ต้องเปิดเว็บไป generate critical CSS อีก, ไม่มี external resource จากแท็ก `<link>`, ไม่มี JavaScript หรือ `<noscript>`,
+ไม่ต้องคอยเช็คว่าโค้ด JavaScript ของ loadCSS มีอัพเดทหรือไม่
+
 เว็บโหลดไวเหมือนกัน
 
 ## Audit
@@ -111,7 +113,8 @@ categories:
 แต่สิ่งที่ชอบคือ ไม่ต้องมานั่งนึกว่าอัพเดท critical CSS ไปหรือยัง เวลาที่แก้ layout หรือ markup ของธีม
 ได้ตัด _ความซับซ้อนที่ไม่จำเป็น_ ออกไป
 
-อย่างกรณีของผมข้างต้น จะถือว่า overengineering ก็ยังได้
+อย่างกรณีของผมข้างต้น แก้ปัญหาไปอีกแนวทางก็ได้ คือเพิ่ม build tool เข้าไปอีก ให้ทุกอย่าง automate ได้หมด
+แต่ผมมองว่าแค่นี้มันก็ overengineering พอแล้ว
 
 เราหาอ่านบทความแนว performance best practices หรือหา tools ได้มากมาย
 เชื่อว่าทุกอย่างเป็นไปได้ ทุกอย่างใช้งานได้
