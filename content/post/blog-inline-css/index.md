@@ -93,7 +93,7 @@ categories:
 
 ## Audit
 
-ผมลองใช้ webpagetest.org วัดผลเทียบกันดูระหว่างแบบเดิม critical CSS + loadCSS + CSS หลัก กับแบบใหม่ inline CSS หลักไปทั้งหมดเลย
+ผมลองใช้ [webpagetest.org](https://webpagetest.org/) วัดผลเทียบกันดูระหว่างแบบเดิม critical CSS + loadCSS + CSS หลัก กับแบบใหม่ inline CSS หลักไปทั้งหมดเลย
 
 กับโพสต์ที่มี content พอประมาณ ก็ลดเวลาโหลดได้นิดหน่อย
 
