@@ -36,6 +36,9 @@ thumbnail: images/laptop-1.jpg
 - terminal colors: ผมใช้ทั้งโทนมืดและสว่างสลับกันไประหว่างวัน แล้วแต่สภาพแสงในห้องที่ทำงาน
   - โทนมืด: `base16_material-darker`
   - โทนสว่าง: `base16_google-light` จะใช้เวลามีแสงสะท้อนจากจอเยอะๆ
+- VSCode Themes มีใช้อยู่ 2 อันสำหรับโทนสว่างและโทนมืดเหมือนกัน
+  - โทนมืด: [`New Moon`](https://taniarascia.github.io/new-moon/)
+  - โทนสว่าง: [`Ra Spring`](https://marketplace.visualstudio.com/items?itemName=rahmanyerli.ra-spring)
 
 {{< picture wrapper-class="semi-full" src="images/dark.png" alt="dark terminal" >}}
 
