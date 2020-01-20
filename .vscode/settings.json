@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "content/_drafts": true,
+    "public/": true,
+    "resources/_gen": true
+  },
+  "search.exclude": {
+    "content/_drafts": true,
+    "public/": true,
+    "resources/_gen": true
+  }
+}
