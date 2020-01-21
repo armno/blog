@@ -94,4 +94,4 @@ h() {
 }
 ```
 
-<video src="images/fzf-h.mp4" width="100%" autoplay muted loop></video>
+<video src="images/fzf-h.mp4" width="100%" autoplay muted loop controls></video>

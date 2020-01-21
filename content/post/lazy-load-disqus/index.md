@@ -209,7 +209,7 @@ function loadDisqus(pageURL, id) {
 resource ของ Disqus จะถูกโหลดเมื่อ scroll ลงไปถึงกล่อง comment ข้างล่าง
 มี delay นิดหน่อยในระหว่างที่ Disqus กำลังโหลด (เพิ่ม `rootMargin` ด้านบนอีกได้ callback function จะได้เริ่มทำงานไวกว่าเดิม)
 
-<video controls width="100%" autoplay>
+<video controls width="100%" autoplay controls>
   <source src="images/scroll.webm" type="video/webm">
   <source src="images/scroll.mp4" type="video/mp4">
   Sorry, your browser doesn't support embedded videos.
