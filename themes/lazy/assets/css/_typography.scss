@@ -15,8 +15,15 @@ html {
   scroll-behavior: smooth;
 }
 
+html[lang='en'] body {
+  font-family: $sans-serif;
+}
+
+html[lang='th'] body {
+  font-family: 'Boon', $sans-serif;
+}
+
 body {
-  font-family: Boon, $sans-serif;
   line-height: 1.5;
   color: $black;
 }
