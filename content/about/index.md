@@ -5,19 +5,28 @@ activeMenu: about
 language: en
 ---
 
-<img src="/img/home1.jpg" alt="armno's photo">
 
-<p class="lead">
-  My name is Armno. I am a Frontend Developer at <a href="https://buzzwoo.de" target="_blank" rel="noopener">BUZZWOO!</a>.
-</p>
-
-I primarily work on web frontend stuffs: HTML, CSS, and JavaScript.
-My primary focus is currently on JavaScript and Angular Framework.
-I also enjoy digging into frontend performance and web animations.
-
-Beside web development, I am also into books, photography, [building mechanical keyboards](https://armno.in.th/2017/08/20/building-custom-mechanical-keyboard/) and [road bike cycling](https://www.strava.com/athletes/3637623).
-
-My favorite color is matte black.
+<div class="about-columns">
+  <div>
+    <img src="/img/home1.jpg" alt="armno's photo">
+  </div>
+  <div>
+    <p class="lead">
+      My name is Armno. I am a Frontend Developer at <a href="https://buzzwoo.de" target="_blank" rel="noopener">buzzwoo</a>.
+    </p>
+    <p>
+    I primarily work on web frontend stuffs: HTML, CSS, and JavaScript.
+    My primary focus is currently on JavaScript and Angular Framework.
+    I also enjoy digging into frontend performance and web animations.
+    </p>
+    <p>
+    Beside web development, I am also into books, photography,
+      <a href="https://armno.in.th/2017/08/20/building-custom-mechanical-keyboard/">building mechanical keyboards</a> and
+      <a href="https://www.strava.com/athletes/3637623">road bike cycling</a>
+    </p>
+    <p>My favorite color is matte black.</p>
+  </div>
+</div>
 
 ## Contact Info
 

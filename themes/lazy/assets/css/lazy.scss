@@ -218,6 +218,10 @@ $bottom-space: 26px;
   line-height: 1.1;
 }
 
+.about-columns img {
+  max-width: 300px;
+}
+
 @media (min-width: 800px) {
   .post-teaser {
     width: 40%;
@@ -237,6 +241,20 @@ $bottom-space: 26px;
   }
   .related-posts__item:not(:last-child) {
     margin-right: 5%;
+  }
+
+  .about-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    & > div {
+      width: 43%;
+    }
+
+    img {
+      max-width: 100%;
+    }
   }
 }
 
