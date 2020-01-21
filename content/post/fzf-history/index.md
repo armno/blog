@@ -1,4 +1,5 @@
 ---
+language: en
 title: "TIL: Using fzf to search in command history"
 date: 2020-01-16T11:16:41+07:00
 url: /2020/01/16/fzf-history

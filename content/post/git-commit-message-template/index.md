@@ -1,4 +1,5 @@
 ---
+language: en
 title: "TIL: Creating Git Commit Message Template"
 date: 2019-10-24T14:07:52+07:00
 url: /2019/10/24/git-commit-message-template

@@ -1,4 +1,5 @@
 ---
+language: en
 title: "Renaming an Angular Component"
 date: 2019-08-22T23:15:48+07:00
 url: /2019/08/22/rename-angular-component

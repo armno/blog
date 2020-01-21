@@ -1,4 +1,5 @@
 ---
+language: en
 title: "TIL: Convert a PNG to a JPG with sips"
 date: 2019-11-05T13:42:15+07:00
 url: /2019/11/05/convert-png-to-jpg-command-line-sips

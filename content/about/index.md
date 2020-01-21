@@ -2,6 +2,7 @@
 layout: page
 title: Armno Prommarak
 activeMenu: about
+language: en
 ---
 
 <img src="/img/home1.jpg" alt="armno's photo">

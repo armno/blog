@@ -17,9 +17,8 @@
       <ol>
         {{ range .Pages }}
         <li>
-          <a class="post-link" href="{{ .Permalink }}">
-            {{ .Title }}
-          </a>
+          <a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ with .Params.language }}<span>🇬🇧</span>{{end}}
         </li>
         {{ end }}
       </ol>

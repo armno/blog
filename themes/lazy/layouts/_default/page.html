@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="th">
+<html class="no-js" lang="{{ with .Params.language }}{{ . }}{{ else }}th{{end}}">
 {{ partial "head.html" . }}
 
 <body>
