@@ -31,11 +31,12 @@ language: en
 ## Contact Info
 
 If you want to contact me for anything, please send me an [email](mailto:monkeyarmno@gmail.com)
-or [shoot me an Issue on GitHub](https://github.com/armno/armno/issues/new).
+or [create an Issue on GitHub](https://github.com/armno/armno/issues/new).
 
 ### About This Website
 
-This website is created with [Hugo](https://gohugo.io/) - a static site generator. Hosted on [Netlify](https://www.netlify.com/). The source is on [GitHub](https://github.com/armno/blog).
+This website is created with [Hugo](https://gohugo.io/) - a static site generator. Hosted on [Netlify](https://www.netlify.com/).
+The sourcecode is on [GitHub](https://github.com/armno/blog).
 
 ### License
 
