@@ -3,7 +3,7 @@
 
 * {
   box-sizing: border-box;
-  line-height: 1.45;
+  line-height: 1.5;
   margin-top: 0;
   margin-bottom: $bottom-space;
 
@@ -16,17 +16,9 @@ html {
   scroll-behavior: smooth;
 }
 
-html[lang='en'] body {
-  font-family: $system-fonts;
-}
-
-html[lang='th'] body {
-  font-family: $sans-serif;
-}
-
 body {
-  line-height: 1.5;
   color: $black;
+  font-family: $system-fonts;
 }
 
 p,
@@ -97,7 +89,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: $serif;
+  font-family: $heading-fonts;
   font-weight: 400;
   color: $black;
 }
@@ -245,8 +237,8 @@ hr.right {
 code,
 kbd,
 samp {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 0.8em;
+  font-family: $monospace-font;
+  font-size: 0.95em;
   background-color: $light-gray;
   padding: 2px 5px;
 }
