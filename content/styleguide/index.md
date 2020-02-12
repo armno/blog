@@ -58,7 +58,7 @@ TBA
 
 ### Typefaces
 
-- Headings: [Anakotmai](https://futureforwardparty.org/1965)
+- Headings: [DM Serif Text](https://fonts.google.com/specimen/DM+Serif+Text)
 - Body: [Boon](https://fontuni.com/boon/)
 
 ### Sizes

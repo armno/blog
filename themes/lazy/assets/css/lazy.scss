@@ -10,11 +10,14 @@ $gold: gold;
 $twitter: #1da1f2;
 $facebook: #3b5998;
 
-$sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
-  Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-$ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+$system-fonts: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+$sans-serif: 'Boon', $system-fonts;
+$serif: 'DM Serif Text', serif;
 
 $base-font-size: 19px;
+
+$ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
 $bottom-space: 26px;
 
 @import 'mixins';
