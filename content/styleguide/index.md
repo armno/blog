@@ -58,8 +58,8 @@ TBA
 
 ### Typefaces
 
-- Headings: [DM Serif Text](https://fonts.google.com/specimen/DM+Serif+Text)
-- Body: [Boon](https://fontuni.com/boon/)
+- Headings: [DM Serif Text](https://fonts.google.com/specimen/DM+Serif+Text) (eng), [Chonburi](https://fonts.google.com/specimen/Chonburi) (th)
+- Body: System Fonts
 
 ### Sizes
 
