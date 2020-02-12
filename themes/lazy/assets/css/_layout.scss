@@ -41,12 +41,34 @@ body.grid-on {
 .site-header {
   background-color: #fff;
   margin-top: 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  @include medium() {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @include large() {
+    max-width: 1440px;
+  }
 }
 
+.site-header,
 .main-content,
 .site-footer {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.site-logo {
+  font-family: $serif;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-bottom: 0;
 }
 
 .main-content {
