@@ -1,10 +1,46 @@
+.mobile-menu {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  padding: 6px;
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+
+  svg {
+    margin: 0;
+  }
+
+  &:focus,
+  &:active {
+    outline: 1px solid hsl(0, 0%, 0%);
+  }
+}
+
+.nav {
+  position: absolute;
+  right: 0;
+  top: 26px;
+  transform: translateX(100%);
+  @include medium() {
+    position: static;
+    transform: none;
+  }
+}
+
 .nav-list {
   list-style: none;
   margin: 0 auto;
   padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+
+  flex-direction: column;
+
+  @include medium() {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .nav-item {

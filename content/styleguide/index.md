@@ -9,7 +9,7 @@ date: 1988-03-29T8:30:07+07:00
 ---
 
 <p class="message--warning">
-  This is still a work-in-progress and is not nearly finished.
+  This is still a work-in-progress.
 </p>
 
 ## Colors
