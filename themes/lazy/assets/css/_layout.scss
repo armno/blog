@@ -1,3 +1,9 @@
+html,
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
 /* overlay grid */
 body.grid-on {
   position: relative;
