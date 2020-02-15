@@ -75,9 +75,14 @@
 
   function initMobileMenu() {
     const openButton = document.querySelector('#button-open-menu');
+    if (openButton) {
+      openButton.addEventListener('click', openMenu);
+    }
+
     const closeButton = document.querySelector('#button-close-menu');
-    openButton.addEventListener('click', openMenu);
-    closeButton.addEventListener('click', closeMenu);
+    if (closeButton) {
+      closeButton.addEventListener('click', closeMenu);
+    }
   }
 
   function openMenu() {
