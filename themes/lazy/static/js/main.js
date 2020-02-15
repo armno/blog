@@ -3,6 +3,7 @@
     mediumZoom('img:not(.no-medium-zoom)');
     createAnchorLinks();
     observeComments();
+    initMobileMenu();
 
     document.querySelector('html').classList.remove('no-js');
   });
@@ -70,5 +71,20 @@
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
+  }
+
+  function initMobileMenu() {
+    const openButton = document.querySelector('#button-open-menu');
+    const closeButton = document.querySelector('#button-close-menu');
+    openButton.addEventListener('click', openMenu);
+    closeButton.addEventListener('click', closeMenu);
+  }
+
+  function openMenu() {
+    document.body.classList.add('menu-active');
+  }
+
+  function closeMenu() {
+    document.body.classList.remove('menu-active');
   }
 })();
