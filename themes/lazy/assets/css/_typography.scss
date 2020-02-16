@@ -3,11 +3,12 @@
 
 * {
   box-sizing: border-box;
-  line-height: 1.45;
+  line-height: 1.5;
   margin-top: 0;
   margin-bottom: $bottom-space;
 
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -15,17 +16,9 @@ html {
   scroll-behavior: smooth;
 }
 
-html[lang='en'] body {
-  font-family: $sans-serif;
-}
-
-html[lang='th'] body {
-  font-family: 'Boon', $sans-serif;
-}
-
 body {
-  line-height: 1.5;
   color: $black;
+  font-family: $system-fonts;
 }
 
 p,
@@ -67,8 +60,6 @@ ol > li::before {
   left: -2.25em;
   width: 2em;
   text-align: right;
-  font-weight: bold;
-  font-size: 0.95em;
   color: $red;
 }
 
@@ -96,8 +87,8 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Anakotmai, $sans-serif;
-  font-weight: 700;
+  font-family: $heading-fonts;
+  font-weight: 400;
   color: $black;
 }
 
@@ -244,8 +235,8 @@ hr.right {
 code,
 kbd,
 samp {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 0.8em;
+  font-family: $monospace-font;
+  font-size: 0.95em;
   background-color: $light-gray;
   padding: 2px 5px;
 }
@@ -288,7 +279,7 @@ del {
 
 .lead {
   font-size: 1.25rem;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 .page-title {

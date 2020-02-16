@@ -46,7 +46,7 @@
     grid-column-end: 5;
 
     @media (min-width: 560px) {
-      grid-column-start: 3;
+      grid-column-start: 2;
       grid-column-end: 5;
     }
   }
@@ -56,7 +56,8 @@
     height: 100%;
   }
 
-  .nav-link {
+  .nav-link,
+  .site-logo {
     color: white;
   }
 }

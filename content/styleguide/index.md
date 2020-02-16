@@ -9,7 +9,7 @@ date: 1988-03-29T8:30:07+07:00
 ---
 
 <p class="message--warning">
-  This is still a work-in-progress and is not nearly finished.
+  This is still a work-in-progress.
 </p>
 
 ## Colors
@@ -58,8 +58,8 @@ TBA
 
 ### Typefaces
 
-- Headings: [Anakotmai](https://futureforwardparty.org/1965)
-- Body: [Boon](https://fontuni.com/boon/)
+- Headings: [DM Serif Text](https://fonts.google.com/specimen/DM+Serif+Text) (eng), [Chonburi](https://fonts.google.com/specimen/Chonburi) (th)
+- Body: System Fonts
 
 ### Sizes
 
@@ -77,6 +77,24 @@ than normal paragraphs due to the larger <code>font-size</code>.
 โฮปมยุราภิรมย์หลวงพี่ฮิตตุ๊ด กิมจิรีไซเคิล ไฮกุ วโรกาสปอดแหกโปรเจ็คว่ะ ฮากกาแฟนตาซีคณาญาติ แซมบ้ามาร์ชมุมมองอิเลียด ทัวร์ คาสิโนสหัชญาณเทียมทาน ราชบัณฑิตยสถานเป็นไงอพาร์ตเมนท์ ม้านั่งสตรอเบอร์รี รีสอร์ตเฮียขั้นตอนเซ็นทรัลเกสต์เฮาส์ เฮียระโงกรันเวย์ซานตาคลอสสกรัม เคลื่อนย้ายอัลบัมสกายงี้ฮาราคีรี โซนครัวซองต์ เฟิร์มเป่ายิ้งฉุบดราม่าแฟรี ไอซ์คีตปฏิภาณวิกปอดแหก
 
 ฟอยล์ศิลปวัฒนธรรม นินจาสต๊อกซิลเวอร์พุดดิ้งแซ็ก เหมยบาร์บี้กีวี เธคจีดีพีเอ็กซ์เพรสมัฟฟินวอล์ค อัลบัมมยุราภิรมย์ แพนดา ตุ๊กตุ๊กโปรเจคท์ดีไซน์เนอร์แฟรนไชส์นางแบบ ป๊อปว้อดก้าขั้นตอน อิสรชนร็อคแฮมเบอร์เกอร์ ศึกษาศาสตร์ ต่อรองเรซินง่าวซูฮก คอร์ปอเรชั่นกีวี ไฟต์ รีพอร์ท ทีวีเบอร์รีซีนีเพล็กซ์เซฟตี้ คอรัปชัน
+
+<h1 class="page-title">
+  Heading 1 is for Page Title
+</h1>
+
+---
+
+<h1 class="page-title">
+  ทดสอบหัวข้อภาษาไทย ที่เปลี่ยนไป ในช่วงเวลาต่างกัน
+</h1>
+
+---
+
+<h1 class="page-title">
+  จะเกิดอะไร เมื่อ English is mixed with ภาษาไทย
+</h1>
+
+---
 
 ### Warning Message
 

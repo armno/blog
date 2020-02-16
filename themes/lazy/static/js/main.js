@@ -3,6 +3,7 @@
     mediumZoom('img:not(.no-medium-zoom)');
     createAnchorLinks();
     observeComments();
+    initMobileMenu();
 
     document.querySelector('html').classList.remove('no-js');
   });
@@ -70,5 +71,25 @@
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
+  }
+
+  function initMobileMenu() {
+    const openButton = document.querySelector('#button-open-menu');
+    if (openButton) {
+      openButton.addEventListener('click', openMenu);
+    }
+
+    const closeButton = document.querySelector('#button-close-menu');
+    if (closeButton) {
+      closeButton.addEventListener('click', closeMenu);
+    }
+  }
+
+  function openMenu() {
+    document.body.classList.add('menu-active');
+  }
+
+  function closeMenu() {
+    document.body.classList.remove('menu-active');
   }
 })();
