@@ -1,5 +1,5 @@
 ---
-title: "TIL: Creating a URL with HttpParams in Angular"
+title: "Creating a URL with HttpParams in Angular"
 date: 2020-02-24T14:25:34+07:00
 url: /2020/02/24/angular-http-params-immutability
 description: Today I learned how to create a URL with query string parameters with HttpParams class in Angular
@@ -12,12 +12,12 @@ categories:
 - web development
 ---
 
-Today I learned how to create a URL with query string parameters with [HttpParams](https://angular.io/api/common/http/HttpParams) class in Angular
+Today I learned how to create a URL with query string parameters with [HttpParams](https://angular.io/api/common/http/HttpParams) class in Angular.
 
-I want to construct a URL with some query string parameters like:
+I wanted to construct a URL with some query string parameters like:
 `https://api.something.com?id=someid&name=johndoe`
 
-I try:
+I tried:
 
 ```ts
 import { HttpParams } from '@angular/common/http';
@@ -33,11 +33,11 @@ const fullURL = `${baseURL}?${params.toString()}`;
 console.log({ fullURL });
 ```
 
-The URL doesn't contain any parameters.
+The URL didn't contain any parameters.
 
 ![parameters set to HttpParams are not working](images/url-without-params.png)
 
-But when I chain `.set()` with `new HttpParams()`, it works.
+But when I chained `.set()` with `new HttpParams()`, it works.
 
 ```ts
 const params = new HttpParams()
@@ -54,15 +54,21 @@ console.log({ fullURL });
 
 My gotcha moment was then I found out that `HttpParams` class in Angular **is immutable**.
 
-![API documentation page for HttpParams](images/httpparams-docs.png)
+{{< image
+  src="images/httpparams-docs.png"
+  alt="API documentation page for HttpParams"
+  caption="Screenshot from HttpParams class on Angular Docs"
+>}}
 
-So, `params.set()` method doesn't modify an exsting `params` object;
+This means `params.set()` method doesn't modify an existing `params` object &mdash;
 it returns **a new `HttpParams` instance**.
 
-The method's signature is
+The same goes to `append()` and `delete()` methods.
 
 ```ts
+append(param: string, value: string): HttpParams;
 set(param: string, value: string): HttpParams;
+delete(param: string, value?: string): HttpParams;
 ```
 
 So if I want the `params` object with a new parameter in it,
@@ -74,18 +80,18 @@ params = params.set('id', 'someid');
 params = params.set('name', 'johndoe');
 ```
 
-It is opposed to the [native `URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams),
-or the deprecated [`URLSearchParams` in `@angular/http`](https://v2.angular.io/docs/ts/latest/api/http/index/URLSearchParams-class.html) module,
+It is opposed to the [native `URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) object,
+or the deprecated [`URLSearchParams` class in `@angular/http`](https://v2.angular.io/docs/ts/latest/api/http/index/URLSearchParams-class.html) module,
 which are both mutable.
 
 
-## Why?
+## Why Immutable?
 
 I looked up on Google search to find why Angular team
-decided to make HttpParams immutable.
+decided to make HttpParams class immutable.
 
 I found [this post from Sparkles Blog](https://medium.com/sparkles-blog/angular-httpclient-enforces-immutability-dad161d8714b)
-which leads to the official document about immutability of `HttpRequest` and `HttpResponse` classes' properties
+which leads to the official document about immutability of `HttpRequest` and `HttpResponse` classes.
 
 <blockquote>
 	<p>[...] They are immutable for a good reason: the app may retry a request several times before it succeeds, which means that the interceptor chain may re-process the same request multiple times.</p>
@@ -93,7 +99,8 @@ which leads to the official document about immutability of `HttpRequest` and `Ht
 	<cite>Source - <a href="https://angular.io/guide/http#immutability">Http Guide</a>, Angular.io</cite>
 </blockquote>
 
-Then it is kind of make sense to me too if the `HttpParams` class should be also immutable.
+Then it is kind of make sense too if the `HttpParams` class should be also immutable.
+It just feels a bit strange though when a `.set()` method doesn't actually _set_ something to the caller object.
 
 However, we still cannot always assume that everying is immutable,
 as mention in another API document page:
