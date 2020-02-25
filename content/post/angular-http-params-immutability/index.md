@@ -102,7 +102,7 @@ which leads to the official document about immutability of `HttpRequest` and `Ht
 Then it is kind of make sense too if the `HttpParams` class should be also immutable.
 It just feels a bit strange though when a `.set()` method doesn't actually _set_ something to the caller object.
 
-However, we still cannot always assume that everying is immutable,
+However, we still cannot always assume that everything is immutable,
 as mention in another API document page:
 [Instances of HttpRequest class should not be assumed to be immutable](https://angular.io/api/common/http/HttpRequest).
 
