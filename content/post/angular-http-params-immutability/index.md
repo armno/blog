@@ -10,6 +10,7 @@ tags:
 - web development
 categories:
 - web development
+language: en
 ---
 
 Today I learned how to create a URL with query string parameters with [HttpParams](https://angular.io/api/common/http/HttpParams) class in Angular.
