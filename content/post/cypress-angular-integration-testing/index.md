@@ -2,8 +2,8 @@
 title: "Setting up Cypress for an Angular Project"
 date: 2020-02-26T16:47:17+07:00
 url: /2020/02/26/cypress-angular-integration-testing
-description:
-thumbnail:
+description: Use Cypress (cypress.io) to implement automated testing for an Angular project
+thumbnail: images/test-running-window.png
 tags:
 - javascript
 - angular
@@ -19,9 +19,14 @@ Cypress ([cypress.io](https://www.cypress.io/)) is a testing tool
 that can test [anything that runs in a browser](https://docs.cypress.io/guides/overview/why-cypress.html#Who-uses-Cypress)
 from unit tests to end-to-end tests.
 
+{{< image
+  src="images/cypress-logo.png"
+  alt="Cypress Logo"
+>}}
+
 I recently has a chance to use Cypress
 in an Angular project I'm working on.
-Cypress is used as a replacement of the built-in Protractor
+Cypress is used as a replacement of the built-in [Protractor](https://protractor.angular.io/)
 to implement integration and end-to-end testing of the project.
 
 <p class="message--warning">
@@ -44,7 +49,7 @@ Now with Cypress 4.0, [Firefox and Edge](https://cypress.io/blog/2020/02/06/intr
 - It's framework-agnostic &ndash; It doesn't matter how the application is built. As long as it runs on the browser, Cypress can test it.
 - It's easy to set up.
 - It's easy to write tests. Tests are written in BDD style.
-- It works well with CI environments (we use GitLab CI at work)
+- It works well with our CI environments (we use GitLab CI at [work](https://www.buzzwoo.de/)).
 - It's fast(er) and (more) reliable, compared to CodeceptJS.
 - The time travel feature is HUGE &ndash; we can go back in time at any step of the test and see what happened.
 
@@ -70,7 +75,10 @@ on Angular In Depth blog
 
 We are going to test the default home page which looks like this:
 
-![](images/default-home-page.png)
+{{< image
+  src="images/default-home-page.png"
+  alt="Angular's generated home page"
+>}}
 
 To install Cypress into the project:
 
@@ -90,11 +98,17 @@ When we run Cypress for the first time,
 it generates a bunch of examples that we can
 learn from.
 
-![](images/running-cypress-first-time.png)
+{{< image
+  src="images/running-cypress-first-time.png"
+  alt="Running Cypress for the first time"
+>}}
 
 We can run the example tests to see Cypress in action.
 
-![](images/running-all-specs.png)
+{{< image
+  src="images/running-all-specs.png"
+  alt="Running all specs"
+>}}
 
 -----
 
@@ -116,14 +130,20 @@ to get Code Intellisense support from VSCode.
 By adding `$schema`, VSCode knows what are the possible configurations
 we can add to the config file.
 
-![](images/config-schema.png)
+{{< image
+  src="images/config-schema.png"
+  alt="Added $schema to the config file"
+>}}
 
 ### Changing tests directory
 
 By default, Cypress keeps everything inside `cypress/` directory.
 I like rename the folder to `tests/e2e` to make it more generic.
 
-![](images/renamed-cypress-folder.png)
+{{< image
+  src="images/renamed-cypress-folder.png"
+  alt="Move generated tests from Cypress to test/ folder"
+>}}
 
 Then we need to update the paths in `cypress.json` file to reflect
 the new directory structure.
@@ -202,7 +222,10 @@ at the top of the spec file.
 This is to get type definition support from VSCode's IntelliSense
 for auto-completion and method signatures of Cypress.
 
-![](images/code-intellisense.png)
+{{< image
+  src="images/code-intellisense.png"
+  alt="Getting code intellisense from VSCode"
+>}}
 
 Then write the first test in `home-page.spec.js` file.
 
@@ -226,14 +249,20 @@ In the Cypress app, click **Run all specs** button.
 We can also choose the browser to run the test from
 the dropdown above Run all specs button.
 
-![](images/run-all-specs-button.png)
+{{< image
+  src="images/run-all-specs-button.png"
+  alt="Run all specs"
+>}}
 
 Cypress will open a new browser window and run the test.
 We can see the test steps on the left panel
 and the preview browser on the right.
 And we can see the test is success.
 
-![](images/test-running-window.png)
+{{< image
+  src="images/test-running-window.png"
+  alt="Test running window"
+>}}
 
 When hover over a step on the left panel,
 the preview window shows what is happening.
@@ -241,7 +270,10 @@ the preview window shows what is happening.
 In this case, I get an element with `cy.get()`
 so the browser highlights the element on the page.
 
-![](images/hover-step.png)
+{{< image
+  src="images/hover-step.png"
+  alt="Hover each step to see the action"
+>}}
 
 ### Add another test
 
@@ -250,7 +282,10 @@ Let's add a bit more complex test case on the home page.
 We will test buttons in the Next Steps section if they correctly &ndash;
 the buttons should display the command in the terminal preview area below.
 
-![](images/buttons-to-test.png)
+{{< image
+  src="images/buttons-to-test.png"
+  alt="Buttons on the page we want to test"
+>}}
 
 Create another test case in `home-page.spec.js` file.
 The test doesn't do any assertion yet. Just visit the home page.
@@ -266,13 +301,19 @@ When we run the tests, Cypress opens a browser window again.
 This time, we use the **Selector Playground** icon
 near the preview window's address bar.
 
-![](images/open-selector-playground.png)
+{{< image
+  src="images/open-selector-playground.png"
+  alt="Open selector playground in Cypress window"
+>}}
 
 Then we can select an element on the page
 and it will create a selector with `cy.get()`
 that we can copy it to use in our test.
 
-![](images/select-element.png)
+{{< image
+  src="images/select-element.png"
+  alt="Selecting element from the page"
+>}}
 
 Update our test case with action and assertion.
 
@@ -291,7 +332,10 @@ it('should update preview command in the terminal area based on the selected but
 
 The test re-runs and we should see the result.
 
-![](images/second-test-case-result.png)
+{{< image
+  src="images/second-test-case-result.png"
+  alt="Test result after updated the test"
+>}}
 
 We can click on each step of the test to see what happen.
 That's the _time travel_.
