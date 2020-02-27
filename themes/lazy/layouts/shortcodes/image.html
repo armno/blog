@@ -2,7 +2,7 @@
 
 {{ .Scratch.Set "small" ($src.Resize "500x q90") }}
 {{ .Scratch.Set "medium" ($src.Resize "800x q90") }}
-{{ .Scratch.Set "medium2x" ($src.Resize "1400x q70") }}
+{{ .Scratch.Set "medium2x" ($src.Resize "1400x q90") }}
 
 {{ $small := .Scratch.Get "small" }}
 {{ $medium := .Scratch.Get "medium" }}
