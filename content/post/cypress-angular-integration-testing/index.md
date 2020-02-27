@@ -189,6 +189,22 @@ Angular's dev server's URL
 }
 ```
 
+My whole `cypress.json` config file looks like this:
+
+```json
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "chromeWebSecurity": false,
+  "fixturesFolder": "tests/e2e/fixtures",
+  "integrationFolder": "tests/e2e/integration",
+  "pluginsFile": "tests/e2e/plugins/index.js",
+  "supportFile": "tests/e2e/support/index.js",
+  "screenshotsFolder": "output/e2e/screenshots",
+  "videosFolder": "output/e2es/videos",
+  "baseUrl": "http://localhost:4200"
+}
+```
+
 Run the Angular app
 
 ```sh
@@ -349,7 +365,7 @@ or [stubbing network requests](https://docs.cypress.io/guides/guides/network-req
 or [capturing videos](https://docs.cypress.io/guides/guides/screenshots-and-videos.html#Videos)
 or even [testing REST APIs](https://github.com/cypress-io/cypress-example-api-testing).
 
-Overall, I really like Cypress. It make automated UI testing fun again.
+Overall, I really like Cypress. It makes automated UI testing fun again.
 
 Be sure to check their [documentation](https://docs.cypress.io/)
 and their [example repos on GitHub](https://github.com/cypress-io?utf8=%E2%9C%93&q=example&type=&language=).
