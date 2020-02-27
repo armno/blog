@@ -47,7 +47,7 @@ Now with Cypress 4.0, [Firefox and Edge](https://cypress.io/blog/2020/02/06/intr
 ### Things I like about Cypress
 
 - It's framework-agnostic &ndash; It doesn't matter how the application is built. As long as it runs on the browser, Cypress can test it.
-- It's easy to set up.
+- It's easy to set up in an on-going project.
 - It's easy to write tests. Tests are written in BDD style.
 - It works well with our CI environments (we use GitLab CI at [work](https://www.buzzwoo.de/)).
 - It's fast(er) and (more) reliable, compared to CodeceptJS.
@@ -57,7 +57,7 @@ Now with Cypress 4.0, [Firefox and Edge](https://cypress.io/blog/2020/02/06/intr
 
 <p class="message--warning">
 In this post, I will use a bare bone Angular project generated with
-Angular CLI 9.0 as a test project
+Angular CLI as a test project,
 but the main content will not be specific to Angular at all.
 </p>
 
