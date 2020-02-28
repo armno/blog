@@ -15,6 +15,14 @@ Hugo มาพร้อมกับฟีเจอร์ [Image Processing](http
 จากรูปต้นฉบับที่เราเตรียมไว้รูปเดียว
 ผมได้ลองใช้แล้วพบว่าสะดวกดี จึงอยากจะบันทึกไว้ครับ
 
+<p class="message--warning">
+  <strong>Update:</strong> พบปัญหาจากการใช้งาน image processing อยู่ 2 อย่าง อย่างแรกคือ ขนาดไฟล์อาจจะใหญ่ขึ้นกว่าเดิม
+  อย่างที่สองคือ คุณภาพของรูปที่ผ่าน image processing ของ hugo นั้นค่อนข้างแย่
+  ถึงแม้ตั้ง quality เป็น 100 แล้วก็ตาม ปัญหานี้ผมยังหาทางแก้ไม่ได้
+</p>
+
+![bigger file size after resized](images/resized-image-bigger.png)
+
 ## Page Bundle
 
 แต่ละหน้าใน Hugo จะถูกเก็บไว้ในโฟลเดอร์ `content/`

@@ -1,8 +1,8 @@
 {{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
 
-{{ .Scratch.Set "small" ($src.Resize "500x q90") }}
-{{ .Scratch.Set "medium" ($src.Resize "800x q90") }}
-{{ .Scratch.Set "medium2x" ($src.Resize "1400x q90") }}
+{{ .Scratch.Set "small" ($src.Resize "500x q100") }}
+{{ .Scratch.Set "medium" ($src.Resize "800x q100") }}
+{{ .Scratch.Set "medium2x" ($src.Resize "1400x q100") }}
 
 {{ $small := .Scratch.Get "small" }}
 {{ $medium := .Scratch.Get "medium" }}
