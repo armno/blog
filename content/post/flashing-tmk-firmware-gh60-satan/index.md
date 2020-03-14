@@ -22,7 +22,7 @@ The goals are:
 
 - turn 4 keys at the bottom right into arrow keys
 
-[image: arrows key on the standard ansi layout]
+![GH60 with arrow keys](images/gh60l0.png)
 
 - add `print screen` key somewhere on the keyboard.
 
@@ -32,23 +32,21 @@ I go to [keyboard-layout-editor.com](http://www.keyboard-layout-editor.com/)
 then I go to the menu on the top > select **Preset** > **Default 60%**.
 It will load the layout in the editor area.
 
-[image: default ansi 60%]
+![default 60% layout](images/default-60.png)
 
 First, I want to remap the `right shift` key to an arrow `up`.
 
 I go to [https://tkg.io/#help](https://tkg.io/#help) and search for `up`.
 The values in the right column are ones I need.
 
-[image: search for up on the help page]
+![search for up key on tkg.io](images/search.png)
 
 Back to the keyboard-layout-editor.com, I select the right shift key (it will highlight in red border).
 Then I change the `Top Legend:` value from `Shift` to `UP`.
 
-[image: changed legend]
-
 And I do the same for `LEFT`, `DOWN`, and `RIGHT` keys.
 
-[image: customized arrow keys]
+![GH60 with arrow keys](images/gh60l0.png)
 
 <p class="message--warning">
   Values are case-insensitive. <code>up</code> and <code>Up</code> and <code>UP</code> are the same key.
@@ -62,45 +60,48 @@ For now it will have only 2 keys on the second layer: `esc` and `print screen`.
 I map the `caps lock` and the right `alt` keys to `FN0` - the Function key.
 I will use them to toggle another layer of the keyboard.
 
-[image: mapped caps lock and alt to FN0]
+![FN0 keys](images/fn0.png)
 
 <p class="message--warning">
   The function key itself doesn't do anything special, but we will set its behavior later on.
 </p>
 
-Now I finish the first layer. I go to `Raw data` tab below the keyboard layout
-and copy the raw data in the text field.
+For another layer, there are only 2 keys in this layer: `esc` and `print screen`.
+The layout look like this:
 
-[image: raw data tab]
+![layer2](images/l1.png)
 
-Then I to back to [tkg.io](https://tkg.io/#), on the home page, paste the copied raw data into `Layer0` field.
+I go to `Raw data` tab below the keyboard layout.
+I will need raw data for each layer to build the firmware.
+
+![raw data](images/raw-data.png)
+
+Here are my raw data for both layers.
+
+### Layer0
 
 ```text
 ["~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{w:2},"Backspace"],
 [{w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\"],
-[{w:1.75},"FN0","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:2.25},"Enter"],
-[{w:2.25},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.75},"UP"],
-[{w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:6.25},"space",{a:4,w:1.25},"FN0",{w:1.25},"LEFT",{w:1.25},"DOWN",{w:1.25},"RIGHT"]
+[{c:"#f2bc52",w:1.75},"FN0",{c:"#cccccc"},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:2.25},"Enter"],
+[{w:2.25},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{c:"#942222",t:"#ffffff",w:2.75},"UP"],
+[{c:"#cccccc",t:"#000000",w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:6.25},"",{c:"#f2bc52",a:4,w:1.25},"FN0",{c:"#942222",t:"#ffffff",sm:"cherry",w:1.25},"LEFT",{w:1.25},"DOWN",{w:1.25},"RIGHT"]
 ```
 
-[image: layout text is in layer0 field]
-
-In `Layer1` field, I put this in:
+### Layer1
 
 ```text
-["esc",{a:7},"","","","","","","","","","","","",{w:2},""],
-[{w:1.5},"","","","","","","","","","","psc","","",{w:1.5},""],
+[{c:"#f2bc52"},"ESC",{c:"#cccccc",a:7},"","","","","","","","","","","","",{w:2},""],
+[{w:1.5},"","","","","","","","","","",{c:"#f2bc52"},"PSC",{c:"#cccccc"},"","",{w:1.5},""],
 [{w:1.75},"","","","","","","","","","","","",{w:2.25},""],
-[{w:2.25},"","","","","","","","",{a:7},"",{a:4},"","",{w:2.75},""],
-[{w:1.25},"",{w:1.25},"",{w:1.25},"",{a:7,w:6.25},"",{a:4,w:1.25},"",{w:1.25},"",{w:1.25},"",{w:1.25},""]
+[{w:2.25},"","","","","","","","","","","",{w:2.75},""],
+[{w:1.25},"",{w:1.25},"",{w:1.25},"",{w:6.25},"",{w:1.25},"",{w:1.25},"",{w:1.25},"",{w:1.25},""]
 ```
 
-[image: layout text is in layer1 field]
+Then I go back to [tkg.io](https://tkg.io/#), on the home page, paste the copied raw data into `Layer0`
+and `Layer1` fields.
 
-There are only 2 keys in this layer: `esc` and `print screen`.
-The layout look like this:
-
-[image: layer1 map]
+![layer1](images/layer1.png)
 
 ## `FN0` key
 
@@ -109,20 +110,18 @@ Now we are going to set the behavior for the function key `FN0`.
 Still on tkg.io, under `Fn` section, at `Fn0` I select **Layout action > Momentary** and select `layer 1`
 on the right side.
 
-[image: fn0 behavior panel]
+![fn key behavior](images/fn-option.png)
 
 This means when I press and hold `FN0` key, it will switch to layer1.
 When I release the `FN0` key, it will switch back to the default `layer0`.
 
 Then I download the `.eep` file.
 
-[image: .eep download button]
-
 ## Flashing `.eep` file to the keyboard
 
 First I clone the `tkg-toolkit` repo to my computer.
 
-[image: tkg-toolkit repo]
+![tkg-toolkit repo](images/tkg.png)
 
 Then I copy the downloaded `.eep` file from the previous step to under `mac/` in this folder
 as I'm using a Mac to flash the firmware.
