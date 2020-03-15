@@ -2,20 +2,29 @@
 title: "Customizing Keyboard Firmware for GH60"
 date: 2020-03-10T21:52:49+07:00
 url: /2020/03/10/customizing-tmk-firmware-gh60-pcb
-description: Customizing firmware for a custom mechanical keyboard built with GH60 PCB
-thumbnail:
+description: A note to my future self on customizing firmware for a custom mechanical keyboard built with GH60 PCB
+thumbnail: images/fn0.png
 tags:
 - hardware
 - mechanical keyboard
 - gh60
 categories:
 - mechanical keyboards
+- hobby
 ---
 
 <p class="lead">
   I have a custom mechanical keyboard built with GH60 Satan PCB.
-  Here are steps I use to customize the keyboard's firmware with custom keys.
+  It is currently used by my colleague and she needs some custom keys.
 </p>
+
+The GH60 PCB uses TMK firmware. I kind of forgot already how to flash the firmware
+onto a board with TMK
+so I take this note also for my future self.
+
+Here are steps I use to customize the keyboard's firmware with custom keys.
+
+![the keyboard itself](images/keeb.jpg)
 
 The keyboard is a 60% with standard ANSI layout.
 The goals are:
@@ -140,8 +149,9 @@ enter `Y`
 
 and when it says **"waiting for bootloder"**, I flip the keyboard and press `RESET` button on the PCB.
 
-[image: reset button at the back of the keeb]
+![reset button](images/reset-button.jpg)
+
 
 wait for a few seconds and it is done. the new firmware is now on the keyboard.
 
-[image: flashed firmware message in the terminal]
+![flasshed firmware](https://armno.in.th/2017/08/20/building-custom-mechanical-keyboard/images/15-flashing-firmware.png)
