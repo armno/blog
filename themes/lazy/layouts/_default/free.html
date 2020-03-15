@@ -36,51 +36,39 @@
     </div>
 
   <div class="content free-layout-content" style="background-color: white;">
-    <aside class="sidebar-author">
-      <div class="post-aside">
-        <div class="author">
-          <img class="author-avatar" src="/img/me.jpg" alt="me">
-          <div class="author-name">Armno P.</div>
-          <p>
-            Hi! I&rsquo;m Armno, a frontend developer at <a href="https://buzzwoo.de">Buzzwoo</a>.
-            Proactively lazy.
-          </p>
-          </div>
+    <main id="main" class="main-content">
+      <article class="single">
+        <header>
+          <time class="publish-time-article" datetime="{{ .PublishDate }}">
+            Published on
+            <strong>{{ .PublishDate.Format "January 2, 2006" }}</strong>
+          </time>
+        </header>
+
+        {{ .Content }}
+      </article>
+
+      {{ if eq .Section "post" }}
+      <div class="share-article">
+        <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
+          class="btn-share btn-share--twitter"
+          target="_blank" rel="noopener">
+          Share on Twitter
+        </a>
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+          class="btn-share btn-share--facebook"
+          target="_blank" rel="noopener">
+          Share on Facebook
+        </a>
       </div>
-    </aside>
-
-
-  <main id="main" class="main-content">
-    <article class="single">
-      <header>
-
-        <time class="publish-time-article" datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
-      </header>
-
-      {{ .Content }}
-    </article>
-
-    {{ if eq .Section "post" }}
-    <div class="share-article">
-      <a href="https://twitter.com/share?url={{ .Permalink }}&via=armno&text=✎ {{ .Title }}"
-        class="btn-share btn-share--twitter"
-        target="_blank" rel="noopener">
-        Share on Twitter
-      </a>
-
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
-        class="btn-share btn-share--facebook"
-        target="_blank" rel="noopener">
-        Share on Facebook
-      </a>
-    </div>
-    {{ partial "related.html" . }}
-    <div id="comments" class="comments" data-page-url="{{ .Permalink }}" data-identifier="{{ .File.UniqueID }}">
-      <div id="disqus_thread"></div>
-    </div>
-    {{ end }}
-  </main>
-</div>
+      {{ partial "related.html" . }}
+      <div id="comments" class="comments" data-page-url="{{ .Permalink }}" data-identifier="{{ .File.UniqueID }}">
+        <div id="disqus_thread"></div>
+      </div>
+      {{ end }}
+    </main>
+  </div>
 
   {{ partial "footer.html" . }}
 </div>

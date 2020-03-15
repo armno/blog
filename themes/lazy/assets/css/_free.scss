@@ -63,12 +63,12 @@
 }
 
 .free-layout-content {
-  display: grid;
-  grid-template-columns: auto;
+  // display: grid;
+  // grid-template-columns: auto;
   padding-top: 2rem;
 
   @include medium() {
-    grid-template-columns: minmax(min-content, 280px) auto;
+    // grid-template-columns: minmax(min-content, 280px) auto;
     padding-top: 6rem;
   }
 }
