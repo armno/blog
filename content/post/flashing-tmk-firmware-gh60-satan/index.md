@@ -11,6 +11,7 @@ tags:
 categories:
 - mechanical keyboards
 - hobby
+language: en
 ---
 
 <p class="lead">
