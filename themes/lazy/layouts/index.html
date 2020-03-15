@@ -42,8 +42,7 @@
           <article class="post-teaser">
             <div class="post-teaser__thumbnail {{ if not .Params.thumbnail }}no-thumbnail{{ end }}">
               {{ if .Params.thumbnail }}
-              {{ $original :=  .Resources.GetMatch .Params.thumbnail }}
-              {{ $thumbnail := $original.Resize "400x q90" }}
+              {{ $thumbnail :=  .Resources.GetMatch .Params.thumbnail }}
               <a class="post-link" href="{{ .Permalink }}">
                 <img class="lazy no-medium-zoom" data-src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}">
                 <noscript>
