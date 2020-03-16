@@ -20,46 +20,54 @@
 
 /* Section: Hero section on home page */
 .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 75vw;
-  margin-left: auto;
-  margin-right: auto;
+  @include container();
 
   @include medium() {
-    height: calc(100vh - 100px - 74px);
-    width: 75vw;
-    flex-direction: row;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
   }
-
-  .home-page-photo {
-    @include medium() {
-      width: 35%;
-    }
-  }
-
-  .home-page-text {
-    @include medium() {
-      width: 65%;
-    }
-  }
-
-  // & > div {
-  // @include medium() {
-  // width: 30%;
-
-  // &:first-child {
-  //   margin-right: 2rem;
-  // }
-
-  // &:last-child {
-  //   margin-left: 2rem;
-  // }
-  // }
-  // }
 }
+// .hero {
+// display: flex;
+// flex-direction: column;
+// align-items: center;
+// justify-content: center;
+// width: 75vw;
+// margin-left: auto;
+// margin-right: auto;
+
+// @include medium() {
+// height: calc(100vh - 100px - 74px);
+// width: 75vw;
+// flex-direction: row;
+// }
+
+// .home-page-photo {
+//   @include medium() {
+//     width: 35%;
+//   }
+// }
+
+// .home-page-text {
+//   @include medium() {
+//     width: 65%;
+//   }
+// }
+
+// & > div {
+// @include medium() {
+// width: 30%;
+
+// &:first-child {
+//   margin-right: 2rem;
+// }
+
+// &:last-child {
+//   margin-left: 2rem;
+// }
+// }
+// }
+// }
 
 .hero-text {
   margin: auto;
@@ -67,12 +75,11 @@
 
 .hero-main-text {
   line-height: 1;
-  margin-bottom: 4rem;
+  margin-bottom: 0.5em;
   font-size: 2.5rem;
 
   @include medium() {
     font-size: 3.375rem;
-    margin-bottom: 6rem;
   }
 }
 
@@ -95,17 +102,9 @@
   min-width: 300px;
 }
 
-.home-page-text {
-  text-align: center;
-
-  @include medium() {
-    text-align: left;
-    margin-left: auto;
-  }
-}
-
 .hero-sub-text {
+  color: $dark-gray;
   @include medium() {
-    width: 80%;
+    width: 50%;
   }
 }

@@ -9,3 +9,14 @@
     @content;
   }
 }
+
+@mixin container() {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include medium() {
+    max-width: 1120px;
+  }
+}
