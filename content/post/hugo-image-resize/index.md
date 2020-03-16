@@ -17,11 +17,13 @@ Hugo มาพร้อมกับฟีเจอร์ [Image Processing](http
 
 <p class="message--warning">
   <strong>Update:</strong> พบปัญหาจากการใช้งาน image processing อยู่ 2 อย่าง อย่างแรกคือ ขนาดไฟล์อาจจะใหญ่ขึ้นกว่าเดิม
-  อย่างที่สองคือ คุณภาพของรูปที่ผ่าน image processing ของ hugo นั้นค่อนข้างแย่
-  ถึงแม้ตั้ง quality เป็น 100 แล้วก็ตาม ปัญหานี้ผมยังหาทางแก้ไม่ได้
+  อย่างที่สองคือ คุณภาพของรูปที่ผ่าน image processing ของ hugo นั้นค่อนข้างแย่ ภาพดูแตกอย่างชัดเจน
+  ถึงแม้ตั้ง quality เป็น 100 แล้วก็ตาม ปัญหานี้ผมยังหาทางแก้ไม่ได้ จึงปิดฟีเจอร์ไว้ก่อนเป็นบางส่วนครับ
 </p>
 
 ![bigger file size after resized](images/resized-image-bigger.png)
+
+---
 
 ## Page Bundle
 
