@@ -63,8 +63,7 @@ body.grid-on {
 .site-header,
 .main-content,
 .site-footer {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  @include container();
 }
 
 .site-logo {
@@ -108,17 +107,6 @@ body.grid-on {
   }
 }
 
-.main-content {
-  @include medium() {
-    max-width: 720px;
-    flex-grow: 1;
-  }
-
-  @include large() {
-    max-width: 800px;
-  }
-}
-
 .main-content--no-sidebar {
   @include medium() {
     margin-left: auto;
@@ -130,27 +118,7 @@ body.grid-on {
   max-width: none;
 }
 
-// .content {
-// @include medium() {
-// max-width: 1200px;
-// margin-left: auto;
-// margin-right: auto;
-// display: flex;
-// flex-direction: row;
-// }
-// @include large() {
-// max-width: 1440px;
-// justify-content: center;
-// }
-
-// &--home {
-//   @include medium() {
-//     flex-direction: column;
-//   }
-// }
-// }
-
-.comments {
+.c .comments {
   margin-top: $bottom-space * 3;
   margin-bottom: $bottom-space * 3;
 }

@@ -27,48 +27,6 @@
     margin-bottom: 30vh;
   }
 }
-// .hero {
-// display: flex;
-// flex-direction: column;
-// align-items: center;
-// justify-content: center;
-// width: 75vw;
-// margin-left: auto;
-// margin-right: auto;
-
-// @include medium() {
-// height: calc(100vh - 100px - 74px);
-// width: 75vw;
-// flex-direction: row;
-// }
-
-// .home-page-photo {
-//   @include medium() {
-//     width: 35%;
-//   }
-// }
-
-// .home-page-text {
-//   @include medium() {
-//     width: 65%;
-//   }
-// }
-
-// & > div {
-// @include medium() {
-// width: 30%;
-
-// &:first-child {
-//   margin-right: 2rem;
-// }
-
-// &:last-child {
-//   margin-left: 2rem;
-// }
-// }
-// }
-// }
-
 .hero-text {
   margin: auto;
 }
