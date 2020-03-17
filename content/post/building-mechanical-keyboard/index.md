@@ -60,13 +60,20 @@ gaming series สุดท้ายด้วยความที่ไม่ม
 
 ในระหว่างนี้ก็สั่งซื้อ keycap จาก ebay มาเล่นๆ กะว่าจะเอามาเปลี่ยนให้ SteelSeries M500 อย่างน้อยก็ขอให้ได้ custom นิดนึงก็ยังดี
 
-แต่แล้วไม่รู้อะไรดลใจให้ไปเจอ video หนึ่งบน YouTube ในช่อง TaeKeyboards: [Beginner's Guide : How to Build a 60% Mechanical Keyboard]()
+แต่แล้วไม่รู้อะไรดลใจให้ไปเจอ video หนึ่งบน YouTube ในช่อง TaeKeyboards: [Beginner's Guide : How to Build a 60% Mechanical Keyboard](https://www.youtube.com/watch?v=W0FSvTYlggw)
 video นี้ได้จุดประกายความหวังให้ผมอีกครั้ง ✨ เพราะก็เพิ่งได้รู้ว่ามันมี circuit board แบบที่ไม่ต้องบัดกรีตัวต้านทานกับไดโอดเองด้วย
 สิ่งที่ต้องบัดกรีเองก็มีแค่ขา switch ของทุกๆ key บน keyboard เท่านั้น
 
-<p>
-{{< youtube W0FSvTYlggw >}}
-</p>
+<figure class="media">
+  <a href="https://www.youtube.com/watch?v=W0FSvTYlggw" target="_blank" noopener noreferer>
+    <img class="no-medium-zoom" src="images/build-custom-keyboard-yt-video.jpg" alt="Beginner's Guide : How to Build a 60% Mechanical Keyboard video on youtube">
+  </a>
+  <figcaption class="media-caption">
+    <a href="https://www.youtube.com/watch?v=W0FSvTYlggw" target="_blank" noopener noreferer>
+      https://www.youtube.com/watch?v=W0FSvTYlggw
+    </a>
+  </figcaption>
+</figure>
 
 หลังจากดู video นี้พร้อมกับ video อื่นๆ หลายรอบ
 พร้อมกับคำนวนงบฯ ดูแล้ว ไม่น่าจะเกิน 4 พันบาท ก็เลยอยากจะลองทำเองดู จะได้รู้กันไปเลยว่าจะทำได้ไหม
