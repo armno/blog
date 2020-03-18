@@ -22,6 +22,7 @@ from unit tests to end-to-end tests.
 {{< image
   src="images/cypress-logo.png"
   alt="Cypress Logo"
+  width="515"
 >}}
 
 I recently has a chance to use Cypress
@@ -78,6 +79,7 @@ We are going to test the default home page which looks like this:
 {{< image
   src="images/default-home-page.png"
   alt="Angular's generated home page"
+  width="785"
 >}}
 
 To install Cypress into the project:
@@ -101,6 +103,7 @@ learn from.
 {{< image
   src="images/running-cypress-first-time.png"
   alt="Running Cypress for the first time"
+  width="800"
 >}}
 
 We can run the example tests to see Cypress in action.
@@ -108,6 +111,7 @@ We can run the example tests to see Cypress in action.
 {{< image
   src="images/running-all-specs.png"
   alt="Running all specs"
+  width="1200"
 >}}
 
 -----
@@ -133,6 +137,7 @@ we can add to the config file.
 {{< image
   src="images/config-schema.png"
   alt="Added $schema to the config file"
+  width="1024"
 >}}
 
 ### Changing tests directory
@@ -143,6 +148,7 @@ I like rename the folder to `tests/e2e` to make it more generic.
 {{< image
   src="images/renamed-cypress-folder.png"
   alt="Move generated tests from Cypress to test/ folder"
+  width="502"
 >}}
 
 Then we need to update the paths in `cypress.json` file to reflect
@@ -241,6 +247,7 @@ for auto-completion and method signatures of Cypress.
 {{< image
   src="images/code-intellisense.png"
   alt="Getting code intellisense from VSCode"
+  width="1024"
 >}}
 
 Then write the first test in `home-page.spec.js` file.
@@ -268,6 +275,7 @@ the dropdown above Run all specs button.
 {{< image
   src="images/run-all-specs-button.png"
   alt="Run all specs"
+  width="547"
 >}}
 
 Cypress will open a new browser window and run the test.
@@ -278,6 +286,7 @@ And we can see the test is success.
 {{< image
   src="images/test-running-window.png"
   alt="Test running window"
+  width="1138"
 >}}
 
 When hover over a step on the left panel,
@@ -289,6 +298,7 @@ so the browser highlights the element on the page.
 {{< image
   src="images/hover-step.png"
   alt="Hover each step to see the action"
+  width="1138"
 >}}
 
 ### Add another test
@@ -301,6 +311,7 @@ the buttons should display the command in the terminal preview area below.
 {{< image
   src="images/buttons-to-test.png"
   alt="Buttons on the page we want to test"
+  width="685"
 >}}
 
 Create another test case in `home-page.spec.js` file.
@@ -320,6 +331,7 @@ near the preview window's address bar.
 {{< image
   src="images/open-selector-playground.png"
   alt="Open selector playground in Cypress window"
+  width="395"
 >}}
 
 Then we can select an element on the page
@@ -329,6 +341,7 @@ that we can copy it to use in our test.
 {{< image
   src="images/select-element.png"
   alt="Selecting element from the page"
+  width="629"
 >}}
 
 Update our test case with action and assertion.
@@ -351,6 +364,7 @@ The test re-runs and we should see the result.
 {{< image
   src="images/second-test-case-result.png"
   alt="Test result after updated the test"
+  width="1088"
 >}}
 
 We can click on each step of the test to see what happen.
