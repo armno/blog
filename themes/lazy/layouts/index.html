@@ -31,8 +31,8 @@
           {{ end }}
         </h2>
         <ul class="home-articles">
-          {{ $paginator := .Paginate (where .Pages "section" "post") }}
-          {{ range $paginator.Pages }}
+          {{ $paginator := .Paginate (where .Pages "Type" "post") }}
+          {{ range where $paginator.Pages "Type" "post" }}
           <article class="post-teaser">
             <div class="post-teaser__thumbnail {{ if not .Params.thumbnail }}no-thumbnail{{ end }}">
               {{ if .Params.thumbnail }}
