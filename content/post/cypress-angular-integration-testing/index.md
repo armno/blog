@@ -49,7 +49,7 @@ Now with Cypress 4.0, [Firefox and Edge](https://cypress.io/blog/2020/02/06/intr
 
 - It's framework-agnostic &ndash; It doesn't matter how the application is built. As long as it runs on the browser, Cypress can test it.
 - It's easy to set up in an on-going project.
-- It's easy to write tests. Tests are written in BDD style.
+- It's easy to write tests. Tests can be written in either BDD or TDD styles.
 - It works well with our CI environments (we use GitLab CI at [work](https://www.buzzwoo.de/)).
 - It's fast(er) and (more) reliable, compared to CodeceptJS.
 - The time travel feature is HUGE &ndash; we can go back in time at any step of the test and see what happened.
@@ -179,7 +179,7 @@ config file:
 {
   ...
   "screenshotsFolder": "output/e2e/screenshots",
-  "videosFolder": "output/e2es/videos"
+  "videosFolder": "output/e2e/videos"
   ...
 }
 ```
