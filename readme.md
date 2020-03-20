@@ -28,10 +28,11 @@ A shortcode to insert responsive, lazy-loaded images into post content.
   alt="test"
   ratio="16-9"
   caption="caption to display below the picture"
+  width="300"
 >}}
 ```
 
-## `picture-lazy` shortcode for lazy-loaded pictures
+## deprecated: `picture-lazy` shortcode for lazy-loaded pictures
 
 attributes:
 
@@ -77,7 +78,7 @@ output:
 </figure>
 ```
 
-## `picture` shortcode
+## deprecated: `picture` shortcode
 
 attributes:
 
