@@ -1,7 +1,7 @@
 ---
 title: 'รีวิว Storck Visioner Comp G1'
 date: 2018-03-15T23:19:09+07:00
-url: /2018/03/17/review-storck-vision-comp-g1
+url: /2018/03/17/review-storck-visioner-comp-g1
 description: 'แนะนำจักรยานเสือหมอบของผมเอง Storck Visioner Comp G1 เน้นปั่นขึ้นเขาและปั่นกินลมชมวิว'
 tags:
   - Bicycle

@@ -3,10 +3,28 @@
 	command = "hugo --minify"
 
 [build.environment]
-	HUGO_VERSION = "0.61.0"
+	HUGO_VERSION = "0.68.0"
 
 [[redirects]]
   from = "/blog"
   to = "/post"
   status = 301
-  force = false
+  force = true
+
+[[redirects]]
+  from = "/2019/03/17/review-storck-vision-comp-g1"
+  to = "/2018/03/17/review-storck-vision-comp-g1"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2018/03/17/review-storck-vision-comp-g1"
+  to = "/2018/03/17/review-storck-visioner-comp-g1"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2007/11/03/stellanplanet/"
+  to = "/2007/11/03/stars-and-planets-differences/"
+  status = 301
+  force = true
