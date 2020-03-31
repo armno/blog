@@ -204,7 +204,14 @@ content ทุกโพสต์ก็ถูกจัดระเบียบใ
 เพราะการขี้เกียจทำงานซ้ำๆ เลยยอมเสียเวลาเสิช google นิดหน่อย
 หรือลองใช้เครื่องไม้เครื่องมือ เพื่อหาวิธีลดการทำงานที่ซ้ำๆ นั้นลง
 
-ครั้งหน้าที่รู้สึกขี้เกียจ ลองหาประโยชน์จากมันดูครับ
+แต่ก็ไม่ได้หมายความว่า ต้องเกิดจากความขี้เกียจเท่านั้นนะครับ
 
-#ขี้เกียจอย่างไรให้ได้งาน
+ตัวอย่างเช่น video เรื่อง [Problem-Solving for Developers - A Beginner's Guide](https://www.youtube.com/watch?v=UFc-RPbq8kg) ของช่อง Fireship.io
+เขียน script มาเพื่อจะได้ไม่ต้องกด merge pull requests กว่า 600 อันบน GitHub แบบ manual
+เพราะโจทย์มันใหญ่เกินกว่าจะทำแบบ manual ได้จริงๆ
 
+แนะนำให้ไปชมวิธีการแก้โจทย์ของเขาครับ
+
+<a href="https://www.youtube.com/watch?v=UFc-RPbq8kg" target="_blank" rel="noopener noreferrer">
+  <img class="no-medium-zoom" src="images/yt-video.png" alt="Problem-Solving for Developers - A Beginner's Guide" width="800">
+</a>
