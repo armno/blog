@@ -3,7 +3,7 @@ title: "ใช้ประโยชน์จากความขี้เกี
 date: 2020-03-20T17:03:05+07:00
 url: /2020/03/20/proactively-lazy
 description: ถ้าไม่อยากทำงานซ้ำๆ ก็ต้องหาเครื่องไม้เครื่องมือมาช่วย ในการจัดระเบียบไฟล์ content ของบล็อก
-thumbnail: images/original-structure.png
+thumbnail: images/remove-ext.png
 tags:
 - shell
 - coding
@@ -101,6 +101,8 @@ done
 - เวลาสร้าง variable ไม่ต้องใช้ `$` แต่เวลาเรียกใช้ ต้องมี `$` ข้างหน้า
 - เว้นวรรคตรงเครื่องหมาย `=` ไม่ได้ ต้องเขียนติดกัน (เว้นวรรคถือว่าเป็น argument ของ command)
 
+{{< image src="images/for.png" alt="bash for loop" width="800" >}}
+
 ### 3. ตัดวันที่ชื่อออกจากชื่อไฟล์
 
 วันที่ในชื่อไฟล์อยู่ใน pattern เดียวกันหมด คือ นำหน้าด้วย `YYYY-MM-DD-`
@@ -122,6 +124,8 @@ done
 - `${file:11}` ตัดตัวอักษร 11 ตัวแรก แล้ว return **ส่วนที่เหลือ**
 - แต่ถ้าเป็น `${file::11}` (มี `:` สองอัน) คือตัดเอาเฉพาะ 11 ตัวแรก
 
+{{< image src="images/cut-date.png" alt="remove dates from file name" width="800" >}}
+
 ### 4. ตัด `.markdown` ออกจากชื่อไฟล์
 
 ใช้วิธีตัด string เหมือนเดิม แต่เนื่องจากส่วน `.markdown` อยู่ท้าย string
@@ -141,6 +145,8 @@ done
 ```
 
 - `%.` ตัดตัวอักษรตั้งแต่ `.` เป็นต้นไป แล้ว return **ส่วนที่เหลือ**
+
+{{< image src="images/remove-ext.png" alt="remove .markdown extension" width="800" >}}
 
 
 ### 5. เก็บส่วนที่เหลือไว้ สร้างโฟลเดอร์ใหม่
