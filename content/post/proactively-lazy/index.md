@@ -2,11 +2,13 @@
 title: "ใช้ประโยชน์จากความขี้เกียจ"
 date: 2020-03-20T17:03:05+07:00
 url: /2020/03/20/proactively-lazy
-description:
-thumbnail:
+description: ถ้าไม่อยากทำงานซ้ำๆ ก็ต้องหาเครื่องไม้เครื่องมือมาช่วย ในการจัดระเบียบไฟล์ content ของบล็อก
+thumbnail: images/original-structure.png
 tags:
 - shell
 - coding
+- productivity
+- programming
 - personal
 categories:
 - personal
@@ -19,7 +21,7 @@ categories:
 
 ชื่อไฟล์จะอยู่ในรูปแบบ `YYYY-MM-DD-post-slug.markdown`
 
-อยากจัดระเบียบให้มันเหมือนๆ กัน
+อยากจัดระเบียบให้มันเหมือนๆ กัน เป็นงานที่ดองไว้นานแล้วแต่ไม่ได้ทำ
 
 {{< image src="images/original-structure.png" alt="original structure" width="780" >}}
 
@@ -34,6 +36,7 @@ categories:
 คงเป็นงานที่น่าเบื่อน่าดู
 
 ผมมีความคิดจะเขียน shell script ขึ้นมาเพื่อ automate process นี้
+
 ถึงแม้ว่าผมจะเขียน shell script ไม่เป็น แต่เพราะไม่อยากทำงานซ้ำๆ
 ก็เลยใช้โอกาสนี้ในการเรียนรู้ใหม่อีกครั้ง
 
@@ -181,9 +184,18 @@ done
 $ ./rename.sh
 ```
 
-ใช้เวลาแค่ไม่กี่วินาที งานกรรมกรก็เสร็จแล้ว
+content ทุกโพสต์ก็ถูกจัดระเบียบให้เหมือนกันแล้ว
+
+{{< image src="images/formatted.png" alt="formatted structure" width="427" >}}
+
+> ผมเชื่อว่าคนที่เก่ง unix command line / shell script
+สามารถทำให้ code 10 บรรทัดของผม อยู่ใน 1 บรรทัด (one-liner) ได้อย่างไม่ยากนัก
+หรือไม่ก็ใช้แอพ Automator ที่ติดมากับเครื่องอยู่แล้ว ก็น่าจะใช้ทำงานนี้ได้เหมือนกัน
 
 ----
 
-ผมเชื่อว่าคนที่เก่ง unix command line หรือเก่ง shell script
-สามารถทำให้ code 10 บรรทัดของผม อยู่ใน 1 บรรทัด (one-liner) ได้อย่างไม่ยากนัก
+
+เพราะการขี้เกียจทำงานซ้ำๆ เลยยอมเสียเวลาเสิช google นิดหน่อย หรือหาความรู้ใหม่ เพื่อหาวิธีลดการทำงานที่ซ้ำๆ นั้นลง
+
+เป็นการหาประโยชน์จากความขี้เกียจของตัวเอง หรือ #ขี้เกียจอย่างไรให้ได้งาน
+
