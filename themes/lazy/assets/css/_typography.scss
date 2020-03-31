@@ -352,3 +352,8 @@ h3:hover > .heading-anchor {
 .heading-anchor:hover {
   opacity: 1;
 }
+
+// make code blocks slightly wider than the content
+.highlight {
+  max-width: 45em;
+}
