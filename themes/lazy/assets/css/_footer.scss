@@ -1,6 +1,6 @@
 /* Section: Footer */
 .site-footer {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -16,4 +16,16 @@
 
 .footer-nav-link {
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  .icon {
+    margin-bottom: 0;
+    margin-right: 0.25rem;
+  }
+
+  &:not(:last-child) {
+    margin-right: 1.5rem;
+  }
 }

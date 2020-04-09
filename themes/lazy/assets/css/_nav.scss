@@ -98,6 +98,9 @@
   position: relative;
   @include medium() {
     padding: 0 1em;
+    &:not(:last-child) {
+    margin-right: 0.5em;
+    }
   }
 }
 
@@ -107,14 +110,28 @@
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 2;
+  display: flex;
+  align-items: center;
 
   @include medium() {
     font-size: 0.75rem;
     line-height: 1.5;
+  }
+
+  &:hover {
+    .icon {
+      transform: scale(1.2);
+    }
   }
 }
 
 .nav-link.active {
   font-weight: 700;
   color: $red;
+}
+
+.icon {
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+  transition: transform 0.1s ease-out;
 }

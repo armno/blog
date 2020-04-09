@@ -36,7 +36,7 @@ or [create an Issue on GitHub](https://github.com/armno/armno/issues/new).
 ### About This Website
 
 This website is created with [Hugo](https://gohugo.io/) - a static site generator. Hosted on [Netlify](https://www.netlify.com/).
-The sourcecode is on [GitHub](https://github.com/armno/blog).
+The sourcecode is on [GitHub](https://github.com/armno/blog). Icons are from [Tabler Icons](https://github.com/tabler/tabler-icons) project.
 
 ### License
 
