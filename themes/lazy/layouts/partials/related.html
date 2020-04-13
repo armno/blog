@@ -27,6 +27,7 @@
       {{ .Title }}
     </div>
     </a>
+    <time class="publish-time-article" datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2006" }}</time>
   </li>
   {{ end }}
 </ul>

@@ -237,14 +237,11 @@ $bottom-space: 26px;
   }
 
   .related-posts {
-    justify-content: flex-start;
+    max-width: 100%;
   }
 
   .related-posts__item {
-    width: 30%;
-  }
-  .related-posts__item:not(:last-child) {
-    margin-right: 5%;
+    width: 22.5%;
   }
 
   .about-columns {
