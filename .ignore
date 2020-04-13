@@ -1,0 +1,4 @@
+# ignore these files for vscode but still keep in git
+*.jpg
+*.png
+*.mp4
