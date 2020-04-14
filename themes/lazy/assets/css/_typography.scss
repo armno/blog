@@ -176,6 +176,7 @@ small {
   }
 }
 
+br,
 img,
 div,
 .nav,
@@ -191,7 +192,8 @@ a {
   color: inherit;
   transition: color 0.15s ease-out;
 
-  &:hover {
+  &:hover,
+  &.footnote-ref {
     color: $red;
   }
 }
@@ -361,4 +363,8 @@ h3:hover > .heading-anchor {
 // make code blocks slightly wider than the content
 .highlight {
   max-width: 45em;
+}
+
+.footnotes {
+  font-size: 0.9rem;
 }
