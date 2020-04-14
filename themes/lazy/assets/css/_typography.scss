@@ -285,6 +285,10 @@ del {
 
 .page-title {
   word-break: break-word;
+
+  @include medium() {
+    max-width: 80%;
+  }
 }
 
 /* hugo-generated footnote */
