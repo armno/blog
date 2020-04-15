@@ -135,7 +135,7 @@ switch ทุกตัวบน keyboard อย่าง keyboard ของผ�
 
 จะลอง lube ด้วย **Krytox 205g0**
 ซึ่งเนื้อจาระบีจะหนากว่า Tribosys 3203 อยู่พอสมควร
-Krytox 205g0 นี่ได้มาจากสมาชิกในกลุ่ม Facebook: [Thailand Mehchanical Keyboard](https://www.facebook.com/groups/ThailandMechanicalKeyboard) ครับ
+Krytox 205g0 นี่ได้มาจากคุณ Adul สมาชิกในกลุ่ม Facebook: [Thailand Mehchanical Keyboard](https://www.facebook.com/groups/ThailandMechanicalKeyboard) ครับ
 
 {{< image
   src="images/krytox205g0.jpg"
