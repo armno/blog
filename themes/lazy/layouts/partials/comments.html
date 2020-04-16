@@ -1,0 +1,5 @@
+{{ if not (in (printf "%#v" $.Site.BaseURL) "localhost:1313") }}
+<div id="comments" class="comments" data-page-url="{{ .Permalink }}" data-identifier="{{ .File.UniqueID }}">
+  <div id="disqus_thread"></div>
+</div>
+{{ end }}

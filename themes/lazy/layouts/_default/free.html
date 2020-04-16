@@ -63,9 +63,7 @@
         </a>
       </div>
       {{ partial "related.html" . }}
-      <div id="comments" class="comments" data-page-url="{{ .Permalink }}" data-identifier="{{ .File.UniqueID }}">
-        <div id="disqus_thread"></div>
-      </div>
+      {{ partial "comments.html" . }}
       {{ end }}
     </main>
   </div>
