@@ -63,7 +63,7 @@ TBA
 
 ### Sizes
 
-Base `font-size` is `19px` on both mobile and desktop.
+Base `font-size` is `18px` on both mobile and desktop.
 Base `line-height` is `1.5`. Otherwise use browser defaults from [Normalize.css](https://necolas.github.io/normalize.css/).
 
 ### Paragraphs

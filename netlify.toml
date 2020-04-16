@@ -28,3 +28,10 @@
   to = "/2007/11/03/stars-and-planets-differences/"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/2019/07/19/mechanical-keyboard-mark-6/"
+  to = "/2019/07/19/dz60rgb-pcb-reviews/"
+  status = 301
+  force = true
+
