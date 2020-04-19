@@ -58,8 +58,8 @@ TBA
 
 ### Typefaces
 
-- Headings: [DM Serif Text](https://fonts.google.com/specimen/DM+Serif+Text) (eng), [Chonburi](https://fonts.google.com/specimen/Chonburi) (th)
-- Body: System Fonts
+- Headings: [IBM Plex](https://github.com/IBM/plex)
+- Body: [Sarabun](https://fonts.google.com/specimen/Sarabun)
 
 ### Sizes
 
