@@ -10,6 +10,7 @@
 
   @include large() {
     height: 80vh;
+    grid-template-columns: 15% 35% 35% 15%;
   }
 }
 
@@ -28,6 +29,7 @@
 
     @include medium() {
       top: 30%;
+      max-width: none;
     }
 
     @media (min-width: 560px) {
@@ -36,6 +38,8 @@
 
     @media (min-width: 1400px) {
       grid-column-start: 3;
+      width: 120%;
+      margin-left: -20%;
     }
   }
 
@@ -45,9 +49,13 @@
     grid-column-start: 1;
     grid-column-end: 5;
 
-    @media (min-width: 560px) {
+    @include medium() {
       grid-column-start: 2;
       grid-column-end: 5;
+    }
+    @include large() {
+      grid-column-start: 2;
+      grid-column-end: 4;
     }
   }
 
