@@ -36,7 +36,11 @@ console.log({ fullURL });
 
 The URL didn't contain any parameters.
 
-![parameters set to HttpParams are not working](images/url-without-params.png)
+{{< image
+  src="images/url-without-params.png"
+  alt="parameters set to HttpParams are not working"
+  width="542"
+>}}
 
 But when I chained `.set()` with `new HttpParams()`, it works.
 
@@ -49,7 +53,11 @@ const fullURL = `${baseURL}?${params.toString()}`;
 console.log({ fullURL });
 ```
 
-![parameters set to HttpParams correctly](images/url-with-params.png)
+{{< image
+  src="images/url-with-params.png"
+  alt="parameters set to HttpParams correctly"
+  width="709"
+>}}
 
 -----
 
@@ -58,7 +66,8 @@ My gotcha moment was then I found out that `HttpParams` class in Angular **is im
 {{< image
   src="images/httpparams-docs.png"
   alt="API documentation page for HttpParams"
-  caption="Screenshot from HttpParams class on Angular Docs"
+  caption="HttpParams class page on Angular Docs"
+  width="687"
 >}}
 
 This means `params.set()` method doesn't modify an existing `params` object &mdash;
