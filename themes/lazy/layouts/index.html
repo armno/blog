@@ -11,11 +11,15 @@
     <div class="hero">
       <div class="home-page-text">
         <h1 class="hero-main-text">
-          Let&rsquo;s make a better web.
+          Let&rsquo;s make a <em>better</em> web.
         </h1>
-        <p class="hero-sub-text lead">
-          สวัสดี!, I&rsquo;m Armno. I&rsquo;m a frontend developer at
+        <p class="">
+          สวัสดี!, I&rsquo;m Armno and I&rsquo;m a frontend developer at
           <a href="https://buzzwoo.de" target="_blank" rel="noopener">buzzwoo</a>.
+        </p>
+
+        <p>
+          I enjoy doing things with JavaScript, making websites faster, building mechanical keyboards, and traveling around with my road bikes.
         </p>
       </div>
     </div>
@@ -25,7 +29,7 @@
 
       <div class="latest-articles">
         <h2 class="home-blog-title">
-          Latest Posts
+          Blog
           {{ if ge .Paginator.PageNumber 2 }}
           <span class="page-number">/ Page {{ .Paginator.PageNumber }}</span>
           {{ end }}

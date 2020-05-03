@@ -39,6 +39,11 @@
   @include medium() {
     font-size: 3.375rem;
   }
+
+  em {
+    color: $red;
+    font-style: normal;
+  }
 }
 
 .hero-main-text br {
