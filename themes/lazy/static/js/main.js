@@ -1,6 +1,5 @@
-(function() {
-  document.addEventListener('DOMContentLoaded', function() {
-    mediumZoom('img:not(.no-medium-zoom)');
+(function () {
+  document.addEventListener('DOMContentLoaded', function () {
     createAnchorLinks();
     observeComments();
     initMobileMenu();
@@ -25,7 +24,7 @@
       return;
     }
 
-    articles.querySelectorAll('h2, h3').forEach(function(element) {
+    articles.querySelectorAll('h2, h3').forEach(function (element) {
       appendAnchor(element);
     });
   }
@@ -39,14 +38,14 @@
     const observerOptions = {
       root: null,
       rootMargin: '250px 0px 0px',
-      threshold: 0
+      threshold: 0,
     };
 
     const pageURL = commentsElement.getAttribute('data-page-url');
     const identifier = commentsElement.getAttribute('data-identifier');
 
     const observer = new IntersectionObserver((entries, self) => {
-      entries.forEach(entry => {
+      entries.forEach((entry) => {
         if (entry.isIntersecting) {
           loadDisqus(pageURL, identifier);
           self.unobserve(commentsElement);
@@ -58,12 +57,12 @@
   }
 
   function loadDisqus(pageURL, id) {
-    window.disqus_config = function() {
+    window.disqus_config = function () {
       this.page.url = pageURL;
       this.page.identifier = id;
     };
 
-    (function() {
+    (function () {
       // DON'T EDIT BELOW THIS LINE
       var d = document,
         s = d.createElement('script');

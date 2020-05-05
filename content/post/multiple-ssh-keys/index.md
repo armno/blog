@@ -12,7 +12,7 @@ tags:
 - command line
 ---
 
-Today I learned how to use multiple SSH keys one a computer.
+Today I learned how to use multiple SSH keys on one computer.
 
 At work, all projects are hosted on our company's internal git server running GitLab CE.
 while I put all my personal projects on [GitHub](https://github.com/armno).
