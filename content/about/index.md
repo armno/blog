@@ -40,8 +40,13 @@ The sourcecode is on [GitHub](https://github.com/armno/blog). Icons are from [Ta
 
 ### License
 
-<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br>All posts, pages, and images are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>,
+<p>
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <img class="no-medium-zoom ignore-placeholder" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" width="88" height="31">
+</a>
+<br>All posts, pages, and images are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>,
 unless it is noted otherwise.
+</p>
 
 - You are **not allowed** to use my content for commercial purposes.
 - You **can** modify and share my content as long as you keep the same or compatible license.

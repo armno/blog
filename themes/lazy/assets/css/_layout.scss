@@ -46,17 +46,19 @@ body.grid-on {
 
 .site-header {
   background-color: #fff;
-  margin-top: 26px;
+  margin-top: $bottom-space;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 
   @include medium() {
-    max-width: 1120px;
+    margin-top: $bottom-space * 2;
+    margin-bottom: $bottom-space * 2;
+    justify-content: flex-start;
+    max-width: 920px;
     margin-left: auto;
     margin-right: auto;
-    align-items: baseline;
   }
 }
 
@@ -67,44 +69,9 @@ body.grid-on {
 }
 
 .site-logo {
-  font-family: $heading-fonts;
   text-decoration: none;
-  font-size: 1.4rem;
   margin-bottom: 0;
-  position: relative;
-  overflow: hidden;
-  min-width: 90px;
-}
-
-.logo-eng {
-  transform: translateY(0);
-  transition: all 0.2s ease-out;
-  display: block;
-  margin: 0;
-  opacity: 1;
-}
-
-.logo-jap {
-  display: block;
-  text-align: center;
-  margin-bottom: 0;
-  position: absolute;
-  bottom: 0;
-  transform: translateY(100%);
-  transition: all 0.2s ease-out;
-  font-weight: 700;
-  opacity: 0;
-}
-
-.site-logo:hover {
-  .logo-eng {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  .logo-jap {
-    transform: translateY(0);
-    opacity: 1;
-  }
+  line-height: 0;
 }
 
 .main-content--no-sidebar {

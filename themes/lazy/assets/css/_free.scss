@@ -6,11 +6,26 @@
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 20% 30% 30% 20%;
-  grid-template-rows: 54px 1fr auto; // auto = content height
+  grid-template-rows: 84px 1fr auto; // auto = content height
 
   @include large() {
     height: 80vh;
     grid-template-columns: 15% 35% 35% 15%;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 120px;
+      background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      );
+    }
   }
 }
 
