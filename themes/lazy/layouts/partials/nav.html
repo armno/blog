@@ -1,8 +1,4 @@
-<a href="/" class="site-logo">
-  <svg width="32" height="32" class="logo-image" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M128 119.851L64 9L0 119.851H10.3655L46.6899 56.9357L83.0142 119.851H128Z" fill="#12110C"/>
-  </svg>
-</a>
+{{ partial "logo.html" }}
 
 <button class="mobile-menu" id="button-open-menu" aria-label="open menu">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
@@ -14,9 +10,7 @@
 
 <div class="nav">
   <div class="nav-header">
-    <a href="/" class="site-logo">
-      <img src="/img/logo.png" alt="logo" width="32" class="no-medium-zoom">
-    </a>
+    {{ partial "logo.html" }}
     <button class="close-mobile-menu" id="button-close-menu" aria-label="close menu">
       <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
         <polygon points="28.71 4.71 27.29 3.29 16 14.59 4.71 3.29 3.29 4.71 14.59 16 3.29 27.29 4.71 28.71 16 17.41 27.29 28.71 28.71 27.29 17.41 16 28.71 4.71"/>

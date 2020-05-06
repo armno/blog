@@ -50,7 +50,20 @@ Gold <code>#FFD700</code>
 
 ## Logo
 
-TBA
+<svg width="64" height="64" class="logo-image"
+  viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M128 119.851L64 9L0 119.851H10.3655L46.6899 56.9357L83.0142 119.851H128Z" fill="#0c120c">
+</svg>
+
+<svg width="32" height="32" class="logo-image"
+  viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M128 119.851L64 9L0 119.851H10.3655L46.6899 56.9357L83.0142 119.851H128Z" fill="#0c120c">
+</svg>
+
+<svg width="16" height="16" class="logo-image"
+  viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M128 119.851L64 9L0 119.851H10.3655L46.6899 56.9357L83.0142 119.851H128Z" fill="#0c120c">
+</svg>
 
 ---
 
@@ -67,6 +80,8 @@ Base `font-size` is `18px` on both mobile and desktop.
 Base `line-height` is `1.5`. Otherwise use browser defaults from [Normalize.css](https://necolas.github.io/normalize.css/).
 
 ### Paragraphs
+
+Maximum width of text elements are set to `40em`.
 
 <p class="lead">
 This is a leading paragraph: <code>p.lead</code>. It has a slightly less <code>line-height</code>

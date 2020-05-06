@@ -2,6 +2,7 @@
 
 <footer class="site-footer">
   <div>
+    {{ partial "logo.html" (dict "size" "16")}}
     &copy; {{ dateFormat "2006" "2007-11-02" }} &ndash; {{ now.Format "2006" }}
     <a href="/" class="footer-nav-link">armno.in.th</a>
   </div>
