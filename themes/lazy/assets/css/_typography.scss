@@ -287,6 +287,7 @@ del {
 }
 
 .page-title {
+  margin-bottom: $bottom-space / 2;
   word-break: break-word;
 
   @include medium() {
