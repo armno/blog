@@ -63,6 +63,15 @@ so I give Vercel a try this time.
 
 ## Moving Process
 
+A rough plan would be:
+
+0. I have to separate my app into 2 parts &mdash; frontend & backend, which is already done that way.
+1. Put the frontend app to the hosting service
+2. Put the backend app (function, actually) to Serverless Functions service.
+3. Make the domain `cmair.space` to point to Vercel instead of DigitalOcean.
+
+### Deploy the frontend app to the hosting service
+
 After signing up with my GitHub account, it will install 'Now' app on Github for my account.
 
 {{< image
@@ -97,7 +106,7 @@ There is no build command.
 
 Now the frontend part is deployed. At this point, it is not working because there is no API backend for it yet.
 
----
+### Put the backend function to Serverless Functions
 
 I follow the official docs on [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction)
 with some examples from [jamstackfns](https://jamstackfns.com/).
@@ -148,10 +157,43 @@ I can click 'View deployment' buttons to view the previews.
   width="701"
 >}}
 
-- finally i update api endpoint url in my frontend app to point to the new url
-- the app now works on vercel
+Now my API endpoint is up on Serverless Functions.
+So I have to update the API endpoint URL in my frontend app to point to the new url.
 
-## giithub repo iintegration
+```diff
+-   const url = `/api`;
++   const url = `/api/get-aqi`;
+```
+
+And my app is now running on Vercel.
+
+### Update Custom Domain
+
+Similar to Netlify, Vercel also provides using custom domains for apps on Vercel with HTTPs for free.
+A benefit here for me is I don't have to manage Let's Encrypt certificates on the server for the domain anymore.
+It is one less thing to do.
+
+I update DNS settings of my domain `cmair.space` to point to [Vercel's DNS server](https://vercel.com/docs/v2/custom-domains).
+
+{{< image
+  src="images/custom-dns.png"
+  alt="Set custom DNS to Vercel's DNS server"
+  width="784"
+>}}
+
+Then in Vercel Dashboard: I go to **Project Settings** » **Domain** and add a custom domain.
+Vercel displays the status while the DNS servers are updating,
+and also show the status once they are successfully updated.
+
+{{< image
+  src="images/custom-domain.png"
+  alt="Set custom domain in Vercel"
+  width="1074"
+>}}
+
+And now my app is successfully migrated to Vercel 🎉🎉.
+
+## Integration with GitHub
 
 - create a branch -> vercel creates a previeiw
 - unlike netlify, you can to create a PR.
@@ -172,10 +214,6 @@ debugging is also difficult
 but i prefer to finish everything locally and push to github.
 - note: the cli is still in beta
 
-## custom domain
-
-- finally i update my domain `cmair.space` to point to vercel instead of diigtal ocean
-- the process is straightforward like netlify
 
 ## summary
 
