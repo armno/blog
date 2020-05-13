@@ -19,16 +19,34 @@ categories:
 
 ## About the app
 
-Back in 2017, I built a pet project called [cmair.space](https://cmair.space) to display the
-<abbr title="Air Quality Index">AQI</abbr> value near where I live using data from aqicn.org.
+Back in 2017, I built a pet project called [**cmair.space**](https://cmair.space) to display the
+<abbr title="Air Quality Index">AQI</abbr> value near where I live using data from [aqicn.org](https://aqicn.org).
 
-aqicn.org provides a free API to pull the data from and like other APIs,
+The app is a one-page HTML with some JavaScript.
+It pulls the JSON data from an API endpoint
+and update the UI based on retrieved values.
+In this case, the number and page background color.
+
+{{< image
+  src="images/app-screenshot.png"
+  alt="screenshot of cmair.space"
+  width="431"
+>}}
+
+aqicn.org provides a free API. And like other APIs,
 it requires an API key to send along with the request.
 
 Since there is no secure way to keep an API key on the client side,
-I decided to put the app Express.js (a node web framework).
-Keep my frontend app in `/public` directory and the backend part in an Express route.
-Hosted it on my DigitalOcean droplet.
+I decided to put the app in [Express.js](https://expressjs.com/) (a node web framework).
+Keep my frontend app in `/public` directory and the backend part in an Express route function.
+Host it on my DigitalOcean droplet.
+
+{{< image
+  src="images/app-flow.svg"
+  alt="data-flow"
+  width="500"
+>}}
+
 
 Automated deployment was setup kind of manually too.
 I used [`github-webhook-handler`](https://www.npmjs.com/package/github-webhook-handler)
@@ -38,11 +56,10 @@ Whenever I push the code to GitHub,
 it'll ping the route.
 The route callback then pulls the code from github,
 and restart the Express app on the server.
-It was not a lot to set up, but also not free.
 
-As a frontend developer, I always wish to do less on the server.
-My thought would be, at some point, move the app to cloud platform
-like Netlify or now.sh so I don't have to deal with server.
+It was not a lot to set up, but still, not free.
+As a frontend developer, I always wish to do less on the server side
+and would like to focus on the frontend side which is my area of expertise.
 
 ## Going Serverless
 
@@ -54,12 +71,18 @@ and connect to my API which is on this serverless magic thing.
 (I tried AWS Lambda a while ago and didn't get it much.
 It seems like is a good product though. It is just not for me.)
 
-[**Vercel**](https://vercel.com) (formerly Zeit Now), is a cloud platform for static sites and serverless functions.
+[**Vercel**](https://vercel.com) is a cloud platform for static sites and serverless functions.
 I see Vercel as a direct competitor to Netlify.
 I'm using Netlify already with this blog and really impressed how Netlify makes many things a lot easier.
 I'm curious how it compares to Vercel
 so I give Vercel a try this time.
 
+{{< image
+  src="images/vercel-homepage.png"
+  alt="vercel homepage"
+  width="1050"
+  caption="Vercel.com home page"
+>}}
 
 ## Moving Process
 
