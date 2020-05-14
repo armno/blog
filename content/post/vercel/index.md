@@ -302,7 +302,7 @@ And I have both frontend app and serverless function run locally. Making local d
 
 Note: Netlify also have something similar called [Netlify Dev](https://www.netlify.com/products/dev/).
 
-### Different in Deploy Previews
+### Difference in Deploy Previews
 
 One different on the deploy previews feature between Vercel and Netlify is:
 Vercel creates a deploy preview environment on a new push (e.g. new commit or new branch),
