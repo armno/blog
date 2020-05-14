@@ -1,9 +1,9 @@
 ---
-title: "Migrating an App to Vercel"
+title: "Moving an App to Vercel"
 date: 2020-05-07T22:19:23+07:00
 url: /2020/05/07/vercel
-description: I migrated an app from DigitalOcean server to Vercel (formerly Zeit Now). Here is what I've learned.
-thumbnail:
+description: I migrated an app from DigitalOcean server to Vercel (formerly Zeit Now) to use their hosting service and serverless functions.
+thumbnail: images/vc-link.png
 tags:
 - web development
 - javascript
@@ -11,10 +11,12 @@ tags:
 - api
 categories:
 - web development
+language: en
 ---
 
 <p class="lead">
-  I migrated an app from DigitalOcean server to Vercel (formerly Zeit Now). Here is what I've learned.
+  I migrated my app <a href="https://cmair.space"><strong>cmair.space</strong></a> from DigitalOcean server to Vercel (formerly Zeit Now).
+  This is a note on my experiences and what I have learned.
 </p>
 
 ## About the app
@@ -38,42 +40,40 @@ it requires an API key to send along with the request.
 
 Since there is no secure way to keep an API key on the client side,
 I decided to put the app in [Express.js](https://expressjs.com/) (a node web framework).
-Keep my frontend app in `/public` directory and the backend part in an Express route function.
+Keep my frontend app in `/public` directory and the backend part,
+which is actually just a API gateway to the actual API, in an Express route function `/api`.
 Host it on my DigitalOcean droplet.
 
 {{< image
   src="images/app-flow.svg"
   alt="data-flow"
-  width="500"
+  width="700"
 >}}
-
 
 Automated deployment was setup kind of manually too.
 I used [`github-webhook-handler`](https://www.npmjs.com/package/github-webhook-handler)
-to add another route to Express and use with GitHub webhooks.
+to add another route `/pull` to Express and use with GitHub webhooks.
 
 Whenever I push the code to GitHub,
 it'll ping the route.
 The route callback then pulls the code from github,
-and restart the Express app on the server.
+and restart the Express app on the server which is managed by [`pm2`](https://www.npmjs.com/package/pm2)
 
 It was not a lot to set up, but still, not free.
 As a frontend developer, I always wish to do less on the server side
-and would like to focus on the frontend side which is my area of expertise.
+and would like to focus on the frontend side which is my area of interest.
 
 ## Going Serverless
 
 I have been hearing ['serverless'](https://martinfowler.com/articles/serverless.html) buzzword but never has a chance to use it.
 
-It could be a great fit for my _serverful_ app where I can host the frontend part statically
+It could be a great fit for my little _serverful_ app if I can host the frontend part statically
 and connect to my API which is on this serverless magic thing.
 
-(I tried AWS Lambda a while ago and didn't get it much.
-It seems like is a good product though. It is just not for me.)
-
 [**Vercel**](https://vercel.com) is a cloud platform for static sites and serverless functions.
-I see Vercel as a direct competitor to Netlify.
-I'm using Netlify already with this blog and really impressed how Netlify makes many things a lot easier.
+I see Vercel as a direct competitor to [Netlify](https://netlify.com).
+I'm [using](https://armno.in.th/2018/08/18/move-to-netlify/) Netlify already with this blog
+and really am impressed how Netlify makes many things a lot easier.
 I'm curious how it compares to Vercel
 so I give Vercel a try this time.
 
@@ -83,6 +83,9 @@ so I give Vercel a try this time.
   width="1050"
   caption="Vercel.com home page"
 >}}
+
+(I tried [AWS Lambda](https://aws.amazon.com/lambda/) a while ago and didn't get it much.
+It is too complicated for me as a frontend developer. That's just my feeling though.)
 
 ## Moving Process
 
@@ -155,12 +158,10 @@ I create a new environment variable for my API key called `TOKEN`.
 >}}
 
 Then I can use this environment variable with `process.env.TOKEN` in my Serverless Function code.
-I think this is similar with using `.env` files,
-now I don't have to go into the server and create and maintain them manually anymore.
 
-There are 3 environments: Production, Preview, and Development.
+There are 3 environments: `Production`, `Preview`, and `Development`.
 Since I created a new branch off the `master` branch,
-it will use the Preview environment when I deploy my branch to Vercel.
+it will use the `Preview` environment when I deploy my branch to Vercel.
 
 I finish the function. Then I push the branch to GitHub and create a pull request.
 Vercel creates a build and deploy to the preview envronment.
@@ -172,7 +173,7 @@ Vercel creates a build and deploy to the preview envronment.
 >}}
 
 When I push more commits to the PR, Vercel creates a new preview URL for each push.
-I can click 'View deployment' buttons to view the previews.
+I can click **View deployment** buttons to view the previews.
 
 {{< image
   src="images/more-commits.png"
@@ -189,6 +190,14 @@ So I have to update the API endpoint URL in my frontend app to point to the new 
 ```
 
 And my app is now running on Vercel.
+
+There is a page to see the logs from the serverless function in Vercel dashboard.
+
+{{< image
+  src="images/serverless-function-logs.png"
+  alt="Serverless Functions info on Vercel Dashboard"
+  width="1037"
+>}}
 
 ### Update Custom Domain
 
@@ -216,35 +225,103 @@ and also show the status once they are successfully updated.
 
 And now my app is successfully migrated to Vercel 🎉🎉.
 
-## Integration with GitHub
+---
 
-- create a branch -> vercel creates a previeiw
-- unlike netlify, you can to create a PR.
+## Vercel CLI
 
-## vercel cli
+So far I have it all setup on Vercel,
+but I found development process not very fun: every time I update the serverless function,
+I have to push to GitHub and wait for Vercel to deploy to the preview branch to see the changes.
+Debugging is also difficult to do on the remote environment.
 
-- so far i have it all setup on vercel.
-- but i found development process not very fun: every time i update the function, i have to push to gthub and wait for vercel to deploy to the previiew branch.
-debugging is also difficult
-- then i found vercel also has clii to to help local development
-- i installed globally, and login
-- vercel sends a logiin link to email. no password needed.
-- then i run `now dev` to start the dev server
-- it complained that i don't have the `TOKEN` environment locally
-- then i pulled in dev environemnt from vercel. no need to copy the token string down to the local machine.
-- and i have both frontend app and serverless function runs locally. makiing local development much easiier.
-- i can also publish to preview env directly from my local machine using `now` command.
-but i prefer to finish everything locally and push to github.
-- note: the cli is still in beta
+Then I found they also have [**Vercel CLI**](https://vercel.com/download) to to help with local development.
+
+{{< image
+  src="images/cli-page.png"
+  alt="Vercel CLI home page"
+  width="739"
+>}}
+
+I install it globally. The commands available are `vercel` or `vc` in short.
+(the command `now` changes to `vercel` since [version 19](https://github.com/zeit/now/releases/tag/vercel%4019.0.0) of the CLI)
+
+```sh
+$ npm install -g vercel
+```
+
+First I have to login
+
+```sh
+$ vc login
+```
+
+Vercel asks for the email for my account and sends a magic link to the email.
+Click on the link and I'm logged in.
+
+{{< image
+  src="images/vc-login.png"
+  alt="Vercel CLI Login"
+  width="768"
+>}}
+
+Once I'm logged in, I run `$ vc` to link the local project to a project on Vercel.
+
+{{< image
+  src="images/vc-link.png"
+  alt="link the local project to the project on vercel"
+  width="720"
+>}}
+
+Before being able to run the dev server, I need to have the `TOKEN` environment variable available locally.
+I can do this by
+
+```sh
+$ vc env pull
+```
+
+This downloads the environment variables of `DEVELOPMENT` environment and put them in `.env` file in the project.
+This is very convinient as I don't have to create and manange the `.env` files myself manually.
+
+I can run the local dev server with
+
+```sh
+$ vc dev
+```
+
+And I have both frontend app and serverless function run locally. Making local development and debugging much easier.
+
+{{< image
+  src="images/vc-dev.png"
+  alt="running local dev server"
+  width="942"
+>}}
+
+Note: Netlify also have something similar called [Netlify Dev](https://www.netlify.com/products/dev/).
+
+### Different in Deploy Previews
+
+One different on the deploy previews feature between Vercel and Netlify is:
+Vercel creates a deploy preview environment on a new push (e.g. new commit or new branch),
+while on Netlify, we have to create a Pull Request on GitHub to create a preview build.
+
+---
+
+## Summary
+
+Overall, my development experience on Vercel has been great.
+Even though my pet project is a pretty simple,
+I have learn quite a lot about serverless and Vercel as a platform.
+
+Local development experience with Vercel CLI is also a big plus.
+I can run and debug my serverless function locally
+and it works exactly the same as on the cloud.
+
+A small pet project like this cannot utilize maximum capabilities
+of the serverless platform. Building a full-featured application would require a lot more.
+At least I can see how it works and how I can do things a little differently for my next app,
+if it needs to have some sort of server-side functionality.
 
 
-## summary
+P.S. [`cmair.space`](https://cmair.space) is actually my last project on my DigitalOcean droplet.
+Now I don't need to have my own server anymore. Hammergeil!
 
-- overall i like how simple it is to have server-side functionality on vercel serverless function.
-without having my own server.
-- local development with cli is also a big plus. i can run and debug my serverless function locally.
-- it is actually my last project on my DigitalOcean droplet.
-- now i don't need to have my own server anymore. hammergeil.
-
-PS.
-- found this in my inbox: https://jamstackfns.com
