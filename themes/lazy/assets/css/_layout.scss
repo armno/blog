@@ -93,4 +93,9 @@ body.grid-on {
 
 .article-header {
   margin-bottom: $bottom-space * 3;
+
+  @include medium() {
+    margin-top: $bottom-space * 5;
+    margin-bottom: $bottom-space * 5;
+  }
 }

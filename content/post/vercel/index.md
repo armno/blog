@@ -15,7 +15,8 @@ language: en
 ---
 
 <p class="lead">
-  I migrated my app <a href="https://cmair.space"><strong>cmair.space</strong></a> from DigitalOcean server to Vercel (formerly Zeit Now).
+  I migrated my app <a href="https://cmair.space"><strong>cmair.space</strong></a> from DigitalOcean server to
+  <a href="https://vercel.com"><strong>Vercel</strong></a> (formerly ZEIT Now).
   This is a note on my experiences and what I have learned.
 </p>
 
@@ -26,31 +27,32 @@ Back in 2017, I built a pet project called [**cmair.space**](https://cmair.space
 
 The app is a one-page HTML with some JavaScript.
 It pulls the JSON data from an API endpoint
-and update the UI based on retrieved values.
+and update the UI based on the retrieved values.
 In this case, the number and page background color.
 
 {{< image
   src="images/app-screenshot.png"
   alt="screenshot of cmair.space"
   width="350"
-  caption="cmair.space screenshot on a classic iPhone 6"
+  caption="cmair.space screenshot on a classic iPhone 6 frame"
   align-caption="left"
 >}}
 
 aqicn.org provides a free API. And like other APIs,
 it requires an API key to send along with the request.
 
-Since there is no secure way to keep an API key on the client side,
-I decided to put the app in [Express.js](https://expressjs.com/) (a node web framework).
-Keep my frontend app in `/public` directory and the backend part,
-which is actually just a API gateway to the actual API, in an Express route function `/api`.
-Host it on my DigitalOcean droplet.
+I built my own API on the server side to keep my there API key
+and forward the request to the actual API on aqicn.org.
 
 {{< image
   src="images/app-flow.svg"
   alt="data-flow"
   width="700"
 >}}
+
+I wanted to keep everything in the same place so
+I put both frontend and backend parts in [Express.js](https://expressjs.com/) (a node web framework).
+Host it on my DigitalOcean droplet.
 
 Automated deployment was setup kind of manually too.
 I used [`github-webhook-handler`](https://www.npmjs.com/package/github-webhook-handler)
@@ -59,11 +61,11 @@ to add another route `/pull` to Express and use with GitHub webhooks.
 Whenever I push the code to GitHub,
 it'll ping the route.
 The route callback then pulls the code from github,
-and restart the Express app on the server which is managed by [`pm2`](https://www.npmjs.com/package/pm2)
+and restart the Express app on the server which is managed by [`pm2`](https://www.npmjs.com/package/pm2).
 
-It was not a lot to set up, but still, not free.
-As a frontend developer, I always wish to do less on the server side
-and would like to focus on the frontend side which is my area of interest.
+It was not a lot to set up, but at that time I also thought it should be easier.
+As a frontend developer, I always want to focus on the frontend side where the application logic is,
+and wish to do less on the server side.
 
 ## Going Serverless
 
@@ -87,16 +89,16 @@ so I give Vercel a try this time.
 >}}
 
 (I tried [AWS Lambda](https://aws.amazon.com/lambda/) a while ago and didn't get it much.
-It is too complicated for me as a frontend developer. That's just my feeling though.)
+It is too complicated for me as a frontend developer.)
 
 ## Moving Process
 
-A rough plan would be:
+My rough plan would be:
 
-0. I have to separate my app into 2 parts &mdash; frontend & backend, which is already done that way.
-1. Put the frontend app to the hosting service
-2. Put the backend app (function, actually) to Serverless Functions service.
-3. Make the domain `cmair.space` to point to Vercel instead of DigitalOcean.
+0. Take frontend app and backend part out of Express. This is relatively easy because in the app there is not much to do with Express anyway.
+1. Put the frontend app to the hosting service.
+2. Put the backend app (function, actually) to the Serverless Functions service.
+3. Make the domain `cmair.space` point to Vercel.
 
 ### Deploy the frontend app to the hosting service
 
