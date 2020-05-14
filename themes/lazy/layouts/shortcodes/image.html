@@ -22,7 +22,7 @@
     </noscript>
   </div>
   {{ if .Get "caption" }}
-  <figcaption class="media-caption">{{ .Get "caption" }}</figcaption>
+  <figcaption class="media-caption {{ with .Get "align-caption"}}{{.}}{{ end }}">{{ .Get "caption" }}</figcaption>
 </figure>
 {{ else }}
 </div>

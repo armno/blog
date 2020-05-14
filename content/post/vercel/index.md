@@ -32,7 +32,9 @@ In this case, the number and page background color.
 {{< image
   src="images/app-screenshot.png"
   alt="screenshot of cmair.space"
-  width="431"
+  width="350"
+  caption="cmair.space screenshot on a classic iPhone 6"
+  align-caption="left"
 >}}
 
 aqicn.org provides a free API. And like other APIs,
@@ -98,7 +100,7 @@ A rough plan would be:
 
 ### Deploy the frontend app to the hosting service
 
-After signing up with my GitHub account, it will install 'Now' app on Github for my account.
+When signing up on Vercel with my GitHub account, it installs 'Now' app on Github.
 
 {{< image
   src="images/now-app.png"

@@ -103,6 +103,10 @@
 
 .media-caption {
   text-align: center;
+
+  &.left {
+    text-align: left;
+  }
 }
 
 .no-js .lazy-wrapper.ratio {
