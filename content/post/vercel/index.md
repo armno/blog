@@ -27,7 +27,7 @@ Back in 2017, I built a pet project called [**cmair.space**](https://cmair.space
 
 The app is a one-page HTML with some JavaScript.
 It pulls the JSON data from an API endpoint
-and update the UI based on the retrieved values.
+and updates the UI based on the retrieved values.
 In this case, the number and page background color.
 
 {{< image
@@ -41,7 +41,7 @@ In this case, the number and page background color.
 aqicn.org provides a free API. And like other APIs,
 it requires an API key to send along with the request.
 
-I built my own API on the server side to keep my there API key
+I built my API on the server side to keep my there API key
 and forward the request to the actual API on aqicn.org.
 
 {{< image
@@ -54,9 +54,9 @@ I wanted to keep everything in the same place so
 I put both frontend and backend parts in [Express.js](https://expressjs.com/) (a node web framework).
 Host it on my DigitalOcean droplet.
 
-Automated deployment was setup kind of manually too.
+Automated deployment was set up kind of manually too.
 I used [`github-webhook-handler`](https://www.npmjs.com/package/github-webhook-handler)
-to add another route `/pull` to Express and use with GitHub webhooks.
+to add another route `/pull` to Express and use it with GitHub webhooks.
 
 Whenever I push the code to GitHub,
 it'll ping the route.
@@ -69,7 +69,7 @@ and wish to do less on the server side.
 
 ## Going Serverless
 
-I have been hearing ['serverless'](https://martinfowler.com/articles/serverless.html) buzzword but never has a chance to use it.
+I have been hearing ['serverless'](https://martinfowler.com/articles/serverless.html) buzzword but never have a chance to use it.
 
 It could be a great fit for my little _serverful_ app if I can host the frontend part statically
 and connect to my API which is on this serverless magic thing.
@@ -77,7 +77,7 @@ and connect to my API which is on this serverless magic thing.
 [**Vercel**](https://vercel.com) is a cloud platform for static sites and serverless functions.
 I see Vercel as a direct competitor to [Netlify](https://netlify.com).
 I'm [using](https://armno.in.th/2018/08/18/move-to-netlify/) Netlify already with this blog
-and really am impressed how Netlify makes many things a lot easier.
+and am impressed by how Netlify makes many things a lot easier.
 I'm curious how it compares to Vercel
 so I give Vercel a try this time.
 
@@ -125,7 +125,7 @@ I create a new project in Vercel and link with the project's repo.
 >}}
 
 Vercel tries to guess what framework I'm using.
-Express is not in the list, but Vercel can still deploy correctly from `public/` directory.
+Express is not on the list, but Vercel can still deploy correctly from `public/` directory.
 There is no build command.
 
 {{< image
@@ -142,7 +142,7 @@ I follow the official docs on [Serverless Functions](https://vercel.com/docs/v2/
 with some examples from [jamstackfns](https://jamstackfns.com/).
 
 Vercel's Serverless Functions support TypeScript out of the box 💪.
-No build tools needed. Only thing I have to do is install add TypeScript as a dependency.
+No build tools needed. The only thing I have to do is install add TypeScript as a dependency.
 
 ```sh
 $ npm install -D typescript
@@ -150,7 +150,7 @@ $ npm install -D typescript
 
 I create a new branch called `now` (always create a branch if you know you can mess up things).
 
-Then create a new file `api/get-aqi.ts`. This will make the endpoint avaiiable at `/api/get-aqi`.
+Then create a new file `api/get-aqi.ts`. This will make the endpoint available at `/api/get-aqi`.
 
 Then I go to project settings in Vercel. Under **General** » **Environment Variables**,
 I create a new environment variable for my API key called `TOKEN`.
@@ -168,7 +168,7 @@ Since I created a new branch off the `master` branch,
 it will use the `Preview` environment when I deploy my branch to Vercel.
 
 I finish the function. Then I push the branch to GitHub and create a pull request.
-Vercel creates a build and deploy to the preview envronment.
+Vercel creates a build and deploys to the Preview environment.
 
 {{< image
   src="images/pr-integration.png"
@@ -186,7 +186,7 @@ I can click **View deployment** buttons to view the previews.
 >}}
 
 Now my API endpoint is up on Serverless Functions.
-So I have to update the API endpoint URL in my frontend app to point to the new url.
+So I have to update the API endpoint URL in my frontend app to point to the new URL.
 
 ```diff
 -   const url = `/api`;
@@ -233,12 +233,12 @@ And now my app is successfully migrated to Vercel 🎉🎉.
 
 ## Vercel CLI
 
-So far I have it all setup on Vercel,
-but I found development process not very fun: every time I update the serverless function,
+So far I have it all set up on Vercel,
+but I found the development process not very fun: every time I update the serverless function,
 I have to push to GitHub and wait for Vercel to deploy to the preview branch to see the changes.
-Debugging is also difficult to do on the remote environment.
+Debugging is also difficult to do in the remote environment.
 
-Then I found they also have [**Vercel CLI**](https://vercel.com/download) to to help with local development.
+Then I found they also have [**Vercel CLI**](https://vercel.com/download) to help with local development.
 
 {{< image
   src="images/cli-page.png"
@@ -283,8 +283,8 @@ I can do this by
 $ vc env pull
 ```
 
-This downloads the environment variables of `DEVELOPMENT` environment and put them in `.env` file in the project.
-This is very convinient as I don't have to create and manange the `.env` files myself manually.
+This downloads the environment variables of `DEVELOPMENT` environment and puts them in `.env` file in the project.
+This is very convenient as I don't have to create and manage the `.env` files myself manually.
 
 I can run the local dev server with
 
@@ -292,7 +292,7 @@ I can run the local dev server with
 $ vc dev
 ```
 
-And I have both frontend app and serverless function run locally. Making local development and debugging much easier.
+And I have both frontend app and serverless functions run locally. Making local development and debugging much easier.
 
 {{< image
   src="images/vc-dev.png"
@@ -300,11 +300,11 @@ And I have both frontend app and serverless function run locally. Making local d
   width="942"
 >}}
 
-Note: Netlify also have something similar called [Netlify Dev](https://www.netlify.com/products/dev/).
+Note: Netlify also has something similar called [Netlify Dev](https://www.netlify.com/products/dev/).
 
-### Difference in Deploy Previews
+### The Difference in Deploy Previews
 
-One different on the deploy previews feature between Vercel and Netlify is:
+One difference on the deploy previews feature between Vercel and Netlify is:
 Vercel creates a deploy preview environment on a new push (e.g. new commit or new branch),
 while on Netlify, we have to create a Pull Request on GitHub to create a preview build.
 
@@ -312,21 +312,21 @@ while on Netlify, we have to create a Pull Request on GitHub to create a preview
 
 ## Summary
 
-Overall, my development experience on Vercel has been great.
-Even though my pet project is a pretty simple,
-I have learn quite a lot about serverless and Vercel as a platform.
+Overall, my development experience with Vercel has been great.
+Even though my pet project is pretty simple,
+I have learned quite a lot about serverless and Vercel as a platform.
 
 Local development experience with Vercel CLI is also a big plus.
 I can run and debug my serverless function locally
-and it works exactly the same as on the cloud.
+and it works the same as on the cloud.
 
-A small pet project like this cannot utilize maximum capabilities
+A small pet project like this cannot utilize the maximum capabilities
 of the serverless platform. Building a full-featured application would require a lot more.
 At least I can see how it works and how I can do things a little differently for my next app,
 if it needs to have some sort of server-side functionality.
 
 I recommend trying out Vercel. It's free for personal use.
-Checkout [examples](https://github.com/zeit/now/tree/master/examples) on GitHub
+Check out [examples](https://github.com/zeit/now/tree/master/examples) on GitHub
 for more framework-specific examples.
 
 ---
