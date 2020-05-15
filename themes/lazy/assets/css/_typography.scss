@@ -284,6 +284,13 @@ del {
 .lead {
   font-size: 1.25rem;
   line-height: 1.3;
+  font-weight: 300;
+
+  @include medium() {
+    font-size: 1.8rem;
+    line-height: 1.1;
+    margin-bottom: 3em;
+  }
 }
 
 .page-title {
@@ -292,6 +299,7 @@ del {
 
   @include medium() {
     max-width: 80%;
+    margin-top: $bottom-space * 4;
   }
 }
 
