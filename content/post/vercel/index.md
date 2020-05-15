@@ -325,8 +325,16 @@ of the serverless platform. Building a full-featured application would require a
 At least I can see how it works and how I can do things a little differently for my next app,
 if it needs to have some sort of server-side functionality.
 
-P.S. [`cmair.space`](https://cmair.space) is actually my last project on my DigitalOcean droplet.
+I recommend trying out Vercel. It's free for personal use.
+Checkout [examples](https://github.com/zeit/now/tree/master/examples) on GitHub
+for more framework-specific examples.
+
+---
+
+<p class="footnotes">
+P.S. <code>cmair.space</code> is actually my last project on my DigitalOcean droplet.
 Now I don't need to have my own server anymore. Hammergeil!
+</p>
 
 {{< image
   src="images/destroy-droplet.png"
