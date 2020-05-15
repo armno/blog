@@ -3,7 +3,7 @@ title: "Moving an App to Vercel"
 date: 2020-05-07T22:19:23+07:00
 url: /2020/05/07/vercel
 description: I migrated an app from DigitalOcean server to Vercel (formerly Zeit Now) to use their hosting service and serverless functions.
-thumbnail: images/vc-link.png
+thumbnail: images/cover.png
 tags:
 - web development
 - javascript
