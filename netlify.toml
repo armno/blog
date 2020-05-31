@@ -35,3 +35,8 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/2019/01/28/ordering-a-canyon/"
+  to = "/2019/01/28/ordering-a-canyon-bike-review/"
+  status = 301
+  force = true
