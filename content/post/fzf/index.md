@@ -28,7 +28,7 @@ and prints the selected item's path as an output to `STDOUT`.
 $ fzf
 ```
 
-<video src="images/default-2.mp4" width="100%" autoplay muted controls>
+<video src="images/default-2.mp4" width="100%" autoplay muted controls></video>
 
 We can use this output with other tasks. For example, open the file in a code editor
 
@@ -36,7 +36,7 @@ We can use this output with other tasks. For example, open the file in a code ed
 $ vim $(fzf)
 ```
 
-<video src="images/vim.mp4" width="100%" autoplay muted controls>
+<video src="images/vim.mp4" width="100%" autoplay muted controls></video>
 
 or combine with `cat` or `bat` to display the file preview as shown in @rem's post.
 
@@ -44,7 +44,7 @@ or combine with `cat` or `bat` to display the file preview as shown in @rem's po
 $ fzf --preview 'bat --color "always" {}'
 ```
 
-<video src="images/preview.mp4" width="100%" autoplay muted controls>
+<video src="images/preview.mp4" width="100%" autoplay muted controls></video>
 
 Check out the [wiki page](https://github.com/junegunn/fzf/wiki/examples) for more advanced examples and use cases like with command history,
 running processes, git history, etc.
@@ -56,7 +56,7 @@ Not only fzf is super simple, it's also super fast. It's *crazy fast*.
 Even with a big list (`node_modules/` folder is included),
 fzf is still very fast. It can do the search without waiting for file indexing to be finished.
 
-<video src="images/big-folder.mp4" width="100%" autoplay muted controls>
+<video src="images/big-folder.mp4" width="100%" autoplay muted controls></video>
 
 ## Example Use Case: `git diff`
 
@@ -70,7 +70,7 @@ when there are many files changed.
 I can use `fzf` to filter through the files
 and check the diff of 1 file at a time in the preview panel.
 
-<video src="images/git-diff.mp4" width="100%" autoplay muted controls>
+<video src="images/git-diff.mp4" width="100%" autoplay muted controls></video>
 
 The command I use is:
 
