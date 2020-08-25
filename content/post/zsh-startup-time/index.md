@@ -98,13 +98,16 @@ I comment out the last 2 lines from my `.zshrc`
 ```
 
 open a new termnial tab, and re-run the profiling script.
-With this alone, zsh's startup time goes down from ~1.2s to ~0.17s.
+With this alone, zsh's startup time goes down **from ~1.2s to ~0.17s**.
 
 <video src="images/disable-nvm.mp4" width="100%" autoplay muted controls loop></video>
 
 This is now a lot faster, but it also means I will not be able to use nvm.
 
 I still need nvm, sometimes.
+
+> If you're not using nvm, I would suggest comment out some scripts/plugins from your `.zshrc` or `.bashrc` file,
+re-run profiling script, and repeat. It should help to see which scripts are slowing down the startup time.
 
 ## 4. Lazy-load nvm
 
