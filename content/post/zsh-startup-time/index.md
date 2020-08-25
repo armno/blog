@@ -28,6 +28,9 @@ zsh's startup can be measured by running a script:
 
 ```sh
 $ for i in $(seq 1 10); do /usr/bin/time zsh -i -c exit; done
+
+# or using $SHELL - should work with bash
+$ for i in $(seq 1 10); do /usr/bin/time $SHELL -i -c exit; done
 ```
 
 ([source](https://htr3n.github.io/2018/07/faster-zsh/#performance-analysis))
