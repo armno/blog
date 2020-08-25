@@ -108,7 +108,7 @@ I still need nvm, sometimes.
 Lazy-loading nvm makes nvm available only when it is needed: when running `nvm`, `node`, `npm`
 or gloablly installed command for the first time, and not right away then the shell starts.
 
-It can be done by using [`zsh-nvm`](https://github.com/lukechilds/zsh-nvm) plugin of oh-my-zsh.
+It can be done by using [`zsh-nvm`](https://github.com/lukechilds/zsh-nvm) plugin.
 
 First, I install the plugin.
 
@@ -138,6 +138,6 @@ Running the same script from 1. again, zsh's startup time is now at ~0.2 seconds
 ### Summary
 
 - I use [the one-liner script](#1-measure-the-current-startup-time) to measure zsh's startup time
-- Instead of using nvm's [official install script](https://github.com/nvm-sh/nvm#install--update-script), I use **zsh-nvm** plugin of oh-my-zsh to load nvm
+- Instead of using nvm's [official install script](https://github.com/nvm-sh/nvm#install--update-script), I use **zsh-nvm** plugin to load nvm
 - I set `NVM_LAZY_LOAD` environment in my `.zshrc` file to `true`
 - My zsh's startup time reduces **from ~1.2 seconds to ~0.2 seconds**.
