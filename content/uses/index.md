@@ -62,7 +62,7 @@ Extensions I use (but not limited to) are:
 ### Others
 
 - [Homebrew](https://brew.sh/) package manager
-- [Firefox Developers Edition](https://www.mozilla.org/en-US/firefox/developer/) as the main browser
+- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) as the main browser
 - [Google Chrome Canary](https://www.google.com/chrome/canary) as the development browser
 - [Spectacle](https://www.spectacleapp.com/) for window management in macOS
 - [Trello](https://trello.com) for anything list-related
