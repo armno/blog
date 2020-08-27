@@ -43,13 +43,21 @@ Extensions I use (but not limited to) are:
 - terminal colors: I have both dark and light themes set up and use depending on the light conditions.
   - dark: `base16_material-darker`
   - light: `base16_google-light`
+
+{{< picture wrapper-class="semi-full" src="images/dark.png" alt="dark terminal" >}}
+{{< picture wrapper-class="semi-full" src="images/light.png" alt="light terminal" >}}
+
 - VSCode Themes: also both dark and light themes
   - dark: [`New Moon`](https://taniarascia.github.io/new-moon/)
   - light: [`Ayu Light`](https://github.com/ayu-theme/vscode-ayu)
 
-{{< picture wrapper-class="semi-full" src="images/dark.png" alt="dark terminal" >}}
+{{< image width="595" src="images/vscode-dark-newmoon.png" alt="dark vscode theme: new moon"
+  caption="Dark theme - New Moon"
+  align-caption="left" >}}
 
-{{< picture wrapper-class="semi-full" src="images/light.png" alt="light terminal" >}}
+{{< image width="595" src="images/vscode-light-ayu-light.png" alt="light vscode theme: ayu light"
+  caption="Light theme - Ayu Light"
+  align-caption="left" >}}
 
 ### Others
 
