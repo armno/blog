@@ -28,6 +28,7 @@ A shortcode to insert responsive, lazy-loaded images into post content.
   alt="test"
   ratio="16-9"
   caption="caption to display below the picture"
+  align-caption="left"
   width="300"
 >}}
 ```
