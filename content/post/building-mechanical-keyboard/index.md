@@ -19,7 +19,11 @@ categories:
 Read the English version of this post on Medium: <a href="https://medium.com/@armno/building-my-own-mechanical-keyboard-6903b887b93d">Building My Own Mechanical Keyboard</a>.
 </p>
 
-สวัสดีชาวเนิร์ด
+<p class="lead">
+Note: โพสต์นี้ถูกเขียนเมื่อปี 2017
+</p>
+
+สวัสดีครับ
 
 ผมทำงานเป็น web developer มาก็หลายปี แต่เพิ่งจะเริ่มใช้ mechanical keyboard เมื่อไม่กี่เดือนก่อน
 ในบ้านเรา mechanical keyboard จะเป็นที่นิยมในหมู่ Gamer ซะมากกว่า ตอนผมไปหาซื้อก็จะเจอแต่พวก
