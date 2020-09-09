@@ -192,6 +192,8 @@ strong {
 a {
   color: inherit;
   transition: color 0.15s ease-out;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 
   &:hover,
   &.footnote-ref {
@@ -253,9 +255,9 @@ kbd {
   border-left: 1px solid #acacac29;
   border-bottom: 2px solid #93939369;
 
-  &> kbd {
+  & > kbd {
     border: 0;
-    box-shadow: none;;
+    box-shadow: none;
   }
 }
 
