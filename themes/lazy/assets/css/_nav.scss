@@ -96,22 +96,22 @@
   @include medium() {
     padding: 0 1em;
     &:not(:last-child) {
-      margin-right: 0.5em;
+      margin-right: 1em;
     }
   }
 }
 
 .nav-link {
   text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 1.25rem;
+	font-family: $heading-fonts;
   line-height: 2;
   display: flex;
   align-items: center;
 
   @include medium() {
-    font-size: 0.75rem;
+    font-size: 1rem;
     line-height: 1.5;
   }
 
