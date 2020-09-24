@@ -23,6 +23,7 @@
   @include container();
 
   @include medium() {
+    max-width: 1300px;
     margin-top: 30vh;
     margin-bottom: 30vh;
   }

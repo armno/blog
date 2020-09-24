@@ -3,11 +3,10 @@
 <footer class="site-footer">
   <div>
     {{ partial "logo.html" (dict "size" "16")}}
-    &copy; {{ dateFormat "2006" "2007-11-02" }} &ndash; {{ now.Format "2006" }}
-    ✪
-    <a href="/" class="footer-nav-link">armno.in.th</a>
   </div>
   <div>
+    &copy; {{ dateFormat "2006" "2007-11-02" }} &ndash; {{ now.Format "2006" }}
+    <a href="/" class="footer-nav-link">armno.in.th</a>
     <a href="https://github.com/armno/blog" target="_blank" rel="noopener" class="footer-nav-link">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-git-compare" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z"/>
