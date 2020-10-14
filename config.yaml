@@ -3,7 +3,7 @@ disablePathToLower: true
 languageCode: th
 title: Armno P.
 params:
-  thumbnail: https://armno.in.th/img/blog-social-media-cover.png
+  thumbnail: https://armno.in.th/img/s.jpg
 theme: lazy
 paginate: 12
 permalinks:
