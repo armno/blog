@@ -19,9 +19,7 @@ categories:
 Read the English version of this post on Medium: <a href="https://medium.com/@armno/building-my-own-mechanical-keyboard-6903b887b93d">Building My Own Mechanical Keyboard</a>.
 </p>
 
-<p class="lead">
-Note: โพสต์นี้ถูกเขียนเมื่อปี 2017
-</p>
+<storng>Note</strong>: โพสต์นี้ถูกเขียนเมื่อปี 2017
 
 สวัสดีครับ
 
