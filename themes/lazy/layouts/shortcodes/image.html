@@ -5,22 +5,11 @@
 {{ else }}
 <div class="media">
 {{ end }}
-  <div class="lazy-wrapper {{ with .Get "ratio"}}ratio ratio-{{.}}{{ end }}">
-    <img class="lazy"
-      {{ with .Get "width"}}width="{{.}}"{{ end }}
-      data-src="{{ $src.RelPermalink }}"
-      data-zoom-src="{{ $src.RelPermalink }}"
-      data-sizes="100vw"
-      {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
-    >
-    <noscript>
-      <img {{ with .Get "width"}}width="{{.}}"{{ end }}
-        src="{{ $src.RelPermalink }}"
-        sizes="100vw"
-        {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
-      >
-    </noscript>
-  </div>
+  <img loading="lazy"
+    {{ with .Get "width"}}width="{{.}}"{{ end }}
+    src="{{ $src.RelPermalink }}"
+    {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
+  >
   {{ if .Get "caption" }}
   <figcaption class="media-caption {{ with .Get "align-caption"}}{{.}}{{ end }}">{{ .Get "caption" }}</figcaption>
 </figure>

@@ -42,10 +42,7 @@
               {{ if .Params.thumbnail }}
               {{ $thumbnail :=  .Resources.GetMatch .Params.thumbnail }}
               <a class="post-link" href="{{ .Permalink }}">
-                <img class="lazy no-medium-zoom" data-src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}">
-                <noscript>
-                  <img class="no-medium-zoom" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}">
-                </noscript>
+                <img loading="lazy" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}">
               </a>
               {{ end }}
             </div>
