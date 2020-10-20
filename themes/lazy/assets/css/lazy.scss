@@ -195,7 +195,6 @@ $bottom-space: 26px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .related-posts__item {
@@ -204,6 +203,7 @@ $bottom-space: 26px;
   flex-shrink: 0;
   font-size: 1rem;
   margin-bottom: $bottom-space;
+  margin-right: 5%;
 }
 
 .related-posts__thumbnail {
@@ -253,6 +253,7 @@ $bottom-space: 26px;
 
   .related-posts__item {
     width: 22.5%;
+    margin-right: 2.5%;
   }
 
   .about-columns {
