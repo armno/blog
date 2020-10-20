@@ -3,6 +3,7 @@
   src: url('/fonts/IBMPlexSansThai-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
   src: url('/fonts/IBMPlexSansThai-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 // colorscheme from: https://coolors.co/3f5261-d9dde1-0c120c-c20114-c7d6d5
@@ -195,7 +197,6 @@ $bottom-space: 26px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .related-posts__item {
@@ -204,6 +205,7 @@ $bottom-space: 26px;
   flex-shrink: 0;
   font-size: 1rem;
   margin-bottom: $bottom-space;
+  margin-right: 5%;
 }
 
 .related-posts__thumbnail {
@@ -253,6 +255,7 @@ $bottom-space: 26px;
 
   .related-posts__item {
     width: 22.5%;
+    margin-right: 2.5%;
   }
 
   .about-columns {
