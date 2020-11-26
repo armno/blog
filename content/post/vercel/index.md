@@ -41,7 +41,7 @@ In this case, the number and page background color.
 aqicn.org provides a free API. And like other APIs,
 it requires an API key to send along with the request.
 
-I built my API on the server side to keep my there API key
+I built my API on the server side to keep my API key there,
 and forward the request to the actual API on aqicn.org.
 
 {{< image
