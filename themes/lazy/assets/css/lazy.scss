@@ -206,6 +206,10 @@ $bottom-space: 26px;
   font-size: 1rem;
   margin-bottom: $bottom-space;
   margin-right: 5%;
+
+	a {
+		text-decoration: none;
+	}
 }
 
 .related-posts__thumbnail {
@@ -230,9 +234,11 @@ $bottom-space: 26px;
 }
 
 .related-posts__title {
-  margin-top: 0.5em;
+  margin-top: 1em;
   font-size: 0.9rem;
-  line-height: 1.1;
+  line-height: 1.2;
+	font-family: $heading-fonts;
+	font-weight: bold;
 }
 
 .about-columns img {
