@@ -42,7 +42,7 @@ I have this rule applies globally since the beginning of the project:
 ```
 
 [`user-select: none`](https://developer.mozilla.org/en-US/docs/Web/CSS/user-select) prevents iOS's text selection UI to show up when users long-press on text content.
-For example, when long-press on a button.
+For example, when long-press on a button, this could happen.
 
 {{< image
   src="assets/select-text-menu.png"
@@ -51,6 +51,8 @@ For example, when long-press on a button.
   align-caption="left"
   width="369"
 >}}
+
+`user-select: none` was added to prevent this issue.
 
 Since I have the rule with `*` selector, it applies to everything,
 including the input fields.
