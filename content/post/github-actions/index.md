@@ -11,6 +11,7 @@ tags:
 - performance
 categories:
 - web development
+language: en
 ---
 
 [**GitHub Actions**](https://github.com/features/actions) is a service that provides automation and CI/CD built into GitHub's interface

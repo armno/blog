@@ -11,6 +11,7 @@ tags:
 - performance
 categories:
 - web development
+language: en
 ---
 
 Inspired by articles by Chai Phonbopit on

@@ -10,6 +10,7 @@ tags:
 - usability
 categories:
 - web development
+language: en
 ---
 
 I'm working on a mobile web project. Today I found a strange bug that
