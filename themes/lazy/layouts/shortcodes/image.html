@@ -5,7 +5,7 @@
 {{ else }}
 <div class="media">
 {{ end }}
-  <img loading="lazy"
+  <img loading="lazy" decoding="async"
     {{ with .Get "width"}}width="{{.}}"{{ end }}
     src="{{ $src.RelPermalink }}"
     {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
