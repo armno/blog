@@ -358,12 +358,11 @@ del {
   font-weight: normal;
   line-height: 1;
   color: $red;
-  opacity: 0.6;
+  opacity: 0.4;
   transition: opacity 0.2s ease-out;
 
   @include medium() {
     top: 0.1em;
-    opacity: 0;
   }
 }
 
