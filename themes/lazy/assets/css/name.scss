@@ -1,0 +1,22 @@
+@import 'normalize';
+
+.container {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: auto;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 0;
+}
+
+.mobile-menu-trigger {
+  border: 0;
+  background-color: transparent;
+  border-radius: 0;
+  line-height: 0;
+}
