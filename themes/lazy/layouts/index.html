@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html class="no-js" lang="th">
   <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Armno Prommarak">
+    <title>{{ .Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Armno Prommarak">
   <!-- critical css should be here -->
   {{ with resources.Get "css/name.scss" | toCSS | minify }}
   <style>{{ .Content | safeCSS }}</style>
@@ -28,26 +29,32 @@
         </button>
       </nav>
     </header>
-    <main>
-      <div>
-        Hi there! 👋
-      </div>
-      <div>
-        I&rsquo;m <strong>Armno Prommarak</strong>.
-      </div>
-      <div>
-        I&rsquo;m a frontend developer at <a href="https://buzzwoo.de" rel="noopener noreferrer" target="_blank">Buzzwoo</a>.
+    <main class="home-content">
+      <div class="home-intro">
+        <div class="home-intro-greetings">
+          Hi there!
+        </div>
+        <div class="home-intro-name">
+          I&rsquo;m <strong>Armno Prommarak</strong>.
+        </div>
+        <div class="home-intro-iam">
+          I&rsquo;m a frontend developer at <a href="https://buzzwoo.de" rel="noopener noreferrer" target="_blank">Buzzwoo</a>.
+        </div>
       </div>
 
       <p>
         <em>I build user interfaces to deliver good user experiences on the web.</em><br>
-        I&rsquo;m currently leading the frontend team at Buzzwoo where my focus is on JavaScript, Angular, and frontend performance.<br>
-        I live in Chiang Mai, Thailand.
+        I&rsquo;m currently leading the frontend team at Buzzwoo where my focus is on JavaScript, Angular, and frontend performance.
       </p>
 
       <p>
         In my free time, I enjoy writing, reading books, taking photos, <a href="#">building mechanical keyboards</a> and getting lost on my <a href="#">road bike</a>.
       </p>
+
+      <p>
+        I live in Chiang Mai, Thailand.
+      </p>
+
       <p>
         You can find what I&rsquo;m doing on <a href="https://github.com/armno">GitHub</a>,
         or check out my <a href="/blog">blog</a> to see what I&rsquo;ve learned lately.
