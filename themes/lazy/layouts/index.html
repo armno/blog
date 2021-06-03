@@ -11,7 +11,7 @@
   </head>
 <body>
   <div class="container">
-    <div class="overlay-menu">
+    <div class="overlay-menu" id="js-overlay-navigation">
       <header class="overlay-header">
         <a href="/">
           <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,7 +19,7 @@
             <path d="M36.1111 34.8006L25 15.5556L13.8889 34.8006H15.6885L21.9948 23.8777L28.3011 34.8006H36.1111Z" fill="white"/>
           </svg>
         </a>
-        <button class="button-close-menu">
+        <button class="button-close-menu js-toggle-menu">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M18 6L6 18M6 6l12 12" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
@@ -43,7 +43,7 @@
           </svg>
         </a>
 
-        <button class="mobile-menu-trigger">
+        <button class="mobile-menu-trigger js-toggle-menu">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M4 6H20" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M4 12H20" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -75,14 +75,23 @@
       </p>
 
       <p>
-        I live in Chiang Mai, Thailand.
-      </p>
-
-      <p>
         You can find what I&rsquo;m doing on <a href="https://github.com/armno">GitHub</a>,
         or check out my <a href="/blog">blog</a> to see what I&rsquo;ve learned lately.
       </p>
+
+      <h2 class="title-contact">Get in touch</h2>
+      <p>
+        Feel free to email me at <a href="mailto:monkeyarmno@gmail.com">monkeyarmno@gmail.com</a>
+        if you want to contact me, or just want to say hi.
+      </p>
+
+      <p class="last">
+        Have a great day!
+        <br>
+        &ndash; Armno
+      </p>
     </main>
   </div>
+  <script src="/js/name.js"></script>
 </body>
 </html>
