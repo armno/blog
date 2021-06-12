@@ -97,12 +97,21 @@ em {
   background-color: transparent;
   border-radius: 0;
   line-height: 0;
+
+  @media (min-width: 720px) {
+    display: none;
+  }
 }
 
 .home-intro {
   font-family: var(--font-headings);
   margin-top: 75px;
   margin-bottom: 90px;
+
+  @media (min-width: 720px) {
+    margin-top: 120px;
+    margin-bottom: 110px;
+  }
 }
 
 .home-intro-greetings {
@@ -111,12 +120,22 @@ em {
   font-size: 13px;
   line-height: 42px;
   color: rgba(0, 0, 0, 0.4);
+  letter-spacing: 1px;
+
+  @media (min-width: 720px) {
+    font-size: 16px;
+  }
 }
 
 .home-intro-name,
 .home-intro-iam {
   font-size: 24px;
   line-height: 30px;
+
+  @media (min-width: 720px) {
+    font-size: 30px;
+    line-height: 36px;
+  }
 }
 
 .home-content {
@@ -126,6 +145,16 @@ em {
 
 .home-content .last {
   margin-top: 60px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+
+  @media (min-width: 720px) {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 // overlay menu
@@ -140,6 +169,10 @@ em {
   background-color: #fff;
   padding-left: 24px;
   padding-right: 24px;
+
+  @media (min-width: 720px) {
+    display: none;
+  }
 }
 
 .overlay-menu.active {
@@ -191,6 +224,7 @@ em {
   position: relative;
 }
 
+.desktop-nav-item:not(:last-child):after,
 .overlay-nav-item:not(:last-child):after {
   position: absolute;
   display: block;
@@ -198,9 +232,17 @@ em {
   height: 28px;
   background-color: rgba(0, 0, 0, 0.1);
   transform: rotate(20deg);
+  content: '';
+}
+
+.overlay-nav-item:not(:last-child):after {
   bottom: 15px;
   left: 50%;
-  content: '';
+}
+
+.desktop-nav-item:not(:last-child):after {
+  right: -42px;
+  top: -3px;  
 }
 
 .overlay-nav-item.active {
@@ -212,4 +254,34 @@ em {
   margin-top: 80px;
   font-size: 1.3rem;
   line-height: 1.2;
+}
+
+.desktop-nav {
+  display: none;
+
+  @media (min-width: 720px) {
+    display: block;
+  }
+}
+
+.desktop-nav-item {
+  font-family: var(--font-headings);
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgba(0,0,0,0.4);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: relative;
+
+  &.active {
+    color: rgba(0,0,0,1)
+  }
+
+  &:not(:first-child) { 
+    margin-left: 40px;
+  }
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
 }
