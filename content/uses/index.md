@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: name
 Title: Tools I Use
 activeMenu: uses
 description: A collection of hardware/software/tools I use on a daily basis.
