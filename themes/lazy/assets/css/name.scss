@@ -215,34 +215,11 @@ em {
 
 .overlay-nav-item {
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 19px;
   line-height: 24px;
   flex-basis: 85px;
   color: rgba(0, 0, 0, 0.4);
   text-align: center;
-  position: relative;
-}
-
-.desktop-nav-item:not(:last-child):after,
-.overlay-nav-item:not(:last-child):after {
-  position: absolute;
-  display: block;
-  width: 1px;
-  height: 28px;
-  background-color: rgba(0, 0, 0, 0.1);
-  transform: rotate(20deg);
-  content: '';
-}
-
-.overlay-nav-item:not(:last-child):after {
-  bottom: 15px;
-  left: 50%;
-}
-
-.desktop-nav-item:not(:last-child):after {
-  right: -42px;
-  top: -3px;  
 }
 
 .overlay-nav-item.active {
@@ -267,21 +244,16 @@ em {
 .desktop-nav-item {
   font-family: var(--font-headings);
   font-size: 14px;
-  font-weight: bold;
   text-decoration: none;
-  color: rgba(0,0,0,0.4);
-  text-transform: uppercase;
   letter-spacing: 0.5px;
   position: relative;
 
   &.active {
-    color: rgba(0,0,0,1)
+    color: rgba(0,0,0,1);
+    font-weight: bold;
   }
 
   &:not(:first-child) { 
     margin-left: 40px;
-  }
-  &:not(:last-child) {
-    margin-right: 40px;
   }
 }
