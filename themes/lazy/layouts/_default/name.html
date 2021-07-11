@@ -54,10 +54,12 @@
       </div>
     </header>
 
-    {{ if not .IsHome }}
-    <h1 class="page-title">{{ .Title }}</h1>
-    {{ end }}
-    {{ .Content }}
+    <main class="main-content">
+      {{ if not .IsHome }}
+      <h1 class="page-title">{{ .Title }}</h1>
+      {{ end }}
+      {{ .Content }}
+    </main>
 
   </div>
   <script src="/js/name.js"></script>

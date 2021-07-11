@@ -3,7 +3,7 @@ layout: name
 language: en
 ---
 
-<main class="home-content">
+<div class="home-content">
   <div class="home-intro">
     <div class="home-intro-greetings">
       Hi there!
@@ -32,7 +32,7 @@ language: en
 
   <h2 class="title-contact">Get in touch</h2>
   <p>
-    If you want to contact me, or just want to say hi, you can send me an email at <a href="mailto:armno@icloud.com">armno@icloud.com</a>.
+    If you want to contact me, or just want to say hi, you can send me an email at <a href="mailto:monkeyarmno@gmail.com">monkeyarmno@gmail.com</a>.
   </p>
 
   <p class="last">
@@ -40,5 +40,4 @@ language: en
     <br>
     &ndash; Armno
   </p>
-</main>
-
+</div>

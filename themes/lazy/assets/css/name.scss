@@ -10,6 +10,14 @@
 
 @font-face {
   font-family: 'ibm plex thai';
+  src: url('/fonts/IBMPlexSansThai-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ibm plex thai';
   src: url('/fonts/IBMPlexSansThai-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
@@ -61,7 +69,7 @@
 
 body {
   font-size: 112.5%;
-  line-height: 1.4;
+  line-height: 1.45;
   font-family: var(--font-body);
   color: #000;
 }
@@ -79,6 +87,43 @@ em {
 
 img {
   max-width: 100%;
+}
+
+hr {
+  border: 0;
+  width: 40%;
+  margin: 4rem auto 4rem 0;
+  height: 6px;
+  background-color: #000;
+
+  @media (min-width: 720px) {
+    width: 28%;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-headings);
+}
+
+h1 {
+  font-size: 52px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 400;
 }
 
 .container {
@@ -107,13 +152,25 @@ img {
   }
 }
 
-.home-intro {
-  font-family: var(--font-headings);
+.main-content {
   margin-top: 75px;
-  margin-bottom: 90px;
 
   @media (min-width: 720px) {
     margin-top: 120px;
+  }
+
+  p,
+  ol,
+  ul {
+    max-width: 40em;
+  }
+}
+
+.home-intro {
+  font-family: var(--font-headings);
+  margin-bottom: 90px;
+
+  @media (min-width: 720px) {
     margin-bottom: 110px;
   }
 }
@@ -231,7 +288,6 @@ img {
   }
 }
 
-
 .nav-item {
   text-decoration: none;
   font-size: 19px;
@@ -255,4 +311,8 @@ img {
 .nav-item.active {
   color: #000;
   font-weight: bold;
+}
+
+.media {
+  margin-bottom: 48px;
 }

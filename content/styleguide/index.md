@@ -1,6 +1,6 @@
 ---
 title: Styleguide
-layout: plain
+layout: name
 tags:
   - reference
   - styelguide
@@ -52,17 +52,17 @@ Gold <code>#FFD700</code>
 
 <svg width="64" height="64" class="logo-image"
   viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M128 119.851L64 9L0 119.851H10.3655L46.6899 56.9357L83.0142 119.851H128Z" fill="#0c120c">
+<path d="M128 119.851L64 9L0 119.851H10.3655L46.6899 56.9357L83.0142 119.851H128Z" fill="#0c120c">
 </svg>
 
 <svg width="32" height="32" class="logo-image"
   viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M128 119.851L64 9L0 119.851H10.3655L46.6899 56.9357L83.0142 119.851H128Z" fill="#0c120c">
+<path d="M128 119.851L64 9L0 119.851H10.3655L46.6899 56.9357L83.0142 119.851H128Z" fill="#0c120c">
 </svg>
 
 <svg width="16" height="16" class="logo-image"
   viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M128 119.851L64 9L0 119.851H10.3655L46.6899 56.9357L83.0142 119.851H128Z" fill="#0c120c">
+<path d="M128 119.851L64 9L0 119.851H10.3655L46.6899 56.9357L83.0142 119.851H128Z" fill="#0c120c">
 </svg>
 
 ---
@@ -155,11 +155,12 @@ _emphasized words to stress_ สเตชันติวเตอร์ราม
     Share on Twitter
   </a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
+<a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
       class="btn-share btn-share--facebook"
       target="_blank" rel="noopener">
-  Share on Facebook
-  </a>
+Share on Facebook
+</a>
+
 </div>
 
 ---
