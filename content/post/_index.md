@@ -1,3 +1,5 @@
 ---
-title: Articles
+title: Blog
+layout: name
+id: blog
 ---

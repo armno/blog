@@ -1,3 +1,3 @@
-<a href="/" class="nav-item active">About</a>
-<a href="/post" class="nav-item">Blog</a>
-<a href="/uses" class="nav-item">Uses</a>
+<a href="/" class="nav-item {{ if eq .params.id "home" }}active{{ end }}">About</a>
+<a href="/post" class="nav-item {{ if eq .params.id "blog" }}active{{ end }}">Blog</a>
+<a href="/uses" class="nav-item {{ if eq .params.id "uses" }}active{{ end }}">Uses</a>

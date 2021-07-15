@@ -1,6 +1,7 @@
 ---
 layout: name
 language: en
+id: home
 ---
 
 <div class="home-content">

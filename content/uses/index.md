@@ -9,6 +9,7 @@ tags:
   - apps
 thumbnail: images/laptop-1.jpg
 language: en
+id: uses
 ---
 
 Inspired by [`wesbos/uses`](https://github.com/wesbos/awesome-uses) repo on GitHub
@@ -23,8 +24,8 @@ So I create mine. Here are my tools.
 ### Coding
 
 - [VSCode Insider](https://code.visualstudio.com/insiders/) as my primary code editor (I code HTML/JS/CSS primarily).
-I prefer the Insider build instead of the stable build because I like to get more frequent updates.
-Extensions I use (but not limited to) are:
+  I prefer the Insider build instead of the stable build because I like to get more frequent updates.
+  Extensions I use (but not limited to) are:
   - [VSCodeVim](https://github.com/VSCodeVim/Vim)
   - [Angular Language Service](https://github.com/angular/vscode-ng-language-service)
   - [EditorConfig](https://github.com/editorconfig/editorconfig-vscode)
@@ -121,6 +122,6 @@ Desk Setup: I use a laptop with external mouse and keyboard. I don't use an exte
 {{< picture-lazy wrapper-class="semi-full" src="images/iphone.jpg" alt="iPhone 6s" ratio="3-2" >}}
 
 - [2018 Canyon Endurace CF SL](https://armno.in.th/2019/01/28/ordering-a-canyon-bike-review/) road bike.
-I use my bikes for commuting to work and for recreational cycling sometimes.
+  I use my bikes for commuting to work and for recreational cycling sometimes.
 
 {{< picture-lazy wrapper-class="semi-full" src="images/bike.jpg" alt="Canyon Endurace CF SL 2018" ratio="3-2" >}}
