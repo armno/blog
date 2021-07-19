@@ -7,23 +7,46 @@
     {{ partial "nav.html" (dict "context" . "pageName" "post") }}
   </header>
   <div class="content content--home">
-    <main id="main" class="main-content main-content--no-sidebar">
-      <header>
-        <h1 class="page-title">{{ .Title }}</h1>
-      </header>
 
-      {{ range .Pages.GroupByDate "2006" }}
-      <h2>{{ .Key }}</h2>
-      <ol>
-        {{ range .Pages }}
-        <li>
-          <a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a>
-          {{ with .Params.language }}<span>🇬🇧</span>{{end}}
-        </li>
-        {{ end }}
-      </ol>
-    {{ end }}
+    <main id="main" class="main-content main--home">
 
+      <div class="latest-articles">
+        <h2 class="home-blog-title">
+          Blog
+          <span class="page-number">/ Page {{ .Paginator.PageNumber }}</span>
+        </h2>
+        <ul class="home-articles">
+          {{ $paginator := .Paginate (where .Pages "Type" "post") }}
+          {{ range where $paginator.Pages "Type" "post" }}
+          <article class="post-teaser">
+            <div class="post-teaser__thumbnail {{ if not .Params.thumbnail }}no-thumbnail{{ end }}">
+              {{ if .Params.thumbnail }}
+              {{ $thumbnail :=  .Resources.GetMatch .Params.thumbnail }}
+              <a class="post-link" href="{{ .Permalink }}">
+                <img loading="lazy" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}">
+              </a>
+              {{ end }}
+            </div>
+            <div class="post-teaser__content">
+              <h3 class="post-title">
+                <a class="post-link" href="{{ .Permalink }}">
+                  {{ .Title }}
+                </a>
+              </h3>
+              <div class="publish-time">
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+              </div>
+              <p>
+              {{ .Params.description }}
+              </p>
+            </div>
+          </article>
+
+          {{ end }}
+          </ul>
+          <!-- Hugo's default pagination template. -->
+          {{ template "_internal/pagination.html" . }}
+        </div>
     </main>
   </div>
   {{ partial "bottom-script.html" . }}

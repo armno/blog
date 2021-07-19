@@ -12,7 +12,10 @@
     <article class="single">
       <header class="article-header">
         <h1 class="page-title">{{ .Title }}</h1>
-        <time class="publish-time-article" datetime="{{ .PublishDate }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+        <time class="publish-time-article" datetime="{{ .PublishDate }}">
+          Published on
+          <strong>{{ .PublishDate.Format "January 2, 2006" }}</strong>
+        </time>
       </header>
 
       {{ .Content }}
