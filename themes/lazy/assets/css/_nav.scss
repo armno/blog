@@ -1,9 +1,9 @@
 .mobile-menu,
 .close-mobile-menu {
-  width: 32px;
-  height: 32px;
+  width: 50px;
+  height: 50px;
   border: 0;
-  padding: 6px;
+  padding: 0;
   display: block;
   cursor: pointer;
   background-color: transparent;
@@ -45,7 +45,6 @@
   top: 0;
   width: 100%;
   height: 100%;
-  padding-top: 26px;
   transform: translate3d(100%, 0, 0);
 
   background-color: white;
@@ -67,7 +66,7 @@
   }
 
   .menu {
-    margin-top: 26px;
+    margin-top: $bottom-space * 2;
     @include medium() {
       margin: 0;
     }
@@ -91,10 +90,11 @@
 }
 
 .nav-item {
-  padding: 0.5em 2em;
-  position: relative;
+  text-align: center;
+  margin-bottom: $bottom-space;
   @include medium() {
     padding: 0 1em;
+    margin-bottom: 0;
     &:not(:last-child) {
       margin-right: 1em;
     }
@@ -104,11 +104,11 @@
 .nav-link {
   text-decoration: none;
   font-weight: normal;
-  font-size: 1.25rem;
-	font-family: $heading-fonts;
+  font-size: 1rem;
+  font-family: $heading-fonts;
   line-height: 2;
-  display: flex;
   align-items: center;
+  color: rgba(0, 0, 0, 0.4);
 
   @include medium() {
     font-size: 0.9rem;
@@ -123,8 +123,8 @@
 }
 
 .nav-link.active {
+  color: #000;
   font-weight: 700;
-  color: $red;
 }
 
 .icon {

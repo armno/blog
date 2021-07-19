@@ -73,3 +73,39 @@
     width: 50%;
   }
 }
+
+.about {
+  @include container();
+  margin-top: 76px;
+  margin-bottom: 120px;
+}
+
+.about-hi {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 13px;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+}
+
+.emoji-of-a-wave {
+  color: #000;
+}
+
+.about-name,
+.about-iam {
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+.about-details {
+  margin-top: 90px;
+
+  em {
+    font-weight: 700;
+    font-style: normal;
+  }
+}
