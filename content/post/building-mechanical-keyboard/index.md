@@ -12,7 +12,7 @@ cover-image: /img/posts/gh60/cover.jpg
 cover: images/cover.jpg
 layout: free
 categories:
-- hobby
+  - hobby
 ---
 
 <p class="message--warning">
@@ -22,8 +22,6 @@ Read the English version of this post on Medium: <a href="https://medium.com/@ar
 <p class="message--warning">
 <strong>Update 2021</strong>: โพสต์นี้ถูกเขียนเมื่อปี 2017 ที่ผมยังไม่ได้มีความรู้ความเข้าใจมาก ข้อมูลต่างๆ อาจไม่ทันสมัย แต่น่าจะยังพอเป็นแหล่งข้อมูลของคนที่เริ่มสนใจทำ custom mechanical keyboard เองได้บ้างครับ
 </p>
-
-สวัสดีครับ
 
 ผมทำงานเป็น web developer มาก็หลายปี แต่เพิ่งจะเริ่มใช้ mechanical keyboard เมื่อไม่กี่เดือนก่อน
 ในบ้านเรา mechanical keyboard จะเป็นที่นิยมในหมู่ Gamer ซะมากกว่า ตอนผมไปหาซื้อก็จะเจอแต่พวก
