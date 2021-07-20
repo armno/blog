@@ -1,11 +1,7 @@
 {{ partial "logo.html" }}
 
 <button class="mobile-menu" id="button-open-menu" aria-label="open menu">
-  <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-    <circle cy="8.02" cx="32" r="5" fill="#000"/>
-    <circle cy="32.16" cx="32" r="5" fill="#000"/>
-    <circle cy="55.98" cx="32" r="5" fill="#000"/>
-  </svg>
+  <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
 </button>
 
 <div class="nav">
@@ -21,17 +17,17 @@
     <ul class="nav-list no-list-style">
       <li class="nav-item nav-item-mobile-logo">
         <a href="/" class="nav-link {{ if eq .pageName "home" }}active{{ end }}">
-          Home
+          About
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="/post/" class="nav-link {{ if eq .pageName "post" }}active{{ end }}">
+          Blog
         </a>
       </li>
       <li class="nav-item">
         <a href="/uses/" class="nav-link {{ if eq .pageName "uses" }}active{{ end }}">
           Uses
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="/post/" class="nav-link {{ if eq .pageName "post" }}active{{ end }}">
-          Articles
         </a>
       </li>
     </ul>
