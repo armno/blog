@@ -8,66 +8,38 @@
   </header>
   <div class="content content--home">
     {{ if eq .Paginator.PageNumber 1 }}
-    <div class="hero">
-      <div class="home-page-text">
-        <h1 class="hero-main-text">
-          Let's make<br>a <em>better</em> web
-        </h1>
-        <p class="">
-          สวัสดี!, I&rsquo;m Armno and I&rsquo;m a frontend developer at
-          <a href="https://buzzwoo.de" target="_blank" rel="noopener">buzzwoo</a>.
-        </p>
+    <div class="about">
+      <div class="about-hi">Hi there <span class="emoji-of-a-wave">👋</span></div>
+      <h1 class="about-name">My name is <strong>Armno Prommarak</strong></h1>
+      <h2 class="about-iam">I&rsquo;m a frontend developer at <a href="https://buzzwoo.de">Buzzwoo</a>.</h2>
 
-        <!-- <p>
-          I enjoy doing things with JavaScript, making websites faster, building mechanical keyboards, and traveling around with my road bikes.
-        </p> -->
-      </div>
+      <p class="about-details">
+        <em>I build user interfaces to deliver good user experiences on the web.</em><br>
+        I&rsquo;m currently leading the frontend team at Buzzwoo where my focus is on JavaScript, Angular, and frontend performance.
+      </p>
+
+      <p>
+        In my free time, I enjoy writing, reading books, taking photos, <a href="#">building mechanical keyboards</a> and getting lost on my <a href="#">road bike</a>.
+      </p>
+
+      <p>
+        You can find what I&rsquo;m doing on <a href="https://github.com/armno">GitHub</a>,
+        or check out my <a href="/post">blog</a> to see what I&rsquo;ve learned recently.
+      </p>
+
+      <h2 class="title-contact">Get in touch</h2>
+      <p>
+        If you want to contact me, or just want to say hi, you can send me an email at <a href="mailto:monkeyarmno@gmail.com">monkeyarmno@gmail.com</a>.
+      </p>
+
+      <p class="last">
+        Have a great day!
+        <br>
+        &ndash; Armno
+      </p>
     </div>
-    <hr class="right">
+
     {{ end }}
-    <main id="main" class="main-content main--home">
-
-      <div class="latest-articles">
-        <h2 class="home-blog-title">
-          Blog
-          {{ if ge .Paginator.PageNumber 2 }}
-          <span class="page-number">/ Page {{ .Paginator.PageNumber }}</span>
-          {{ end }}
-        </h2>
-        <ul class="home-articles">
-          {{ $paginator := .Paginate (where .Pages "Type" "post") }}
-          {{ range where $paginator.Pages "Type" "post" }}
-          <article class="post-teaser">
-            <div class="post-teaser__thumbnail {{ if not .Params.thumbnail }}no-thumbnail{{ end }}">
-              {{ if .Params.thumbnail }}
-              {{ $thumbnail :=  .Resources.GetMatch .Params.thumbnail }}
-              <a class="post-link" href="{{ .Permalink }}">
-                <img loading="lazy" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}">
-              </a>
-              {{ end }}
-            </div>
-            <div class="post-teaser__content">
-              <h3 class="post-title">
-                <a class="post-link" href="{{ .Permalink }}">
-                  {{ .Title }}
-                </a>
-              </h3>
-              <div class="publish-time">
-                <time>{{ .Date.Format "January 2, 2006" }}</time>
-              </div>
-              <p>
-              {{ .Params.description }}
-              </p>
-            </div>
-          </article>
-
-          {{ end }}
-          </ul>
-          <!-- Hugo's default pagination template. -->
-          {{ template "_internal/pagination.html" . }}
-        </div>
-    </main>
-    {{ partial "footer.html" . }}
   </div>
 
   {{ partial "bottom-script.html" . }}

@@ -46,17 +46,15 @@ body.grid-on {
 
 .site-header {
   background-color: #fff;
-  margin-top: $bottom-space;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
+  margin: 0;
 
   @include medium() {
-    margin-top: $bottom-space * 2;
-    margin-bottom: $bottom-space * 3;
     max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
@@ -75,33 +73,20 @@ body.grid-on {
   margin-bottom: 0;
   line-height: 0;
   display: inline-block;
-  top: 3px;
-  position: relative;
 
-	@include medium() {
-		display: inline-flex;
-		align-items: center;
-	}
+  @include medium() {
+    display: inline-flex;
+    align-items: center;
+  }
 }
 
-.site-logo-text {
-	display: none;
-	@include medium() {
-		display: block;
-		margin-left: 32px;
-		margin-top: 8px;
-		h1 {
-			margin-top: 0;
-			margin-bottom: 0;
-			font-size: 24px;
-			line-height: 0.8;
-		}
-
-		div {
-			font-size: 16px;
-			color: rgba(0,0,0,0.6);
-		}
-	}
+.site-logo-image {
+  width: 50px;
+  height: 50px;
+  @include medium() {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 .main-content--no-sidebar {
@@ -130,9 +115,7 @@ body.grid-on {
 }
 .logo-image {
   @include medium() {
-		width: 46px;
-		height: 46px;
-	}
+    width: 46px;
+    height: 46px;
+  }
 }
-
-

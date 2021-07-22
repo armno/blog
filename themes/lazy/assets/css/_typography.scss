@@ -3,17 +3,22 @@
 
 * {
   box-sizing: border-box;
-  line-height: 1.5;
-  margin-top: 0;
-  margin-bottom: $bottom-space;
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+p,
+ul,
+ol {
+  line-height: 1.45;
+  margin-top: 0;
+  margin-bottom: $bottom-space;
+}
+
 html {
-  font-size: 118.75%; // 19px
+  font-size: 112.5%; // 18px;
   scroll-behavior: smooth;
 }
 
