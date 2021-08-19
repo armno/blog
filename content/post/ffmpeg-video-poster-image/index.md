@@ -1,8 +1,8 @@
 ---
-title: "Creating a poster image from a video file with ffmpeg"
+title: "Creating a video poster image with ffmpeg"
 date: 2021-08-19T11:34:23+07:00
 url: /2021/08/19/ffmpeg-video-poster-image
-description: A quick way to create a poster image of a video file using its first frame
+description: A quick way to extract the video's first frame as an image to use as a video poster
 thumbnail: images/output.jpg
 tags:
 - ffmpeg
