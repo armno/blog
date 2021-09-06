@@ -277,23 +277,14 @@ Endurace เป็นจักรยานเสือหมอบแนว endu
 ได้ใช้คันนี้ปั่นไปหลายๆ เส้นทางที่เคยได้ปั่นอยู่บ่อยๆ เช่น ดอยสุเทพ, บ้านแม่ขิ-สะเมิง, สะเมิงลูป
 และไกลสุดก็คงเป็น ปั่นไปปายกับ HIP Magazine ในงาน HIP ปั่นปาย ครั้งที่ 4
 
-{{< image
-  src="images/mon-cham.jpg"
-  alt="ปั่นไปม่อนแจ่ม"
-  width="800"
->}}
-
-{{< image
-  src="images/mae-khi-samoeng.jpg"
-  alt="ปั่นไปสะเมิง"
-  width="800"
->}}
-
-{{< image
-  src="images/hip-pai.jpg"
-  alt="ปั่นร่วมงาน HIP ปั่นปาย ครั้งที่ 4"
-  width="800"
->}}
+<div class="full-width">
+  <div class="full-width-container">
+    <img src="images/mae-khi-samoeng.jpg" width="300">
+    <img src="images/mon-cham.jpg" width="300">
+    <img src="images/doi-suthep-v1.jpg" width="300">
+    <img src="images/hip-pai.jpg" width="300">
+  </div>
+</div>
 
 Canyon Endurace เป็นจักรยานแนว endurance ท่านั่งจะก้มไม่เยอะ
 การปั่นไกลๆ หรือนานๆ จะสบายตัวกว่ารถแข่งซิ่งๆ
