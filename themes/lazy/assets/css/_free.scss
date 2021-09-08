@@ -123,6 +123,13 @@
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  @include medium {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
 
   .full-width-container {
     display: flex;
@@ -136,10 +143,24 @@
     margin-bottom: 2rem;
 
     img {
-      width: 50%;
       margin-bottom: 0 !important;
+    }
+  }
+
+  &.four-col {
+    img {
+      width: 50%;
       @include medium {
         width: 25%;
+      }
+    }
+  }
+
+  &.two-col {
+    img {
+      width: 100%;
+      @include medium {
+        width: 50%;
       }
     }
   }
