@@ -58,8 +58,9 @@
   }
 
   .site-logo-text {
-    h1, div {
-    color: #fff;
+    h1,
+    div {
+      color: #fff;
     }
   }
   .site-header {
@@ -107,5 +108,60 @@
   @include medium {
     display: block;
     padding: 0 2rem;
+  }
+}
+
+.free-layout .publish-time-article {
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.free-layout .full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  @include medium {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .full-width-container {
+    display: flex;
+    width: 100%;
+    max-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+
+    img {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  &.four-col {
+    img {
+      width: 50%;
+      @include medium {
+        width: 25%;
+      }
+    }
+  }
+
+  &.two-col {
+    img {
+      width: 100%;
+      @include medium {
+        width: 50%;
+      }
+    }
   }
 }
