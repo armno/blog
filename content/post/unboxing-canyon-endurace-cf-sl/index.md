@@ -13,8 +13,13 @@ layout: free
 cover: images/box-back.jpg
 ---
 
-โพสต์นี้เป็นภาคต่อของ [รีวิว: สั่งซื้อจักรยานจาก Canyon](https://armno.in.th/2019/01/28/ordering-a-canyon-bike-review/)
-แกะกล่องเฟรมจักรยาน Canyon Endurace CF SL Disc รุ่นปี 2018 ส่งมาจากประเทศเยอรมันผ่าน UPS
+โพสต์นี้เป็นภาคสองของบทความชุด
+
+1. [รีวิว: สั่งซื้อจักรยานจาก Canyon](https://armno.in.th/2019/01/28/ordering-a-canyon-bike-review/)
+2. **แกะกล่อง Canyon Endurace CF SL** (โพสต์นี้)
+3. [รีวิว Canyon Endurace CF SL (2018)](https://armno.in.th/2021/07/28/canyon-endurace-cf-sl-2018-review/)
+
+ว่ากันด้วยเรื่องการแกะกล่องเฟรมจักรยาน Canyon Endurace CF SL Disc รุ่นปี 2018 ส่งมาจากประเทศเยอรมันผ่าน UPS
 
 ผมรู้สึกว่า Canyon มี brand identity ชัดมาก
 ให้ความสำคัญไปถึงการออกแบบ packaging ที่นอกจากจะแข็งแรงแล้ว
