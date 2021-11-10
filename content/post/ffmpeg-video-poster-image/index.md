@@ -31,6 +31,12 @@ This will create a PNG image that has the same width and height of the video fil
 - `-frames:v 1` stops working after the 1st frame (because we need only 1 frame). `:v` is a [Stream specifier](https://ffmpeg.org/ffmpeg.html#Stream-specifiers-1) to tell ffmpeg that we are working with a video file.
 - The last parameter is the output file name `video-poster.png`. If I want a JPG file, I can change `.png` to `.jpg` in the file name. ffmpeg will also handle image conversion.
 
+To create a poster image at a specific time instead of at the beginning of the video, add `-ss` parameter with value in seconds
+
+```bash
+ffmpeg -ss 1.4 -i video.mp4 -frames:v 1 video-poster.png
+```
+
 Then I can use the poster image with `<video>` element like:
 
 ```bash
