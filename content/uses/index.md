@@ -77,22 +77,34 @@ Extensions I use (but not limited to) are:
 Computers: I use a [2015, 15-inch MacBook Pro](https://support.apple.com/kb/SP719?locale=en_US) (2.2GHz Core i7, 16GB RAM) at work
 and a [2013, 13-inch MacBook Pro](https://support.apple.com/kb/sp691?locale=th_TH) (2.4GHz Core i5, 8GB RAM) at home.
 
-{{< picture-lazy wrapper-class="semi-full" src="images/laptop-1.jpg" alt="2016, 13-inch MacBook Pro" ratio="3-2" >}}
+{{< picture-lazy wrapper-class="semi-full" src="images/laptop.jpg" alt="2015, 15-inch MacBook Pro" ratio="3-2" >}}
 
 Monitor: [Samsung 28" UR55 UHD 4K Monitor](https://www.samsung.com/th/business/monitors/ur55/lu28r550uqexxt/) mounted with [NB-F80 Monitor arm](https://www.google.com/search?q=nb-f80+monitor+arm).
 
+{{< image
+  src="images/monitor.jpg"
+  alt="Samsung UR55 4k monitor"
+  width="1000"
+>}}
+
 Keyboards: [Portico](https://thekey.company/products/portico-keyboard) mechanical keyboard at work and a [custom 60% mechanical keyboard](https://armno.in.th/2019/05/01/custom-mechanical-keyboard-build-2/) at home.
+
+{{< image
+  src="images/portico.jpg"
+  alt="Portico mechanical keyboard"
+  width="1000"
+>}}
 
 {{< picture-lazy wrapper-class="semi-full" src="images/keyboard-tofu-sa-bluegray.jpg" alt="custom mechanical keyboard" ratio="16-9" >}}
 
 Mouse: [Logitech MX331 Silent](https://www.logitech.com/th-th/products/mice/m331-silent-plus-mouse.910-004914.html)
 
-Headphones: I have too many of them.
+Headphones: I have a few of them for my various use cases
 - [Sony WH-1000XM4](https://www.sony.co.th/en/electronics/headband-headphones/wh-1000xm4) for music listenening
-- [Audio-Technica M50x](https://armno.in.th/2015/08/04/audio-technica-ath-m50x/) for more serious music listening
+- [Audio-Technica M50x](https://armno.in.th/2015/08/04/audio-technica-ath-m50x/) with [Audirect Beam 2se DAC/Amp](https://www.google.com/search?q=Audirect+Beam+2se+DAC) for more serious music listening
 - [JBL Quantum 100](https://th.jbl.com/gaming/QUANTUM100.html) for calls and remote meetings
 - [Soundpeats TrueAir 2](https://www.google.com/search?q=Soundpeats+TrueAir+2) for commuting and workouts
-- and a [DIY headphones stand](https://armno.wordpress.com/2013/05/09/746-headphone-stand/) made of teak wood.
+- plus: a [DIY headphones stand](https://armno.wordpress.com/2013/05/09/746-headphone-stand/) made of teak wood.
 
 {{< picture-lazy wrapper-class="semi-full" src="images/headphones.jpg" alt="ATH-M50x" ratio="3-2" >}}
 
