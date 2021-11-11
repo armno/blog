@@ -22,9 +22,8 @@ Here are my tools, updated for 2021-2022.
 
 ### Coding
 
-- [VSCode Insider](https://code.visualstudio.com/insiders/) as my primary code editor (I code HTML/JS/CSS primarily).
-I prefer the Insider build instead of the stable build because I like to get more frequent updates.
-Extensions I use (but not limited to) are:
+- [VSCode](https://code.visualstudio.com/) as my primary code editor. I code HTML/JS/CSS regularly.
+Extensions I use are:
   - [VSCodeVim](https://github.com/VSCodeVim/Vim)
   - [Angular Language Service](https://github.com/angular/vscode-ng-language-service)
   - [EditorConfig](https://github.com/editorconfig/editorconfig-vscode)
@@ -34,7 +33,7 @@ Extensions I use (but not limited to) are:
   - [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 - [Vim](https://www.vim.org/) for a quick editing from the terminal
   - Here is my [`.vimrc`](https://github.com/armno/dotfiles/blob/master/.vimrc).
-  - [ayu](https://github.com/ayu-theme/ayu-vim) color scheme
+  - I use [ayu](https://github.com/ayu-theme/ayu-vim) color scheme
 - [iTerm2](https://www.iterm2.com/version3.html) with
   - [zsh](https://www.zsh.org/) and [oh-my-zsh](https://ohmyz.sh/) with my modified version of [cloud](https://github.com/armno/dotfiles/blob/master/cloud-armno.zsh-theme) theme
   - [base16-shell](https://github.com/chriskempson/base16-shell)
@@ -49,15 +48,7 @@ Extensions I use (but not limited to) are:
 
 - VSCode Themes: also both dark and light themes
   - dark: [`New Moon`](https://taniarascia.github.io/new-moon/)
-  - light: [`Ayu Light`](https://github.com/ayu-theme/vscode-ayu)
-
-{{< image width="595" src="images/vscode-dark-newmoon.png" alt="dark vscode theme: new moon"
-  caption="Dark theme - New Moon"
-  align-caption="left" >}}
-
-{{< image width="595" src="images/vscode-light-ayu-light.png" alt="light vscode theme: ayu light"
-  caption="Light theme - Ayu Light"
-  align-caption="left" >}}
+  - light: [`GitHub Light Default`](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 
 ### Others
 
@@ -65,9 +56,8 @@ Extensions I use (but not limited to) are:
 - [Google Chrome](https://www.google.com/chrome/) and [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) as the main browsers
 - [Google Chrome Canary](https://www.google.com/chrome/canary) as the development browser
 - [Raycast](https://www.raycast.com/) for shortcuts, windows management
-- [Trello](https://trello.com) for anything list-related
 - [Affinity Designer](https://affinity.serif.com/en-us/) for image editing
-- [Skitch](https://evernote.com/products/skitch)
+- [Skitch](https://evernote.com/products/skitch) for quick image editing
 - Google Photos
 
 ---
@@ -102,7 +92,7 @@ Mouse: [Logitech MX331 Silent](https://www.logitech.com/th-th/products/mice/m331
 Headphones: I have a few of them for my various use cases
 - [Sony WH-1000XM4](https://www.sony.co.th/en/electronics/headband-headphones/wh-1000xm4) for music listenening
 - [Audio-Technica M50x](https://armno.in.th/2015/08/04/audio-technica-ath-m50x/) with [Audirect Beam 2se DAC/Amp](https://www.google.com/search?q=Audirect+Beam+2se+DAC) for more serious music listening
-- [JBL Quantum 100](https://th.jbl.com/gaming/QUANTUM100.html) for calls and remote meetings
+- [JBL Quantum 100](https://th.jbl.com/gaming/QUANTUM100.html) for calls and remote meetings. (This one has a really good mic!)
 - [Soundpeats TrueAir 2](https://www.google.com/search?q=Soundpeats+TrueAir+2) for commuting and workouts
 - plus: a [DIY headphones stand](https://armno.wordpress.com/2013/05/09/746-headphone-stand/) made of teak wood.
 
