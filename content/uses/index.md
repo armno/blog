@@ -22,8 +22,7 @@ Here are my tools, updated for 2021-2022.
 
 ### Coding
 
-- [VSCode](https://code.visualstudio.com/) as my primary code editor. I code HTML/JS/CSS regularly.
-Extensions I use are:
+- [VSCode](https://code.visualstudio.com/) as my primary code editor. I code HTML/JS/CSS.
   - [VSCodeVim](https://github.com/VSCodeVim/Vim)
   - [Angular Language Service](https://github.com/angular/vscode-ng-language-service)
   - [EditorConfig](https://github.com/editorconfig/editorconfig-vscode)
@@ -33,9 +32,8 @@ Extensions I use are:
   - [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 - [Vim](https://www.vim.org/) for a quick editing from the terminal
   - Here is my [`.vimrc`](https://github.com/armno/dotfiles/blob/master/.vimrc).
-  - I use [ayu](https://github.com/ayu-theme/ayu-vim) color scheme
 - [iTerm2](https://www.iterm2.com/version3.html) with
-  - [zsh](https://www.zsh.org/) and [oh-my-zsh](https://ohmyz.sh/) with my modified version of [cloud](https://github.com/armno/dotfiles/blob/master/cloud-armno.zsh-theme) theme
+  - [zsh](https://www.zsh.org/) and [oh-my-zsh](https://ohmyz.sh/) with my slightly modified version of [cloud](https://github.com/armno/dotfiles/blob/master/cloud-armno.zsh-theme) theme
   - [base16-shell](https://github.com/chriskempson/base16-shell)
   - [dotfiles ](https://github.com/armno/dotfiles)
 - [JetBrains Mono fonts](https://www.jetbrains.com/lp/mono/) in both code editors and terminal.
@@ -72,22 +70,39 @@ and a [2013, 13-inch MacBook Pro](https://support.apple.com/kb/sp691?locale=th_T
 Monitor: [Samsung 28" UR55 UHD 4K Monitor](https://www.samsung.com/th/business/monitors/ur55/lu28r550uqexxt/) mounted with [NB-F80 Monitor arm](https://www.google.com/search?q=nb-f80+monitor+arm).
 
 {{< image
-  src="images/monitor.jpg"
+  src="images/desk-monitor.jpg"
   alt="Samsung UR55 4k monitor"
+  width="1000"
+>}}
+
+{{< image
+  src="images/nb80-monitor-arm.jpg"
+  alt="NB-F80 monitor arm"
   width="1000"
 >}}
 
 Keyboards: [Portico](https://thekey.company/products/portico-keyboard) mechanical keyboard at work and a [custom 60% mechanical keyboard](https://armno.in.th/2019/05/01/custom-mechanical-keyboard-build-2/) at home.
 
 {{< image
-  src="images/portico.jpg"
+  src="images/portico-keyboard.jpg"
   alt="Portico mechanical keyboard"
   width="1000"
 >}}
 
-{{< picture-lazy wrapper-class="semi-full" src="images/keyboard-tofu-sa-bluegray.jpg" alt="custom mechanical keyboard" ratio="16-9" >}}
+{{< image
+  src="images/keyboard-tofu-sa-bluegray.jpg"
+  alt="60% custom mecahnical keyboard"
+  width="1000"
+>}}
 
-Mouse: [Logitech MX331 Silent](https://www.logitech.com/th-th/products/mice/m331-silent-plus-mouse.910-004914.html)
+Mouse: [Logitech MX331 Silent](https://www.logitech.com/th-th/products/mice/m331-silent-plus-mouse.910-004914.html) &ndash; I found a silent mouse gives me a peace of mind.
+
+{{< image
+  src="images/mouse-m331.jpg"
+  alt="Logitech m331 silent mouse"
+  width="1000"
+>}}
+
 
 Headphones: I have a few of them for my various use cases
 - [Sony WH-1000XM4](https://www.sony.co.th/en/electronics/headband-headphones/wh-1000xm4) for music listenening
@@ -96,17 +111,30 @@ Headphones: I have a few of them for my various use cases
 - [Soundpeats TrueAir 2](https://www.google.com/search?q=Soundpeats+TrueAir+2) for commuting and workouts
 - plus: a [DIY headphones stand](https://armno.wordpress.com/2013/05/09/746-headphone-stand/) made of teak wood.
 
-{{< picture-lazy wrapper-class="semi-full" src="images/headphones.jpg" alt="ATH-M50x" ratio="3-2" >}}
+{{< image src="images/sony-xm4.jpg"
+  alt="Sony WH-1000XM4 headphones"
+  width="1000"
+>}}
 
-Notes: A normal notebook. Muji pens (0.38mm/0.5mm).
+{{< image src="images/headphones.jpg"
+  alt="Audio Technica M50x"
+  width="1000"
+>}}
+
+{{< image src="images/jbl-quantum-100.jpg"
+  alt="JBL Quantum 100 headphones"
+  width="1000"
+>}}
+
+Notes: A normal notebook and a black pen
 
 {{< picture-lazy wrapper-class="semi-full" src="images/pens.jpg" alt="muji pens" ratio="3-2" >}}
 
 ### Other
 
-- Fuji XE-1 digital camera with a few manual-focus lenses,
-- iPhone 12
-- [2018 Canyon Endurace CF SL](https://armno.in.th/2019/01/28/ordering-a-canyon-bike-review/) road bike.
-I use my bikes for commuting to work and for recreational cycling sometimes.
+- A Fuji XE-1 digital camera with TTArtisans 50mm f/1.2 manual focus lense
+- An iPhone 12
+- A [2018 Canyon Endurace CF SL](https://armno.in.th/2019/01/28/ordering-a-canyon-bike-review/) road bike.
+I use my bike for mostly commuting to work and sometimes for recreational cycling. Bicycle is a big part of my life.
 
 {{< picture-lazy wrapper-class="semi-full" src="images/bike.jpg" alt="Canyon Endurace CF SL 2018" ratio="3-2" >}}
