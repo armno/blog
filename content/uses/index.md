@@ -13,7 +13,7 @@ language: en
 
 Inspired by [`wesbos/uses`](https://github.com/wesbos/awesome-uses) repo on GitHub
 and [uses.tech](https://uses.tech)
-where developers where their
+where developers share their
 hardware/software/tools they use regularly via the `/uses` page on their blog.
 
 Here are my tools, updated for 2021-2022.
