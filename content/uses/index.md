@@ -20,33 +20,40 @@ Here are my tools, updated for 2021-2022.
 
 ## Software
 
-### Coding
+### Programming
 
-- [VSCode](https://code.visualstudio.com/) as my primary code editor. I code HTML/JS/CSS.
-  - [VSCodeVim](https://github.com/VSCodeVim/Vim)
-  - [Angular Language Service](https://github.com/angular/vscode-ng-language-service)
-  - [EditorConfig](https://github.com/editorconfig/editorconfig-vscode)
-  - [ESLint](https://github.com/Microsoft/vscode-eslint)
-  - [Prettier](https://github.com/prettier/prettier-vscode)
-  - [IntelliCode](https://github.com/MicrosoftDocs/intellicode)
-  - [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
-- [Vim](https://www.vim.org/) for a quick editing from the terminal
-  - Here is my [`.vimrc`](https://github.com/armno/dotfiles/blob/master/.vimrc).
 - [iTerm2](https://www.iterm2.com/version3.html) with
   - [zsh](https://www.zsh.org/) and [oh-my-zsh](https://ohmyz.sh/) with my slightly modified version of [cloud](https://github.com/armno/dotfiles/blob/master/cloud-armno.zsh-theme) theme
   - [base16-shell](https://github.com/chriskempson/base16-shell)
   - [dotfiles ](https://github.com/armno/dotfiles)
+- [Vim](https://www.vim.org/) for a quick editing from the terminal
+  - Here is my [`.vimrc`](https://github.com/armno/dotfiles/blob/master/.vimrc).
 - [JetBrains Mono fonts](https://www.jetbrains.com/lp/mono/) in both code editors and terminal.
 - Terminal colors: I have both dark and light themes set up and use depending on the light conditions. I create `dark` and `light` shell commands to switch between base16 themes.
   - dark: `base16_material-darker`
   - light: `base16_google-light`
 
-{{< picture wrapper-class="semi-full" src="images/dark.png" alt="dark terminal" >}}
-{{< picture wrapper-class="semi-full" src="images/light.png" alt="light terminal" >}}
+{{< image src="images/dark.png"
+  alt="dark terminal screenshot"
+  width="800"
+>}}
 
+{{< image src="images/light.png"
+  alt="light terminal screenshot"
+  width="800"
+>}}
+
+- [VSCode](https://code.visualstudio.com/) - I code HTML/JS/CSS primarily. I use VSCode as my primary code editor with these extensions
+  - [VSCodeVim](https://github.com/VSCodeVim/Vim)
+  - [EditorConfig](https://github.com/editorconfig/editorconfig-vscode)
+  - [ESLint](https://github.com/Microsoft/vscode-eslint)
+  - [Prettier](https://github.com/prettier/prettier-vscode)
+  - [IntelliCode](https://github.com/MicrosoftDocs/intellicode)
+  - [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
 - VSCode Themes: also both dark and light themes
   - dark: [`New Moon`](https://taniarascia.github.io/new-moon/)
   - light: [`GitHub Light Default`](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+- Git: I use command line Git with [delta](https://github.com/dandavison/delta)
 
 ### Others
 
@@ -67,7 +74,7 @@ and a [2013, 13-inch MacBook Pro](https://support.apple.com/kb/sp691?locale=th_T
 
 {{< picture-lazy wrapper-class="semi-full" src="images/laptop.jpg" alt="2015, 15-inch MacBook Pro" ratio="3-2" >}}
 
-Monitor: [Samsung 28" UR55 UHD 4K Monitor](https://www.samsung.com/th/business/monitors/ur55/lu28r550uqexxt/) mounted with [NB-F80 Monitor arm](https://www.google.com/search?q=nb-f80+monitor+arm).
+Monitor: a [Samsung 28" UR55 UHD 4K Monitor](https://www.samsung.com/th/business/monitors/ur55/lu28r550uqexxt/) mounted with an [NB-F80 Monitor arm](https://www.google.com/search?q=nb-f80+monitor+arm).
 
 {{< image
   src="images/desk-monitor.jpg"
@@ -78,20 +85,22 @@ Monitor: [Samsung 28" UR55 UHD 4K Monitor](https://www.samsung.com/th/business/m
 {{< image
   src="images/nb80-monitor-arm.jpg"
   alt="NB-F80 monitor arm"
-  width="1000"
+  width="600"
 >}}
 
-Keyboards: [Portico](https://thekey.company/products/portico-keyboard) mechanical keyboard at work and a [custom 60% mechanical keyboard](https://armno.in.th/2019/05/01/custom-mechanical-keyboard-build-2/) at home.
+Keyboards: [Portico](https://thekey.company/products/portico-keyboard) 65% mechanical keyboard at work and a [custom 60% mechanical keyboard](https://armno.in.th/2019/05/01/custom-mechanical-keyboard-build-2/) at home.
 
 {{< image
   src="images/portico-keyboard.jpg"
   alt="Portico mechanical keyboard"
+  caption="Build details: Portico Smoke / FR4 plate / Durock V2 stabs / Tangerine 67g + Krytox 205g0 / Susuwatari MT3 keycaps"
   width="1000"
 >}}
 
 {{< image
   src="images/keyboard-tofu-sa-bluegray.jpg"
   alt="60% custom mecahnical keyboard"
+  caption="Build details: Tofu alu case / DZ60 PCB / alu plate / Everglide stabs / Gateron milky brown, Maxkeys SA keycaps"
   width="1000"
 >}}
 
