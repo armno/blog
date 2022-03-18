@@ -45,7 +45,7 @@ _([บริษัทที่ผมทำงานอยู่](https://www.buz
 {{< image src="images/full-bike.jpg" alt="Storck Visioner Comp G1" ratio="16-10">}}
 
 Storck Visioner เป็นจักรยานเสือหมอบในกลุ่ม All Round ในระดับเริ่มต้นของแบรนด์ Storck
-รุ่นปัจจุบันมีอยู่ 2 สีคือสีดำ กับสีขาวตัดกับชมพู-ม่วง ในชื่อ [Storck Visioner Prana](https://www.storckworld.com/bike-finder/bike/visioner-prana-g1/) ซึ่งน่าจะเน้นตลาดนักปั่นหญิงมากกว่าครับ
+รุ่นปัจจุบันมีอยู่ 2 สีคือสีดำ กับสีขาวตัดกับชมพู-ม่วง ในชื่อ [Storck Visioner Prana](https://www.storckworld.com/bike-finder/bike/visioner-prana-g1/)
 
 โพสต์นี้อยากจะแนะนำส่วนประกอบต่างๆ พร้อมความรู้สึกจากการปั่นของตัวผมเอง ส่วนข้อมูลทางเทคนิคและรีวิวแบบละเอียดนั้นอ่านจาก
 [DuckingTiger รีวิว: Storck Visioner C G2](https://www.duckingtiger.com/storck-visioner-c-g2-review/)
